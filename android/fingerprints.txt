@@ -2,3 +2,4 @@
 # Line 1: your upload key (made 27 Sep 2026). Add Google Play's "App signing key"
 # fingerprint below it (Play Console > Test and release > App integrity).
 5D:DC:9B:4F:74:39:E4:C2:DC:80:9C:73:49:DC:C2:05:AC:A6:41:E8:A4:83:15:A0:BC:39:B2:37:F5:19:C9:8C
+87:92:FA:1F:5E:6D:09:7A:A0:88:15:C6:B1:EC:CA:5B:8F:75:78:20:D1:AB:37:05:8B:3B:14:99:1B:9E:B5:F1
