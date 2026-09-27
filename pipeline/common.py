@@ -53,11 +53,17 @@ _KEYWORDS = {
 }
 
 
+# Broad words that appear in almost any biomedical or health grant count for less.
+_WEAK = {"cell", "gene", "receptor", "signaling", "mouse", "tissue", "immune", "drug", "pharmac", "clinical",
+         "disease", "patient", "therap", "biolog", "molecular", "community", "prevention", "intervention",
+         "behavioral", "survey", "social", "water", "geo", "material"}
+
+
 def classify(text: str) -> str:
     t = f" {text.lower()} "
     best, best_score = "", 0
     for subject in SUBJECTS:
-        score = sum(t.count(k) for k in _KEYWORDS[subject])
+        score = sum(min(t.count(k), 4) * (0.34 if k in _WEAK else 1) for k in _KEYWORDS[subject])
         if score > best_score:
             best, best_score = subject, score
     return best or "Other"
