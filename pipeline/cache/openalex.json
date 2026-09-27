@@ -53,6 +53,40 @@
 "RNA Research and Splicing"
 ]
 },
+"alex-bui-university-of-california-los-angeles": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 3362,
+"h_index": 31,
+"openalex": "https://openalex.org/A5056478657",
+"orcid": "https://orcid.org/0000-0002-4702-1373",
+"works": 271
+},
+"topics": [
+"Biomedical Text Mining and Ontologies",
+"Machine Learning in Healthcare",
+"Radiomics and Machine Learning in Medical Imaging",
+"Topic Modeling",
+"Artificial Intelligence in Healthcare"
+]
+},
+"alexander-g-bassuk-university-of-iowa": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 8572,
+"h_index": 48,
+"openalex": "https://openalex.org/A5033502887",
+"orcid": "https://orcid.org/0000-0002-4067-2157",
+"works": 244
+},
+"topics": [
+"Retinal Development and Disorders",
+"Retinal Diseases and Treatments",
+"Genetics and Neurodevelopmental Disorders",
+"Calpain Protease Function and Regulation",
+"Traumatic Brain Injury and Neurovascular Disturbances"
+]
+},
 "alexandros-iosifidis-tampere-university": {
 "checked": "2026-09-27",
 "metrics": {
@@ -69,6 +103,32 @@
 "Video Surveillance and Tracking Methods",
 "Anomaly Detection Techniques and Applications"
 ]
+},
+"alfonso-araque-university-of-minnesota": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 23237,
+"h_index": 62,
+"openalex": "https://openalex.org/A5064949079",
+"orcid": "https://orcid.org/0000-0003-3840-1144",
+"works": 197
+},
+"topics": [
+"Neuroscience and Neuropharmacology Research",
+"Neuroinflammation and Neurodegeneration Mechanisms",
+"Neural dynamics and brain function",
+"Neurogenesis and neuroplasticity mechanisms",
+"Alzheimer's disease research and treatments"
+]
+},
+"alison-k-bauer-university-of-colorado-denver": {
+"checked": "2026-09-27"
+},
+"allison-applebaum-university-of-alabama-at-birmingham": {
+"checked": "2026-09-27"
+},
+"amber-keller-brooks-wake-forest-university-health-sciences": {
+"checked": "2026-09-27"
 },
 "amir-ata-saei-karolinska-institutet": {
 "checked": "2026-09-27",
@@ -178,6 +238,23 @@
 "Protein Kinase Regulation and GTPase Signaling"
 ]
 },
+"ashley-leak-bryant-univ-of-north-carolina-chapel-hill": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 1713,
+"h_index": 25,
+"openalex": "https://openalex.org/A5009509049",
+"orcid": "https://orcid.org/0000-0003-1178-1781",
+"works": 200
+},
+"topics": [
+"Cancer survivorship and care",
+"Childhood Cancer Survivors' Quality of Life",
+"Palliative Care and End-of-Life Issues",
+"Acute Myeloid Leukemia Research",
+"Cancer-related cognitive impairment studies"
+]
+},
 "asier-antoranz-ku-leuven": {
 "checked": "2026-09-27",
 "metrics": {
@@ -193,6 +270,23 @@
 "Single-cell and spatial transcriptomics",
 "Monoclonal and Polyclonal Antibodies Research",
 "Immune Cell Function and Interaction"
+]
+},
+"azra-bihorac-university-of-florida": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 22587,
+"h_index": 67,
+"openalex": "https://openalex.org/A5016909804",
+"orcid": "https://orcid.org/0000-0002-5745-2863",
+"works": 387
+},
+"topics": [
+"Acute Kidney Injury Research",
+"Sepsis Diagnosis and Treatment",
+"Cardiac, Anesthesia and Surgical Outcomes",
+"Intensive Care Unit Cognitive Disorders",
+"Artificial Intelligence in Healthcare and Education"
 ]
 },
 "bart-vanrumste-ku-leuven": {
@@ -229,8 +323,82 @@
 "Generative Adversarial Networks and Image Synthesis"
 ]
 },
+"benjamin-wilson-brewer-university-of-colorado-denver": {
+"checked": "2026-09-27"
+},
+"blanca-barquera-rensselaer-polytechnic-institute": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 3963,
+"h_index": 37,
+"openalex": "https://openalex.org/A5059232759",
+"orcid": "https://orcid.org/0000-0003-0708-3438",
+"works": 100
+},
+"topics": [
+"Photosynthetic Processes and Mechanisms",
+"ATP Synthase and ATPases Research",
+"Enzyme Structure and Function",
+"Microbial Fuel Cells and Bioremediation",
+"Photoreceptor and optogenetics research"
+]
+},
+"brandi-nicole-barnes-university-of-illinois-at-urbana-champaign": {
+"checked": "2026-09-27"
+},
+"brenda-l-bloodgood-university-of-california-san-diego": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 5564,
+"h_index": 19,
+"openalex": "https://openalex.org/A5053746177",
+"orcid": "https://orcid.org/0000-0002-4797-9119",
+"works": 45
+},
+"topics": [
+"Neuroscience and Neuropharmacology Research",
+"Neural dynamics and brain function",
+"Memory and Neural Mechanisms",
+"Neuroscience and Neural Engineering",
+"Photoreceptor and optogenetics research"
+]
+},
 "caitlin-gloeckner-allen-wake-forest-university-health-sciences": {
 "checked": "2026-09-27"
+},
+"candice-c-askwith-ohio-state-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 9328,
+"h_index": 40,
+"openalex": "https://openalex.org/A5016417165",
+"orcid": "",
+"works": 76
+},
+"topics": [
+"Ion Transport and Channel Regulation",
+"Ion channel regulation and function",
+"Trace Elements in Health",
+"Neuroscience and Neuropharmacology Research",
+"Neuroinflammation and Neurodegeneration Mechanisms"
+]
+},
+"carla-boutin-foster-suny-downstate-medical-center": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 2257,
+"h_index": 28,
+"openalex": "https://openalex.org/A5017387339",
+"orcid": "https://orcid.org/0000-0002-8811-1607",
+"works": 93
+},
+"topics": [
+"Cardiac Health and Mental Health",
+"Diabetes Management and Education",
+"Health Policy Implementation Science",
+"Cultural Competency in Health Care",
+"Global Cancer Incidence and Screening"
+]
 },
 "carlos-d-aizenman-brown-university": {
 "checked": "2026-09-27",
@@ -248,6 +416,9 @@
 "Retinal Development and Disorders",
 "Neurobiology and Insect Physiology Research"
 ]
+},
+"carol-suzanne-camlin-makerere-university-college-of-health-sciences": {
+"checked": "2026-09-27"
 },
 "caroline-nicholson-the-university-of-queensland": {
 "checked": "2026-09-27",
@@ -268,6 +439,77 @@
 },
 "chad-j-achenbach-jos-university-teaching-hospital": {
 "checked": "2026-09-27"
+},
+"charles-batte-makerere-university-college-of-health-sciences": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 457,
+"h_index": 13,
+"openalex": "https://openalex.org/A5081023146",
+"orcid": "https://orcid.org/0000-0003-0351-8705",
+"works": 64
+},
+"topics": [
+"HIV-related health complications and treatments",
+"Tuberculosis Research and Epidemiology",
+"HIV/AIDS Research and Interventions",
+"HIV/AIDS drug development and treatment",
+"Chronic Obstructive Pulmonary Disease (COPD) Research"
+]
+},
+"christopher-a-bradfield-university-of-wisconsin-madison": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 25836,
+"h_index": 69,
+"openalex": "https://openalex.org/A5025559430",
+"orcid": "https://orcid.org/0000-0001-8772-9213",
+"works": 164
+},
+"topics": [
+"Toxic Organic Pollutants Impact",
+"Adipose Tissue and Metabolism",
+"Circadian rhythm and melatonin",
+"Carcinogens and Genotoxicity Assessment",
+"Effects and risks of endocrine disrupting chemicals"
+]
+},
+"christopher-j-bakkenist-university-of-pittsburgh-at-pittsburgh": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 9079,
+"h_index": 38,
+"openalex": "https://openalex.org/A5071178162",
+"orcid": "https://orcid.org/0000-0001-9672-0886",
+"works": 145
+},
+"topics": [
+"DNA Repair Mechanisms",
+"Carcinogens and Genotoxicity Assessment",
+"Cancer-related Molecular Pathways",
+"Cancer Immunotherapy and Biomarkers",
+"Cell death mechanisms and regulation"
+]
+},
+"christopher-peter-bonafide-children-s-hosp-of-philadelphia": {
+"checked": "2026-09-27"
+},
+"christy-leigh-avery-univ-of-north-carolina-chapel-hill": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 17299,
+"h_index": 42,
+"openalex": "https://openalex.org/A5043242150",
+"orcid": "https://orcid.org/0000-0002-1044-8162",
+"works": 331
+},
+"topics": [
+"Genetic Associations and Epidemiology",
+"Cardiovascular Health and Risk Factors",
+"Cardiac electrophysiology and arrhythmias",
+"Lipoproteins and Cardiovascular Health",
+"Genetic Mapping and Diversity in Plants and Animals"
+]
 },
 "chunzhuo-wang-ku-leuven": {
 "checked": "2026-09-27",
@@ -357,6 +599,40 @@
 "Helminth infection and control"
 ]
 },
+"dan-r-berlowitz-university-of-massachusetts-lowell": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 18416,
+"h_index": 68,
+"openalex": "https://openalex.org/A5070056940",
+"orcid": "https://orcid.org/0000-0002-8783-5611",
+"works": 351
+},
+"topics": [
+"Pressure Ulcer Prevention and Management",
+"Blood Pressure and Hypertension Studies",
+"Geriatric Care and Nursing Homes",
+"Dementia and Cognitive Impairment Research",
+"Health Systems, Economic Evaluations, Quality of Life"
+]
+},
+"danika-l-bannasch-university-of-california-at-davis": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 6469,
+"h_index": 40,
+"openalex": "https://openalex.org/A5003998207",
+"orcid": "https://orcid.org/0000-0002-7614-7207",
+"works": 163
+},
+"topics": [
+"Genetic and phenotypic traits in livestock",
+"Human-Animal Interaction Studies",
+"Veterinary Medicine and Surgery",
+"Veterinary Oncology Research",
+"Veterinary Orthopedics and Neurology"
+]
+},
 "dao-thi-minh-an-hanoi-medical-university": {
 "checked": "2026-09-27",
 "metrics": {
@@ -372,6 +648,40 @@
 "Global Public Health Policies and Epidemiology",
 "Dental Health and Care Utilization",
 "HIV, Drug Use, Sexual Risk"
+]
+},
+"david-a-boas-boston-university-charles-river-campus": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 48098,
+"h_index": 116,
+"openalex": "https://openalex.org/A5035399148",
+"orcid": "https://orcid.org/0000-0002-6709-7711",
+"works": 845
+},
+"topics": [
+"Optical Imaging and Spectroscopy Techniques",
+"Photoacoustic and Ultrasonic Imaging",
+"Non-Invasive Vital Sign Monitoring",
+"Optical Coherence Tomography Applications",
+"Advanced MRI Techniques and Applications"
+]
+},
+"david-a-brafman-arizona-state-university-tempe-campus": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 3036,
+"h_index": 30,
+"openalex": "https://openalex.org/A5033262572",
+"orcid": "https://orcid.org/0000-0001-6131-2532",
+"works": 83
+},
+"topics": [
+"Pluripotent Stem Cells Research",
+"CRISPR and Genetic Engineering",
+"3D Printing in Biomedical Research",
+"Tissue Engineering and Regenerative Medicine",
+"Alzheimer's disease research and treatments"
 ]
 },
 "david-b-allison-trustees-of-indiana-university": {
@@ -391,6 +701,23 @@
 "Obesity and Health Practices"
 ]
 },
+"david-boone-university-of-pittsburgh-at-pittsburgh": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 1118,
+"h_index": 15,
+"openalex": "https://openalex.org/A5070155416",
+"orcid": "https://orcid.org/0000-0002-1258-7473",
+"works": 70
+},
+"topics": [
+"Cancer Immunotherapy and Biomarkers",
+"Growth Hormone and Insulin-like Growth Factors",
+"Estrogen and related hormone effects",
+"Health Systems, Economic Evaluations, Quality of Life",
+"Cancer Genomics and Diagnostics"
+]
+},
 "david-k-ann-beckman-research-institute-city-of-hope": {
 "checked": "2026-09-27",
 "metrics": {
@@ -408,6 +735,216 @@
 "Ubiquitin and proteasome pathways"
 ]
 },
+"david-r-boulware-university-of-minnesota": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 22542,
+"h_index": 74,
+"openalex": "https://openalex.org/A5027410574",
+"orcid": "https://orcid.org/0000-0002-4715-0060",
+"works": 564
+},
+"topics": [
+"Fungal Infections and Studies",
+"Antifungal resistance and susceptibility",
+"Nail Diseases and Treatments",
+"Infectious Diseases and Tuberculosis",
+"Tuberculosis Research and Epidemiology"
+]
+},
+"deanna-barch-washington-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 78885,
+"h_index": 120,
+"openalex": "https://openalex.org/A5026517414",
+"orcid": "https://orcid.org/0000-0003-1693-8506",
+"works": 914
+},
+"topics": [
+"Functional Brain Connectivity Studies",
+"Schizophrenia research and treatment",
+"Neural and Behavioral Psychology Studies",
+"Child and Adolescent Psychosocial and Emotional Development",
+"Mental Health Research Topics"
+]
+},
+"deborah-watkins-bruner-emory-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 21384,
+"h_index": 65,
+"openalex": "https://openalex.org/A5005691073",
+"orcid": "https://orcid.org/0000-0002-5770-9948",
+"works": 480
+},
+"topics": [
+"Cancer survivorship and care",
+"Prostate Cancer Diagnosis and Treatment",
+"Prostate Cancer Treatment and Research",
+"Advanced Radiotherapy Techniques",
+"Head and Neck Cancer Studies"
+]
+},
+"detlev-boison-rutgers-biomedical-and-health-sciences": {
+"checked": "2026-09-27"
+},
+"donald-e-ayer-utah-state-higher-education-system-university-of-utah": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 12114,
+"h_index": 53,
+"openalex": "https://openalex.org/A5074438352",
+"orcid": "https://orcid.org/0000-0002-5595-3269",
+"works": 112
+},
+"topics": [
+"Genomics and Chromatin Dynamics",
+"Cancer, Hypoxia, and Metabolism",
+"Ubiquitin and proteasome pathways",
+"Metabolism, Diabetes, and Cancer",
+"RNA modifications and cancer"
+]
+},
+"dylan-bulseco-institute-for-future-intelligence-inc": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 6,
+"h_index": 1,
+"openalex": "https://openalex.org/A5089994930",
+"orcid": "https://orcid.org/0000-0002-4081-2682",
+"works": 11
+},
+"topics": [
+"Science Education and Pedagogy",
+"Design Education and Practice",
+"Experimental Learning in Engineering",
+"Engineering Education and Pedagogy",
+"Innovative Teaching and Learning Methods"
+]
+},
+"edgar-a-arriaga-university-of-minnesota": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 7668,
+"h_index": 42,
+"openalex": "https://openalex.org/A5006176629",
+"orcid": "https://orcid.org/0000-0001-8863-6174",
+"works": 179
+},
+"topics": [
+"Microfluidic and Capillary Electrophoresis Applications",
+"Microfluidic and Bio-sensing Technologies",
+"Mitochondrial Function and Pathology",
+"Mass Spectrometry Techniques and Applications",
+"Metabolomics and Mass Spectrometry Studies"
+]
+},
+"edward-a-botchwey-georgia-institute-of-technology": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 4951,
+"h_index": 42,
+"openalex": "https://openalex.org/A5091352725",
+"orcid": "https://orcid.org/0000-0003-1140-5786",
+"works": 137
+},
+"topics": [
+"Sphingolipid Metabolism and Signaling",
+"Immune cells in cancer",
+"Bone Tissue Engineering Materials",
+"Electrospun Nanofibers in Biomedical Applications",
+"Mesenchymal stem cell research"
+]
+},
+"edward-bartlett-purdue-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 3047,
+"h_index": 29,
+"openalex": "https://openalex.org/A5076291388",
+"orcid": "https://orcid.org/0000-0002-9387-1854",
+"works": 82
+},
+"topics": [
+"Hearing Loss and Rehabilitation",
+"Hearing, Cochlea, Tinnitus, Genetics",
+"Neural dynamics and brain function",
+"Neuroscience and Music Perception",
+"Neuroscience and Neuropharmacology Research"
+]
+},
+"edward-m-callaway-salk-institute-for-biological-studies": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 29613,
+"h_index": 89,
+"openalex": "https://openalex.org/A5061630723",
+"orcid": "https://orcid.org/0000-0002-6366-5267",
+"works": 230
+},
+"topics": [
+"Neural dynamics and brain function",
+"Neuroscience and Neuropharmacology Research",
+"Visual perception and processing mechanisms",
+"Retinal Development and Disorders",
+"Neuroscience and Neural Engineering"
+]
+},
+"edward-m-campbell-loyola-university-chicago": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 7535,
+"h_index": 33,
+"openalex": "https://openalex.org/A5103005037",
+"orcid": "https://orcid.org/0000-0001-5665-9195",
+"works": 103
+},
+"topics": [
+"HIV Research and Treatment",
+"interferon and immune responses",
+"Immune Cell Function and Interaction",
+"RNA Research and Splicing",
+"Inflammasome and immune disorders"
+]
+},
+"elizabeth-anne-bukusi-kenya-medical-research-institute-kemri": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 24829,
+"h_index": 75,
+"openalex": "https://openalex.org/A5025213594",
+"orcid": "https://orcid.org/0000-0002-2031-2808",
+"works": 780
+},
+"topics": [
+"HIV/AIDS Research and Interventions",
+"Adolescent Sexual and Reproductive Health",
+"Global Maternal and Child Health",
+"HIV Research and Treatment",
+"Reproductive tract infections research"
+]
+},
+"elizabeth-rhea-erwin-burner-university-of-southern-california": {
+"checked": "2026-09-27"
+},
+"eric-burkholder-auburn-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 5338,
+"h_index": 33,
+"openalex": "https://openalex.org/A5080355402",
+"orcid": "https://orcid.org/0000-0001-7420-4290",
+"works": 225
+},
+"topics": [
+"Crystallization and Solubility Studies",
+"X-ray Diffraction in Crystallography",
+"Metal-Organic Frameworks: Synthesis and Applications",
+"Polyoxometalates: Synthesis and Applications",
+"Science Education and Pedagogy"
+]
+},
 "evelyn-jensen-newcastle-university": {
 "checked": "2026-09-27",
 "metrics": {
@@ -423,6 +960,23 @@
 "Genetic and phenotypic traits in livestock",
 "Species Distribution and Climate Change",
 "Environmental DNA in Biodiversity Studies"
+]
+},
+"francis-bajunirwe-mbarara-university-science-technology": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 6044,
+"h_index": 37,
+"openalex": "https://openalex.org/A5084194251",
+"orcid": "https://orcid.org/0000-0002-1326-5230",
+"works": 254
+},
+"topics": [
+"HIV/AIDS Research and Interventions",
+"Tuberculosis Research and Epidemiology",
+"Global Maternal and Child Health",
+"Adolescent Sexual and Reproductive Health",
+"HIV/AIDS Impact and Responses"
 ]
 },
 "frank-osei-university-of-twente": {
@@ -457,6 +1011,46 @@
 "Health Systems, Economic Evaluations, Quality of Life",
 "Medication Adherence and Compliance",
 "Pharmaceutical Economics and Policy"
+]
+},
+"gary-a-brewer-rutgers-biomedical-and-health-sciences": {
+"checked": "2026-09-27"
+},
+"gaurav-arora-university-of-pittsburgh-at-pittsburgh": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 1698,
+"h_index": 22,
+"openalex": "https://openalex.org/A5070645230",
+"orcid": "https://orcid.org/0000-0002-0052-3616",
+"works": 149
+},
+"topics": [
+"Cardiac Arrhythmias and Treatments",
+"Cardiac pacing and defibrillation studies",
+"Congenital Heart Disease Studies",
+"Cardiac electrophysiology and arrhythmias",
+"Cardiovascular Syncope and Autonomic Disorders"
+]
+},
+"gerald-samuel-bloomfield-aga-khan-university-pakistan": {
+"checked": "2026-09-27"
+},
+"gerard-c-blobe-duke-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 14994,
+"h_index": 59,
+"openalex": "https://openalex.org/A5020182936",
+"orcid": "https://orcid.org/0000-0002-4274-8901",
+"works": 1184
+},
+"topics": [
+"TGF-\u03b2 signaling in diseases",
+"Metabolism and Genetic Disorders",
+"Colorectal Cancer Treatments and Studies",
+"Pancreatic and Hepatic Oncology Research",
+"Cancer Cells and Metastasis"
 ]
 },
 "giuseppe-floris-ku-leuven": {
@@ -595,6 +1189,23 @@
 "Respiratory viral infections research"
 ]
 },
+"henry-m-blumberg-emory-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 13258,
+"h_index": 59,
+"openalex": "https://openalex.org/A5081256249",
+"orcid": "https://orcid.org/0000-0002-3110-2443",
+"works": 291
+},
+"topics": [
+"Tuberculosis Research and Epidemiology",
+"Infectious Diseases and Tuberculosis",
+"Diagnosis and treatment of tuberculosis",
+"Mycobacterium research and diagnosis",
+"Antimicrobial Resistance in Staphylococcus"
+]
+},
 "ian-thomas-cardiff-university": {
 "checked": "2026-09-27",
 "metrics": {
@@ -628,6 +1239,63 @@
 "Hepatitis B Virus Studies",
 "Opioid Use Disorder Treatment"
 ]
+},
+"janeese-a-brownlow-delaware-state-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 990,
+"h_index": 14,
+"openalex": "https://openalex.org/A5040743626",
+"orcid": "https://orcid.org/0000-0002-2037-5243",
+"works": 49
+},
+"topics": [
+"Sleep and related disorders",
+"Sleep and Work-Related Fatigue",
+"Posttraumatic Stress Disorder Research",
+"Sleep and Wakefulness Research",
+"Obesity, Physical Activity, Diet"
+]
+},
+"jared-michael-brown-university-of-colorado-denver": {
+"checked": "2026-09-27"
+},
+"jennifer-d-black-university-of-nebraska-medical-center": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 6200,
+"h_index": 43,
+"openalex": "https://openalex.org/A5041348263",
+"orcid": "https://orcid.org/0000-0001-8813-6604",
+"works": 161
+},
+"topics": [
+"PI3K/AKT/mTOR signaling in cancer",
+"Protein Kinase Regulation and GTPase Signaling",
+"Cancer-related Molecular Pathways",
+"Pancreatic and Hepatic Oncology Research",
+"Ubiquitin and proteasome pathways"
+]
+},
+"jennifer-kehlet-barton-university-of-arizona": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 7243,
+"h_index": 42,
+"openalex": "https://openalex.org/A5021337936",
+"orcid": "https://orcid.org/0000-0003-4897-9361",
+"works": 349
+},
+"topics": [
+"Optical Coherence Tomography Applications",
+"Photoacoustic and Ultrasonic Imaging",
+"Advanced Fluorescence Microscopy Techniques",
+"Ovarian cancer diagnosis and treatment",
+"Angiogenesis and VEGF in Cancer"
+]
+},
+"jennifer-lynn-bizon-university-of-florida": {
+"checked": "2026-09-27"
 },
 "jennifer-rumbel-university-of-newcastle": {
 "checked": "2026-09-27",
@@ -668,6 +1336,40 @@
 },
 "joanna-zajac-the-university-of-manchester": {
 "checked": "2026-09-27"
+},
+"john-assad-harvard-medical-school": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 6792,
+"h_index": 31,
+"openalex": "https://openalex.org/A5037109597",
+"orcid": "https://orcid.org/0000-0002-7689-5336",
+"works": 72
+},
+"topics": [
+"Neural dynamics and brain function",
+"Visual perception and processing mechanisms",
+"EEG and Brain-Computer Interfaces",
+"Neuroscience and Neural Engineering",
+"Neural and Behavioral Psychology Studies"
+]
+},
+"jonathan-talbot-butcher-cornell-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 10368,
+"h_index": 48,
+"openalex": "https://openalex.org/A5008887268",
+"orcid": "https://orcid.org/0000-0002-9309-6296",
+"works": 216
+},
+"topics": [
+"Cardiac Valve Diseases and Treatments",
+"Congenital heart defects research",
+"Aortic Disease and Treatment Approaches",
+"Electrospun Nanofibers in Biomedical Applications",
+"Tissue Engineering and Regenerative Medicine"
+]
 },
 "joseph-ali-addis-ababa-university": {
 "checked": "2026-09-27"
@@ -740,8 +1442,42 @@
 "Soil Carbon and Nitrogen Dynamics"
 ]
 },
+"karen-j-bandeen-roche-johns-hopkins-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 33098,
+"h_index": 92,
+"openalex": "https://openalex.org/A5039104588",
+"orcid": "https://orcid.org/0000-0003-3895-8313",
+"works": 479
+},
+"topics": [
+"Frailty in Older Adults",
+"Nutrition and Health in Aging",
+"Health disparities and outcomes",
+"Health Systems, Economic Evaluations, Quality of Life",
+"Dementia and Cognitive Impairment Research"
+]
+},
 "karina-alvina-society-for-neuroscience": {
 "checked": "2026-09-27"
+},
+"karina-c-canaba-university-of-texas-el-paso": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 26,
+"h_index": 3,
+"openalex": "https://openalex.org/A5079286289",
+"orcid": "https://orcid.org/0000-0002-9473-128X",
+"works": 7
+},
+"topics": [
+"Service-Learning and Community Engagement",
+"Race, History, and American Society",
+"Diverse Education Studies and Reforms",
+"Teacher Education and Leadership Studies",
+"Higher Education Research Studies"
+]
 },
 "karine-chemin-karolinska-institutet": {
 "checked": "2026-09-27",
@@ -763,6 +1499,46 @@
 "kathryn-b-anderson-state-university-of-new-york-at-buffalo": {
 "checked": "2026-09-27"
 },
+"kelly-j-brunst-university-of-cincinnati": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 1709,
+"h_index": 23,
+"openalex": "https://openalex.org/A5067162039",
+"orcid": "https://orcid.org/0000-0001-8201-8631",
+"works": 67
+},
+"topics": [
+"Air Quality and Health Impacts",
+"Birth, Development, and Health",
+"Health, Environment, Cognitive Aging",
+"Maternal Mental Health During Pregnancy and Postpartum",
+"Epigenetics and DNA Methylation"
+]
+},
+"kevin-baumlin-monell-chemical-senses-center": {
+"checked": "2026-09-27"
+},
+"kidist-bobosha-emory-university": {
+"checked": "2026-09-27"
+},
+"kiros-t-berhane-columbia-university-health-sciences": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 18851,
+"h_index": 66,
+"openalex": "https://openalex.org/A5077022486",
+"orcid": "https://orcid.org/0000-0003-2303-8493",
+"works": 288
+},
+"topics": [
+"Air Quality and Health Impacts",
+"Climate Change and Health Impacts",
+"Asthma and respiratory diseases",
+"Noise Effects and Management",
+"Energy and Environment Impacts"
+]
+},
 "koen-pouwels-university-of-oxford": {
 "checked": "2026-09-27",
 "metrics": {
@@ -778,6 +1554,23 @@
 "COVID-19 Clinical Research Studies",
 "SARS-CoV-2 detection and testing",
 "COVID-19 epidemiological studies"
+]
+},
+"kwaku-poku-asante-kintampo-health-research-centre": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 9915,
+"h_index": 54,
+"openalex": "https://openalex.org/A5043850672",
+"orcid": "https://orcid.org/0000-0001-9158-351X",
+"works": 374
+},
+"topics": [
+"Malaria Research and Control",
+"Energy and Environment Impacts",
+"Air Quality and Health Impacts",
+"Global Maternal and Child Health",
+"Mosquito-borne diseases and control"
 ]
 },
 "kwanjai-amnartsatsue-university-of-california-los-angeles": {
@@ -799,6 +1592,9 @@
 "Animal Behavior and Reproduction",
 "EEG and Brain-Computer Interfaces"
 ]
+},
+"leigh-fleming-callahan-univ-of-north-carolina-chapel-hill": {
+"checked": "2026-09-27"
 },
 "lisa-m-abrams-virginia-commonwealth-university": {
 "checked": "2026-09-27",
@@ -851,6 +1647,23 @@
 "Climate Change and Geoengineering"
 ]
 },
+"mariella-de-biasi-university-of-pennsylvania": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 8745,
+"h_index": 47,
+"openalex": "https://openalex.org/A5089699394",
+"orcid": "https://orcid.org/0000-0002-0687-8872",
+"works": 150
+},
+"topics": [
+"Nicotinic Acetylcholine Receptors Study",
+"Receptor Mechanisms and Signaling",
+"Neurotransmitter Receptor Influence on Behavior",
+"Ion channel regulation and function",
+"Neuroscience and Neuropharmacology Research"
+]
+},
 "mario-alejandro-alvarez-university-of-illinois-at-chicago": {
 "checked": "2026-09-27"
 },
@@ -874,6 +1687,23 @@
 "marius-lange-university-of-basel": {
 "checked": "2026-09-27"
 },
+"mark-a-atkinson-university-of-florida": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 61879,
+"h_index": 127,
+"openalex": "https://openalex.org/A5060145442",
+"orcid": "https://orcid.org/0000-0001-8489-4782",
+"works": 1048
+},
+"topics": [
+"Diabetes and associated disorders",
+"Pancreatic function and diabetes",
+"Diabetes Management and Research",
+"T-cell and B-cell Immunology",
+"Immune Cell Function and Interaction"
+]
+},
 "mark-vincent-albert-university-of-north-texas": {
 "checked": "2026-09-27",
 "metrics": {
@@ -889,6 +1719,40 @@
 "Stroke Rehabilitation and Recovery",
 "Balance, Gait, and Falls Prevention",
 "Parkinson's Disease Mechanisms and Treatments"
+]
+},
+"marlene-camacho-suny-downstate-medical-center": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 1876,
+"h_index": 20,
+"openalex": "https://openalex.org/A5058772437",
+"orcid": "https://orcid.org/0000-0003-2343-2941",
+"works": 137
+},
+"topics": [
+"COVID-19 and Mental Health",
+"COVID-19 and healthcare impacts",
+"Global Cancer Incidence and Screening",
+"Cannabis and Cannabinoid Research",
+"HIV/AIDS Research and Interventions"
+]
+},
+"martha-w-bagnall-washington-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 2043,
+"h_index": 22,
+"openalex": "https://openalex.org/A5060324298",
+"orcid": "https://orcid.org/0000-0003-2102-6165",
+"works": 45
+},
+"topics": [
+"Zebrafish Biomedical Research Applications",
+"Neurobiology and Insect Physiology Research",
+"Vestibular and auditory disorders",
+"Neuroscience and Neuropharmacology Research",
+"Hearing, Cochlea, Tinnitus, Genetics"
 ]
 },
 "mary-alt-university-of-arizona": {
@@ -908,6 +1772,9 @@
 "Phonetics and Phonology Research"
 ]
 },
+"mary-l-bouxsein-american-society-for-bone-mineral-res": {
+"checked": "2026-09-27"
+},
 "matthew-a-allison-university-of-california-san-diego": {
 "checked": "2026-09-27",
 "metrics": {
@@ -925,10 +1792,33 @@
 "Cardiovascular Health and Disease Prevention"
 ]
 },
+"matthew-frederick-barber-university-of-oregon": {
+"checked": "2026-09-27"
+},
+"matthew-p-buman-arizona-state-university-tempe-campus": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 24247,
+"h_index": 60,
+"openalex": "https://openalex.org/A5000559212",
+"orcid": "https://orcid.org/0000-0002-5130-3162",
+"works": 314
+},
+"topics": [
+"Physical Activity and Health",
+"Obesity, Physical Activity, Diet",
+"Mobile Health and mHealth Applications",
+"Sleep and related disorders",
+"Behavioral Health and Interventions"
+]
+},
 "matthew-smith-university-of-strathclyde": {
 "checked": "2026-09-27"
 },
 "matthew-z-anderson-native-biodata-consortium": {
+"checked": "2026-09-27"
+},
+"melissa-arbuckle-columbia-university-health-sciences": {
 "checked": "2026-09-27"
 },
 "mengyan-zhang-university-of-bristol": {
@@ -949,6 +1839,46 @@
 "Musculoskeletal pain and rehabilitation",
 "Pain Mechanisms and Treatments",
 "Substance Abuse Treatment and Outcomes"
+]
+},
+"michael-lee-atchison-university-of-pennsylvania": {
+"checked": "2026-09-27"
+},
+"michael-robert-borich-georgia-institute-of-technology": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 3328,
+"h_index": 32,
+"openalex": "https://openalex.org/A5055799701",
+"orcid": "https://orcid.org/0000-0001-9897-9867",
+"works": 144
+},
+"topics": [
+"Transcranial Magnetic Stimulation Studies",
+"Stroke Rehabilitation and Recovery",
+"Motor Control and Adaptation",
+"Advanced Neuroimaging Techniques and Applications",
+"Balance, Gait, and Falls Prevention"
+]
+},
+"michal-schnaider-beeri-rutgers-biomedical-and-health-sciences": {
+"checked": "2026-09-27"
+},
+"michele-barry-yale-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 37,
+"h_index": 4,
+"openalex": "https://openalex.org/A5035278469",
+"orcid": "",
+"works": 4
+},
+"topics": [
+"Antimicrobial Resistance in Staphylococcus",
+"Salmonella and Campylobacter epidemiology",
+"Systemic Sclerosis and Related Diseases",
+"Infective Endocarditis Diagnosis and Management",
+"Poisoning and overdose treatments"
 ]
 },
 "michele-l-allen-university-of-minnesota": {
@@ -1005,6 +1935,23 @@
 "miranda-l-davis-university-of-alberta": {
 "checked": "2026-09-27"
 },
+"mohsen-azimi-mississippi-state-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 1386,
+"h_index": 11,
+"openalex": "https://openalex.org/A5089524314",
+"orcid": "https://orcid.org/0000-0001-7406-6721",
+"works": 31
+},
+"topics": [
+"Structural Health Monitoring Techniques",
+"Infrastructure Maintenance and Monitoring",
+"Seismic Performance and Analysis",
+"Vibration Control and Rheological Fluids",
+"Robotic Locomotion and Control"
+]
+},
 "muktar-hassan-aliyu-vanderbilt-university-medical-center": {
 "checked": "2026-09-27",
 "metrics": {
@@ -1024,6 +1971,29 @@
 },
 "nick-masto-clemson-university": {
 "checked": "2026-09-27"
+},
+"nidia-calero-university-of-colorado-denver": {
+"checked": "2026-09-27"
+},
+"nir-j-barzilai-albert-einstein-college-of-medicine": {
+"checked": "2026-09-27"
+},
+"noah-c-benson-university-of-washington": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 2665,
+"h_index": 21,
+"openalex": "https://openalex.org/A5050219758",
+"orcid": "https://orcid.org/0000-0002-2365-8265",
+"works": 106
+},
+"topics": [
+"Visual perception and processing mechanisms",
+"Neural dynamics and brain function",
+"Functional Brain Connectivity Studies",
+"Retinal Imaging and Analysis",
+"Retinal Development and Disorders"
+]
 },
 "peter-m-abadir-johns-hopkins-university": {
 "checked": "2026-09-27",
@@ -1133,6 +2103,43 @@
 "Analytical Chemistry and Sensors"
 ]
 },
+"richard-aplenc-university-of-pennsylvania": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 23745,
+"h_index": 63,
+"openalex": "https://openalex.org/A5037359116",
+"orcid": "https://orcid.org/0000-0001-7482-5644",
+"works": 692
+},
+"topics": [
+"Acute Lymphoblastic Leukemia research",
+"Acute Myeloid Leukemia Research",
+"Neutropenia and Cancer Infections",
+"Childhood Cancer Survivors' Quality of Life",
+"CAR-T cell therapy research"
+]
+},
+"richard-david-boyce-university-of-pittsburgh-at-pittsburgh": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 2601,
+"h_index": 31,
+"openalex": "https://openalex.org/A5102921689",
+"orcid": "https://orcid.org/0000-0002-2993-2085",
+"works": 175
+},
+"topics": [
+"Biomedical Text Mining and Ontologies",
+"Semantic Web and Ontologies",
+"Computational Drug Discovery Methods",
+"Pharmacovigilance and Adverse Drug Reactions",
+"Electronic Health Records Systems"
+]
+},
+"richard-frank-armenta-california-state-university-san-marcos": {
+"checked": "2026-09-27"
+},
 "ritu-aneja-university-of-alabama-at-birmingham": {
 "checked": "2026-09-27",
 "metrics": {
@@ -1148,6 +2155,43 @@
 "Breast Cancer Treatment Studies",
 "Cancer-related Molecular Pathways",
 "Global Cancer Incidence and Screening"
+]
+},
+"robert-clinton-barber-university-of-north-texas-hlth-sci-ctr": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 16404,
+"h_index": 47,
+"openalex": "https://openalex.org/A5036089299",
+"orcid": "https://orcid.org/0000-0001-6857-0286",
+"works": 315
+},
+"topics": [
+"Alzheimer's disease research and treatments",
+"Dementia and Cognitive Impairment Research",
+"Nuclear physics research studies",
+"Nuclear Physics and Applications",
+"Mass Spectrometry Techniques and Applications"
+]
+},
+"roberta-eileen-brinton-university-of-arizona": {
+"checked": "2026-09-27"
+},
+"rodrigo-m-braga-northwestern-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 3579,
+"h_index": 25,
+"openalex": "https://openalex.org/A5010258744",
+"orcid": "https://orcid.org/0000-0003-2671-7096",
+"works": 65
+},
+"topics": [
+"Functional Brain Connectivity Studies",
+"Neural dynamics and brain function",
+"Advanced Neuroimaging Techniques and Applications",
+"Neural and Behavioral Psychology Studies",
+"Memory and Neural Mechanisms"
 ]
 },
 "rosie-walker-university-of-exeter": {
@@ -1166,6 +2210,9 @@
 "Birth, Development, and Health",
 "Genetic Syndromes and Imprinting"
 ]
+},
+"roudabeh-behnia-columbia-university-health-sciences": {
+"checked": "2026-09-27"
 },
 "rozalyn-m-anderson-university-of-wisconsin-madison": {
 "checked": "2026-09-27",
@@ -1221,6 +2268,23 @@
 "samrawit-k-alemu-harvard-university-d-b-a-harvard-school-of-public-health": {
 "checked": "2026-09-27"
 },
+"sanjay-asthana-university-of-wisconsin-madison": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 36323,
+"h_index": 96,
+"openalex": "https://openalex.org/A5103911623",
+"orcid": "https://orcid.org/0000-0002-3298-6324",
+"works": 797
+},
+"topics": [
+"Dementia and Cognitive Impairment Research",
+"Alzheimer's disease research and treatments",
+"Functional Brain Connectivity Studies",
+"Advanced Neuroimaging Techniques and Applications",
+"Health, Environment, Cognitive Aging"
+]
+},
 "sanne-weber-radboud-university": {
 "checked": "2026-09-27",
 "metrics": {
@@ -1236,6 +2300,43 @@
 "Conflict, Peace, and Violence in Colombia",
 "Migration, Health and Trauma",
 "Peacebuilding and International Security"
+]
+},
+"saonli-basu-university-of-minnesota": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 4805,
+"h_index": 34,
+"openalex": "https://openalex.org/A5058258081",
+"orcid": "https://orcid.org/0000-0003-1200-4546",
+"works": 168
+},
+"topics": [
+"Genetic Associations and Epidemiology",
+"Genetic Mapping and Diversity in Plants and Animals",
+"Genetic and phenotypic traits in livestock",
+"Blood Coagulation and Thrombosis Mechanisms",
+"Venous Thromboembolism Diagnosis and Management"
+]
+},
+"sara-branco-georgia-southern-university": {
+"checked": "2026-09-27"
+},
+"sarah-a-burgard-university-of-michigan-at-ann-arbor": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 6541,
+"h_index": 41,
+"openalex": "https://openalex.org/A5089530594",
+"orcid": "https://orcid.org/0009-0000-0383-5239",
+"works": 118
+},
+"topics": [
+"Health disparities and outcomes",
+"Employment and Welfare Studies",
+"Workplace Health and Well-being",
+"Retirement, Disability, and Employment",
+"Global Health Care Issues"
 ]
 },
 "sarah-dimeloe-university-of-birmingham": {
@@ -1258,6 +2359,23 @@
 "serap-aksoy-biotechnology-research-institute-kalro": {
 "checked": "2026-09-27"
 },
+"sheila-a-baker-university-of-iowa": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 30649,
+"h_index": 79,
+"openalex": "https://openalex.org/A5040703058",
+"orcid": "https://orcid.org/0000-0002-3052-7730",
+"works": 476
+},
+"topics": [
+"Ionic liquids properties and applications",
+"Crystallization and Solubility Studies",
+"X-ray Diffraction in Crystallography",
+"Electrochemical Analysis and Applications",
+"Analytical Chemistry and Chromatography"
+]
+},
 "sofia-ribeiro-geological-survey-of-denmark-and-greenland-geus": {
 "checked": "2026-09-27",
 "metrics": {
@@ -1273,6 +2391,60 @@
 "Marine and coastal ecosystems",
 "Arctic and Antarctic ice dynamics",
 "Microbial Community Ecology and Physiology"
+]
+},
+"steven-bedrick-oregon-health-science-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 1876,
+"h_index": 22,
+"openalex": "https://openalex.org/A5044068445",
+"orcid": "https://orcid.org/0000-0002-0163-9397",
+"works": 115
+},
+"topics": [
+"Biomedical Text Mining and Ontologies",
+"Topic Modeling",
+"Natural Language Processing Techniques",
+"Machine Learning in Healthcare",
+"Neurobiology of Language and Bilingualism"
+]
+},
+"stewart-allen-bloomfield-state-college-of-optometry": {
+"checked": "2026-09-27"
+},
+"susan-v-brooks-university-of-michigan-at-ann-arbor": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 13463,
+"h_index": 60,
+"openalex": "https://openalex.org/A5002008484",
+"orcid": "https://orcid.org/0000-0003-1954-967X",
+"works": 229
+},
+"topics": [
+"Muscle Physiology and Disorders",
+"Exercise and Physiological Responses",
+"Muscle activation and electromyography studies",
+"Adipose Tissue and Metabolism",
+"Mitochondrial Function and Pathology"
+]
+},
+"thomas-g-bifano-boston-university-charles-river-campus": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 4834,
+"h_index": 34,
+"openalex": "https://openalex.org/A5041631720",
+"orcid": "https://orcid.org/0000-0003-4952-2515",
+"works": 220
+},
+"topics": [
+"Adaptive optics and wavefront sensing",
+"Advanced Surface Polishing Techniques",
+"Advanced Fluorescence Microscopy Techniques",
+"Optical Coherence Tomography Applications",
+"Advanced MEMS and NEMS Technologies"
 ]
 },
 "tianyi-zhang-university-of-birmingham": {
@@ -1312,7 +2484,112 @@
 "Developmental Biology and Gene Regulation"
 ]
 },
+"todd-s-braver-washington-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 54108,
+"h_index": 95,
+"openalex": "https://openalex.org/A5012830013",
+"orcid": "https://orcid.org/0000-0002-2631-3393",
+"works": 355
+},
+"topics": [
+"Neural and Behavioral Psychology Studies",
+"Functional Brain Connectivity Studies",
+"Neural dynamics and brain function",
+"Memory and Neural Mechanisms",
+"EEG and Brain-Computer Interfaces"
+]
+},
+"todd-t-brown-johns-hopkins-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 19511,
+"h_index": 68,
+"openalex": "https://openalex.org/A5064935269",
+"orcid": "https://orcid.org/0000-0001-8599-278X",
+"works": 521
+},
+"topics": [
+"HIV-related health complications and treatments",
+"HIV Research and Treatment",
+"HIV/AIDS Research and Interventions",
+"HIV/AIDS drug development and treatment",
+"Nutrition and Health in Aging"
+]
+},
+"tracy-t-batchelor-brigham-and-women-s-hospital": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 46467,
+"h_index": 112,
+"openalex": "https://openalex.org/A5069527451",
+"orcid": "https://orcid.org/0000-0001-7568-6607",
+"works": 942
+},
+"topics": [
+"Glioma Diagnosis and Treatment",
+"Cancer, Hypoxia, and Metabolism",
+"CNS Lymphoma Diagnosis and Treatment",
+"Brain Metastases and Treatment",
+"Lymphoma Diagnosis and Treatment"
+]
+},
 "tu-ni-eth-zurich": {
+"checked": "2026-09-27"
+},
+"vijay-balasubramanian-university-of-pennsylvania": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 15364,
+"h_index": 65,
+"openalex": "https://openalex.org/A5087496784",
+"orcid": "https://orcid.org/0000-0002-6497-3819",
+"works": 319
+},
+"topics": [
+"Black Holes and Theoretical Physics",
+"Cosmology and Gravitation Theories",
+"Noncommutative and Quantum Gravity Theories",
+"Neural dynamics and brain function",
+"Visual perception and processing mechanisms"
+]
+},
+"vineet-arora-university-of-chicago": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 15680,
+"h_index": 64,
+"openalex": "https://openalex.org/A5038649068",
+"orcid": "https://orcid.org/0000-0002-4745-7599",
+"works": 537
+},
+"topics": [
+"Hospital Admissions and Outcomes",
+"Innovations in Medical Education",
+"Diversity and Career in Medicine",
+"Healthcare Policy and Management",
+"Social Media in Health Education"
+]
+},
+"wendy-b-bollag-augusta-university": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 11555,
+"h_index": 58,
+"openalex": "https://openalex.org/A5026674849",
+"orcid": "https://orcid.org/0000-0003-3146-162X",
+"works": 437
+},
+"topics": [
+"Hormonal Regulation and Hypertension",
+"Retinoids in leukemia and cellular processes",
+"Skin and Cellular Biology Research",
+"Psoriasis: Treatment and Pathogenesis",
+"Tannin, Tannase and Anticancer Activities"
+]
+},
+"wendy-lynet-bennett-johns-hopkins-university": {
 "checked": "2026-09-27"
 },
 "wieteke-willemen-university-of-twente": {
@@ -1325,6 +2602,23 @@
 "works": 2
 },
 "topics": []
+},
+"william-breitbart-sloan-kettering-inst-can-research": {
+"checked": "2026-09-27",
+"metrics": {
+"citations": 32056,
+"h_index": 87,
+"openalex": "https://openalex.org/A5043623012",
+"orcid": "https://orcid.org/0000-0002-8698-739X",
+"works": 2231
+},
+"topics": [
+"Palliative Care and End-of-Life Issues",
+"Cancer survivorship and care",
+"Intensive Care Unit Cognitive Disorders",
+"Grief, Bereavement, and Mental Health",
+"Pharmacological Effects and Toxicity Studies"
+]
 },
 "yaw-asare-afrane-university-of-ghana": {
 "checked": "2026-09-27",
