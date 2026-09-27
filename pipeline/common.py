@@ -130,21 +130,32 @@ class Http:
         self.s = requests.Session()
         self.s.headers["User-Agent"] = f"PhDMentorFinder/1.0 (mailto:{contact})"
         self.pause = pause
+        self.deadline = None
 
     def _do(self, method: str, url: str, **kw):
+        if self.deadline and time.time() > self.deadline:
+            raise RuntimeError("time budget for this source used up")
         last = None
-        for attempt in range(4):
+        for attempt in range(3):
             try:
-                r = self.s.request(method, url, timeout=45, **kw)
-                if r.status_code in (429, 500, 502, 503, 504):
-                    raise requests.HTTPError(f"{r.status_code}")
-                r.raise_for_status()
-                time.sleep(self.pause)
-                return r
-            except Exception as e:  # noqa: BLE001
+                r = self.s.request(method, url, timeout=30, **kw)
+            except requests.RequestException as e:  # network trouble: retry
                 last = e
                 time.sleep(2 ** attempt)
+                continue
+            if r.status_code in (429, 500, 502, 503, 504):
+                last = f"HTTP {r.status_code}"
+                time.sleep(2 ** attempt * 2)
+                continue
+            if r.status_code >= 400:  # a client error will not fix itself
+                raise RuntimeError(f"{method} {url} -> HTTP {r.status_code}")
+            time.sleep(self.pause)
+            return r
         raise RuntimeError(f"{method} {url} failed: {last}")
+
+    def budget(self, minutes: float | None):
+        """Limit how long the current source may keep making requests."""
+        self.deadline = time.time() + minutes * 60 if minutes else None
 
     def get_json(self, url: str, **kw):
         return self._do("GET", url, **kw).json()

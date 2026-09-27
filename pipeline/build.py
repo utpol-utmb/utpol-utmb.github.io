@@ -98,7 +98,11 @@ def collect_grants(cfg, http, offline, status) -> list[dict]:
                 raw = load_json(fx, {})
                 raw = raw.get("response", {}).get("award", raw) if name == "nsf" else raw
             else:
-                raw = fetch(http, kws, yrs)
+                http.budget(cfg.get("minutes_per_source", 8))
+                try:
+                    raw = fetch(http, kws, yrs)
+                finally:
+                    http.budget(None)
             got = norm(raw)
             if not got:
                 raise RuntimeError("returned 0 records")
@@ -250,7 +254,9 @@ def main() -> int:
     positions = collect_positions(cfg, http, args.offline, status, rates, first_seen)
     mentors = build_mentors(grants, positions, first_seen)
     if cfg["sources"].get("openalex") and not args.offline:
+        http.budget(cfg.get("minutes_per_source", 8))
         n = OA.enrich(http, mentors, cfg.get("contact_email", ""))
+        http.budget(None)
         status["openalex"] = f"ok ({n} new lookups)"
     elif args.offline:
         # reuse any cached enrichment

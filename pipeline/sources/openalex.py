@@ -44,6 +44,8 @@ def enrich(http: Http, mentors: list[dict], contact: str, max_lookups: int = 400
         if lookups >= max_lookups:
             continue
         name = re.sub(r"\b(Dr|Prof|Professor|Assoc|Asst)\.?\s*", "", m["name"]).strip()
+        if http.deadline and __import__('time').time() > http.deadline:
+            break
         try:
             data = http.get_json(API, params={"search": name, "per-page": 10, "mailto": contact})
         except RuntimeError:

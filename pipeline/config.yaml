@@ -24,6 +24,9 @@ search_keywords:
   - economics
   - engineering
 
+# Longest time (minutes) each source may take per daily run.
+minutes_per_source: 8
+
 # How far back to look for grants (years). Active grants only are kept.
 grant_lookback_years: 3
 

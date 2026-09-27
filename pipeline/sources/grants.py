@@ -24,9 +24,14 @@ def nsf_fetch(http: Http, keywords: list[str], lookback_years: int) -> list[dict
     out: dict[str, dict] = {}
     for kw in keywords:
         offset = 1
-        while offset <= 200:  # cap per keyword to stay polite
-            data = http.get_json(NSF_URL, params={"keyword": kw, "printFields": NSF_FIELDS,
-                                                  "dateStart": since, "rpp": 25, "offset": offset})
+        while offset <= 100:  # cap per keyword to stay polite
+            if http.deadline and __import__('time').time() > http.deadline:
+                return list(out.values())
+            try:
+                data = http.get_json(NSF_URL, params={"keyword": kw, "printFields": NSF_FIELDS,
+                                                      "dateStart": since, "rpp": 25, "offset": offset})
+            except RuntimeError:
+                break
             awards = data.get("response", {}).get("award", [])
             for a in awards:
                 out[a["id"]] = a
@@ -73,7 +78,9 @@ def nih_fetch(http: Http, keywords: list[str], lookback_years: int) -> list[dict
     out: dict[str, dict] = {}
     for kw in keywords:
         offset = 0
-        while offset < 500:
+        while offset < 300:
+            if http.deadline and __import__('time').time() > http.deadline:
+                return list(out.values())
             payload = {
                 "criteria": {
                     "fiscal_years": years,
@@ -87,7 +94,10 @@ def nih_fetch(http: Http, keywords: list[str], lookback_years: int) -> list[dict
                                    "ActivityCode", "AgencyIcAdmin", "ProjectDetailUrl"],
                 "offset": offset, "limit": 100,
             }
-            data = http.post_json(NIH_URL, payload)
+            try:
+                data = http.post_json(NIH_URL, payload)
+            except RuntimeError:
+                break
             rows = data.get("results", [])
             for r in rows:
                 out[str(r.get("appl_id"))] = r
@@ -125,11 +135,16 @@ GTR = "https://gtr.ukri.org/api"
 GTR_HEADERS = {"Accept": "application/vnd.rcuk.gtr.json-v7"}
 
 
-def ukri_fetch(http: Http, keywords: list[str], lookback_years: int, per_kw: int = 40) -> list[dict]:
+def ukri_fetch(http: Http, keywords: list[str], lookback_years: int, per_kw: int = 15) -> list[dict]:
     """Returns projects with their PI person and lead organisation resolved."""
     out: dict[str, dict] = {}
     for kw in keywords:
-        data = http.get_json(f"{GTR}/projects", params={"q": kw, "s": per_kw, "p": 1}, headers=GTR_HEADERS)
+        if http.deadline and __import__('time').time() > http.deadline:
+            break
+        try:
+            data = http.get_json(f"{GTR}/projects", params={"q": kw, "s": per_kw, "p": 1}, headers=GTR_HEADERS)
+        except RuntimeError:
+            continue
         for p in data.get("project", []):
             if p.get("status") != "Active" or p["id"] in out:
                 continue
@@ -147,6 +162,8 @@ def ukri_fetch(http: Http, keywords: list[str], lookback_years: int, per_kw: int
                     p["_start"] = fund.get("start")
                     p["_end"] = fund.get("end")
             except RuntimeError:
+                if http.deadline and __import__('time').time() > http.deadline:
+                    return list(out.values())
                 continue
             out[p["id"]] = p
     return list(out.values())
