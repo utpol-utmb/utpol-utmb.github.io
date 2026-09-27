@@ -1,0 +1,68 @@
+# PhD Mentor Finder — data pipeline settings
+# You can edit this file on GitHub (pencil icon). Lines starting with # are notes.
+
+# Your email: sent to OpenAlex / NSF so they know who is calling (polite use).
+contact_email: "phd.mentor.finder@example.com"
+
+# Topics to search funded research grants for. Add or remove freely.
+search_keywords:
+  - epidemiology
+  - public health
+  - aging
+  - dementia
+  - palliative care
+  - digital health
+  - health data science
+  - infectious disease
+  - one health
+  - machine learning
+  - artificial intelligence
+  - climate
+  - ecology
+  - neuroscience
+  - cancer
+  - economics
+  - engineering
+
+# How far back to look for grants (years). Active grants only are kept.
+grant_lookback_years: 3
+
+# Turn each source on (true) or off (false).
+sources:
+  nsf: true          # US National Science Foundation awards (free API)
+  nih: true          # US NIH RePORTER grants incl. T32 training grants (free API)
+  ukri: true         # UK Research and Innovation Gateway to Research (free API)
+  openalex: true     # Adds publications, citations, topics, ORCID to each mentor
+  rss_feeds: true    # Position feeds listed below
+  sheet: false       # Your Google Sheet of extra positions (see sheet_csv_url)
+
+# Job-board feeds (RSS/Atom). Each entry: url, source name, default country.
+# Claude checks these on the first live run; broken ones are simply skipped.
+rss_feeds:
+  - url: "https://www.nature.com/naturecareers/rss/jobs?type=phd"
+    source: "Nature Careers"
+    country: ""
+  - url: "https://academicpositions.com/rss/jobs?positions[0]=phd"
+    source: "Academic Positions"
+    country: ""
+
+# Optional: a Google Sheet (File → Share → Publish to web → CSV) with columns
+# matching data/curated/positions.json (title, supervisor, university, country, ...)
+sheet_csv_url: ""
+
+# Keep "open until filled" positions for this many days after first seen.
+open_until_filled_days: 120
+
+# Approximate exchange rates to USD, used only to sort/compare amounts.
+# Always shown to users as "approx." — the original currency is kept.
+usd_rates:
+  USD: 1.0
+  GBP: 1.27
+  EUR: 1.08
+  CHF: 1.13
+  SEK: 0.095
+  NOK: 0.094
+  DKK: 0.145
+  AUD: 0.66
+  CAD: 0.73
+  JPY: 0.0068

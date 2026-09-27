@@ -1,0 +1,50 @@
+plugins { id 'com.android.application' }
+
+def twa = new Properties()
+twa.load(rootProject.file('twa.properties').newDataInputStream())
+def host = (project.findProperty('twaHost') ?: twa.getProperty('twaHost') ?: '').trim()
+def url = (project.findProperty('twaUrl') ?: twa.getProperty('twaUrl') ?: '').trim()
+if (!host || !url) { throw new GradleException("Set twaHost and twaUrl (android/twa.properties or -P flags)") }
+
+android {
+    namespace 'org.phdmentorfinder.app'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'org.phdmentorfinder.app'
+        minSdk 23
+        targetSdk 36
+        versionCode ((System.getenv('GITHUB_RUN_NUMBER') ?: '1') as int)
+        versionName twa.getProperty('versionName', '1.0.0')
+        manifestPlaceholders = [hostName: host, defaultUrl: url]
+        resValue 'string', 'asset_statements',
+            "[{ \\\"relation\\\": [\\\"delegate_permission/common.handle_all_urls\\\"], \\\"target\\\": {\\\"namespace\\\": \\\"web\\\", \\\"site\\\": \\\"https://${host}\\\"}}]"
+    }
+
+    signingConfigs {
+        release {
+            def ks = System.getenv('KEYSTORE_FILE')
+            if (ks) {
+                storeFile file(ks)
+                storePassword System.getenv('KEYSTORE_PASSWORD')
+                keyAlias System.getenv('KEY_ALIAS') ?: 'upload'
+                keyPassword System.getenv('KEYSTORE_PASSWORD')
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            if (System.getenv('KEYSTORE_FILE')) { signingConfig signingConfigs.release }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildFeatures { resValues true }
+}
+
+dependencies {
+    implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.5.0'
+}

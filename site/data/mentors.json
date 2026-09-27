@@ -1,0 +1,2334 @@
+[
+ {
+  "id": "asier-antoranz-ku-leuven",
+  "name": "Asier Antoranz",
+  "institution": "KU Leuven",
+  "city": "Leuven",
+  "country": "Belgium",
+  "region": "Europe",
+  "subject_area": "Health Data Science & Digital Health",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "kuleuven-pathology-foundation-models"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "tobias-bollenbach-university-of-cologne",
+  "name": "Tobias Bollenbach",
+  "institution": "University of Cologne",
+  "city": "Cologne",
+  "country": "Germany",
+  "region": "Europe",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "cologne-biological-physics-bollenbach"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "behzad-bozorgtabar-aarhus-university",
+  "name": "Behzad Bozorgtabar",
+  "institution": "Aarhus University",
+  "city": "Aarhus",
+  "country": "Denmark",
+  "region": "Europe",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "aarhus-physical-ai-robotics"
+  ],
+  "metrics": null,
+  "sources": [
+   "Nature Careers"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "luc-bussiere-university-of-agder",
+  "name": "Luc Bussière",
+  "institution": "University of Agder",
+  "city": "Kristiansand",
+  "country": "Norway",
+  "region": "Europe",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "uia-terrestrial-ecology"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "karine-chemin-karolinska-institutet",
+  "name": "Karine Chemin",
+  "institution": "Karolinska Institutet",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "region": "Europe",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "ki-tcell-rheumatic-diseases"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "anne-corbett-university-of-exeter",
+  "name": "Anne Corbett",
+  "institution": "University of Exeter",
+  "city": "Penryn",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Ageing & Palliative Care",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "exeter-air-pollution-cognitive-ageing"
+  ],
+  "metrics": null,
+  "sources": [
+   "University of Exeter"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "miranda-l-davis-university-of-alberta",
+  "name": "Miranda L. Davis",
+  "institution": "University of Alberta",
+  "city": "Edmonton",
+  "country": "Canada",
+  "region": "North America",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "alberta-msc-boreal-nitrogen-fire"
+  ],
+  "metrics": null,
+  "sources": [
+   "UConn EEB graduate opportunities"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "sarah-dimeloe-university-of-birmingham",
+  "name": "Sarah Dimeloe",
+  "institution": "University of Birmingham",
+  "city": "Birmingham",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "birmingham-enhancer-blood-cancers"
+  ],
+  "metrics": null,
+  "sources": [
+   "jobs.ac.uk"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "hannah-elizabeth-university-of-strathclyde",
+  "name": "Hannah Elizabeth",
+  "institution": "University of Strathclyde",
+  "city": "Glasgow",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Social Sciences & Economics",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "strathclyde-health-activism"
+  ],
+  "metrics": null,
+  "sources": [
+   "jobs.ac.uk"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "ana-da-silva-filipe-tampere-university",
+  "name": "Ana Da Silva Filipe",
+  "institution": "Tampere University",
+  "city": "Tampere",
+  "country": "Finland",
+  "region": "Europe",
+  "subject_area": "Infectious Disease & One Health",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "tampere-detective-wastewater-virology"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "giuseppe-floris-ku-leuven",
+  "name": "Giuseppe Floris",
+  "institution": "KU Leuven",
+  "city": "Leuven",
+  "country": "Belgium",
+  "region": "Europe",
+  "subject_area": "Health Data Science & Digital Health",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "kuleuven-pathology-foundation-models"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "heli-harvala-university-of-turku",
+  "name": "Heli Harvala",
+  "institution": "University of Turku",
+  "city": "Turku",
+  "country": "Finland",
+  "region": "Europe",
+  "subject_area": "Infectious Disease & One Health",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "turku-detective-blood-donor-surveillance"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "alexandros-iosifidis-tampere-university",
+  "name": "Alexandros Iosifidis",
+  "institution": "Tampere University",
+  "city": "Tampere",
+  "country": "Finland",
+  "region": "Europe",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "tampere-deep-learning-financial-data"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "claire-jackson-the-university-of-queensland",
+  "name": "Claire Jackson",
+  "institution": "The University of Queensland",
+  "city": "Brisbane",
+  "country": "Australia",
+  "region": "Oceania",
+  "subject_area": "Ageing & Palliative Care",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "uq-healthy-ageing-western-qld-mphil"
+  ],
+  "metrics": null,
+  "sources": [
+   "UQ Scholarships"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "evelyn-jensen-newcastle-university",
+  "name": "Evelyn Jensen",
+  "institution": "Newcastle University",
+  "city": "Newcastle upon Tyne",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "newcastle-wildlife-connectivity-trops"
+  ],
+  "metrics": null,
+  "sources": [
+   "jobs.ac.uk"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "juho-kanniainen-tampere-university",
+  "name": "Juho Kanniainen",
+  "institution": "Tampere University",
+  "city": "Tampere",
+  "country": "Finland",
+  "region": "Europe",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "tampere-deep-learning-financial-data"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "justine-karst-university-of-alberta",
+  "name": "Justine Karst",
+  "institution": "University of Alberta",
+  "city": "Edmonton",
+  "country": "Canada",
+  "region": "North America",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "alberta-msc-boreal-nitrogen-fire"
+  ],
+  "metrics": null,
+  "sources": [
+   "UConn EEB graduate opportunities"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "riadh-lakhmi-mines-saint-etienne",
+  "name": "Riadh Lakhmi",
+  "institution": "MINES Saint-Étienne",
+  "city": "Saint-Étienne",
+  "country": "France",
+  "region": "Europe",
+  "subject_area": "Engineering",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "mines-st-etienne-co2-storage-sensors"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "marius-lange-university-of-basel",
+  "name": "Marius Lange",
+  "institution": "University of Basel",
+  "city": "Basel",
+  "country": "Switzerland",
+  "region": "Europe",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "basel-generative-modeling-development-disease"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "qiang-liu-university-of-bristol",
+  "name": "Qiang Liu",
+  "institution": "University of Bristol",
+  "city": "",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Ageing & Palliative Care",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "exeter-air-pollution-cognitive-ageing"
+  ],
+  "metrics": null,
+  "sources": [
+   "University of Exeter"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "nick-masto-clemson-university",
+  "name": "Nick Masto",
+  "institution": "Clemson University",
+  "city": "Clemson, SC",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "clemson-waterfowl-quant-modeling"
+  ],
+  "metrics": null,
+  "sources": [
+   "UConn EEB graduate opportunities"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "manjana-milkoreit-oslomet-oslo-metropolitan-university",
+  "name": "Manjana Milkoreit",
+  "institution": "OsloMet – Oslo Metropolitan University",
+  "city": "Oslo",
+  "country": "Norway",
+  "region": "Europe",
+  "subject_area": "Social Sciences & Economics",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "oslomet-climate-governance"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "anjalika-nande-university-of-oxford",
+  "name": "Anjalika Nande",
+  "institution": "University of Oxford",
+  "city": "Oxford",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Infectious Disease & One Health",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "oxford-eit-metagenomic-modelling"
+  ],
+  "metrics": null,
+  "sources": [
+   "IDDjobs"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "tu-ni-eth-zurich",
+  "name": "Tu Ni",
+  "institution": "ETH Zurich",
+  "city": "Zurich",
+  "country": "Switzerland",
+  "region": "Europe",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "eth-human-ai-systems"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "caroline-nicholson-the-university-of-queensland",
+  "name": "Caroline Nicholson",
+  "institution": "The University of Queensland",
+  "city": "Brisbane",
+  "country": "Australia",
+  "region": "Oceania",
+  "subject_area": "Ageing & Palliative Care",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "uq-healthy-ageing-western-qld-mphil"
+  ],
+  "metrics": null,
+  "sources": [
+   "UQ Scholarships"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "sami-oikarinen-tampere-university",
+  "name": "Sami Oikarinen",
+  "institution": "Tampere University",
+  "city": "Tampere",
+  "country": "Finland",
+  "region": "Europe",
+  "subject_area": "Infectious Disease & One Health",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "tampere-detective-wastewater-virology"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "frank-osei-university-of-twente",
+  "name": "Frank Osei",
+  "institution": "University of Twente",
+  "city": "Enschede",
+  "country": "Netherlands",
+  "region": "Europe",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "twente-spatial-stats-iot-tree-crops"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "antonis-papachristodoulou-university-of-oxford",
+  "name": "Antonis Papachristodoulou",
+  "institution": "University of Oxford",
+  "city": "Oxford",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Engineering",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "oxford-control-engineering-biology"
+  ],
+  "metrics": null,
+  "sources": [
+   "jobs.ac.uk"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "marion-pfeifer-newcastle-university",
+  "name": "Marion Pfeifer",
+  "institution": "Newcastle University",
+  "city": "Newcastle upon Tyne",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "newcastle-wildlife-connectivity-trops"
+  ],
+  "metrics": null,
+  "sources": [
+   "jobs.ac.uk"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "prasad-phapale-aarhus-university",
+  "name": "Prasad Phapale",
+  "institution": "Aarhus University",
+  "city": "Roskilde",
+  "country": "Denmark",
+  "region": "Europe",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "aarhus-spatial-metabolomics"
+  ],
+  "metrics": null,
+  "sources": [
+   "Nature Careers"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "koen-pouwels-university-of-oxford",
+  "name": "Koen Pouwels",
+  "institution": "University of Oxford",
+  "city": "Oxford",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Infectious Disease & One Health",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "oxford-eit-metagenomic-modelling"
+  ],
+  "metrics": null,
+  "sources": [
+   "IDDjobs"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "guy-pratt-university-of-birmingham",
+  "name": "Guy Pratt",
+  "institution": "University of Birmingham",
+  "city": "Birmingham",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "birmingham-enhancer-blood-cancers"
+  ],
+  "metrics": null,
+  "sources": [
+   "jobs.ac.uk"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "sofia-ribeiro-geological-survey-of-denmark-and-greenland-geus",
+  "name": "Sofia Ribeiro",
+  "institution": "Geological Survey of Denmark and Greenland (GEUS)",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "region": "Europe",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "geus-arctic-molecular-ecology"
+  ],
+  "metrics": null,
+  "sources": [
+   "Nature Careers"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "jennifer-rumbel-university-of-newcastle",
+  "name": "Jennifer Rumbel",
+  "institution": "University of Newcastle",
+  "city": "Newcastle, NSW",
+  "country": "Australia",
+  "region": "Oceania",
+  "subject_area": "Ageing & Palliative Care",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "newcastle-au-indigenous-healthy-ageing"
+  ],
+  "metrics": null,
+  "sources": [
+   "University of Newcastle"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "amir-ata-saei-karolinska-institutet",
+  "name": "Amir Ata Saei",
+  "institution": "Karolinska Institutet",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "region": "Europe",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "ki-proteomics-insulin-resistance"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "peter-simmonds-university-of-turku",
+  "name": "Peter Simmonds",
+  "institution": "University of Turku",
+  "city": "Turku",
+  "country": "Finland",
+  "region": "Europe",
+  "subject_area": "Infectious Disease & One Health",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "turku-detective-blood-donor-surveillance"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "adam-b-smith-washington-university-in-st-louis",
+  "name": "Adam B. Smith",
+  "institution": "Washington University in St. Louis",
+  "city": "St. Louis",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "wustl-mobot-computational-conservation"
+  ],
+  "metrics": null,
+  "sources": [
+   "UConn EEB graduate opportunities"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "matthew-smith-university-of-strathclyde",
+  "name": "Matthew Smith",
+  "institution": "University of Strathclyde",
+  "city": "Glasgow",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Social Sciences & Economics",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "strathclyde-health-activism"
+  ],
+  "metrics": null,
+  "sources": [
+   "jobs.ac.uk"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "harrison-steel-university-of-oxford",
+  "name": "Harrison Steel",
+  "institution": "University of Oxford",
+  "city": "Oxford",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Engineering",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "oxford-control-engineering-biology"
+  ],
+  "metrics": null,
+  "sources": [
+   "jobs.ac.uk"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "jack-stone-university-of-bristol",
+  "name": "Jack Stone",
+  "institution": "University of Bristol",
+  "city": "Bristol",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Public Health & Epidemiology",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "bristol-homelessness-health-modelling"
+  ],
+  "metrics": null,
+  "sources": [
+   "IDDjobs"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "haley-swedlund-radboud-university",
+  "name": "Haley Swedlund",
+  "institution": "Radboud University",
+  "city": "Nijmegen",
+  "country": "Netherlands",
+  "region": "Europe",
+  "subject_area": "Social Sciences & Economics",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "radboud-decolonising-reparations"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "ian-thomas-cardiff-university",
+  "name": "Ian Thomas",
+  "institution": "Cardiff University",
+  "city": "",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Public Health & Epidemiology",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "bristol-homelessness-health-modelling"
+  ],
+  "metrics": null,
+  "sources": [
+   "IDDjobs"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "bart-vanrumste-ku-leuven",
+  "name": "Bart Vanrumste",
+  "institution": "KU Leuven",
+  "city": "Leuven",
+  "country": "Belgium",
+  "region": "Europe",
+  "subject_area": "Health Data Science & Digital Health",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "kuleuven-anorexia-eating-tracking-ai"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "peter-vickerman-university-of-bristol",
+  "name": "Peter Vickerman",
+  "institution": "University of Bristol",
+  "city": "Bristol",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Public Health & Epidemiology",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "bristol-homelessness-health-modelling"
+  ],
+  "metrics": null,
+  "sources": [
+   "IDDjobs"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "michiel-vos-university-of-exeter",
+  "name": "Michiel Vos",
+  "institution": "University of Exeter",
+  "city": "Penryn",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Infectious Disease & One Health",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "exeter-zoonotic-bacteria-llm"
+  ],
+  "metrics": null,
+  "sources": [
+   "University of Exeter"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "rosie-walker-university-of-exeter",
+  "name": "Rosie Walker",
+  "institution": "University of Exeter",
+  "city": "Exeter",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Ageing & Palliative Care",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "exeter-dementia-resilience-multiomics"
+  ],
+  "metrics": null,
+  "sources": [
+   "University of Exeter"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "chunzhuo-wang-ku-leuven",
+  "name": "Chunzhuo Wang",
+  "institution": "KU Leuven",
+  "city": "Leuven",
+  "country": "Belgium",
+  "region": "Europe",
+  "subject_area": "Health Data Science & Digital Health",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "kuleuven-anorexia-eating-tracking-ai"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "sanne-weber-radboud-university",
+  "name": "Sanne Weber",
+  "institution": "Radboud University",
+  "city": "Nijmegen",
+  "country": "Netherlands",
+  "region": "Europe",
+  "subject_area": "Social Sciences & Economics",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "radboud-decolonising-reparations"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "wieteke-willemen-university-of-twente",
+  "name": "Wieteke Willemen",
+  "institution": "University of Twente",
+  "city": "Enschede",
+  "country": "Netherlands",
+  "region": "Europe",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "twente-spatial-stats-iot-tree-crops"
+  ],
+  "metrics": null,
+  "sources": [
+   "Academic Positions"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "angela-wood-university-of-cambridge",
+  "name": "Angela Wood",
+  "institution": "University of Cambridge",
+  "city": "Cambridge",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Health Data Science & Digital Health",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "cambridge-fair-cancer-risk-prediction"
+  ],
+  "metrics": null,
+  "sources": [
+   "jobs.ac.uk"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "joanna-zajac-the-university-of-manchester",
+  "name": "Joanna Zajac",
+  "institution": "The University of Manchester",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Physical Sciences & Mathematics",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "manchester-quantum-dot-atom-repeaters"
+  ],
+  "metrics": null,
+  "sources": [
+   "jobs.ac.uk"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "hanbin-zhang-university-of-exeter",
+  "name": "Hanbin Zhang",
+  "institution": "University of Exeter",
+  "city": "Penryn",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Ageing & Palliative Care",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "exeter-air-pollution-cognitive-ageing"
+  ],
+  "metrics": null,
+  "sources": [
+   "University of Exeter"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "qi-zhang-aarhus-university",
+  "name": "Qi Zhang",
+  "institution": "Aarhus University",
+  "city": "Aarhus",
+  "country": "Denmark",
+  "region": "Europe",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "aarhus-physical-ai-robotics"
+  ],
+  "metrics": null,
+  "sources": [
+   "Nature Careers"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "tianyi-zhang-university-of-birmingham",
+  "name": "Tianyi Zhang",
+  "institution": "University of Birmingham",
+  "city": "Birmingham",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "birmingham-enhancer-blood-cancers"
+  ],
+  "metrics": null,
+  "sources": [
+   "jobs.ac.uk"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "mengyan-zhang-university-of-bristol",
+  "name": "Mengyan Zhang",
+  "institution": "University of Bristol",
+  "city": "Bristol",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "subject_area": "Public Health & Epidemiology",
+  "topics": [],
+  "signal": "open_position",
+  "grants": [],
+  "positions": [
+   "bristol-decision-uncertainty-public-health"
+  ],
+  "metrics": null,
+  "sources": [
+   "jobs.ac.uk"
+  ],
+  "signal_label": "Advertising a position now",
+  "total_active_funding_usd": 0,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "christopher-danforth-university-of-vermont-state-agricultural-college",
+  "name": "Christopher Danforth",
+  "institution": "University of Vermont & State Agricultural College",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "training_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2535355",
+    "title": "EPSCoR Graduate Fellowship Program (EGFP): AIM Fellows - Artificial Intelligence and Machine Learning Industry PhD Fellowships",
+    "amount": 954000.0,
+    "currency": "USD",
+    "start": "2027-03-15",
+    "end": "2030-02-28",
+    "program": "EGF-EPSCoR Graduate Fellowship",
+    "kind": "training",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535355"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Holds a grant that funds graduate students",
+  "total_active_funding_usd": 954000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "randolph-faustino-university-of-south-dakota-main-campus",
+  "name": "Randolph Faustino",
+  "institution": "University of South Dakota Main Campus",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Social Sciences & Economics",
+  "topics": [],
+  "signal": "training_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2535324",
+    "title": "EPSCoR Graduate Fellowship Program (EGFP): IMPACTS - Integrating Mentorship and Practice to Advance Careers in Technology & Science",
+    "amount": 795000.0,
+    "currency": "USD",
+    "start": "2027-03-15",
+    "end": "2030-02-28",
+    "program": "EGF-EPSCoR Graduate Fellowship",
+    "kind": "training",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535324"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Holds a grant that funds graduate students",
+  "total_active_funding_usd": 795000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "guoqiang-li-louisiana-state-university",
+  "name": "Guoqiang Li",
+  "institution": "Louisiana State University",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "training_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2535322",
+    "title": "EPSCoR Graduate Fellowship Program (EGFP): AI-Driven Multifunctional Polymer Research",
+    "amount": 1749000.0,
+    "currency": "USD",
+    "start": "2027-09-01",
+    "end": "2030-08-31",
+    "program": "EGF-EPSCoR Graduate Fellowship",
+    "kind": "training",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535322"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Holds a grant that funds graduate students",
+  "total_active_funding_usd": 1749000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "paul-lukacs-university-of-montana",
+  "name": "Paul Lukacs",
+  "institution": "University of Montana",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "training_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2535052",
+    "title": "EPSCoR Graduate Fellowship Program (EGFP): Graduate fellowships to propel wildfire research in Montana",
+    "amount": 1113000.0,
+    "currency": "USD",
+    "start": "2027-03-15",
+    "end": "2030-02-28",
+    "program": "EGF-EPSCoR Graduate Fellowship",
+    "kind": "training",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535052"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Holds a grant that funds graduate students",
+  "total_active_funding_usd": 1113000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "christopher-nelson-university-of-arkansas",
+  "name": "Christopher Nelson",
+  "institution": "University of Arkansas",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "training_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2535438",
+    "title": "EPSCoR Graduate Fellowship Program (EGFP): Site in Biologics Process Discovery, Development and Biomanufacturing",
+    "amount": 1908000.0,
+    "currency": "USD",
+    "start": "2027-03-15",
+    "end": "2030-02-28",
+    "program": "EGF-EPSCoR Graduate Fellowship",
+    "kind": "training",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535438"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Holds a grant that funds graduate students",
+  "total_active_funding_usd": 1908000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "todd-otanicar-boise-state-university",
+  "name": "Todd Otanicar",
+  "institution": "Boise State University",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Engineering",
+  "topics": [],
+  "signal": "training_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2535466",
+    "title": "EPSCoR Graduate Fellowship Program (EGFP): Boise State Microelectronics Education and Research Fellows",
+    "amount": 954000.0,
+    "currency": "USD",
+    "start": "2027-03-15",
+    "end": "2030-02-28",
+    "program": "EPSCoR Graduate Fellowship",
+    "kind": "training",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535466"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Holds a grant that funds graduate students",
+  "total_active_funding_usd": 954000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "zachary-suriano-western-kentucky-university",
+  "name": "Zachary Suriano",
+  "institution": "Western Kentucky University",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "training_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2534958",
+    "title": "EPSCoR Graduate Fellowship Program (EGFP): Experiential Learning and Workforce Training in the Atmospheric, Environmental, and Disaster Sciences",
+    "amount": 1113000.0,
+    "currency": "USD",
+    "start": "2027-03-15",
+    "end": "2030-02-28",
+    "program": "EGF-EPSCoR Graduate Fellowship",
+    "kind": "training",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2534958"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Holds a grant that funds graduate students",
+  "total_active_funding_usd": 1113000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "lingyu-yu-university-of-south-carolina-at-columbia",
+  "name": "Lingyu Yu",
+  "institution": "University of South Carolina at Columbia",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Public Health & Epidemiology",
+  "topics": [],
+  "signal": "training_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2535164",
+    "title": "EPSCoR Graduate Fellowship Program (EGFP): Empowering STEM doctoral education through cohort-based NSF EPSCoR Graduate Fellowship Program",
+    "amount": 1431000.0,
+    "currency": "USD",
+    "start": "2027-03-15",
+    "end": "2030-02-28",
+    "program": "EGF-EPSCoR Graduate Fellowship",
+    "kind": "training",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535164"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Holds a grant that funds graduate students",
+  "total_active_funding_usd": 1431000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "montie-avery-emory-university",
+  "name": "Montie Avery",
+  "institution": "Emory University",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Physical Sciences & Mathematics",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2510541",
+    "title": "Pattern selection by invasion fronts",
+    "amount": 180000.0,
+    "currency": "USD",
+    "start": "2025-09-01",
+    "end": "2028-08-31",
+    "program": "APPLIED MATHEMATICS",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2510541"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 180000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "jiahui-chen-university-of-arkansas",
+  "name": "Jiahui Chen",
+  "institution": "University of Arkansas",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Physical Sciences & Mathematics",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2514195",
+    "title": "Multiscale Differential Geometry Approaches to Protein",
+    "amount": 232771.0,
+    "currency": "USD",
+    "start": "2025-09-15",
+    "end": "2028-08-31",
+    "program": "MATHEMATICAL BIOLOGY",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2514195"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 232771,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "weiqi-chu-university-of-massachusetts-amherst",
+  "name": "Weiqi Chu",
+  "institution": "University of Massachusetts Amherst",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2514053",
+    "title": "Data-driven Modeling and Inference for High-order Models",
+    "amount": 150000.0,
+    "currency": "USD",
+    "start": "2025-09-01",
+    "end": "2028-08-31",
+    "program": "APPLIED MATHEMATICS",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2514053"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 150000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "erin-clancey-washington-state-university",
+  "name": "Erin Clancey",
+  "institution": "Washington State University",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Infectious Disease & One Health",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2527134",
+    "title": "Collaborative Research: eMB: The immunological signature of a changing world: mathematical models to infer historical patterns of infectious disease",
+    "amount": 149949.0,
+    "currency": "USD",
+    "start": "2025-09-15",
+    "end": "2028-08-31",
+    "program": "MATHEMATICAL BIOLOGY",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2527134"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 149949,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "noemie-elgrishi-louisiana-state-university",
+  "name": "Noemie Elgrishi",
+  "institution": "Louisiana State University",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2624461",
+    "title": "EPSCoR Research Fellows: NSF: Identify Underlying Host-Guest Interactions Leading to Critical Properties Relevant to Water Purification in Metal-Organic Cages",
+    "amount": 215302.0,
+    "currency": "USD",
+    "start": "2027-01-15",
+    "end": "2028-12-31",
+    "program": "EPSCoR RII: EPSCoR Research Fellows",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2624461"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 215302,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "rupa-haldavnekar-university-of-oklahoma-norman-campus",
+  "name": "Rupa Haldavnekar",
+  "institution": "University of Oklahoma Norman Campus",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2624329",
+    "title": "EPSCoR Research Fellows: NSF: Engineering a Translational SERS Immunophenotyping and Multimodal Analytics Framework for Liquid-Biopsy Based Early Detection of Ovarian Cancer",
+    "amount": 272105.0,
+    "currency": "USD",
+    "start": "2027-02-01",
+    "end": "2029-01-31",
+    "program": "EPSCoR RII: EPSCoR Research Fellows",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2624329"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 272105,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "sangwon-hyun-university-of-california-santa-cruz",
+  "name": "Sangwon Hyun",
+  "institution": "University of California-Santa Cruz",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2530447",
+    "title": "Collaborative Research: CAIG: Using statistical neural networks",
+    "amount": 592981.0,
+    "currency": "USD",
+    "start": "2025-10-01",
+    "end": "2028-09-30",
+    "program": "GEO CI - GEO Cyberinfrastructure",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2530447"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 592981,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "jaesung-lee-texas-a-m-engineering-experiment-station",
+  "name": "Jaesung Lee",
+  "institution": "Texas A&M Engineering Experiment Station",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Health Data Science & Digital Health",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2625857",
+    "title": "FDT-BioTech: Trustworthy Digital Twins for Patient-Specific Evaluation of Implant Systems",
+    "amount": 513000.0,
+    "currency": "USD",
+    "start": "2027-06-01",
+    "end": "2030-05-31",
+    "program": "MSPA-INTERDISCIPLINARY",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625857"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 513000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "mushu-li-lehigh-university",
+  "name": "Mushu Li",
+  "institution": "Lehigh University",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Engineering",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2625501",
+    "title": "Collaborative Research: CCSS: Semantic-Aware Collaborative Perception and Networking for Autonomous Urban Mobility",
+    "amount": 240000.0,
+    "currency": "USD",
+    "start": "2027-04-01",
+    "end": "2030-03-31",
+    "program": "Circuits and Systems",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625501"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 240000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "james-maclaurin-new-jersey-institute-of-technology",
+  "name": "James MacLaurin",
+  "institution": "New Jersey Institute of Technology",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Physical Sciences & Mathematics",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2511615",
+    "title": "Dynamics of High Dimensional Complex Networks",
+    "amount": 180000.0,
+    "currency": "USD",
+    "start": "2025-09-01",
+    "end": "2028-08-31",
+    "program": "APPLIED MATHEMATICS",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2511615"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 180000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "joseph-mcconnell-nevada-system-of-higher-education-desert-research-institute",
+  "name": "Joseph McConnell",
+  "institution": "Nevada System of Higher Education, Desert Research Institute",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2611604",
+    "title": "NSFGEO-DFG: Uncovering Atmospheric Composition during the Past 14,000 Years Using European Ice Cores",
+    "amount": 805958.0,
+    "currency": "USD",
+    "start": "2027-02-01",
+    "end": "2030-01-31",
+    "program": "Earth System Through Time",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2611604"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 805958,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "yajun-mei-new-york-university",
+  "name": "Yajun Mei",
+  "institution": "New York University",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Physical Sciences & Mathematics",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2515158",
+    "title": "Active Sequential Change-Point Detection",
+    "amount": 175000.0,
+    "currency": "USD",
+    "start": "2025-09-01",
+    "end": "2028-08-31",
+    "program": "STATISTICS",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2515158"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 175000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "laurie-miroff-suny-at-binghamton",
+  "name": "Laurie Miroff",
+  "institution": "SUNY at Binghamton",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Social Sciences & Economics",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2625516",
+    "title": "Developing STEM Identities and Geoarchaeological Innovation through Immersive Technology for Workforce Pathways",
+    "amount": 730083.0,
+    "currency": "USD",
+    "start": "2027-03-01",
+    "end": "2030-02-28",
+    "program": "AISL",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625516"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 730083,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "louise-moncla-university-of-pennsylvania",
+  "name": "Louise Moncla",
+  "institution": "University of Pennsylvania",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Infectious Disease & One Health",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2526828",
+    "title": "Collaborative Research: eMB: Next-generation phylodynamics",
+    "amount": 99999.0,
+    "currency": "USD",
+    "start": "2025-09-01",
+    "end": "2028-08-31",
+    "program": "MATHEMATICAL BIOLOGY",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2526828"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 99999,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "anna-mummert-marshall-university-research-corporation",
+  "name": "Anna Mummert",
+  "institution": "Marshall University Research Corporation",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Social Sciences & Economics",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2619971",
+    "title": "Supporting the Success of Physical and Quantitative Sciences Scholars in Rural Appalachia",
+    "amount": 2000000.0,
+    "currency": "USD",
+    "start": "2027-08-01",
+    "end": "2033-07-31",
+    "program": "S-STEM-Schlr Sci Tech Eng&Math",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619971"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 2000000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "seth-newsome-university-of-new-mexico",
+  "name": "Seth Newsome",
+  "institution": "University of New Mexico",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2620838",
+    "title": "Collaborative Research: Linking gut microbiota to host nutrient dynamics, physiological performance, and survival in a resource-limited ecosystem",
+    "amount": 838435.0,
+    "currency": "USD",
+    "start": "2027-02-01",
+    "end": "2030-01-31",
+    "program": "Org Interaction & Ecology",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2620838"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 838435,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "scott-nuismer-university-of-idaho",
+  "name": "Scott Nuismer",
+  "institution": "University of Idaho",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Infectious Disease & One Health",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2527135",
+    "title": "Collaborative Research: eMB: The immunological signature of a changing world: mathematical models to infer historical patterns of infectious disease",
+    "amount": 224888.0,
+    "currency": "USD",
+    "start": "2025-09-15",
+    "end": "2028-08-31",
+    "program": "MATHEMATICAL BIOLOGY",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2527135"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 224888,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "teri-odom-northwestern-university",
+  "name": "Teri Odom",
+  "institution": "Northwestern University",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Engineering",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2603587",
+    "title": "Designing Functional and Active Substrates based on Nanoscale Heterostructures",
+    "amount": 560000.0,
+    "currency": "USD",
+    "start": "2027-01-15",
+    "end": "2029-12-31",
+    "program": "Macromolec/Supramolec/Nano",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2603587"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 560000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "francois-ribalet-university-of-washington",
+  "name": "François Ribalet",
+  "institution": "University of Washington",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2530448",
+    "title": "Collaborative Research: CAIG: Using statistical neural networks",
+    "amount": 554004.0,
+    "currency": "USD",
+    "start": "2025-10-01",
+    "end": "2028-09-30",
+    "program": "GEO CI - GEO Cyberinfrastructure",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2530448"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 554004,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "ren-wang-illinois-institute-of-technology",
+  "name": "Ren Wang",
+  "institution": "Illinois Institute of Technology",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Engineering",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2625502",
+    "title": "Collaborative Research: CCSS: Semantic-Aware Collaborative Perception and Networking for Autonomous Urban Mobility",
+    "amount": 200000.0,
+    "currency": "USD",
+    "start": "2027-04-01",
+    "end": "2030-03-31",
+    "program": "Circuits and Systems",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625502"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 200000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "robin-warne-university-of-illinois-at-urbana-champaign",
+  "name": "Robin Warne",
+  "institution": "University of Illinois at Urbana-Champaign",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2620839",
+    "title": "Collaborative Research: Linking gut microbiota to host nutrient dynamics, physiological performance, and survival in a resource-limited ecosystem",
+    "amount": 434617.0,
+    "currency": "USD",
+    "start": "2027-02-01",
+    "end": "2030-01-31",
+    "program": "Org Interaction & Ecology",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2620839"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 434617,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "yanfang-ye-university-of-notre-dame",
+  "name": "Yanfang Ye",
+  "institution": "University of Notre Dame",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2533550",
+    "title": "Collaborative Research: III: Small: Data-driven and AI-powered Innovations",
+    "amount": 320000.0,
+    "currency": "USD",
+    "start": "2025-11-01",
+    "end": "2028-10-31",
+    "program": "Info Integration & Informatics",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2533550"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 320000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "justin-yeakel-university-of-california-merced",
+  "name": "Justin Yeakel",
+  "institution": "University of California - Merced",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2620840",
+    "title": "Collaborative Research: Linking gut microbiota to host nutrient dynamics, physiological performance, and survival in a resource-limited ecosystem",
+    "amount": 335945.0,
+    "currency": "USD",
+    "start": "2027-02-01",
+    "end": "2030-01-31",
+    "program": "Org Interaction & Ecology",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2620840"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 335945,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "huixin-zhan-new-mexico-institute-of-mining-and-technology",
+  "name": "Huixin Zhan",
+  "institution": "New Mexico Institute of Mining and Technology",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Ageing & Palliative Care",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2624584",
+    "title": "EPSCoR Research Fellows: NSF: A Genotype-Forward Framework for Mechanistic Penetrance Estimation in Alzheimer's Disease",
+    "amount": 300000.0,
+    "currency": "USD",
+    "start": "2027-02-01",
+    "end": "2029-01-31",
+    "program": "EPSCoR RII: EPSCoR Research Fellows",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2624584"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 300000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "mu-zhang-university-of-utah",
+  "name": "Mu Zhang",
+  "institution": "University of Utah",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2530911",
+    "title": "CICI:TCR:Software Supply Chain Security in High-Performance Computing",
+    "amount": 1199875.0,
+    "currency": "USD",
+    "start": "2026-01-01",
+    "end": "2028-12-31",
+    "program": "Cybersecurity Innovation",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2530911"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 1199875,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "chuxu-zhang-university-of-connecticut",
+  "name": "Chuxu Zhang",
+  "institution": "University of Connecticut",
+  "city": "",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2533551",
+    "title": "Collaborative Research: III: Small: Data-driven and AI-powered Innovations",
+    "amount": 180000.0,
+    "currency": "USD",
+    "start": "2025-11-01",
+    "end": "2028-10-31",
+    "program": "Info Integration & Informatics",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2533551"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 180000,
+  "first_seen": "2026-09-27"
+ }
+]

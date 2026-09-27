@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Find PhD and Master's supervisors who are recruiting, open funded positions, and scholarships — updated daily from official sources.">
+<meta name="theme-color" content="#2F6B4F">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<!--APP-START-->
+<title>PhD Mentor Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap">
+<style>
+:root{
+  --bg:#F5F7F4; --surface:#FFFFFF; --surface-2:#EDF1EC; --line:#D5DDD6;
+  --ink:#16231C; --ink-2:#4A5A50; --ink-3:#6C7B71;
+  --accent:#2F6B4F; --accent-ink:#FFFFFF; --accent-soft:#E0EEE6;
+  --hire:#1E7A4C; --hire-soft:#DCF1E4;
+  --train:#2A5C8F; --train-soft:#E1ECF7;
+  --grant:#5D6B63; --grant-soft:#E7ECE8;
+  --soon:#9A5B00; --soon-soft:#FCEBCB;
+  --shadow:0 1px 2px rgba(22,35,28,.06),0 4px 16px rgba(22,35,28,.05);
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --sans:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0F1512; --surface:#161E1A; --surface-2:#1C2621; --line:#2B3831;
+  --ink:#E4EBE6; --ink-2:#B1BFB6; --ink-3:#8A998F;
+  --accent:#7CC6A0; --accent-ink:#0F1512; --accent-soft:#1E3429;
+  --hire:#7CD3A2; --hire-soft:#183526; --train:#8CB8E6; --train-soft:#1A2B3D;
+  --grant:#A9B7AE; --grant-soft:#232E28; --soon:#F0B458; --soon-soft:#3A2A10;
+  --shadow:none; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#0F1512; --surface:#161E1A; --surface-2:#1C2621; --line:#2B3831;
+  --ink:#E4EBE6; --ink-2:#B1BFB6; --ink-3:#8A998F;
+  --accent:#7CC6A0; --accent-ink:#0F1512; --accent-soft:#1E3429;
+  --hire:#7CD3A2; --hire-soft:#183526; --train:#8CB8E6; --train-soft:#1A2B3D;
+  --grant:#A9B7AE; --grant-soft:#232E28; --soon:#F0B458; --soon-soft:#3A2A10;
+  --shadow:none; color-scheme:dark;}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{margin:0;color:var(--ink);font:16px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:20px}
+@media (max-width:480px){.wrap{padding-inline:16px}}
+
+/* header */
+header.top{background:var(--surface);border-bottom:1px solid var(--line)}
+.top-row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
+.brand svg{flex:none}
+.brand b{font:700 1.3rem/1 var(--serif);letter-spacing:-.01em}
+.updated{font-size:.82rem;color:var(--ink-3)}
+.updated strong{color:var(--ink-2);font-weight:600}
+.hero{padding-block:22px 6px}
+.hero h1{font:600 clamp(1.5rem,3.2vw,2.2rem)/1.2 var(--serif);margin:0 0 6px;text-wrap:balance;max-width:40ch}
+.hero p{margin:0;color:var(--ink-2);max-width:66ch}
+.search{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+.search .field{flex:1 1 320px;position:relative}
+.search input{width:100%;padding:13px 14px 13px 44px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);font-size:1rem}
+.search input:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 3px var(--accent-soft)}
+.search .field svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--ink-3)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 16px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);cursor:pointer;font-weight:600;font-size:.95rem;text-decoration:none;color:var(--ink)}
+.btn:hover{border-color:var(--ink-3)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.small{padding:7px 11px;font-size:.85rem;border-radius:8px}
+.only-mobile{display:none}
+@media (max-width:900px){.only-mobile{display:inline-flex}}
+
+/* tabs */
+.tabs{display:flex;gap:4px;margin-top:18px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
+.tab{appearance:none;border:0;background:none;padding:12px 14px;font-weight:600;color:var(--ink-2);cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap;display:flex;gap:8px;align-items:center}
+.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.tab .n{font-size:.78rem;font-weight:600;background:var(--surface-2);color:var(--ink-2);border-radius:999px;padding:1px 8px;font-variant-numeric:tabular-nums}
+
+/* layout */
+.layout{display:grid;grid-template-columns:260px 1fr;gap:28px;padding-block:22px 60px;align-items:start}
+@media (max-width:900px){.layout{grid-template-columns:1fr}}
+aside.filters{position:sticky;top:12px;display:flex;flex-direction:column;gap:18px}
+@media (max-width:900px){
+  aside.filters{position:fixed;inset:0;z-index:40;background:var(--bg);padding:20px 16px calc(90px + env(safe-area-inset-bottom,0px));overflow:auto;display:none}
+  aside.filters.open{display:flex}
+}
+.fgroup{display:flex;flex-direction:column;gap:6px}
+.fgroup > label,.fgroup > .lbl{font-size:.74rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3)}
+.fgroup select{padding:10px 12px;border:1.5px solid var(--line);border-radius:9px;background:var(--surface);width:100%}
+.check{display:flex;gap:10px;align-items:flex-start;font-size:.93rem;cursor:pointer;padding:3px 0}
+.check input{width:18px;height:18px;margin-top:3px;accent-color:var(--accent);flex:none}
+.filters-head{display:flex;justify-content:space-between;align-items:center}
+.filters-head h2{font:600 1.1rem var(--serif);margin:0}
+.linkbtn{background:none;border:0;color:var(--accent);font-weight:600;cursor:pointer;padding:4px}
+.mobile-apply{display:none}
+@media (max-width:900px){.mobile-apply{display:flex;position:fixed;left:0;right:0;bottom:0;padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));background:var(--surface);border-top:1px solid var(--line)}.mobile-apply .btn{flex:1;justify-content:center}}
+
+/* results */
+.results-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.results-head p{margin:0;color:var(--ink-2);font-size:.95rem}
+.results-head select{padding:8px 10px;border:1.5px solid var(--line);border-radius:8px;background:var(--surface)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.82rem;color:var(--ink-2);margin:-2px 0 14px}
+.list{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;grid-template-columns:1fr auto;gap:6px 16px;box-shadow:var(--shadow)}
+.card h3{font:600 1.12rem/1.3 var(--serif);margin:0;grid-column:1}
+.card h3 button{all:unset;cursor:pointer}
+.card h3 button:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.card h3 button:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:4px}
+.card .sub{grid-column:1;color:var(--ink-2);font-size:.93rem}
+.card .side{grid-column:2;grid-row:1 / span 2;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.card .meta{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:6px 8px;margin-top:6px;align-items:center}
+.card .desc{grid-column:1 / -1;color:var(--ink-2);font-size:.92rem;margin:2px 0 0}
+@media (max-width:560px){.card{grid-template-columns:1fr}.card .side{grid-column:1;grid-row:auto;flex-direction:row;align-items:center;justify-content:space-between}}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--surface-2);color:var(--ink-2);white-space:nowrap}
+.chip.hire{background:var(--hire-soft);color:var(--hire)}
+.chip.train{background:var(--train-soft);color:var(--train)}
+.chip.gr{background:var(--grant-soft);color:var(--grant)}
+.chip.soon{background:var(--soon-soft);color:var(--soon)}
+.chip.ok{background:var(--accent-soft);color:var(--accent)}
+.chip .dot{width:7px;height:7px;border-radius:50%;background:currentColor}
+.tag{font-size:.8rem;color:var(--ink-3)}
+.money{font-weight:700;font-variant-numeric:tabular-nums;font-size:.95rem;color:var(--ink)}
+.star{appearance:none;border:1.5px solid var(--line);background:var(--surface);border-radius:8px;width:38px;height:38px;cursor:pointer;display:grid;place-items:center;color:var(--ink-3)}
+.star[aria-pressed="true"]{color:var(--soon);border-color:var(--soon);background:var(--soon-soft)}
+.empty{padding:40px 20px;text-align:center;color:var(--ink-2);border:1.5px dashed var(--line);border-radius:12px}
+.more{display:flex;justify-content:center;margin-top:16px}
+
+/* detail drawer */
+.scrim{position:fixed;inset:0;background:rgba(10,16,13,.45);z-index:50}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(560px,100%);background:var(--surface);z-index:51;overflow:auto;padding:calc(20px + env(safe-area-inset-top,0px)) 22px calc(30px + env(safe-area-inset-bottom,0px));box-shadow:-8px 0 30px rgba(0,0,0,.15)}
+.drawer h2{font:600 1.5rem/1.25 var(--serif);margin:6px 0 4px;text-wrap:balance}
+.drawer h4{font-size:.74rem;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);margin:22px 0 8px}
+.drawer .close{float:right}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:.93rem}
+.kv dt{color:var(--ink-3)}
+.kv dd{margin:0}
+.grant{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px}
+.grant b{display:block;font-weight:600}
+.grant .row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:.86rem;color:var(--ink-2);margin-top:6px}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.note{font-size:.86rem;color:var(--ink-2);background:var(--surface-2);border-radius:10px;padding:12px 14px}
+
+/* about */
+.about{border-top:1px solid var(--line);padding-block:30px 50px;color:var(--ink-2);font-size:.93rem}
+.about h2{font:600 1.2rem var(--serif);color:var(--ink);margin:0 0 10px}
+.about .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.about h3{font-size:.95rem;color:var(--ink);margin:0 0 6px}
+.src-table{width:100%;border-collapse:collapse;font-size:.85rem}
+.src-table td{padding:5px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.src-table td:last-child{text-align:right;color:var(--ink-3);padding-left:10px}
+@media (prefers-reduced-motion:no-preference){.drawer{animation:slide .22s ease-out}@keyframes slide{from{transform:translateX(24px);opacity:.6}}}
+</style>
+<!--APP-HEAD-END-->
+</head>
+<body>
+<!--APP-BODY-START-->
+<header class="top">
+  <div class="wrap top-row">
+    <a class="brand" href="#" aria-label="PhD Mentor Finder home">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><path d="M6 13l10-5 10 5-10 5z" fill="var(--accent-ink)"/><path d="M10 15.5v5c0 1.6 2.7 3 6 3s6-1.4 6-3v-5l-6 3z" fill="var(--accent-ink)" opacity=".75"/></svg>
+      <b>PhD Mentor Finder</b>
+    </a>
+    <span class="updated" id="updated">Loading data…</span>
+  </div>
+</header>
+
+<main>
+  <section class="wrap hero">
+    <h1>Find a supervisor who is taking students, and the money to pay for it</h1>
+    <p>Supervisors with open positions or active grants, funded PhD and Master's places, and scholarships, collected from official university, job-board and funding-agency sources.</p>
+    <form class="search" id="searchForm" role="search">
+      <div class="field">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <label for="q" class="sr" hidden>Search</label>
+        <input id="q" type="search" aria-label="Search supervisors, positions and scholarships" placeholder="Topic, supervisor, university… e.g. dementia, machine learning, Karolinska" autocomplete="off">
+      </div>
+      <button type="button" class="btn only-mobile" id="openFilters">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+        Filters <span id="fcount"></span>
+      </button>
+    </form>
+    <nav class="tabs" role="tablist" aria-label="What to browse">
+      <button class="tab" role="tab" id="tab-mentors" data-tab="mentors" aria-selected="true">Supervisors <span class="n" id="n-mentors">–</span></button>
+      <button class="tab" role="tab" id="tab-positions" data-tab="positions" aria-selected="false">Open positions <span class="n" id="n-positions">–</span></button>
+      <button class="tab" role="tab" id="tab-funding" data-tab="funding" aria-selected="false">Scholarships &amp; funding <span class="n" id="n-funding">–</span></button>
+      <button class="tab" role="tab" id="tab-saved" data-tab="saved" aria-selected="false">Saved <span class="n" id="n-saved">0</span></button>
+    </nav>
+  </section>
+
+  <div class="wrap layout">
+    <aside class="filters" id="filters" aria-label="Filters">
+      <div class="filters-head"><h2>Filters</h2><button class="linkbtn" id="reset" type="button">Clear all</button></div>
+      <div class="fgroup"><label for="f-region">Region</label><select id="f-region"><option value="">All regions</option></select></div>
+      <div class="fgroup"><label for="f-country">Country</label><select id="f-country"><option value="">All countries</option></select></div>
+      <div class="fgroup"><label for="f-subject">Subject area</label><select id="f-subject"><option value="">All subjects</option></select></div>
+      <div class="fgroup" data-for="positions funding"><label for="f-degree">Degree</label>
+        <select id="f-degree"><option value="">PhD and Master's</option><option value="PhD">PhD</option><option value="Masters">Master's</option></select></div>
+      <div class="fgroup" data-for="positions funding"><label for="f-year">Start year (intake)</label><select id="f-year"><option value="">Any year</option></select></div>
+      <div class="fgroup" data-for="positions funding"><label for="f-deadline">Deadline</label>
+        <select id="f-deadline"><option value="">Any deadline</option><option value="21">Within 3 weeks</option><option value="60">Within 2 months</option><option value="later">More than 3 weeks away</option></select></div>
+      <div class="fgroup" data-for="mentors"><span class="lbl">How we know they're recruiting</span>
+        <label class="check"><input type="checkbox" id="s-open" checked> <span><b>Advertising a position now</b><br><span class="tag">Strongest signal</span></span></label>
+        <label class="check"><input type="checkbox" id="s-train" checked> <span><b>Grant that funds grad students</b><br><span class="tag">Training grants, graduate fellowships</span></span></label>
+        <label class="check"><input type="checkbox" id="s-grant" checked> <span><b>Active research grant</b><br><span class="tag">May take students — ask first</span></span></label>
+      </div>
+      <div class="fgroup"><span class="lbl">Other</span>
+        <label class="check" data-for="positions"><input type="checkbox" id="f-funded"> <span>Funded places only</span></label>
+        <label class="check" data-for="funding"><input type="checkbox" id="f-verified"> <span>Details confirmed on official site</span></label>
+        <label class="check"><input type="checkbox" id="f-new"> <span>New in the last 7 days</span></label>
+      </div>
+      <div class="mobile-apply"><button class="btn primary" type="button" id="closeFilters">Show results</button></div>
+    </aside>
+
+    <section aria-live="polite">
+      <div class="results-head">
+        <p id="summary">Loading…</p>
+        <label>
+          <span class="tag">Sort by</span>
+          <select id="sort" aria-label="Sort results"></select>
+        </label>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div class="list" id="list"></div>
+      <div class="more"><button class="btn" id="more" hidden>Show more</button></div>
+    </section>
+  </div>
+
+  <section class="wrap about" id="about">
+    <div class="cols">
+      <div>
+        <h2>Where this comes from</h2>
+        <p>Every record links to its original source. Grants come from funding-agency databases (NSF, NIH RePORTER, UKRI). Positions come from university pages and academic job boards. Research profiles come from OpenAlex. We never copy personal email addresses; contact supervisors through their university page.</p>
+        <p>Scholarship amounts and deadlines change every year. Always confirm on the official page before you apply.</p>
+        <p><a href="privacy.html">Privacy policy</a></p>
+      </div>
+      <div>
+        <h3>What the supervisor labels mean</h3>
+        <p><span class="chip hire"><span class="dot"></span>Hiring now</span> The supervisor is named on a currently open, advertised position.</p>
+        <p><span class="chip train"><span class="dot"></span>Funds students</span> They lead a grant whose purpose is paying graduate students or trainees.</p>
+        <p><span class="chip gr"><span class="dot"></span>Active grant</span> They hold a current research grant. Many such labs take students, but it is not guaranteed.</p>
+      </div>
+      <div>
+        <h3>Source status</h3>
+        <table class="src-table" id="sources"></table>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="scrim" id="scrim" hidden></div>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="d-title" hidden></div>
+
+<script>
+(() => {
+  const $ = s => document.querySelector(s);
+  const state = { tab: "mentors", data: { mentors: [], positions: [], funding: [] }, meta: {}, shown: 25, saved: loadSaved() };
+  const PAGE = 25;
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const fmtUSD = n => n ? "$" + Math.round(n).toLocaleString("en-US") : "";
+  const fmtMoney = (n, c) => n ? new Intl.NumberFormat("en", { style: "currency", currency: c || "USD", maximumFractionDigits: 0 }).format(n) : "";
+  const fmtDate = d => { if (!d || !/^\d{4}-\d{2}-\d{2}/.test(d)) return d || ""; const x = new Date(d + "T00:00:00"); return x.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); };
+  const daysSince = d => d ? Math.floor((Date.now() - new Date(d + "T00:00:00")) / 864e5) : 999;
+
+  function loadSaved() { try { return new Set(JSON.parse(localStorage.getItem("pmf-saved") || "[]")); } catch { return new Set(); } }
+  function persistSaved() { try { localStorage.setItem("pmf-saved", JSON.stringify([...state.saved])); } catch {} $("#n-saved").textContent = state.saved.size; }
+
+  const SORTS = {
+    mentors: [["signal", "Strongest recruiting signal"], ["funding", "Most active funding"], ["name", "Name A–Z"]],
+    positions: [["deadline", "Deadline (soonest first)"], ["stipend", "Highest stipend (approx.)"], ["new", "Newest first"]],
+    funding: [["deadline", "Deadline (soonest first)"], ["name", "Name A–Z"]],
+    saved: [["name", "Name A–Z"]]
+  };
+  const RANK = { open_position: 3, training_grant: 2, research_grant: 1 };
+
+  async function load() {
+    try {
+      const get = f => fetch("data/" + f + ".json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(f); return r.json(); });
+      const [m, p, f, meta] = await Promise.all([get("mentors"), get("positions"), get("funding"), get("meta")]);
+      state.data = { mentors: m, positions: p, funding: f }; state.meta = meta;
+    } catch (e) {
+      $("#summary").textContent = "The data could not be loaded. Refresh the page to try again.";
+      return;
+    }
+    fillFacets(); readHash(); render();
+  }
+
+  function fillFacets() {
+    const { mentors, positions, funding } = state.data;
+    const all = [...mentors, ...positions];
+    const opts = (sel, vals) => { const el = $(sel); vals.forEach(v => el.add(new Option(v, v))); };
+    opts("#f-region", [...new Set([...all.map(r => r.region), ...funding.map(r => r.region)].filter(Boolean))].sort());
+    opts("#f-country", [...new Set([...all.map(r => r.country), ...funding.map(r => r.host_country)].filter(Boolean))].sort());
+    opts("#f-subject", [...new Set(all.map(r => r.subject_area).filter(s => s && s !== "Other"))].sort());
+    opts("#f-year", [...new Set([...positions.map(r => r.intake_year), ...funding.map(r => r.intake_year)].filter(Boolean))].sort());
+    $("#n-mentors").textContent = mentors.length;
+    $("#n-positions").textContent = positions.length;
+    $("#n-funding").textContent = funding.length;
+    $("#n-saved").textContent = state.saved.size;
+    const meta = state.meta;
+    $("#updated").innerHTML = `Updated <strong>${esc(meta.generated_at || "")}</strong>` + (meta.offline ? " · sample snapshot" : "");
+    const src = meta.source_status || {};
+    $("#sources").innerHTML = Object.entries(src).map(([k, v]) => `<tr><td>${esc(k.replace(/_/g, " "))}</td><td>${esc(v)}</td></tr>`).join("");
+  }
+
+  const val = id => $(id).value;
+  const on = id => $(id).checked;
+
+  function matchesQuery(text) {
+    const q = val("#q").trim().toLowerCase();
+    if (!q) return true;
+    return q.split(/\s+/).every(w => text.includes(w));
+  }
+
+  function deadlineOk(r) {
+    const d = val("#f-deadline"); if (!d) return true;
+    const days = r.days_left;
+    if (d === "later") return days == null || days > 21;
+    return days != null && days <= +d;
+  }
+
+  function filtered() {
+    const tab = state.tab, region = val("#f-region"), country = val("#f-country"), subject = val("#f-subject"),
+      degree = val("#f-degree"), year = val("#f-year"), fresh = on("#f-new");
+    if (tab === "mentors") {
+      const sig = { open_position: on("#s-open"), training_grant: on("#s-train"), research_grant: on("#s-grant") };
+      return state.data.mentors.filter(m => sig[m.signal]
+        && (!region || m.region === region) && (!country || m.country === country) && (!subject || m.subject_area === subject)
+        && (!fresh || daysSince(m.first_seen) <= 7)
+        && matchesQuery([m.name, m.institution, m.country, m.subject_area, ...(m.topics || []), ...m.grants.map(g => g.title)].join(" ").toLowerCase()));
+    }
+    if (tab === "positions") {
+      return state.data.positions.filter(p => (!region || p.region === region) && (!country || p.country === country)
+        && (!subject || p.subject_area === subject) && (!degree || (p.degree || "").includes(degree))
+        && (!year || String(p.intake_year) === year) && (!on("#f-funded") || p.funded) && deadlineOk(p)
+        && (!fresh || daysSince(p.first_seen) <= 7)
+        && matchesQuery([p.title, p.supervisor, p.university, p.city, p.country, p.subject_area].join(" ").toLowerCase()));
+    }
+    if (tab === "funding") {
+      return state.data.funding.filter(f => (!region || f.region === region || f.region === "Multiple")
+        && (!country || f.host_country === country || f.host_country.startsWith("Multiple"))
+        && (!degree || f.degree_levels.includes(degree)) && (!year || String(f.intake_year) === year)
+        && (!on("#f-verified") || f.verified) && deadlineOk(f)
+        && matchesQuery([f.name, f.provider, f.host_country, f.subjects, f.eligible].join(" ").toLowerCase()));
+    }
+    const all = [...state.data.mentors.map(x => ({ ...x, _t: "mentors" })), ...state.data.positions.map(x => ({ ...x, _t: "positions" })), ...state.data.funding.map(x => ({ ...x, _t: "funding" }))];
+    return all.filter(x => state.saved.has(x._t + ":" + x.id));
+  }
+
+  function sorted(rows) {
+    const s = val("#sort"), tab = state.tab;
+    const by = f => rows.sort(f);
+    if (s === "name") return by((a, b) => (a.name || a.title).localeCompare(b.name || b.title));
+    if (tab === "mentors") {
+      if (s === "funding") return by((a, b) => (b.total_active_funding_usd || 0) - (a.total_active_funding_usd || 0));
+      return by((a, b) => RANK[b.signal] - RANK[a.signal] || (b.total_active_funding_usd || 0) - (a.total_active_funding_usd || 0));
+    }
+    if (s === "stipend") return by((a, b) => (b.annual_usd_approx || 0) - (a.annual_usd_approx || 0));
+    if (s === "new") return by((a, b) => (b.first_seen || "").localeCompare(a.first_seen || ""));
+    return by((a, b) => (a.days_left ?? 9999) - (b.days_left ?? 9999));
+  }
+
+  const STAR = `<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8L3.5 9.7l5.9-.8z"/></svg>`;
+  const starBtn = (key, label) => `<button class="star" data-save="${esc(key)}" aria-pressed="${state.saved.has(key)}" aria-label="Save ${esc(label)}" title="Save">${STAR}</button>`;
+  const SIG = { open_position: ["hire", "Hiring now"], training_grant: ["train", "Funds students"], research_grant: ["gr", "Active grant"] };
+
+  function deadlineChip(r) {
+    if (r.deadline_status === "soon") return `<span class="chip soon"><span class="dot"></span>Closes ${esc(fmtDate(r.deadline))} · ${r.days_left} days</span>`;
+    if (r.deadline && /^\d{4}/.test(r.deadline)) return `<span class="chip">Deadline ${esc(fmtDate(r.deadline))}</span>`;
+    if (r.deadline) return `<span class="chip">${esc(r.deadline)}</span>`;
+    return r.deadline_text ? `<span class="chip">${esc(r.deadline_text)}</span>` : "";
+  }
+
+  function mentorCard(m) {
+    const [cls, lab] = SIG[m.signal];
+    const top = m.grants.slice().sort((a, b) => b.amount - a.amount)[0];
+    const loc = [m.institution, m.city, m.country].filter(Boolean).join(", ");
+    const metr = m.metrics ? `<span class="tag">${m.metrics.works ?? "–"} papers · h-index ${m.metrics.h_index ?? "–"}</span>` : "";
+    return `<article class="card">
+      <h3><button data-open="mentors:${esc(m.id)}">${esc(m.name)}</button></h3>
+      <div class="sub">${esc(loc)}</div>
+      <div class="side">${starBtn("mentors:" + m.id, m.name)}${m.total_active_funding_usd ? `<span class="money">${fmtUSD(m.total_active_funding_usd)}</span>` : ""}</div>
+      ${top ? `<p class="desc">${esc(top.title)}</p>` : m.positions.length ? `<p class="desc">${esc(posTitle(m.positions[0]))}</p>` : ""}
+      <div class="meta"><span class="chip ${cls}"><span class="dot"></span>${lab}</span><span class="chip">${esc(m.subject_area)}</span>${m.positions.length > 1 ? `<span class="tag">${m.positions.length} open positions</span>` : ""}${metr}</div>
+    </article>`;
+  }
+  const posTitle = id => (state.data.positions.find(p => p.id === id) || {}).title || "";
+
+  function positionCard(p) {
+    const loc = [p.university, p.city, p.country].filter(Boolean).join(", ");
+    return `<article class="card">
+      <h3><button data-open="positions:${esc(p.id)}">${esc(p.title)}</button></h3>
+      <div class="sub">${esc(loc)}${p.supervisor ? ` · Supervisor: ${esc(p.supervisor.replace(/\s*\(.*?\)/g, ""))}` : ""}</div>
+      <div class="side">${starBtn("positions:" + p.id, p.title)}${p.annual_usd_approx ? `<span class="money" title="Approximate, converted to US dollars">≈ ${fmtUSD(p.annual_usd_approx)}/yr</span>` : ""}</div>
+      <div class="meta">${deadlineChip(p)}<span class="chip">${esc(p.degree)}</span>${p.funded ? `<span class="chip ok">Funded</span>` : ""}<span class="chip">${esc(p.subject_area)}</span>${p.intake_year ? `<span class="tag">Starts ${p.intake_year}</span>` : ""}<span class="tag">via ${esc(p.source_name)}</span></div>
+    </article>`;
+  }
+
+  function fundingCard(f) {
+    return `<article class="card">
+      <h3><button data-open="funding:${esc(f.id)}">${esc(f.name)}</button></h3>
+      <div class="sub">${esc(f.host_country)} · ${esc(f.provider)}</div>
+      <div class="side">${starBtn("funding:" + f.id, f.name)}</div>
+      <p class="desc">${esc(f.stipend_text || f.covers)}</p>
+      <div class="meta">${deadlineChip(f)}${f.degree_levels.map(d => `<span class="chip">${d === "Masters" ? "Master's" : d}</span>`).join("")}${f.verified ? `<span class="chip ok">Confirmed on official site</span>` : `<span class="tag">Check details on official site</span>`}</div>
+    </article>`;
+  }
+
+  function render() {
+    const tab = state.tab;
+    document.querySelectorAll("[data-for]").forEach(el => el.hidden = !el.dataset.for.split(" ").includes(tab));
+    const sortSel = $("#sort"), cur = sortSel.value;
+    sortSel.innerHTML = SORTS[tab].map(([v, l]) => `<option value="${v}">${l}</option>`).join("");
+    if (SORTS[tab].some(([v]) => v === cur)) sortSel.value = cur;
+    const rows = sorted(filtered());
+    const shown = rows.slice(0, state.shown);
+    const noun = { mentors: "supervisors", positions: "open positions", funding: "scholarships", saved: "saved items" }[tab];
+    $("#summary").innerHTML = `<b>${rows.length}</b> ${noun}` + (rows.length > shown.length ? ` · showing ${shown.length}` : "");
+    $("#legend").innerHTML = tab === "mentors" ? `<span><span class="chip hire"><span class="dot"></span>Hiring now</span> open advert</span><span><span class="chip train"><span class="dot"></span>Funds students</span> training grant</span><span><span class="chip gr"><span class="dot"></span>Active grant</span> ask first</span>` : "";
+    const card = r => (r._t || tab) === "mentors" ? mentorCard(r) : (r._t || tab) === "positions" ? positionCard(r) : fundingCard(r);
+    $("#list").innerHTML = shown.length ? shown.map(card).join("") : `<div class="empty">${tab === "saved" ? "Nothing saved yet. Tap the star on any supervisor, position or scholarship to keep it here." : "No matches. Try a broader search or clear some filters."}</div>`;
+    $("#more").hidden = rows.length <= shown.length;
+    const n = activeFilterCount(); $("#fcount").textContent = n ? `(${n})` : "";
+  }
+
+  function activeFilterCount() {
+    return ["#f-region", "#f-country", "#f-subject", "#f-degree", "#f-year", "#f-deadline"].filter(s => val(s)).length
+      + ["#f-funded", "#f-verified", "#f-new"].filter(on).length + ["#s-open", "#s-train", "#s-grant"].filter(s => !on(s)).length;
+  }
+
+  function openDetail(key) {
+    const [t, id] = key.split(/:(.+)/);
+    const r = state.data[t].find(x => x.id === id); if (!r) return;
+    let html = `<button class="btn small close" id="d-close" type="button">Close</button>`;
+    if (t === "mentors") {
+      const [cls, lab] = SIG[r.signal];
+      const q = encodeURIComponent(`${r.name} ${r.institution}`);
+      html += `<span class="chip ${cls}"><span class="dot"></span>${lab}</span>
+        <h2 id="d-title">${esc(r.name)}</h2><div class="sub">${esc([r.institution, r.city, r.country].filter(Boolean).join(", "))}</div>
+        <p class="tag">${esc(r.signal_label)}</p>`;
+      if (r.topics?.length) html += `<h4>Research topics</h4><div class="links">${r.topics.map(x => `<span class="chip">${esc(x)}</span>`).join("")}</div>`;
+      if (r.metrics) html += `<h4>Research profile</h4><dl class="kv"><dt>Publications</dt><dd>${r.metrics.works ?? "–"}</dd><dt>Citations</dt><dd>${(r.metrics.citations ?? 0).toLocaleString()}</dd><dt>h-index</dt><dd>${r.metrics.h_index ?? "–"}</dd></dl>`;
+      if (r.positions.length) html += `<h4>Open positions</h4>` + r.positions.map(pid => { const p = state.data.positions.find(x => x.id === pid); return p ? `<div class="grant"><b>${esc(p.title)}</b><div class="row"><span>${esc(p.funding_text || "Funding details on listing")}</span><span>${p.deadline ? "Deadline " + esc(fmtDate(p.deadline)) : ""}</span></div><div class="row"><a href="${esc(p.url)}" target="_blank" rel="noopener">Open the advert ↗</a></div></div>` : ""; }).join("");
+      if (r.grants.length) html += `<h4>Active grants</h4>` + r.grants.map(g => `<div class="grant"><b>${esc(g.title)}</b><div class="row"><span>${esc(g.agency)} · ${esc(g.program)}</span><span class="money">${fmtMoney(g.amount, g.currency)}</span></div><div class="row"><span>${esc(fmtDate(g.start))} → ${esc(fmtDate(g.end))}</span><a href="${esc(g.url)}" target="_blank" rel="noopener">Grant record ↗</a></div></div>`).join("");
+      html += `<h4>Find and contact</h4><div class="links">
+        <a class="btn small" href="https://www.google.com/search?q=${q}+faculty+profile" target="_blank" rel="noopener">University profile ↗</a>
+        <a class="btn small" href="https://scholar.google.com/scholar?q=author:%22${encodeURIComponent(r.name)}%22" target="_blank" rel="noopener">Google Scholar ↗</a>
+        ${r.metrics?.orcid ? `<a class="btn small" href="${esc(r.metrics.orcid)}" target="_blank" rel="noopener">ORCID ↗</a>` : ""}
+        ${r.metrics?.openalex ? `<a class="btn small" href="${esc(r.metrics.openalex.replace("https://openalex.org/", "https://openalex.org/authors/"))}" target="_blank" rel="noopener">OpenAlex ↗</a>` : ""}</div>
+        <p class="note" style="margin-top:14px">Before emailing, read two or three of their recent papers and mention one specifically. Ask whether they expect to take a student for your intake, and attach a one-page CV.</p>`;
+    } else if (t === "positions") {
+      html += `${deadlineChip(r)}<h2 id="d-title">${esc(r.title)}</h2><div class="sub">${esc([r.university, r.city, r.country].filter(Boolean).join(", "))}</div>
+        <dl class="kv" style="margin-top:16px">
+          <dt>Supervisor</dt><dd>${esc(r.supervisor || "Not named in the advert")}</dd>
+          <dt>Degree</dt><dd>${esc(r.degree)}</dd><dt>Subject</dt><dd>${esc(r.subject_area)}</dd>
+          <dt>Funding</dt><dd>${esc(r.funding_text || (r.funded ? "Funded — see advert" : "Not stated"))}${r.annual_usd_approx ? `<br><span class="tag">≈ ${fmtUSD(r.annual_usd_approx)} a year in US dollars</span>` : ""}</dd>
+          <dt>Duration</dt><dd>${r.duration_years ? esc(r.duration_years) + " years" : "Not stated"}</dd>
+          <dt>Starts</dt><dd>${esc(r.start_text || "Not stated")}</dd>
+          <dt>Deadline</dt><dd>${esc(fmtDate(r.deadline) || "Not stated")}</dd>
+          <dt>Source</dt><dd>${esc(r.source_name)}${r.verified ? " · details confirmed" : ""}</dd></dl>
+        <div class="links" style="margin-top:18px"><a class="btn primary" href="${esc(r.url)}" target="_blank" rel="noopener">Open the advert and apply ↗</a></div>
+        <p class="note" style="margin-top:14px">Eligibility (for example Home-fee-only places in the UK) is set by the advert. Check it before you apply.</p>`;
+    } else {
+      html += `${deadlineChip(r)}<h2 id="d-title">${esc(r.name)}</h2><div class="sub">${esc(r.provider)}</div>
+        <dl class="kv" style="margin-top:16px">
+          <dt>Study in</dt><dd>${esc(r.host_country)}</dd><dt>Levels</dt><dd>${esc(r.degree_levels.join(", "))}</dd>
+          <dt>Subjects</dt><dd>${esc(r.subjects)}</dd><dt>Who can apply</dt><dd>${esc(r.eligible)}</dd>
+          <dt>What it covers</dt><dd>${esc(r.covers)}</dd><dt>Amount</dt><dd>${esc(r.stipend_text || "See official site")}</dd>
+          <dt>Duration</dt><dd>${esc(r.duration_years)}${typeof r.duration_years === "number" ? " years" : ""}</dd>
+          <dt>Deadline</dt><dd>${esc(r.deadline_text)}</dd><dt>Intake</dt><dd>${esc(r.intake)}</dd></dl>
+        <div class="links" style="margin-top:18px"><a class="btn primary" href="${esc(r.url)}" target="_blank" rel="noopener">Official page ↗</a></div>
+        <p class="note" style="margin-top:14px">${r.verified ? "Amounts and deadline were confirmed on the official page." : "Some details could not be confirmed on the official page. Check them there."}</p>`;
+    }
+    const d = $("#drawer"); d.innerHTML = html; d.hidden = false; $("#scrim").hidden = false;
+    $("#d-close").focus(); $("#d-close").onclick = closeDetail;
+  }
+  function closeDetail() { $("#drawer").hidden = true; $("#scrim").hidden = true; }
+
+  function setTab(t) {
+    state.tab = t; state.shown = PAGE;
+    document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === t));
+    try { history.replaceState(null, "", "#" + t); } catch {}
+    render();
+  }
+  function readHash() { const h = location.hash.slice(1); if (SORTS[h]) { state.tab = h; document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === h)); } }
+
+  document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => setTab(b.dataset.tab)));
+  $("#searchForm").addEventListener("submit", e => e.preventDefault());
+  let tmr; $("#q").addEventListener("input", () => { clearTimeout(tmr); tmr = setTimeout(() => { state.shown = PAGE; render(); }, 150); });
+  document.querySelectorAll("aside select, aside input, #sort").forEach(el => el.addEventListener("change", () => { state.shown = PAGE; render(); }));
+  $("#reset").addEventListener("click", () => {
+    document.querySelectorAll("aside select").forEach(s => s.value = "");
+    ["#f-funded", "#f-verified", "#f-new"].forEach(s => $(s).checked = false);
+    ["#s-open", "#s-train", "#s-grant"].forEach(s => $(s).checked = true);
+    render();
+  });
+  $("#more").addEventListener("click", () => { state.shown += PAGE; render(); });
+  $("#list").addEventListener("click", e => {
+    const s = e.target.closest("[data-save]");
+    if (s) { const k = s.dataset.save; state.saved.has(k) ? state.saved.delete(k) : state.saved.add(k); persistSaved(); if (state.tab === "saved") render(); else s.setAttribute("aria-pressed", state.saved.has(k)); return; }
+    const o = e.target.closest("[data-open]"); if (o) openDetail(o.dataset.open);
+  });
+  $("#scrim").addEventListener("click", closeDetail);
+  document.addEventListener("keydown", e => { if (e.key === "Escape") { closeDetail(); $("#filters").classList.remove("open"); } });
+  $("#openFilters").addEventListener("click", () => $("#filters").classList.add("open"));
+  $("#closeFilters").addEventListener("click", () => $("#filters").classList.remove("open"));
+  load();
+  if ("serviceWorker" in navigator && location.protocol === "https:") {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  }
+})();
+</script>
+<!--APP-BODY-END-->
+</body>
+</html>

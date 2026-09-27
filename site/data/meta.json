@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-09-27 02:45 UTC",
+ "counts": {
+  "positions": 36,
+  "mentors": 89,
+  "funding": 23,
+  "grants": 34
+ },
+ "source_status": {
+  "nsf": "ok (34 grants)",
+  "nih": "used last good copy (0) — no offline sample",
+  "ukri": "used last good copy (0) — no offline sample",
+  "curated_positions": "ok (36)"
+ },
+ "facets": {
+  "countries": [
+   "Australia",
+   "Belgium",
+   "Canada",
+   "Denmark",
+   "Finland",
+   "France",
+   "Germany",
+   "Netherlands",
+   "Norway",
+   "Sweden",
+   "Switzerland",
+   "United Kingdom",
+   "United States"
+  ],
+  "subjects": [
+   "Ageing & Palliative Care",
+   "Biomedical & Life Sciences",
+   "Computer Science & AI",
+   "Engineering",
+   "Environmental & Earth Sciences",
+   "Health Data Science & Digital Health",
+   "Infectious Disease & One Health",
+   "Physical Sciences & Mathematics",
+   "Public Health & Epidemiology",
+   "Social Sciences & Economics"
+  ],
+  "intake_years": [
+   2026,
+   2027,
+   2029
+  ]
+ },
+ "offline": true
+}
