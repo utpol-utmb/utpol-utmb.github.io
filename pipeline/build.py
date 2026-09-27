@@ -245,7 +245,10 @@ def build_funding(rates) -> list[dict]:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--offline", action="store_true")
+    ap.add_argument("--out", default=str(OUT), help="folder for the data files (default site/data)")
     args = ap.parse_args()
+    global OUT
+    OUT = pathlib.Path(args.out)
 
     cfg = yaml.safe_load((ROOT / "pipeline" / "config.yaml").read_text())
     http = Http(cfg.get("contact_email", "anonymous@example.com"))

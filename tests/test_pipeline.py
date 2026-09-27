@@ -51,10 +51,11 @@ def test_nih_normalize_shape():
     assert r["pi_name"] == "Jane Doe" and r["kind"] == "training" and r["end"] == "2029-06-30"
 
 
-def test_offline_build_runs():
-    res = subprocess.run([sys.executable, str(ROOT / "pipeline/build.py"), "--offline"], capture_output=True, text=True)
+def test_offline_build_runs(tmp_path):
+    res = subprocess.run([sys.executable, str(ROOT / "pipeline/build.py"), "--offline", "--out", str(tmp_path)],
+                         capture_output=True, text=True)
     assert res.returncode == 0, res.stderr
-    meta = json.loads((ROOT / "site/data/meta.json").read_text())
+    meta = json.loads((tmp_path / "meta.json").read_text())
     assert meta["counts"]["positions"] > 0 and meta["counts"]["mentors"] > 0
 
 

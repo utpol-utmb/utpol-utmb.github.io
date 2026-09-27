@@ -1,16 +1,19 @@
 {
- "generated_at": "2026-09-27 04:08 UTC",
+ "generated_at": "2026-09-27 04:04 UTC",
  "counts": {
   "positions": 36,
-  "mentors": 5731,
+  "mentors": 6649,
   "funding": 23,
-  "grants": 7061
+  "grants": 8004
  },
  "source_status": {
-  "nsf": "ok (34 grants)",
-  "nih": "used last good copy (7027) — no offline sample",
-  "ukri": "used last good copy (0) — no offline sample",
-  "curated_positions": "ok (36)"
+  "nsf": "ok (977 grants)",
+  "nih": "ok (7027 grants)",
+  "ukri": "used last good copy (0) — returned 0 records",
+  "curated_positions": "ok (36)",
+  "rss: Nature Careers": "failed: GET https://www.nature.com/naturecareers/rss/jobs?type=phd -> HTTP 404",
+  "rss: Academic Positions": "failed: GET https://academicpositions.com/rss/jobs?positions[0]=phd -> HTTP 403",
+  "openalex": "ok (100 new lookups)"
  },
  "facets": {
   "countries": [
@@ -72,5 +75,5 @@
    2029
   ]
  },
- "offline": true
+ "offline": false
 }
