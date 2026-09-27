@@ -1,32 +1,60 @@
 {
- "generated_at": "2026-09-27 03:43 UTC",
+ "generated_at": "2026-09-27 04:04 UTC",
  "counts": {
   "positions": 36,
-  "mentors": 89,
+  "mentors": 6649,
   "funding": 23,
-  "grants": 34
+  "grants": 8004
  },
  "source_status": {
-  "nsf": "ok (34 grants)",
-  "nih": "used last good copy (0) — no offline sample",
-  "ukri": "used last good copy (0) — no offline sample",
-  "curated_positions": "ok (36)"
+  "nsf": "ok (977 grants)",
+  "nih": "ok (7027 grants)",
+  "ukri": "used last good copy (0) — returned 0 records",
+  "curated_positions": "ok (36)",
+  "rss: Nature Careers": "failed: GET https://www.nature.com/naturecareers/rss/jobs?type=phd -> HTTP 404",
+  "rss: Academic Positions": "failed: GET https://academicpositions.com/rss/jobs?positions[0]=phd -> HTTP 403",
+  "openalex": "ok (100 new lookups)"
  },
  "facets": {
   "countries": [
+   "Argentina",
    "Australia",
    "Belgium",
+   "Brazil",
+   "Cameroon",
    "Canada",
+   "Colombia",
+   "Congo Dem Rep",
    "Denmark",
+   "Ecuador",
+   "Egypt",
+   "Ethiopia",
    "Finland",
    "France",
    "Germany",
+   "Ghana",
+   "India",
+   "Jordan",
+   "Kenya",
+   "Lebanon",
+   "Malawi",
+   "Malaysia",
+   "Mali",
+   "Mozambique",
    "Netherlands",
+   "Nigeria",
    "Norway",
+   "Pakistan",
+   "Peru",
+   "South Africa",
    "Sweden",
    "Switzerland",
+   "Tanzania U Rep",
+   "Thailand",
+   "Uganda",
    "United Kingdom",
-   "United States"
+   "United States",
+   "Vietnam"
   ],
   "subjects": [
    "Ageing & Palliative Care",
@@ -36,6 +64,7 @@
    "Environmental & Earth Sciences",
    "Health Data Science & Digital Health",
    "Infectious Disease & One Health",
+   "Other",
    "Physical Sciences & Mathematics",
    "Public Health & Epidemiology",
    "Social Sciences & Economics"
@@ -46,5 +75,5 @@
    2029
   ]
  },
- "offline": true
+ "offline": false
 }
