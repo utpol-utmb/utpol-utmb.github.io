@@ -20,17 +20,12 @@ Every day at 05:17 UTC, GitHub runs the robot (.github/workflows/update-and-depl
 
 If any one source fails, the last good copy of that source is reused. If the total number of records suddenly falls by more than 60%, nothing is published and GitHub emails you.
 
-## Deploy it (about 20 minutes, one time)
+## Where it lives
 
-1. Create a free account at github.com.
-2. Click **New repository** → name it `phd-mentor-finder` → Public → Create.
-3. Click **uploading an existing file**, drag in everything from this folder (including the hidden `.github` folder), then **Commit changes**.
-   *Tip: on Windows, turn on "Show hidden items" in File Explorer to see `.github`.*
-4. Go to **Settings → Pages** → under *Build and deployment*, set **Source = GitHub Actions**.
-5. Go to **Settings → Actions → General** → *Workflow permissions* → **Read and write** → Save.
-6. Go to **Actions** → *Update data and publish site* → **Run workflow**.
-7. After about 5 minutes your site is live at `https://YOUR-USERNAME.github.io/phd-mentor-finder/`.
-8. Open `pipeline/config.yaml` on GitHub (pencil icon) and change `contact_email` to your email.
+- Website: https://utpol-utmb.github.io/ (GitHub Pages, free)
+- Code: https://github.com/utpol-utmb/utpol-utmb.github.io
+- Android app: built by the "Build Android app" workflow; each signed build appears under **Releases** as `app-release.aab` (for Google Play) and `app-release.apk` (direct install for testers).
+- A weekly Claude scheduled task (Mondays) checks the sources, adds newly found positions and refreshes scholarship deadlines.
 
 ## Everyday editing (no coding)
 
@@ -41,6 +36,7 @@ If any one source fails, the last good copy of that source is reused. If the tot
 | Search new topics | Add words under `search_keywords` in `pipeline/config.yaml` |
 | Turn a source off | Set it to `false` under `sources` in `pipeline/config.yaml` |
 | See if updates worked | **Actions** tab: green tick = fine, red cross = open it and ask Claude to read the log |
+| Build a new Android version | **Actions → Build Android app → Run workflow**, then download from **Releases** |
 
 ## Rules this project follows
 
