@@ -135,22 +135,26 @@ def nih_normalize(rows: list[dict]) -> list[dict]:
 GTR_SEARCH = "https://gtr.ukri.org/api/search/project"
 
 
-def ukri_fetch(http: Http, keywords: list[str], lookback_years: int, per_kw: int = 100) -> list[dict]:
+def ukri_fetch(http: Http, keywords: list[str], lookback_years: int, pages: int = 4) -> list[dict]:
+    """The search API returns 25 projects a page with PIs, supervisors and lead organisation inline."""
     out: dict[str, dict] = {}
     for kw in keywords:
-        if http.deadline and __import__('time').time() > http.deadline:
-            break
-        try:
-            data = http.get_json(GTR_SEARCH, params={"term": kw, "page": 1, "fetchSize": per_kw},
-                                 headers={"Accept": "application/json"})
-        except RuntimeError:
-            continue
-        for r in data.get("results", []):
-            comp = r.get("projectComposition") or {}
-            proj = comp.get("project") or {}
-            if proj.get("status") != "Active" or not proj.get("id"):
-                continue
-            out[proj["id"]] = comp
+        for page in range(1, pages + 1):
+            if http.deadline and __import__('time').time() > http.deadline:
+                return list(out.values())
+            try:
+                data = http.get_json(GTR_SEARCH, params={"term": kw, "page": page, "fetchSize": 25},
+                                     headers={"Accept": "application/json"})
+            except RuntimeError:
+                break
+            rows = (data.get("facetedSearchResultBean") or data).get("results", [])
+            for r in rows:
+                comp = r.get("projectComposition") or {}
+                proj = comp.get("project") or {}
+                if proj.get("id"):
+                    out[proj["id"]] = comp
+            if len(rows) < 25:
+                break
     return list(out.values())
 
 
@@ -166,7 +170,8 @@ def ukri_normalize(comps: list[dict]) -> list[dict]:
         org = (comp.get("leadResearchOrganisation") or {}).get("name", "")
         cat = proj.get("grantCategory", "")
         funder = (fund.get("funder") or {}).get("name", "")
-        for pi in (comp.get("principalInvestigators") or [])[:2]:
+        people = (comp.get("principalInvestigators") or []) + (comp.get("supervisors") or [])
+        for pi in people[:2]:
             name = pi.get("fullName") or f"{pi.get('firstName', '')} {pi.get('surname', '')}".strip()
             if not name:
                 continue
