@@ -68,8 +68,8 @@ def nsf_normalize(awards: list[dict]) -> list[dict]:
 
 # ---------- NIH RePORTER ----------------------------------------------------------
 NIH_URL = "https://api.reporter.nih.gov/v2/projects/search"
-NIH_ACTIVITY = ["R01", "R21", "R03", "R34", "U01", "P01", "K99", "T32", "T35", "F31", "D43", "R25"]
-NIH_TRAINING = {"T32", "T35", "D43", "R25", "F31"}
+NIH_ACTIVITY = ["R01", "R21", "R03", "R34", "R35", "R37", "U01", "U19", "P01", "P30", "P50", "T32", "T35", "D43", "R25", "K12", "KL2", "TL1"]
+NIH_TRAINING = {"T32", "T35", "D43", "R25", "K12", "KL2", "TL1"}
 
 
 def nih_fetch(http: Http, keywords: list[str], lookback_years: int) -> list[dict]:
@@ -91,7 +91,7 @@ def nih_fetch(http: Http, keywords: list[str], lookback_years: int) -> list[dict
                 },
                 "include_fields": ["ApplId", "ProjectNum", "ProjectTitle", "PrincipalInvestigators",
                                    "Organization", "AwardAmount", "ProjectStartDate", "ProjectEndDate",
-                                   "ActivityCode", "AgencyIcAdmin", "ProjectDetailUrl"],
+                                   "ActivityCode", "AgencyIcAdmin", "ProjectDetailUrl", "PrefTerms"],
                 "offset": offset, "limit": 100,
             }
             try:
@@ -124,6 +124,7 @@ def nih_normalize(rows: list[dict]) -> list[dict]:
                 "amount": float(r.get("award_amount") or 0), "currency": "USD",
                 "start": (r.get("project_start_date") or "")[:10], "end": (r.get("project_end_date") or "")[:10],
                 "program": f"{code} ({(r.get('agency_ic_admin') or {}).get('abbreviation', '')})",
+                "terms": (r.get("pref_terms") or "")[:600],
                 "kind": "training" if code in NIH_TRAINING else "research",
                 "url": r.get("project_detail_url") or f"https://reporter.nih.gov/project-details/{r.get('appl_id')}",
             })
@@ -131,65 +132,52 @@ def nih_normalize(rows: list[dict]) -> list[dict]:
 
 
 # ---------- UKRI Gateway to Research ----------------------------------------------
-GTR = "https://gtr.ukri.org/api"
-GTR_HEADERS = {"Accept": "application/vnd.rcuk.gtr.json-v7"}
+GTR_SEARCH = "https://gtr.ukri.org/api/search/project"
 
 
-def ukri_fetch(http: Http, keywords: list[str], lookback_years: int, per_kw: int = 15) -> list[dict]:
-    """Returns projects with their PI person and lead organisation resolved."""
+def ukri_fetch(http: Http, keywords: list[str], lookback_years: int, per_kw: int = 100) -> list[dict]:
     out: dict[str, dict] = {}
     for kw in keywords:
         if http.deadline and __import__('time').time() > http.deadline:
             break
         try:
-            data = http.get_json(f"{GTR}/projects", params={"q": kw, "s": per_kw, "p": 1}, headers=GTR_HEADERS)
+            data = http.get_json(GTR_SEARCH, params={"term": kw, "page": 1, "fetchSize": per_kw},
+                                 headers={"Accept": "application/json"})
         except RuntimeError:
             continue
-        for p in data.get("project", []):
-            if p.get("status") != "Active" or p["id"] in out:
+        for r in data.get("results", []):
+            comp = r.get("projectComposition") or {}
+            proj = comp.get("project") or {}
+            if proj.get("status") != "Active" or not proj.get("id"):
                 continue
-            links = {l.get("rel"): l.get("href") for l in (p.get("links") or {}).get("link", [])}
-            try:
-                if links.get("PI_PER"):
-                    per = http.get_json(links["PI_PER"], headers=GTR_HEADERS)
-                    p["_pi"] = f"{per.get('firstName', '')} {per.get('surname', '')}".strip()
-                if links.get("LEAD_ORG"):
-                    org = http.get_json(links["LEAD_ORG"], headers=GTR_HEADERS)
-                    p["_org"] = org.get("name", "")
-                if links.get("FUND"):
-                    fund = http.get_json(links["FUND"], headers=GTR_HEADERS)
-                    p["_amount"] = (fund.get("valuePounds") or {}).get("amount")
-                    p["_start"] = fund.get("start")
-                    p["_end"] = fund.get("end")
-            except RuntimeError:
-                if http.deadline and __import__('time').time() > http.deadline:
-                    return list(out.values())
-                continue
-            out[p["id"]] = p
+            out[proj["id"]] = comp
     return list(out.values())
 
 
-def ukri_normalize(projects: list[dict]) -> list[dict]:
+def ukri_normalize(comps: list[dict]) -> list[dict]:
     recs = []
-    for p in projects:
-        if not p.get("_pi"):
-            continue
-        end = parse_date(str(p.get("_end") or "")[:10]) if p.get("_end") else None
-        if isinstance(p.get("_end"), (int, float)):
-            end = dt.date.fromtimestamp(p["_end"] / 1000)
+    for comp in comps:
+        proj = comp.get("project") or {}
+        fund = proj.get("fund") or {}
+        end = dt.date.fromtimestamp(fund["end"] / 1000) if fund.get("end") else None
         if end and end < TODAY:
             continue
-        start = p.get("_start")
-        if isinstance(start, (int, float)):
-            start = dt.date.fromtimestamp(start / 1000).isoformat()
-        cat = p.get("grantCategory", "")
-        recs.append({
-            "agency": f"UKRI {p.get('leadFunder', '')}".strip() + " (UK)", "number": p.get("id", ""),
-            "title": p.get("title", ""), "pi_name": p["_pi"], "institution": p.get("_org", ""),
-            "city": "", "state": "", "country": "United Kingdom",
-            "amount": float(p.get("_amount") or 0), "currency": "GBP",
-            "start": str(start or "")[:10], "end": str(end or ""), "program": cat,
-            "kind": "training" if "studentship" in cat.lower() or "training" in cat.lower() else "research",
-            "url": f"https://gtr.ukri.org/projects?ref={p.get('identifiers', {}).get('identifier', [{}])[0].get('value', p.get('id'))}",
-        })
+        start = dt.date.fromtimestamp(fund["start"] / 1000).isoformat() if fund.get("start") else ""
+        org = (comp.get("leadResearchOrganisation") or {}).get("name", "")
+        cat = proj.get("grantCategory", "")
+        funder = (fund.get("funder") or {}).get("name", "")
+        for pi in (comp.get("principalInvestigators") or [])[:2]:
+            name = pi.get("fullName") or f"{pi.get('firstName', '')} {pi.get('surname', '')}".strip()
+            if not name:
+                continue
+            recs.append({
+                "agency": f"UKRI {funder} (UK)".replace("  ", " "), "number": proj.get("grantReference", ""),
+                "title": proj.get("title", ""), "pi_name": name, "institution": org,
+                "city": "", "state": "", "country": "United Kingdom",
+                "amount": float(fund.get("valuePounds") or 0), "currency": "GBP",
+                "start": start, "end": str(end or ""), "program": cat,
+                "terms": (proj.get("abstractText") or "")[:400],
+                "kind": "training" if "studentship" in cat.lower() or "training" in cat.lower() else "research",
+                "url": f"https://gtr.ukri.org/projects?ref={proj.get('grantReference', '')}",
+            })
     return recs

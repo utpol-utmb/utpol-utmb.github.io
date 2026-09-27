@@ -209,6 +209,7 @@ def build_mentors(grants: list[dict], positions: list[dict], first_seen: dict) -
         m = get(g["pi_name"], g["institution"], g["country"], g.get("city", ""))
         m["grants"].append({k: g[k] for k in ("agency", "number", "title", "amount", "currency", "start",
                                                "end", "program", "kind", "url")})
+        m["_terms"] = (m.get("_terms", "") + " " + g.get("terms", ""))[:2000]
         sig = "training_grant" if g["kind"] == "training" else "research_grant"
         if SIGNAL_RANK[sig] > SIGNAL_RANK[m["signal"]]:
             m["signal"] = sig
@@ -217,7 +218,10 @@ def build_mentors(grants: list[dict], positions: list[dict], first_seen: dict) -
     out = []
     for m in people.values():
         if not m["subject_area"]:
-            m["subject_area"] = classify(" ".join(g["title"] + " " + g["program"] for g in m["grants"]))
+            m["subject_area"] = classify(" ".join(g["title"] + " " + g["program"] for g in m["grants"]) + " " + m.pop("_terms", ""))
+        m.pop("_terms", None)
+        m["grants"].sort(key=lambda g: (g["kind"] != "training", -g["amount"]))
+        m["grants"] = m["grants"][:6]
         m["signal_label"] = SIGNAL_LABEL[m["signal"]]
         m["sources"] = sorted(s for s in m["sources"] if s)
         m["total_active_funding_usd"] = round(sum(g["amount"] for g in m["grants"] if g["currency"] == "USD"))
@@ -254,7 +258,7 @@ def main() -> int:
     positions = collect_positions(cfg, http, args.offline, status, rates, first_seen)
     mentors = build_mentors(grants, positions, first_seen)
     if cfg["sources"].get("openalex") and not args.offline:
-        http.budget(cfg.get("minutes_per_source", 8))
+        http.budget(cfg.get("openalex_minutes", 25))
         n = OA.enrich(http, mentors, cfg.get("contact_email", ""))
         http.budget(None)
         status["openalex"] = f"ok ({n} new lookups)"
@@ -265,6 +269,9 @@ def main() -> int:
             hit = cache.get(m["id"], {})
             if hit.get("metrics"):
                 m["metrics"], m["topics"] = hit["metrics"], hit.get("topics", [])
+    for m in mentors:  # OpenAlex topics can settle a subject the grant titles could not
+        if m["subject_area"] == "Other" and m.get("topics"):
+            m["subject_area"] = classify(" ".join(m["topics"]))
     funding = build_funding(rates)
 
     # Safety check: never publish a big unexpected drop.

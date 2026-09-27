@@ -56,3 +56,13 @@ def test_offline_build_runs():
     assert res.returncode == 0, res.stderr
     meta = json.loads((ROOT / "site/data/meta.json").read_text())
     assert meta["counts"]["positions"] > 0 and meta["counts"]["mentors"] > 0
+
+
+def test_ukri_normalize_shape():
+    comp = {"project": {"id": "x", "title": "Ageing well", "status": "Active", "grantCategory": "Studentship",
+                        "grantReference": "MR/1", "fund": {"valuePounds": 0, "start": 1.7e12, "end": 1.9e12,
+                                                           "funder": {"name": "MRC"}}},
+            "principalInvestigators": [{"fullName": "Jane Doe"}],
+            "leadResearchOrganisation": {"name": "University of Sheffield"}}
+    r = grants.ukri_normalize([comp])[0]
+    assert r["pi_name"] == "Jane Doe" and r["kind"] == "training" and r["country"] == "United Kingdom"

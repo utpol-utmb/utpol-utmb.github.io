@@ -30,7 +30,7 @@ def _inst_match(a: str, b: str) -> bool:
     return a[:10] in b or b[:10] in a
 
 
-def enrich(http: Http, mentors: list[dict], contact: str, max_lookups: int = 400) -> int:
+def enrich(http: Http, mentors: list[dict], contact: str, max_lookups: int = 3000) -> int:
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
     fresh_cutoff = (TODAY - dt.timedelta(days=30)).isoformat()
     lookups = 0

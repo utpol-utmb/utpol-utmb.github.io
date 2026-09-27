@@ -28,7 +28,7 @@ SUBJECTS = [
 _KEYWORDS = {
     "Ageing & Palliative Care": ["aging", "ageing", "dementia", "alzheimer", "palliative", "hospice",
                                   "end-of-life", "end of life", "gerontolog", "older adult", "frailty", "geriatric"],
-    "Public Health & Epidemiology": ["epidemiolog", "public health", "population health", "health services",
+    "Public Health & Epidemiology": ["epidemiolog", "public health", "population health", "health services", "community", "prevention", "intervention", "behavioral", "disparit", "survey",
                                      "health policy", "biostatist", "cohort", "health dispar", "homeless"],
     "Health Data Science & Digital Health": ["digital health", "health data", "electronic health", "ehr",
                                              "wearable", "informatics", "risk prediction", "pathology foundation",
@@ -36,7 +36,7 @@ _KEYWORDS = {
     "Infectious Disease & One Health": ["infectious", "pathogen", "virus", "viral", "virolog", "zoonot",
                                         "epidemic", "one health", "antimicrobial", "host-pathogen",
                                         "phylodynamic", "immunolog", "vaccine", "wastewater", "metagenomic"],
-    "Biomedical & Life Sciences": ["cancer", "cell", "protein", "molecular", "genom", "biolog", "neuro",
+    "Biomedical & Life Sciences": ["cancer", "cell", "protein", "molecular", "genom", "biolog", "neuro", "tumor", "gene", "receptor", "signaling", "mouse", "tissue", "immune", "drug", "pharmac", "clinical", "disease", "patient", "therap",
                                    "metabolic", "biologics", "microbio", "t-cell", "insulin", "biomanufactur"],
     "Computer Science & AI": ["machine learning", "artificial intelligence", " ai ", "ai-", "deep learning",
                               "neural network", "cyber", "software", "computing", "data-driven",

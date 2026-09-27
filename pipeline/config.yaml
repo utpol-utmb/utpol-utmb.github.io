@@ -26,6 +26,8 @@ search_keywords:
 
 # Longest time (minutes) each source may take per daily run.
 minutes_per_source: 8
+# OpenAlex looks up each new supervisor once; allow it longer.
+openalex_minutes: 25
 
 # How far back to look for grants (years). Active grants only are kept.
 grant_lookback_years: 3
@@ -42,12 +44,11 @@ sources:
 # Job-board feeds (RSS/Atom). Each entry: url, source name, default country.
 # Claude checks these on the first live run; broken ones are simply skipped.
 rss_feeds:
-  - url: "https://www.nature.com/naturecareers/rss/jobs?type=phd"
+  - url: "https://www.nature.com/naturecareers/jobsrss/?Qualification=46"
     source: "Nature Careers"
     country: ""
-  - url: "https://academicpositions.com/rss/jobs?positions[0]=phd"
-    source: "Academic Positions"
-    country: ""
+# jobs.ac.uk, EURAXESS and Academic Positions publish no feeds; Claude's weekly
+# search covers them and adds finds to data/curated/positions.json.
 
 # Optional: a Google Sheet (File → Share → Publish to web → CSV) with columns
 # matching data/curated/positions.json (title, supervisor, university, country, ...)
