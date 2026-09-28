@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-27 11:00 UTC",
+ "generated_at": "2026-09-28 12:08 UTC",
  "counts": {
   "positions": 36,
-  "mentors": 6502,
+  "mentors": 6483,
   "funding": 23,
-  "grants": 7825
+  "grants": 7834
  },
  "source_status": {
-  "nsf": "ok (959 grants)",
-  "nih": "ok (6699 grants)",
+  "nsf": "ok (960 grants)",
+  "nih": "ok (6707 grants)",
   "ukri": "ok (167 grants)",
   "curated_positions": "ok (36)",
   "rss: Nature Careers": "ok (0)",
@@ -50,7 +50,8 @@
    "Uganda",
    "United Kingdom",
    "United States",
-   "Vietnam"
+   "Vietnam",
+   "Zimbabwe"
   ],
   "subjects": [
    "Ageing & Palliative Care",
