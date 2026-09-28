@@ -12,7 +12,7 @@ DEGREE_RX = {"Masters": re.compile(r"\b(master'?s?|msc|mphil|m\.sc|mres)\b", re.
 FUNDED_RX = re.compile(r"(fully[- ]funded|stipend|studentship|salary|scholarship|funded)", re.I)
 UNFUNDED_RX = re.compile(r"(self[- ]funded|no funding|unfunded)", re.I)
 DEADLINE_RX = re.compile(r"(?:closing date|deadline|apply by|applications close)[:\s]+([0-9]{1,2}\s+\w+\s+20\d\d|20\d\d-\d\d-\d\d|\w+\s+\d{1,2},\s+20\d\d)", re.I)
-SUPERVISOR_RX = re.compile(r"(?:supervisor|supervised by|principal investigator|PI)[s]?[:\s]+((?:Dr|Prof|Professor)\.?\s+[A-Z][\w'\-]+(?:\s+[A-Z][\w'\-]+){0,2})")
+SUPERVISOR_RX = re.compile(r"(?i:supervisor|supervised by|principal investigator|PI)[s]?[:\s]+((?:Dr|Prof|Professor)\.?\s+[A-Z][\w'\-]+(?:\s+[A-Z][\w'\-]+){0,2})")
 
 
 def detect_degree(text: str) -> str:
@@ -52,7 +52,17 @@ def from_rss(http: Http, feeds: list[dict]) -> tuple[list[dict], dict]:
                     "verified": False,
                 })
                 n += 1
-            status[f["source"]] = f"ok ({n})"
+            total = len(parsed.entries)
+            if total == 0:
+                # "0" alone hides whether the feed was empty, blocked or not a feed at all.
+                why = "feed returned no entries"
+                if parsed.get("bozo"):
+                    why = f"not a valid feed: {str(parsed.get('bozo_exception', ''))[:60]}"
+                elif "<html" in raw[:2000].lower():
+                    why = "server returned an HTML page instead of a feed"
+                status[f["source"]] = f"ok (0) — {why}"
+            else:
+                status[f["source"]] = f"ok ({n} of {total} entries mention PhD/Master's)"
         except Exception as ex:  # noqa: BLE001
             status[f["source"]] = f"failed: {ex}"[:160]
     return items, status
