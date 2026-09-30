@@ -126,24 +126,6 @@
   "url": "https://gtr.ukri.org/projects?ref=MR/X021211/1"
  },
  {
-  "agency": "UKRI MRC (UK)",
-  "number": "MR/T03226X/1",
-  "title": "Public Health Impacts of UK's Clean Air Zones.",
-  "pi_name": "Paul Elliott",
-  "institution": "IMPERIAL COLLEGE LONDON",
-  "city": "",
-  "state": "",
-  "country": "United Kingdom",
-  "amount": 2274894.0,
-  "currency": "GBP",
-  "start": "2021-01-01",
-  "end": "2026-09-29",
-  "program": "Research Grant",
-  "terms": "",
-  "kind": "research",
-  "url": "https://gtr.ukri.org/projects?ref=MR/T03226X/1"
- },
- {
   "agency": "UKRI AHRC (UK)",
   "number": "UKRI3463",
   "title": "Public benefit and public trust in the context of health data research and innovation",
@@ -196,24 +178,6 @@
   "terms": "",
   "kind": "research",
   "url": "https://gtr.ukri.org/projects?ref=BB/X010872/1"
- },
- {
-  "agency": "UKRI UKRI FLF (UK)",
-  "number": "MR/V02468X/1",
-  "title": "Urban Crisis: Public Health at the intersection of economic &amp; social change",
-  "pi_name": "Cristina Temenos",
-  "institution": "UNIVERSITY OF MANCHESTER",
-  "city": "",
-  "state": "",
-  "country": "United Kingdom",
-  "amount": 927943.0,
-  "currency": "GBP",
-  "start": "2021-09-30",
-  "end": "2026-09-29",
-  "program": "Fellowship",
-  "terms": "",
-  "kind": "research",
-  "url": "https://gtr.ukri.org/projects?ref=MR/V02468X/1"
  },
  {
   "agency": "UKRI MRC (UK)",
@@ -1764,24 +1728,6 @@
   "url": "https://gtr.ukri.org/projects?ref=10112221"
  },
  {
-  "agency": "UKRI Horizon Europe Guarantee (UK)",
-  "number": "EP/Z00182X/1",
-  "title": "Development of a novel molecular diagnostic approach to address One Health challenges",
-  "pi_name": "Kyle Ewart",
-  "institution": "UNIVERSITY OF EDINBURGH",
-  "city": "",
-  "state": "",
-  "country": "United Kingdom",
-  "amount": 206085.0,
-  "currency": "GBP",
-  "start": "2024-09-30",
-  "end": "2026-09-29",
-  "program": "Fellowship",
-  "terms": "",
-  "kind": "research",
-  "url": "https://gtr.ukri.org/projects?ref=EP/Z00182X/1"
- },
- {
   "agency": "UKRI ISPF (UK)",
   "number": "MR/Z504919/1",
   "title": "Scaling up One health Systems (SOS-rabies): Implementation research for rabies elimination in East Africa",
@@ -1962,24 +1908,6 @@
   "url": "https://gtr.ukri.org/projects?ref=UKRI2597"
  },
  {
-  "agency": "UKRI Innovate UK (UK)",
-  "number": "10163116",
-  "title": "Artificial Intelligence Identification of Neurodivergence",
-  "pi_name": "Finn Mackenzie",
-  "institution": "EVERMIND AI LTD",
-  "city": "",
-  "state": "",
-  "country": "United Kingdom",
-  "amount": 99244.0,
-  "currency": "GBP",
-  "start": "2025-09-30",
-  "end": "2026-09-29",
-  "program": "Feasibility Studies",
-  "terms": "",
-  "kind": "research",
-  "url": "https://gtr.ukri.org/projects?ref=10163116"
- },
- {
   "agency": "UKRI EPSRC (UK)",
   "number": "UKRI220",
   "title": "Dialogue-based Structured Conversational Artificial Intelligence",
@@ -1996,24 +1924,6 @@
   "terms": "",
   "kind": "research",
   "url": "https://gtr.ukri.org/projects?ref=UKRI220"
- },
- {
-  "agency": "UKRI Innovate UK (UK)",
-  "number": "10077722",
-  "title": "Kingston University Higher Education Corporation and Galliford Try Construction Limited KTP 23_24 R2",
-  "pi_name": "Cassie Talfourd-Rich",
-  "institution": "KINGSTON UNIVERSITY",
-  "city": "",
-  "state": "",
-  "country": "United Kingdom",
-  "amount": 130484.0,
-  "currency": "GBP",
-  "start": "2024-03-31",
-  "end": "2026-09-29",
-  "program": "Knowledge Transfer Partnership",
-  "terms": "",
-  "kind": "research",
-  "url": "https://gtr.ukri.org/projects?ref=10077722"
  },
  {
   "agency": "UKRI STFC (UK)",
@@ -2430,24 +2340,6 @@
   "url": "https://gtr.ukri.org/projects?ref=MR/W019892/1"
  },
  {
-  "agency": "UKRI BBSRC (UK)",
-  "number": "BB/W019132/1",
-  "title": "Machine Intelligence for Neuroscience Experimental Control",
-  "pi_name": "Thomas Mrsic-Flogel",
-  "institution": "UNIVERSITY COLLEGE LONDON",
-  "city": "",
-  "state": "",
-  "country": "United Kingdom",
-  "amount": 708152.0,
-  "currency": "GBP",
-  "start": "2023-01-01",
-  "end": "2026-09-29",
-  "program": "Research Grant",
-  "terms": "",
-  "kind": "research",
-  "url": "https://gtr.ukri.org/projects?ref=BB/W019132/1"
- },
- {
   "agency": "UKRI MRC (UK)",
   "number": "MC_UU_00030/8",
   "title": "The systems neuroscience of Human Memory and its Disorders",
@@ -2860,24 +2752,6 @@
   "terms": "",
   "kind": "research",
   "url": "https://gtr.ukri.org/projects?ref=ES/Z000319/1"
- },
- {
-  "agency": "UKRI Horizon Europe Guarantee (UK)",
-  "number": "10061087",
-  "title": "European Sodium Fast Reactor - Safety by Innovative Monitoring, Power Level flexibility and Experimental research",
-  "pi_name": "Eugene Shwageraus",
-  "institution": "UNIVERSITY OF CAMBRIDGE",
-  "city": "",
-  "state": "",
-  "country": "United Kingdom",
-  "amount": 261504.0,
-  "currency": "GBP",
-  "start": "2022-09-30",
-  "end": "2026-09-29",
-  "program": "EU-Funded",
-  "terms": "",
-  "kind": "research",
-  "url": "https://gtr.ukri.org/projects?ref=10061087"
  },
  {
   "agency": "UKRI EPSRC (UK)",
