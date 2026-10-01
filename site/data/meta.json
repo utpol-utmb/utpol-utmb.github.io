@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-30 11:38 UTC",
+ "generated_at": "2026-10-01 12:04 UTC",
  "counts": {
-  "positions": 153,
-  "mentors": 6606,
+  "positions": 144,
+  "mentors": 6598,
   "funding": 23,
-  "grants": 7816
+  "grants": 7818
  },
  "source_status": {
   "nsf": "ok (954 grants)",
-  "nih": "ok (6702 grants)",
-  "ukri": "ok (160 grants)",
+  "nih": "ok (6706 grants)",
+  "ukri": "ok (158 grants)",
   "curated_positions": "ok (153)",
   "rss: Nature Careers": "ok (1 of 20 entries mention PhD/Master's)",
   "openalex": "ok (100 new lookups)"
@@ -34,7 +34,6 @@
    "Ghana",
    "India",
    "Ireland",
-   "Italy",
    "Jordan",
    "Kenya",
    "Malawi",
