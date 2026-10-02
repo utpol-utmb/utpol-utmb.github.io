@@ -127,6 +127,23 @@
 "RNA Research and Splicing"
 ]
 },
+"aesoon-park-syracuse-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 1717,
+"h_index": 22,
+"openalex": "https://openalex.org/A5000294674",
+"orcid": "https://orcid.org/0000-0002-7921-7143",
+"works": 78
+},
+"topics": [
+"Substance Abuse Treatment and Outcomes",
+"Sleep and related disorders",
+"Cannabis and Cannabinoid Research",
+"Alcohol Consumption and Health Effects",
+"Racial and Ethnic Identity Research"
+]
+},
 "aimee-l-mcrae-clark-medical-university-of-south-carolina": {
 "checked": "2026-10-01",
 "metrics": {
@@ -176,6 +193,23 @@
 "Mosquito-borne diseases and control",
 "COVID-19 Clinical Research Studies",
 "Viral Infections and Vectors"
+]
+},
+"alberto-e-pereda-marine-biological-laboratory": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 2251,
+"h_index": 18,
+"openalex": "https://openalex.org/A5102800103",
+"orcid": "https://orcid.org/0000-0002-8283-8768",
+"works": 57
+},
+"topics": [
+"Neuroscience and Neuropharmacology Research",
+"Connexins and lens biology",
+"Nicotinic Acetylcholine Receptors Study",
+"Photoreceptor and optogenetics research",
+"Ion channel regulation and function"
 ]
 },
 "alex-bui-university-of-california-los-angeles": {
@@ -276,6 +310,23 @@
 "Heavy Metal Exposure and Toxicity",
 "Air Quality and Health Impacts",
 "Mitochondrial Function and Pathology"
+]
+},
+"amanda-e-nelson-univ-of-north-carolina-chapel-hill": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 16589,
+"h_index": 41,
+"openalex": "https://openalex.org/A5088835363",
+"orcid": "https://orcid.org/0000-0002-9344-7877",
+"works": 489
+},
+"topics": [
+"Osteoarthritis Treatment and Mechanisms",
+"Total Knee Arthroplasty Outcomes",
+"Hip disorders and treatments",
+"Rheumatoid Arthritis Research and Therapies",
+"Musculoskeletal Disorders and Rehabilitation"
 ]
 },
 "amber-keller-brooks-wake-forest-university-health-sciences": {
@@ -438,6 +489,23 @@
 "T-cell and B-cell Immunology",
 "HIV/AIDS drug development and treatment",
 "interferon and immune responses"
+]
+},
+"andrew-parsekian-university-of-wyoming": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 2590,
+"h_index": 29,
+"openalex": "https://openalex.org/A5049920825",
+"orcid": "https://orcid.org/0000-0001-5072-9818",
+"works": 222
+},
+"topics": [
+"Climate change and permafrost",
+"Cryospheric studies and observations",
+"Geophysical Methods and Applications",
+"Landslides and related hazards",
+"Arctic and Antarctic ice dynamics"
 ]
 },
 "andrij-holian-university-of-montana": {
@@ -829,6 +897,40 @@
 "Immune Cell Function and Interaction"
 ]
 },
+"athanasios-panorgias-new-england-college-of-optometry": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 647,
+"h_index": 12,
+"openalex": "https://openalex.org/A5043106426",
+"orcid": "https://orcid.org/0000-0002-5024-835X",
+"works": 42
+},
+"topics": [
+"Visual perception and processing mechanisms",
+"Retinal Development and Disorders",
+"Color Science and Applications",
+"Color perception and design",
+"Retinal Diseases and Treatments"
+]
+},
+"athena-philis-tsimikas-scripps-research-institute-the": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 9141,
+"h_index": 43,
+"openalex": "https://openalex.org/A5085399860",
+"orcid": "https://orcid.org/0000-0002-3986-9630",
+"works": 274
+},
+"topics": [
+"Diabetes Management and Research",
+"Diabetes Treatment and Management",
+"Diabetes Management and Education",
+"Hyperglycemia and glycemic control in critically ill and hospitalized patients",
+"Diabetes, Cardiovascular Risks, and Lipoproteins"
+]
+},
 "audrey-e-hendricks-metropolitan-state-university-of-denver": {
 "checked": "2026-09-28"
 },
@@ -960,6 +1062,23 @@
 "Physical Activity and Health"
 ]
 },
+"benjamin-d-philpot-univ-of-north-carolina-chapel-hill": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 12844,
+"h_index": 57,
+"openalex": "https://openalex.org/A5051099055",
+"orcid": "https://orcid.org/0000-0003-2746-9143",
+"works": 209
+},
+"topics": [
+"Genetic Syndromes and Imprinting",
+"Neuroscience and Neuropharmacology Research",
+"Genetics and Neurodevelopmental Disorders",
+"Neurogenesis and neuroplasticity mechanisms",
+"Epigenetics and DNA Methylation"
+]
+},
 "benjamin-delory-nioo-knaw-netherlands-institute-of-ecology": {
 "checked": "2026-09-29"
 },
@@ -1069,6 +1188,23 @@
 "Geriatric Care and Nursing Homes",
 "Antibiotic Use and Resistance",
 "Urinary Tract Infections Management"
+]
+},
+"bhramar-mukherjee-yale-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 20838,
+"h_index": 78,
+"openalex": "https://openalex.org/A5082251592",
+"orcid": "https://orcid.org/0000-0003-0118-4561",
+"works": 806
+},
+"topics": [
+"COVID-19 and healthcare impacts",
+"Genetic Associations and Epidemiology",
+"Effects and risks of endocrine disrupting chemicals",
+"Cancer Immunotherapy and Biomarkers",
+"COVID-19 Clinical Research Studies"
 ]
 },
 "billy-gerald-hudson-vanderbilt-university-medical-center": {
@@ -1185,6 +1321,23 @@
 "brian-gregory-downer-university-of-texas-med-br-galveston": {
 "checked": "2026-09-27"
 },
+"brian-w-pence-univ-of-north-carolina-chapel-hill": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 10118,
+"h_index": 54,
+"openalex": "https://openalex.org/A5019657241",
+"orcid": "https://orcid.org/0000-0001-7321-9538",
+"works": 518
+},
+"topics": [
+"HIV/AIDS Research and Interventions",
+"HIV, Drug Use, Sexual Risk",
+"Adolescent Sexual and Reproductive Health",
+"Mental Health Treatment and Access",
+"HIV Research and Treatment"
+]
+},
 "briana-mezuk-university-of-michigan-at-ann-arbor": {
 "checked": "2026-10-01",
 "metrics": {
@@ -1270,8 +1423,28 @@
 "Diagnosis and treatment of tuberculosis"
 ]
 },
+"bruce-ovbiagele-northern-california-institute-res-edu": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 71464,
+"h_index": 89,
+"openalex": "https://openalex.org/A5052180681",
+"orcid": "https://orcid.org/0000-0002-9958-0644",
+"works": 757
+},
+"topics": [
+"Acute Ischemic Stroke Management",
+"Cerebrovascular and Carotid Artery Diseases",
+"Stroke Rehabilitation and Recovery",
+"Blood Pressure and Hypertension Studies",
+"Intracerebral and Subarachnoid Hemorrhage Research"
+]
+},
 "caitlin-gloeckner-allen-wake-forest-university-health-sciences": {
 "checked": "2026-09-27"
+},
+"caitlin-nealon-tech-museum-of-innovation": {
+"checked": "2026-10-02"
 },
 "camilla-devitt-trinity-college-dublin": {
 "checked": "2026-09-29",
@@ -1305,6 +1478,23 @@
 "Science Education and Pedagogy",
 "Digital Storytelling and Education",
 "Statistics Education and Methodologies"
+]
+},
+"camillo-padoa-schioppa-washington-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 7598,
+"h_index": 32,
+"openalex": "https://openalex.org/A5056107268",
+"orcid": "https://orcid.org/0000-0002-7519-8790",
+"works": 75
+},
+"topics": [
+"Neural and Behavioral Psychology Studies",
+"Neural dynamics and brain function",
+"Visual perception and processing mechanisms",
+"Decision-Making and Behavioral Economics",
+"Motor Control and Adaptation"
 ]
 },
 "candice-c-askwith-ohio-state-university": {
@@ -1517,6 +1707,23 @@
 "Injury Epidemiology and Prevention"
 ]
 },
+"catherine-v-palmer-university-of-pittsburgh-at-pittsburgh": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 1477,
+"h_index": 21,
+"openalex": "https://openalex.org/A5033711234",
+"orcid": "https://orcid.org/0000-0001-7538-5054",
+"works": 113
+},
+"topics": [
+"Hearing Loss and Rehabilitation",
+"Noise Effects and Management",
+"Hearing, Cochlea, Tinnitus, Genetics",
+"Hearing Impairment and Communication",
+"Speech and Audio Processing"
+]
+},
 "chad-j-achenbach-jos-university-teaching-hospital": {
 "checked": "2026-09-27"
 },
@@ -1660,6 +1867,23 @@
 "Receptor Mechanisms and Signaling",
 "Neuroendocrine regulation and behavior",
 "Smoking Behavior and Cessation"
+]
+},
+"christine-a-petersen-ohio-state-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 4115,
+"h_index": 36,
+"openalex": "https://openalex.org/A5034290033",
+"orcid": "https://orcid.org/0000-0002-7285-4254",
+"works": 156
+},
+"topics": [
+"Research on Leishmaniasis Studies",
+"Trypanosoma species research and implications",
+"Vector-borne infectious diseases",
+"Viral Infections and Vectors",
+"Parasites and Host Interactions"
 ]
 },
 "christine-l-macdonald-university-of-washington": {
@@ -1806,6 +2030,23 @@
 },
 "christopher-john-hernandez-american-society-for-bone-mineral-res": {
 "checked": "2026-09-28"
+},
+"christopher-nelson-university-of-arkansas": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 7490,
+"h_index": 40,
+"openalex": "https://openalex.org/A5060952990",
+"orcid": "https://orcid.org/0000-0001-8730-4768",
+"works": 104
+},
+"topics": [
+"Mosquito-borne diseases and control",
+"Viral Infections and Vectors",
+"T-cell and B-cell Immunology",
+"Immune Cell Function and Interaction",
+"Immunotherapy and Immune Responses"
+]
 },
 "christopher-peter-bonafide-children-s-hosp-of-philadelphia": {
 "checked": "2026-09-27"
@@ -1972,6 +2213,23 @@
 "Neuroinflammation and Neurodegeneration Mechanisms"
 ]
 },
+"collins-ouma-university-of-new-mexico-health-scis-ctr": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 3678,
+"h_index": 36,
+"openalex": "https://openalex.org/A5022737094",
+"orcid": "https://orcid.org/0000-0001-8205-8887",
+"works": 207
+},
+"topics": [
+"Malaria Research and Control",
+"Mosquito-borne diseases and control",
+"Global Maternal and Child Health",
+"Complement system in diseases",
+"Child Nutrition and Water Access"
+]
+},
 "constance-guille-medical-university-of-south-carolina": {
 "checked": "2026-09-28",
 "metrics": {
@@ -2004,6 +2262,43 @@
 "Apelin-related biomedical research",
 "Cancer, Lipids, and Metabolism",
 "Cancer Risks and Factors"
+]
+},
+"corinne-peek-asa-university-of-iowa": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 9159,
+"h_index": 49,
+"openalex": "https://openalex.org/A5084702175",
+"orcid": "https://orcid.org/0000-0001-9472-2538",
+"works": 362
+},
+"topics": [
+"Injury Epidemiology and Prevention",
+"Traffic and Road Safety",
+"Trauma and Emergency Care Studies",
+"Agriculture and Farm Safety",
+"Intimate Partner and Family Violence"
+]
+},
+"courtney-murdock-emory-university": {
+"checked": "2026-10-02"
+},
+"cristopher-m-niell-university-of-oregon": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 7926,
+"h_index": 32,
+"openalex": "https://openalex.org/A5084982251",
+"orcid": "https://orcid.org/0000-0001-6283-3540",
+"works": 95
+},
+"topics": [
+"Neural dynamics and brain function",
+"Neuroscience and Neuropharmacology Research",
+"Retinal Development and Disorders",
+"Neurobiology and Insect Physiology Research",
+"Memory and Neural Mechanisms"
 ]
 },
 "cynthia-corbitt-university-of-louisville": {
@@ -2057,6 +2352,26 @@
 "Antibiotic Use and Resistance"
 ]
 },
+"daisy-p-ortega-health-resources-in-action-inc": {
+"checked": "2026-10-02"
+},
+"damalie-nakanjako-makerere-university-college-of-health-sciences": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 3291,
+"h_index": 31,
+"openalex": "https://openalex.org/A5040003659",
+"orcid": "https://orcid.org/0000-0002-0935-2112",
+"works": 169
+},
+"topics": [
+"HIV/AIDS Research and Interventions",
+"HIV Research and Treatment",
+"Global Health and Surgery",
+"HIV-related health complications and treatments",
+"HIV/AIDS drug development and treatment"
+]
+},
 "damia-gonzalez-akimori-university-of-california-los-angeles": {
 "checked": "2026-09-27",
 "metrics": {
@@ -2099,6 +2414,9 @@
 },
 "daniel-h-mathalon-university-of-california-san-francisco": {
 "checked": "2026-10-01"
+},
+"daniel-hans-o-connor-johns-hopkins-university": {
+"checked": "2026-10-02"
 },
 "daniel-henry-university-of-north-dakota": {
 "checked": "2026-09-28"
@@ -2475,6 +2793,23 @@
 "Nutrition and Health in Aging"
 ]
 },
+"david-j-perkel-university-of-washington": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 10026,
+"h_index": 46,
+"openalex": "https://openalex.org/A5078245140",
+"orcid": "https://orcid.org/0000-0002-3142-9614",
+"works": 118
+},
+"topics": [
+"Animal Vocal Communication and Behavior",
+"Animal Behavior and Reproduction",
+"Marine animal studies overview",
+"Neuroscience and Neuropharmacology Research",
+"Neural dynamics and brain function"
+]
+},
 "david-k-ann-beckman-research-institute-city-of-hope": {
 "checked": "2026-09-27",
 "metrics": {
@@ -2728,6 +3063,23 @@
 "Advanced Neuroimaging Techniques and Applications"
 ]
 },
+"denise-l-orwig-university-of-maryland-baltimore": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 9410,
+"h_index": 40,
+"openalex": "https://openalex.org/A5034996737",
+"orcid": "https://orcid.org/0000-0003-4095-5795",
+"works": 184
+},
+"topics": [
+"Hip and Femur Fractures",
+"Bone health and osteoporosis research",
+"Nutrition and Health in Aging",
+"Frailty in Older Adults",
+"Cardiac Health and Mental Health"
+]
+},
 "dennis-michael-feehan-university-of-california-berkeley": {
 "checked": "2026-09-28"
 },
@@ -2789,6 +3141,23 @@
 "3D Printing in Biomedical Research",
 "Innovative Microfluidic and Catalytic Techniques Innovation",
 "Biosensors and Analytical Detection"
+]
+},
+"donal-o-mathuna-ohio-state-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 3112,
+"h_index": 30,
+"openalex": "https://openalex.org/A5007752641",
+"orcid": "https://orcid.org/0000-0001-5331-3340",
+"works": 195
+},
+"topics": [
+"Disaster Response and Management",
+"Ethics in medical practice",
+"Ethics in Clinical Research",
+"Disaster Management and Resilience",
+"Complementary and Alternative Medicine Studies"
 ]
 },
 "donald-b-katz-brandeis-university": {
@@ -2891,6 +3260,23 @@
 "Peroxisome Proliferator-Activated Receptors",
 "Liver Disease Diagnosis and Treatment",
 "Diet and metabolism studies"
+]
+},
+"douglas-jay-perkins-university-of-new-mexico-health-scis-ctr": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 5510,
+"h_index": 41,
+"openalex": "https://openalex.org/A5042063773",
+"orcid": "https://orcid.org/0000-0001-9390-6255",
+"works": 214
+},
+"topics": [
+"Malaria Research and Control",
+"Complement system in diseases",
+"COVID-19 Clinical Research Studies",
+"Mosquito-borne diseases and control",
+"Healthcare Systems and Reforms"
 ]
 },
 "dr-ing-sebastian-schuster-university-of-duisburg-essen": {
@@ -3058,8 +3444,28 @@
 "Inflammasome and immune disorders"
 ]
 },
+"effie-w-petersdorf-university-of-washington": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 21090,
+"h_index": 74,
+"openalex": "https://openalex.org/A5060725545",
+"orcid": "https://orcid.org/0000-0002-6454-3683",
+"works": 359
+},
+"topics": [
+"Hematopoietic Stem Cell Transplantation",
+"T-cell and B-cell Immunology",
+"Immune Cell Function and Interaction",
+"Renal Transplantation Outcomes and Treatments",
+"Acute Lymphoblastic Leukemia research"
+]
+},
 "efstathios-dimitrios-gennatas-makerere-university-college-of-health-sciences": {
 "checked": "2026-09-28"
+},
+"ekaterina-i-noyes-state-university-of-new-york-at-buffalo": {
+"checked": "2026-10-02"
 },
 "elisabeth-salzer-st-anna-children-s-cancer-research-institute-ccri": {
 "checked": "2026-09-29",
@@ -3166,6 +3572,23 @@
 "Genomics and Phylogenetic Studies"
 ]
 },
+"elizabeth-m-ozer-university-of-california-san-francisco": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 6075,
+"h_index": 31,
+"openalex": "https://openalex.org/A5005493702",
+"orcid": "https://orcid.org/0000-0001-8680-4453",
+"works": 107
+},
+"topics": [
+"Adolescent Sexual and Reproductive Health",
+"Child and Adolescent Health",
+"Adolescent and Pediatric Healthcare",
+"Mobile Health and mHealth Applications",
+"Digital Mental Health Interventions"
+]
+},
 "elizabeth-rhea-erwin-burner-university-of-southern-california": {
 "checked": "2026-09-27"
 },
@@ -3237,6 +3660,40 @@
 "Lysosomal Storage Disorders Research"
 ]
 },
+"emilia-virginia-noormahomed-eduardo-mondlane-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 1678,
+"h_index": 22,
+"openalex": "https://openalex.org/A5011185266",
+"orcid": "https://orcid.org/0000-0001-8874-1900",
+"works": 90
+},
+"topics": [
+"Global Health and Surgery",
+"Parasitic infections in humans and animals",
+"Parasites and Host Interactions",
+"Global Maternal and Child Health",
+"Parasitic Infections and Diagnostics"
+]
+},
+"emily-b-myers-university-of-connecticut-storrs": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 2481,
+"h_index": 28,
+"openalex": "https://openalex.org/A5035107561",
+"orcid": "https://orcid.org/0000-0002-9475-764X",
+"works": 118
+},
+"topics": [
+"Phonetics and Phonology Research",
+"Neuroscience and Music Perception",
+"Neurobiology of Language and Bilingualism",
+"Language Development and Disorders",
+"Multisensory perception and integration"
+]
+},
 "emily-s-kappenman-university-of-california-at-davis": {
 "checked": "2026-09-30",
 "metrics": {
@@ -3272,6 +3729,23 @@
 "Dental Health and Care Utilization",
 "Balance, Gait, and Falls Prevention",
 "Fluoride Effects and Removal"
+]
+},
+"emmanuel-c-opara-wake-forest-university-health-sciences": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 5542,
+"h_index": 40,
+"openalex": "https://openalex.org/A5036015196",
+"orcid": "https://orcid.org/0000-0002-3486-1453",
+"works": 197
+},
+"topics": [
+"Pancreatic function and diabetes",
+"Tissue Engineering and Regenerative Medicine",
+"Diabetes Management and Research",
+"3D Printing in Biomedical Research",
+"Electrospun Nanofibers in Biomedical Applications"
 ]
 },
 "emmanuel-ezeome-university-of-maryland-baltimore": {
@@ -3398,6 +3872,9 @@
 },
 "erzsebet-kokovay-university-of-texas-hlth-science-center": {
 "checked": "2026-09-30"
+},
+"esther-seunghee-oh-johns-hopkins-university": {
+"checked": "2026-10-02"
 },
 "ethan-garrett-hughes-university-of-colorado-denver": {
 "checked": "2026-09-28"
@@ -3874,6 +4351,23 @@
 "Stress Responses and Cortisol"
 ]
 },
+"gregory-l-phillips-northwestern-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 5503,
+"h_index": 41,
+"openalex": "https://openalex.org/A5047167349",
+"orcid": "https://orcid.org/0000-0001-8396-1170",
+"works": 208
+},
+"topics": [
+"HIV/AIDS Research and Interventions",
+"LGBTQ Health, Identity, and Policy",
+"HIV, Drug Use, Sexual Risk",
+"Adolescent Sexual and Reproductive Health",
+"Sex work and related issues"
+]
+},
 "gregory-r-samanez-larkin-duke-university": {
 "checked": "2026-09-30",
 "metrics": {
@@ -4084,6 +4578,23 @@
 "Artificial Intelligence in Games"
 ]
 },
+"harold-a-pincus-columbia-university-health-sciences": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 375,
+"h_index": 5,
+"openalex": "https://openalex.org/A5109034808",
+"orcid": "",
+"works": 8
+},
+"topics": [
+"Personality Disorders and Psychopathology",
+"Mental Health and Psychiatry",
+"Schizophrenia research and treatment",
+"Innovations in Medical Education",
+"Mental Health Treatment and Access"
+]
+},
 "harriet-thomson-university-of-glasgow": {
 "checked": "2026-09-29",
 "metrics": {
@@ -4117,6 +4628,9 @@
 "RNA and protein synthesis mechanisms",
 "Microbial Metabolic Engineering and Bioproduction"
 ]
+},
+"heath-naquin-university-city-science-center": {
+"checked": "2026-10-02"
 },
 "helen-e-jenkins-boston-university-medical-campus": {
 "checked": "2026-09-28",
@@ -4170,6 +4684,23 @@
 "SARS-CoV-2 and COVID-19 Research",
 "COVID-19 Clinical Research Studies",
 "Respiratory viral infections research"
+]
+},
+"henry-l-paulson-university-of-michigan-at-ann-arbor": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 34942,
+"h_index": 91,
+"openalex": "https://openalex.org/A5055180300",
+"orcid": "https://orcid.org/0000-0002-0382-7535",
+"works": 434
+},
+"topics": [
+"Genetic Neurodegenerative Diseases",
+"Mitochondrial Function and Pathology",
+"Ubiquitin and proteasome pathways",
+"Dementia and Cognitive Impairment Research",
+"Alzheimer's disease research and treatments"
 ]
 },
 "henry-m-blumberg-emory-university": {
@@ -4274,6 +4805,23 @@
 },
 "igor-iatsenko-university-of-graz": {
 "checked": "2026-09-29"
+},
+"inbal-billie-nahum-shani-university-of-michigan-at-ann-arbor": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 8859,
+"h_index": 42,
+"openalex": "https://openalex.org/A5034549483",
+"orcid": "https://orcid.org/0000-0001-6138-9089",
+"works": 212
+},
+"topics": [
+"Digital Mental Health Interventions",
+"Behavioral Health and Interventions",
+"Mobile Health and mHealth Applications",
+"Advanced Causal Inference Techniques",
+"Mental Health Research Topics"
+]
 },
 "inge-marie-eigsti-university-of-connecticut-storrs": {
 "checked": "2026-09-27",
@@ -4443,6 +4991,9 @@
 "Gut microbiota and health"
 ]
 },
+"james-floyd-nelson-university-of-texas-hlth-science-center": {
+"checked": "2026-10-02"
+},
 "james-j-knierim-johns-hopkins-university": {
 "checked": "2026-09-30",
 "metrics": {
@@ -4463,6 +5014,40 @@
 "james-kucher-university-of-maryland-baltimore": {
 "checked": "2026-09-30"
 },
+"james-mccallum-noble-columbia-university-health-sciences": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 7734,
+"h_index": 43,
+"openalex": "https://openalex.org/A5002700915",
+"orcid": "https://orcid.org/0000-0003-0648-6702",
+"works": 230
+},
+"topics": [
+"Dementia and Cognitive Impairment Research",
+"Alzheimer's disease research and treatments",
+"Traumatic Brain Injury Research",
+"Stroke Rehabilitation and Recovery",
+"Functional Brain Connectivity Studies"
+]
+},
+"james-n-odom-university-of-alabama-at-birmingham": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 8016,
+"h_index": 42,
+"openalex": "https://openalex.org/A5052742977",
+"orcid": "https://orcid.org/0000-0001-6764-0254",
+"works": 340
+},
+"topics": [
+"Palliative Care and End-of-Life Issues",
+"Cancer survivorship and care",
+"Childhood Cancer Survivors' Quality of Life",
+"Family and Patient Care in Intensive Care Units",
+"Family Support in Illness"
+]
+},
 "james-p-luyendyk-michigan-state-university": {
 "checked": "2026-10-01",
 "metrics": {
@@ -4478,6 +5063,23 @@
 "Liver physiology and pathology",
 "Liver Disease and Transplantation",
 "Blood Coagulation and Thrombosis Mechanisms"
+]
+},
+"james-s-pankow-university-of-minnesota": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 64083,
+"h_index": 115,
+"openalex": "https://openalex.org/A5022683360",
+"orcid": "https://orcid.org/0000-0001-7076-483X",
+"works": 921
+},
+"topics": [
+"Genetic Associations and Epidemiology",
+"Diabetes, Cardiovascular Risks, and Lipoproteins",
+"Adipokines, Inflammation, and Metabolic Diseases",
+"Epigenetics and DNA Methylation",
+"Cardiovascular Health and Risk Factors"
 ]
 },
 "james-w-holsapple-boston-university-medical-campus": {
@@ -4639,6 +5241,12 @@
 "Gastric Cancer Management and Outcomes"
 ]
 },
+"jean-bisimwa-nachega-institut-national-de-recherche-biomedical": {
+"checked": "2026-10-02"
+},
+"jean-jacques-tamfum-muyembe-tamfum-institut-national-de-recherche-biomedical": {
+"checked": "2026-10-02"
+},
 "jean-s-kutner-massachusetts-general-hospital": {
 "checked": "2026-09-30"
 },
@@ -4747,6 +5355,9 @@
 "Ubiquitin and proteasome pathways"
 ]
 },
+"jennifer-hope-pfeifer-university-of-oregon": {
+"checked": "2026-10-02"
+},
 "jennifer-jaie-manly-columbia-university-health-sciences": {
 "checked": "2026-10-01",
 "metrics": {
@@ -4784,6 +5395,23 @@
 "jennifer-lynn-bizon-university-of-florida": {
 "checked": "2026-09-27"
 },
+"jennifer-piazza-california-state-university-fullerton": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 2671,
+"h_index": 22,
+"openalex": "https://openalex.org/A5008487439",
+"orcid": "https://orcid.org/0000-0002-8840-8849",
+"works": 56
+},
+"topics": [
+"Psychological Well-being and Life Satisfaction",
+"Health disparities and outcomes",
+"Aging and Gerontology Research",
+"Stress Responses and Cortisol",
+"Mental Health Research Topics"
+]
+},
 "jennifer-rumbel-university-of-newcastle": {
 "checked": "2026-09-27",
 "metrics": {
@@ -4816,6 +5444,23 @@
 "Epigenetics and DNA Methylation",
 "Pluripotent Stem Cells Research",
 "Neuroscience and Neuropharmacology Research"
+]
+},
+"jenny-ouyang-board-of-regents-nshe-obo-university-of-nevada-reno": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 2549,
+"h_index": 26,
+"openalex": "https://openalex.org/A5012936247",
+"orcid": "https://orcid.org/0000-0002-5111-5145",
+"works": 77
+},
+"topics": [
+"Animal Behavior and Reproduction",
+"Avian ecology and behavior",
+"Impact of Light on Environment and Health",
+"Animal Vocal Communication and Behavior",
+"Circadian rhythm and melatonin"
 ]
 },
 "jeroan-j-allison-hanoi-medical-university": {
@@ -4930,6 +5575,23 @@
 "Functional Brain Connectivity Studies",
 "Attention Deficit Hyperactivity Disorder",
 "Stress Responses and Cortisol"
+]
+},
+"joaniter-immaculate-nankabirwa-makerere-university-college-of-health-sciences": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 5373,
+"h_index": 41,
+"openalex": "https://openalex.org/A5048004017",
+"orcid": "https://orcid.org/0000-0001-7818-3845",
+"works": 228
+},
+"topics": [
+"Malaria Research and Control",
+"Mosquito-borne diseases and control",
+"Parasites and Host Interactions",
+"Parasitic Diseases Research and Treatment",
+"Global Maternal and Child Health"
 ]
 },
 "joanna-abraham-washington-university": {
@@ -5060,6 +5722,23 @@
 "Cardiac Fibrosis and Remodeling"
 ]
 },
+"john-neumeier-montana-state-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 3586,
+"h_index": 32,
+"openalex": "https://openalex.org/A5070112137",
+"orcid": "https://orcid.org/0000-0002-4114-564X",
+"works": 219
+},
+"topics": [
+"Magnetic and transport properties of perovskites and related materials",
+"Advanced Condensed Matter Physics",
+"Multiferroics and related materials",
+"Rare-earth and actinide compounds",
+"Physics of Superconductivity and Magnetism"
+]
+},
 "john-r-mccarrey-university-of-texas-san-antonio": {
 "checked": "2026-10-01",
 "metrics": {
@@ -5075,6 +5754,23 @@
 "Genetic and Clinical Aspects of Sex Determination and Chromosomal Abnormalities",
 "Reproductive Biology and Fertility",
 "Animal Genetics and Reproduction"
+]
+},
+"jonah-musa-jos-university-teaching-hospital": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 30313,
+"h_index": 21,
+"openalex": "https://openalex.org/A5050530175",
+"orcid": "https://orcid.org/0000-0002-7836-0976",
+"works": 126
+},
+"topics": [
+"Cervical Cancer and HPV Research",
+"HIV/AIDS Research and Interventions",
+"Global Cancer Incidence and Screening",
+"Global Maternal and Child Health",
+"Adolescent Sexual and Reproductive Health"
 ]
 },
 "jonathan-talbot-butcher-cornell-university": {
@@ -5707,6 +6403,23 @@
 "Child and Adolescent Psychosocial and Emotional Development"
 ]
 },
+"katherine-m-nielsen-university-of-california-san-francisco": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 176,
+"h_index": 7,
+"openalex": "https://openalex.org/A5104358073",
+"orcid": "https://orcid.org/0009-0004-3424-4844",
+"works": 17
+},
+"topics": [
+"Career Development and Diversity",
+"Science Education and Pedagogy",
+"Conferences and Exhibitions Management",
+"Nerve injury and regeneration",
+"Neuropeptides and Animal Physiology"
+]
+},
 "katherine-young-university-of-exeter": {
 "checked": "2026-09-30",
 "metrics": {
@@ -5798,6 +6511,40 @@
 "Nerve injury and regeneration"
 ]
 },
+"kenn-r-oldham-university-of-michigan-at-ann-arbor": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 1579,
+"h_index": 22,
+"openalex": "https://openalex.org/A5032749727",
+"orcid": "https://orcid.org/0000-0002-5962-3056",
+"works": 167
+},
+"topics": [
+"Advanced MEMS and NEMS Technologies",
+"Advanced Sensor and Energy Harvesting Materials",
+"Piezoelectric Actuators and Control",
+"Mechanical and Optical Resonators",
+"Adhesion, Friction, and Surface Interactions"
+]
+},
+"kenneth-a-norman-princeton-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 22832,
+"h_index": 70,
+"openalex": "https://openalex.org/A5070059815",
+"orcid": "https://orcid.org/0000-0002-5887-9682",
+"works": 334
+},
+"topics": [
+"Memory and Neural Mechanisms",
+"Neural dynamics and brain function",
+"Memory Processes and Influences",
+"Functional Brain Connectivity Studies",
+"Neural and Behavioral Psychology Studies"
+]
+},
 "kenro-kusumi-arizona-state-university-tempe-campus": {
 "checked": "2026-09-30",
 "metrics": {
@@ -5873,6 +6620,23 @@
 "COVID-19 Clinical Research Studies",
 "SARS-CoV-2 detection and testing",
 "COVID-19 epidemiological studies"
+]
+},
+"kolawole-s-okuyemi-indiana-university-indianapolis": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 6052,
+"h_index": 47,
+"openalex": "https://openalex.org/A5044839643",
+"orcid": "https://orcid.org/0000-0002-5342-7986",
+"works": 177
+},
+"topics": [
+"Smoking Behavior and Cessation",
+"Substance Abuse Treatment and Outcomes",
+"Homelessness and Social Issues",
+"Nicotinic Acetylcholine Receptors Study",
+"Global Cancer Incidence and Screening"
 ]
 },
 "kopal-mathur-university-of-chicago": {
@@ -5955,6 +6719,23 @@
 "Diabetes, Cardiovascular Risks, and Lipoproteins"
 ]
 },
+"kushang-patel-university-of-washington": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 15502,
+"h_index": 62,
+"openalex": "https://openalex.org/A5021859258",
+"orcid": "https://orcid.org/0000-0002-8443-2876",
+"works": 204
+},
+"topics": [
+"Musculoskeletal pain and rehabilitation",
+"Nutrition and Health in Aging",
+"Balance, Gait, and Falls Prevention",
+"Physical Activity and Health",
+"Frailty in Older Adults"
+]
+},
 "kwaku-poku-asante-kintampo-health-research-centre": {
 "checked": "2026-09-27",
 "metrics": {
@@ -5992,6 +6773,12 @@
 "Regulation of Appetite and Obesity"
 ]
 },
+"laura-elena-odell-university-of-texas-el-paso": {
+"checked": "2026-10-02"
+},
+"laura-jane-niedernhofer-university-of-minnesota": {
+"checked": "2026-10-02"
+},
 "laura-johnson-chavez-research-inst-nationwide-children-s-hosp": {
 "checked": "2026-09-27",
 "metrics": {
@@ -6008,6 +6795,26 @@
 "Alcoholism and Thiamine Deficiency",
 "Opioid Use Disorder Treatment"
 ]
+},
+"laura-nicholson-scripps-research-institute-the": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 939,
+"h_index": 11,
+"openalex": "https://openalex.org/A5048907794",
+"orcid": "https://orcid.org/0000-0002-1761-0951",
+"works": 31
+},
+"topics": [
+"SARS-CoV-2 and COVID-19 Research",
+"COVID-19 epidemiological studies",
+"COVID-19 Clinical Research Studies",
+"Cancer Immunotherapy and Biomarkers",
+"COVID-19 and healthcare impacts"
+]
+},
+"lauren-a-o-connell-marine-biological-laboratory": {
+"checked": "2026-10-02"
 },
 "laurence-f-abbott-columbia-university-health-sciences": {
 "checked": "2026-09-27",
@@ -6058,6 +6865,23 @@
 "Microwave Engineering and Waveguides",
 "Antenna Design and Analysis",
 "Advanced Wireless Communication Technologies"
+]
+},
+"leah-c-neubauer-northwestern-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 497,
+"h_index": 13,
+"openalex": "https://openalex.org/A5004610785",
+"orcid": "https://orcid.org/0000-0001-7254-7900",
+"works": 53
+},
+"topics": [
+"Evaluation and Performance Assessment",
+"Service-Learning and Community Engagement",
+"Public Health Policies and Education",
+"Innovations in Medical Education",
+"Health Policy Implementation Science"
 ]
 },
 "leah-mcarthur-ferrucci-yale-university": {
@@ -6379,6 +7203,23 @@
 "m-chiara-manzini-rutgers-biomedical-and-health-sciences": {
 "checked": "2026-10-01"
 },
+"mahdi-pedram-university-of-north-texas": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 229,
+"h_index": 8,
+"openalex": "https://openalex.org/A5001759639",
+"orcid": "https://orcid.org/0000-0001-5742-6529",
+"works": 28
+},
+"topics": [
+"Context-Aware Activity Recognition Systems",
+"Obesity, Physical Activity, Diet",
+"Mobile Health and mHealth Applications",
+"Advanced Chemical Sensor Technologies",
+"IoT and Edge/Fog Computing"
+]
+},
 "maie-stein-university-of-graz": {
 "checked": "2026-09-29"
 },
@@ -6490,6 +7331,23 @@
 "Infant Nutrition and Health"
 ]
 },
+"maria-a-oquendo-university-of-pennsylvania": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 40549,
+"h_index": 102,
+"openalex": "https://openalex.org/A5062214025",
+"orcid": "https://orcid.org/0000-0002-7901-5082",
+"works": 605
+},
+"topics": [
+"Suicide and Self-Harm Studies",
+"Treatment of Major Depression",
+"Mental Health Treatment and Access",
+"Tryptophan and brain disorders",
+"Functional Brain Connectivity Studies"
+]
+},
 "maria-inacio-flinders-university": {
 "checked": "2026-09-29",
 "metrics": {
@@ -6541,6 +7399,9 @@
 "Photoreceptor and optogenetics research"
 ]
 },
+"maribel-paredes-olortegui-university-of-virginia": {
+"checked": "2026-10-02"
+},
 "mariella-de-biasi-university-of-pennsylvania": {
 "checked": "2026-09-27",
 "metrics": {
@@ -6556,6 +7417,23 @@
 "Neurotransmitter Receptor Influence on Behavior",
 "Ion channel regulation and function",
 "Neuroscience and Neuropharmacology Research"
+]
+},
+"marina-r-picciotto-yale-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 28523,
+"h_index": 87,
+"openalex": "https://openalex.org/A5020907559",
+"orcid": "https://orcid.org/0000-0002-4404-1280",
+"works": 439
+},
+"topics": [
+"Nicotinic Acetylcholine Receptors Study",
+"Receptor Mechanisms and Signaling",
+"Neurotransmitter Receptor Influence on Behavior",
+"Neuroscience and Neuropharmacology Research",
+"Memory and Neural Mechanisms"
 ]
 },
 "mario-alejandro-alvarez-university-of-illinois-at-chicago": {
@@ -6820,6 +7698,23 @@
 "matthew-g-dorsey-makerere-university-college-of-health-sciences": {
 "checked": "2026-09-27"
 },
+"matthew-g-nayor-boston-university-medical-campus": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 4286,
+"h_index": 35,
+"openalex": "https://openalex.org/A5035109163",
+"orcid": "https://orcid.org/0000-0002-6993-9396",
+"works": 178
+},
+"topics": [
+"Cardiovascular and exercise physiology",
+"Cardiovascular Function and Risk Factors",
+"Cardiovascular Health and Risk Factors",
+"Heart Failure Treatment and Management",
+"Metabolomics and Mass Spectrometry Studies"
+]
+},
 "matthew-p-buman-arizona-state-university-tempe-campus": {
 "checked": "2026-09-27",
 "metrics": {
@@ -6854,6 +7749,23 @@
 "Genetics and Neurodevelopmental Disorders"
 ]
 },
+"matthew-s-perzanowski-columbia-university-health-sciences": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 8963,
+"h_index": 55,
+"openalex": "https://openalex.org/A5075233055",
+"orcid": "https://orcid.org/0000-0003-1300-0985",
+"works": 325
+},
+"topics": [
+"Asthma and respiratory diseases",
+"Allergic Rhinitis and Sensitization",
+"Air Quality and Health Impacts",
+"Indoor Air Quality and Microbial Exposure",
+"Noise Effects and Management"
+]
+},
 "matthew-smith-university-of-strathclyde": {
 "checked": "2026-09-27"
 },
@@ -6879,6 +7791,12 @@
 "Crystallization and Solubility Studies",
 "X-ray Diffraction in Crystallography"
 ]
+},
+"megan-elise-petrov-arizona-state-university-tempe-campus": {
+"checked": "2026-10-02"
+},
+"megan-othus-fred-hutchinson-cancer-center": {
+"checked": "2026-10-02"
 },
 "meghan-bridgid-moran-johns-hopkins-university": {
 "checked": "2026-10-01",
@@ -7065,6 +7983,9 @@
 "Neuroscience and Music Perception"
 ]
 },
+"michael-h-overholtzer-sloan-kettering-inst-can-research": {
+"checked": "2026-10-02"
+},
 "michael-hoonbae-chung-emory-university": {
 "checked": "2026-09-27",
 "metrics": {
@@ -7193,6 +8114,23 @@
 "Neuroscience and Neural Engineering"
 ]
 },
+"michel-c-nussenzweig-rockefeller-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 122525,
+"h_index": 185,
+"openalex": "https://openalex.org/A5003699560",
+"orcid": "https://orcid.org/0000-0003-0592-8564",
+"works": 640
+},
+"topics": [
+"T-cell and B-cell Immunology",
+"Immune Cell Function and Interaction",
+"HIV Research and Treatment",
+"Immunotherapy and Immune Responses",
+"Monoclonal and Polyclonal Antibodies Research"
+]
+},
 "michele-barry-yale-university": {
 "checked": "2026-09-27",
 "metrics": {
@@ -7226,6 +8164,26 @@
 "Racial and Ethnic Identity Research",
 "Child and Adolescent Psychosocial and Emotional Development"
 ]
+},
+"michelle-a-ozbun-university-of-new-mexico-health-scis-ctr": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 9274,
+"h_index": 36,
+"openalex": "https://openalex.org/A5011407443",
+"orcid": "https://orcid.org/0000-0001-8551-4606",
+"works": 84
+},
+"topics": [
+"Cervical Cancer and HPV Research",
+"Lung Cancer Treatments and Mutations",
+"Molecular Biology Techniques and Applications",
+"Lung Cancer Research Studies",
+"Head and Neck Cancer Studies"
+]
+},
+"michelle-christina-odden-stanford-university": {
+"checked": "2026-10-02"
 },
 "michiel-vos-university-of-exeter": {
 "checked": "2026-09-27",
@@ -7320,6 +8278,23 @@
 },
 "miranda-l-davis-university-of-alberta": {
 "checked": "2026-09-27"
+},
+"miriam-alana-novack-northwestern-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 1620,
+"h_index": 14,
+"openalex": "https://openalex.org/A5002838384",
+"orcid": "https://orcid.org/0000-0003-0522-0371",
+"works": 73
+},
+"topics": [
+"Hearing Impairment and Communication",
+"Hand Gesture Recognition Systems",
+"Child and Animal Learning Development",
+"Action Observation and Synchronization",
+"Dementia and Cognitive Impairment Research"
+]
 },
 "mithila-faruque-university-of-glasgow": {
 "checked": "2026-09-29"
@@ -7626,6 +8601,23 @@
 "nina-thawata-harawa-university-of-california-los-angeles": {
 "checked": "2026-09-28"
 },
+"nino-paichadze-george-washington-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 712,
+"h_index": 14,
+"openalex": "https://openalex.org/A5051259870",
+"orcid": "https://orcid.org/0000-0002-8263-9881",
+"works": 78
+},
+"topics": [
+"Traffic and Road Safety",
+"Trauma and Emergency Care Studies",
+"Injury Epidemiology and Prevention",
+"Global Public Health Policies and Epidemiology",
+"Urban Transport and Accessibility"
+]
+},
 "nir-j-barzilai-albert-einstein-college-of-medicine": {
 "checked": "2026-09-27"
 },
@@ -7665,6 +8657,9 @@
 },
 "noura-elise-insolera-university-of-michigan-at-ann-arbor": {
 "checked": "2026-09-28"
+},
+"olugbenga-g-ogedegbe-university-of-ghana": {
+"checked": "2026-10-02"
 },
 "orawan-kaewboonchoo-university-of-california-los-angeles": {
 "checked": "2026-09-28"
@@ -7828,6 +8823,23 @@
 "Cardiomyopathy and Myosin Studies"
 ]
 },
+"paul-e-m-phillips-university-of-washington": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 16717,
+"h_index": 65,
+"openalex": "https://openalex.org/A5085146649",
+"orcid": "https://orcid.org/0000-0002-8749-7026",
+"works": 146
+},
+"topics": [
+"Neurotransmitter Receptor Influence on Behavior",
+"Neuroscience and Neuropharmacology Research",
+"Receptor Mechanisms and Signaling",
+"Neural dynamics and brain function",
+"Stress Responses and Cortisol"
+]
+},
 "paul-g-mermelstein-university-of-minnesota": {
 "checked": "2026-10-01",
 "metrics": {
@@ -7878,6 +8890,9 @@
 "Neuroendocrine regulation and behavior",
 "Ichthyology and Marine Biology"
 ]
+},
+"paul-ndebele-univ-of-sciences-tech-tech-of-bamako": {
+"checked": "2026-10-02"
 },
 "paul-o-mireji-biotechnology-research-institute-kalro": {
 "checked": "2026-10-01"
@@ -8081,6 +9096,23 @@
 "Diabetes, Cardiovascular Risks, and Lipoproteins"
 ]
 },
+"priscilla-e-pemu-morehouse-school-of-medicine": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 1797,
+"h_index": 17,
+"openalex": "https://openalex.org/A5086500128",
+"orcid": "",
+"works": 38
+},
+"topics": [
+"Long-Term Effects of COVID-19",
+"Blood Pressure and Hypertension Studies",
+"Cardiovascular Health and Risk Factors",
+"Intensive Care Unit Cognitive Disorders",
+"Dementia and Cognitive Impairment Research"
+]
+},
 "qi-zhang-aarhus-university": {
 "checked": "2026-09-27",
 "metrics": {
@@ -8104,6 +9136,9 @@
 "rachel-alison-adcock-duke-university": {
 "checked": "2026-09-27"
 },
+"rachel-elizabeth-neal-university-of-louisville": {
+"checked": "2026-10-02"
+},
 "rachel-karchin-johns-hopkins-university": {
 "checked": "2026-09-30",
 "metrics": {
@@ -8120,6 +9155,9 @@
 "Genomics and Rare Diseases",
 "Pancreatic and Hepatic Oncology Research"
 ]
+},
+"rachel-novotny-university-of-hawaii-at-manoa": {
+"checked": "2026-10-02"
 },
 "rade-ciric-university-of-agder-uia": {
 "checked": "2026-09-29",
@@ -8209,6 +9247,23 @@
 "Phytochemicals and Antioxidant Activities"
 ]
 },
+"rebecca-peterson-utah-state-higher-education-system-university-of-utah": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 613,
+"h_index": 11,
+"openalex": "https://openalex.org/A5076858337",
+"orcid": "https://orcid.org/0000-0002-6657-0175",
+"works": 25
+},
+"topics": [
+"Mosquito-borne diseases and control",
+"Viral Infections and Vectors",
+"Virology and Viral Diseases",
+"Design Education and Practice",
+"Creativity in Education and Neuroscience"
+]
+},
 "renee-m-johnson-johns-hopkins-university": {
 "checked": "2026-09-28",
 "metrics": {
@@ -8244,6 +9299,23 @@
 "Gas Sensing Nanomaterials and Sensors",
 "Advanced Chemical Sensor Technologies",
 "Analytical Chemistry and Sensors"
+]
+},
+"ricardo-castillo-neyra-university-of-pennsylvania": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 1524,
+"h_index": 21,
+"openalex": "https://openalex.org/A5020816734",
+"orcid": "https://orcid.org/0000-0001-6629-2139",
+"works": 107
+},
+"topics": [
+"Rabies epidemiology and control",
+"Trypanosoma species research and implications",
+"Human-Animal Interaction Studies",
+"Zoonotic diseases and public health",
+"Virology and Viral Diseases"
 ]
 },
 "richard-aplenc-university-of-pennsylvania": {
@@ -8448,6 +9520,23 @@
 "Air Quality and Health Impacts"
 ]
 },
+"roch-nianogo-university-of-california-los-angeles": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 1398,
+"h_index": 18,
+"openalex": "https://openalex.org/A5071744840",
+"orcid": "https://orcid.org/0000-0001-5932-6169",
+"works": 112
+},
+"topics": [
+"Obesity, Physical Activity, Diet",
+"Dementia and Cognitive Impairment Research",
+"Diabetes, Cardiovascular Risks, and Lipoproteins",
+"Nutritional Studies and Diet",
+"COVID-19 epidemiological studies"
+]
+},
 "rodney-c-daniels-university-of-michigan-at-ann-arbor": {
 "checked": "2026-09-27",
 "metrics": {
@@ -8576,6 +9665,40 @@
 "Pneumocystis jirovecii pneumonia detection and treatment"
 ]
 },
+"ruth-o-regan-university-of-rochester": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 16024,
+"h_index": 55,
+"openalex": "https://openalex.org/A5079638534",
+"orcid": "https://orcid.org/0000-0001-6984-3741",
+"works": 269
+},
+"topics": [
+"Advanced Breast Cancer Therapies",
+"Breast Cancer Treatment Studies",
+"Cancer Treatment and Pharmacology",
+"HER2/EGFR in Cancer Research",
+"Estrogen and related hormone effects"
+]
+},
+"ryan-m-o-connell-utah-state-higher-education-system-university-of-utah": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 20278,
+"h_index": 54,
+"openalex": "https://openalex.org/A5035059671",
+"orcid": "https://orcid.org/0000-0003-0860-1401",
+"works": 177
+},
+"topics": [
+"MicroRNA in disease regulation",
+"Circular RNAs in diseases",
+"Immune cells in cancer",
+"Immune Cell Function and Interaction",
+"Extracellular vesicles in disease"
+]
+},
 "sabine-rumpf-university-of-basel": {
 "checked": "2026-09-29",
 "metrics": {
@@ -8678,6 +9801,23 @@
 },
 "samrawit-k-alemu-harvard-university-d-b-a-harvard-school-of-public-health": {
 "checked": "2026-09-27"
+},
+"samuel-l-pfaff-salk-institute-for-biological-studies": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 20023,
+"h_index": 70,
+"openalex": "https://openalex.org/A5052468955",
+"orcid": "https://orcid.org/0000-0002-2142-166X",
+"works": 162
+},
+"topics": [
+"Developmental Biology and Gene Regulation",
+"Neurogenesis and neuroplasticity mechanisms",
+"Zebrafish Biomedical Research Applications",
+"Axon Guidance and Neuronal Signaling",
+"RNA Research and Splicing"
+]
 },
 "samuel-m-kariuki-kenya-medical-research-institute-kemri": {
 "checked": "2026-09-30",
@@ -9385,6 +10525,23 @@
 "Virus-based gene therapy research"
 ]
 },
+"stephanie-nothelle-johns-hopkins-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 629,
+"h_index": 13,
+"openalex": "https://openalex.org/A5022300166",
+"orcid": "https://orcid.org/0000-0003-3908-286X",
+"works": 52
+},
+"topics": [
+"Chronic Disease Management Strategies",
+"Dementia and Cognitive Impairment Research",
+"Geriatric Care and Nursing Homes",
+"Health Promotion and Cardiovascular Prevention",
+"Electronic Health Records Systems"
+]
+},
 "stephen-d-meriney-university-of-pittsburgh-at-pittsburgh": {
 "checked": "2026-10-01",
 "metrics": {
@@ -9570,6 +10727,23 @@
 "Bone Metabolism and Diseases"
 ]
 },
+"temidayo-olusade-ogundiran-university-of-maryland-baltimore": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 3959,
+"h_index": 35,
+"openalex": "https://openalex.org/A5026799973",
+"orcid": "https://orcid.org/0000-0001-6405-2131",
+"works": 175
+},
+"topics": [
+"BRCA gene mutations in cancer",
+"Genetic Associations and Epidemiology",
+"Global Cancer Incidence and Screening",
+"Ethics in Clinical Research",
+"Cancer Genomics and Diagnostics"
+]
+},
 "terika-lakeisha-mccall-yale-university": {
 "checked": "2026-10-01",
 "metrics": {
@@ -9619,6 +10793,23 @@
 "Environmental DNA in Biodiversity Studies",
 "Identification and Quantification in Food",
 "Wildlife Ecology and Conservation"
+]
+},
+"theresa-j-ochoa-universidad-peruana-cayetano-heredia": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 27490,
+"h_index": 47,
+"openalex": "https://openalex.org/A5022125217",
+"orcid": "https://orcid.org/0000-0002-3227-3906",
+"works": 280
+},
+"topics": [
+"Viral gastroenteritis research and epidemiology",
+"Escherichia coli research studies",
+"Pneumonia and Respiratory Infections",
+"Infant Nutrition and Health",
+"Antibiotic Resistance in Bacteria"
 ]
 },
 "theresa-w-gillespie-emory-university": {
@@ -9786,6 +10977,40 @@
 "Developmental Biology and Gene Regulation"
 ]
 },
+"todd-ogden-columbia-university-health-sciences": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 8635,
+"h_index": 50,
+"openalex": "https://openalex.org/A5081965846",
+"orcid": "https://orcid.org/0009-0008-0005-446X",
+"works": 240
+},
+"topics": [
+"Medical Imaging Techniques and Applications",
+"Statistical Methods and Inference",
+"Neurotransmitter Receptor Influence on Behavior",
+"Treatment of Major Depression",
+"Functional Brain Connectivity Studies"
+]
+},
+"todd-otanicar-boise-state-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 7389,
+"h_index": 39,
+"openalex": "https://openalex.org/A5070727043",
+"orcid": "https://orcid.org/0000-0002-4579-6183",
+"works": 148
+},
+"topics": [
+"Solar Thermal and Photovoltaic Systems",
+"Photovoltaic System Optimization Techniques",
+"solar cell performance optimization",
+"Solar-Powered Water Purification Methods",
+"Nanofluid Flow and Heat Transfer"
+]
+},
 "todd-s-braver-washington-university": {
 "checked": "2026-09-27",
 "metrics": {
@@ -9857,6 +11082,9 @@
 "tom-marwick-university-of-tasmania": {
 "checked": "2026-09-29"
 },
+"torsten-brian-neilands-university-of-california-san-francisco": {
+"checked": "2026-10-02"
+},
 "tracey-jane-lamb-utah-state-higher-education-system-university-of-utah": {
 "checked": "2026-09-30"
 },
@@ -9913,6 +11141,12 @@
 "Endoplasmic Reticulum Stress and Disease",
 "Alzheimer's disease research and treatments"
 ]
+},
+"valerie-andrea-paz-soldan-universidad-peruana-cayetano-heredia": {
+"checked": "2026-10-02"
+},
+"valerie-andrea-paz-soldan-university-of-pennsylvania": {
+"checked": "2026-10-02"
 },
 "verity-cleland-university-of-tasmania": {
 "checked": "2026-09-29",
@@ -9982,6 +11216,23 @@
 "Social Media in Health Education"
 ]
 },
+"vishwajit-laxmikant-nimgaonkar-university-of-pittsburgh-at-pittsburgh": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 22905,
+"h_index": 66,
+"openalex": "https://openalex.org/A5088260835",
+"orcid": "https://orcid.org/0000-0001-8485-5927",
+"works": 391
+},
+"topics": [
+"Genetic Associations and Epidemiology",
+"Schizophrenia research and treatment",
+"Tryptophan and brain disorders",
+"Bipolar Disorder and Treatment",
+"Genetics and Neurodevelopmental Disorders"
+]
+},
 "vivek-kumar-jackson-laboratory": {
 "checked": "2026-09-30",
 "metrics": {
@@ -10031,6 +11282,23 @@
 "Genetic diversity and population structure",
 "COVID-19 epidemiological studies",
 "Bayesian Methods and Mixture Models"
+]
+},
+"vyjeyanthi-s-periyakoil-stanford-university": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 3017,
+"h_index": 27,
+"openalex": "https://openalex.org/A5071704902",
+"orcid": "https://orcid.org/0000-0001-5438-9902",
+"works": 169
+},
+"topics": [
+"Palliative Care and End-of-Life Issues",
+"Geriatric Care and Nursing Homes",
+"Grief, Bereavement, and Mental Health",
+"Ethics in medical practice",
+"Patient Dignity and Privacy"
 ]
 },
 "wael-awad-monash-university": {
@@ -10117,6 +11385,23 @@
 "works": 2
 },
 "topics": []
+},
+"wilbroad-mutale-vanderbilt-university-medical-center": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 2886,
+"h_index": 29,
+"openalex": "https://openalex.org/A5076914687",
+"orcid": "https://orcid.org/0000-0002-4891-6750",
+"works": 213
+},
+"topics": [
+"HIV/AIDS Research and Interventions",
+"Adolescent Sexual and Reproductive Health",
+"Global Maternal and Child Health",
+"HIV-related health complications and treatments",
+"HIV/AIDS Impact and Responses"
+]
 },
 "william-a-carlezon-mclean-hospital": {
 "checked": "2026-09-27",
@@ -10277,6 +11562,23 @@
 "Bat Biology and Ecology Studies"
 ]
 },
+"winstone-nyandiko-moi-university-college-of-health-sciences": {
+"checked": "2026-10-02",
+"metrics": {
+"citations": 3632,
+"h_index": 38,
+"openalex": "https://openalex.org/A5026588563",
+"orcid": "https://orcid.org/0000-0002-7639-9287",
+"works": 140
+},
+"topics": [
+"HIV/AIDS Research and Interventions",
+"Adolescent Sexual and Reproductive Health",
+"HIV/AIDS drug development and treatment",
+"Poverty, Education, and Child Welfare",
+"HIV-related health complications and treatments"
+]
+},
 "wondwossen-a-gebreyes-kenya-medical-research-institute-kemri": {
 "checked": "2026-09-28"
 },
@@ -10409,5 +11711,11 @@
 "RNA Research and Splicing",
 "Cancer Genomics and Diagnostics"
 ]
+},
+"zhamilya-nugmanova-suny-downstate-medical-center": {
+"checked": "2026-10-02"
+},
+"zhiping-p-pang-rutgers-biomedical-and-health-sciences": {
+"checked": "2026-10-02"
 }
 }

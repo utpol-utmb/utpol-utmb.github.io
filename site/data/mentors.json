@@ -294,40 +294,6 @@
   "first_seen": "2026-09-28"
  },
  {
-  "id": "nathan-bindoff-university-of-tasmania",
-  "name": "Nathan Bindoff",
-  "institution": "University of Tasmania",
-  "city": "Hobart",
-  "country": "Australia",
-  "region": "Oceania",
-  "subject_area": "Environmental & Earth Sciences",
-  "topics": [
-   "Oceanographic and Atmospheric Processes",
-   "Climate variability and models",
-   "Arctic and Antarctic ice dynamics",
-   "Marine and coastal ecosystems",
-   "Geology and Paleoclimatology Research"
-  ],
-  "signal": "open_position",
-  "grants": [],
-  "positions": [
-   "utas-precision-climate-tracking-emissions"
-  ],
-  "metrics": {
-   "citations": 11790,
-   "h_index": 54,
-   "openalex": "https://openalex.org/A5006233830",
-   "orcid": "https://orcid.org/0000-0001-5662-9519",
-   "works": 286
-  },
-  "sources": [
-   "University website"
-  ],
-  "signal_label": "Advertising a position now",
-  "total_active_funding_usd": 0,
-  "first_seen": "2026-09-29"
- },
- {
   "id": "franziska-blaeschke-german-cancer-research-center-dkfz",
   "name": "Franziska Blaeschke",
   "institution": "German Cancer Research Center (DKFZ)",
@@ -662,62 +628,6 @@
   },
   "sources": [
    "EURAXESS"
-  ],
-  "signal_label": "Advertising a position now",
-  "total_active_funding_usd": 0,
-  "first_seen": "2026-09-28"
- },
- {
-  "id": "verity-cleland-university-of-tasmania",
-  "name": "Verity Cleland",
-  "institution": "University of Tasmania",
-  "city": "Hobart",
-  "country": "Australia",
-  "region": "Oceania",
-  "subject_area": "Public Health & Epidemiology",
-  "topics": [
-   "Obesity, Physical Activity, Diet",
-   "Physical Activity and Health",
-   "Urban Transport and Accessibility",
-   "Health disparities and outcomes",
-   "Children's Physical and Motor Development"
-  ],
-  "signal": "open_position",
-  "grants": [],
-  "positions": [
-   "utas-unhealthy-food-advertising-tasmania"
-  ],
-  "metrics": {
-   "citations": 5312,
-   "h_index": 42,
-   "openalex": "https://openalex.org/A5085213722",
-   "orcid": "https://orcid.org/0000-0001-8358-3237",
-   "works": 168
-  },
-  "sources": [
-   "University website"
-  ],
-  "signal_label": "Advertising a position now",
-  "total_active_funding_usd": 0,
-  "first_seen": "2026-09-29"
- },
- {
-  "id": "ian-a-cockburn-london-school-of-hygiene-tropical-medicine",
-  "name": "Ian A Cockburn",
-  "institution": "London School of Hygiene & Tropical Medicine",
-  "city": "London",
-  "country": "United Kingdom",
-  "region": "Europe",
-  "subject_area": "Infectious Disease & One Health",
-  "topics": [],
-  "signal": "open_position",
-  "grants": [],
-  "positions": [
-   "lshtm-royal-society-phd-scholarship-malaria-immunology"
-  ],
-  "metrics": null,
-  "sources": [
-   "University website"
   ],
   "signal_label": "Advertising a position now",
   "total_active_funding_usd": 0,
@@ -1355,40 +1265,6 @@
   "first_seen": "2026-09-28"
  },
  {
-  "id": "hannah-fair-university-of-tasmania",
-  "name": "Hannah Fair",
-  "institution": "University of Tasmania",
-  "city": "Hobart",
-  "country": "Australia",
-  "region": "Oceania",
-  "subject_area": "Ageing & Palliative Care",
-  "topics": [
-   "Geographies of human-animal interactions",
-   "Climate Change, Adaptation, Migration",
-   "Island Studies and Pacific Affairs",
-   "Anthropological Studies and Insights",
-   "Wildlife Ecology and Conservation"
-  ],
-  "signal": "open_position",
-  "grants": [],
-  "positions": [
-   "utas-dementia-risk-estimation-communication"
-  ],
-  "metrics": {
-   "citations": 393,
-   "h_index": 9,
-   "openalex": "https://openalex.org/A5075705648",
-   "orcid": "https://orcid.org/0000-0002-1758-778X",
-   "works": 32
-  },
-  "sources": [
-   "University website"
-  ],
-  "signal_label": "Advertising a position now",
-  "total_active_funding_usd": 0,
-  "first_seen": "2026-09-29"
- },
- {
   "id": "graeme-fairchild-university-of-bath",
   "name": "Graeme Fairchild",
   "institution": "University of Bath",
@@ -2017,40 +1893,6 @@
   "signal_label": "Advertising a position now",
   "total_active_funding_usd": 0,
   "first_seen": "2026-09-28"
- },
- {
-  "id": "nicholas-hookway-university-of-tasmania",
-  "name": "Nicholas Hookway",
-  "institution": "University of Tasmania",
-  "city": "Hobart",
-  "country": "Australia",
-  "region": "Oceania",
-  "subject_area": "Social Sciences & Economics",
-  "topics": [
-   "Social Media and Politics",
-   "Sport and Mega-Event Impacts",
-   "Gender, Feminism, and Media",
-   "Youth Education and Societal Dynamics",
-   "Focus Groups and Qualitative Methods"
-  ],
-  "signal": "open_position",
-  "grants": [],
-  "positions": [
-   "utas-sport-loneliness-social-connection"
-  ],
-  "metrics": {
-   "citations": 1015,
-   "h_index": 11,
-   "openalex": "https://openalex.org/A5088058684",
-   "orcid": "https://orcid.org/0000-0002-0187-4741",
-   "works": 75
-  },
-  "sources": [
-   "University website"
-  ],
-  "signal_label": "Advertising a position now",
-  "total_active_funding_usd": 0,
-  "first_seen": "2026-09-29"
  },
  {
   "id": "stineke-van-houte-university-of-exeter",
@@ -2801,28 +2643,6 @@
   },
   "sources": [
    "jobs.ac.uk"
-  ],
-  "signal_label": "Advertising a position now",
-  "total_active_funding_usd": 0,
-  "first_seen": "2026-09-29"
- },
- {
-  "id": "tom-marwick-university-of-tasmania",
-  "name": "Tom Marwick",
-  "institution": "University of Tasmania",
-  "city": "Hobart",
-  "country": "Australia",
-  "region": "Oceania",
-  "subject_area": "Health Data Science & Digital Health",
-  "topics": [],
-  "signal": "open_position",
-  "grants": [],
-  "positions": [
-   "utas-cardio-diabetic-ai-heart-failure"
-  ],
-  "metrics": null,
-  "sources": [
-   "University website"
   ],
   "signal_label": "Advertising a position now",
   "total_active_funding_usd": 0,
@@ -3959,40 +3779,6 @@
   "first_seen": "2026-09-29"
  },
  {
-  "id": "oystein-saebo-university-of-agder-uia",
-  "name": "Oystein Saebo",
-  "institution": "University of Agder (UiA)",
-  "city": "Kristiansand",
-  "country": "Norway",
-  "region": "Europe",
-  "subject_area": "Social Sciences & Economics",
-  "topics": [
-   "E-Government and Public Services",
-   "Social Media and Politics",
-   "ICT in Developing Communities",
-   "ICT Impact and Policies",
-   "Innovative Approaches in Technology and Social Development"
-  ],
-  "signal": "open_position",
-  "grants": [],
-  "positions": [
-   "uia-is-ai-platforms-extremism"
-  ],
-  "metrics": {
-   "citations": 3382,
-   "h_index": 30,
-   "openalex": "https://openalex.org/A5038739410",
-   "orcid": "https://orcid.org/0000-0001-6238-7587",
-   "works": 110
-  },
-  "sources": [
-   "Academic Positions"
-  ],
-  "signal_label": "Advertising a position now",
-  "total_active_funding_usd": 0,
-  "first_seen": "2026-09-28"
- },
- {
   "id": "amir-ata-saei-karolinska-institutet",
   "name": "Amir Ata Saei",
   "institution": "Karolinska Institutet",
@@ -4191,40 +3977,6 @@
   },
   "sources": [
    "University website"
-  ],
-  "signal_label": "Advertising a position now",
-  "total_active_funding_usd": 0,
-  "first_seen": "2026-09-28"
- },
- {
-  "id": "jeff-shima-victoria-university-of-wellington",
-  "name": "Jeff Shima",
-  "institution": "Victoria University of Wellington",
-  "city": "Wellington",
-  "country": "New Zealand",
-  "region": "Oceania",
-  "subject_area": "Environmental & Earth Sciences",
-  "topics": [
-   "Marine and fisheries research",
-   "Coral and Marine Ecosystems Studies",
-   "Fish Ecology and Management Studies",
-   "Marine Bivalve and Aquaculture Studies",
-   "Marine and coastal plant biology"
-  ],
-  "signal": "open_position",
-  "grants": [],
-  "positions": [
-   "vuw-artificial-light-at-night-coastal-ecosystems"
-  ],
-  "metrics": {
-   "citations": 3217,
-   "h_index": 32,
-   "openalex": "https://openalex.org/A5044119712",
-   "orcid": "https://orcid.org/0000-0001-5770-4859",
-   "works": 124
-  },
-  "sources": [
-   "applykite.com (aggregator of university posting)"
   ],
   "signal_label": "Advertising a position now",
   "total_active_funding_usd": 0,
@@ -4781,28 +4533,6 @@
   "first_seen": "2026-09-28"
  },
  {
-  "id": "dr-ir-rianne-valkenburg-eindhoven-university-of-technology",
-  "name": "Dr.ir. Rianne Valkenburg",
-  "institution": "Eindhoven University of Technology",
-  "city": "Eindhoven",
-  "country": "Netherlands",
-  "region": "Europe",
-  "subject_area": "Environmental & Earth Sciences",
-  "topics": [],
-  "signal": "open_position",
-  "grants": [],
-  "positions": [
-   "tue-agrifood-system-dynamics"
-  ],
-  "metrics": null,
-  "sources": [
-   "Academic Positions"
-  ],
-  "signal_label": "Advertising a position now",
-  "total_active_funding_usd": 0,
-  "first_seen": "2026-09-28"
- },
- {
   "id": "bart-vanrumste-ku-leuven",
   "name": "Bart Vanrumste",
   "institution": "KU Leuven",
@@ -5041,28 +4771,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "dr-ir-bob-walrave-eindhoven-university-of-technology",
-  "name": "Dr.ir. Bob Walrave",
-  "institution": "Eindhoven University of Technology",
-  "city": "Eindhoven",
-  "country": "Netherlands",
-  "region": "Europe",
-  "subject_area": "Environmental & Earth Sciences",
-  "topics": [],
-  "signal": "open_position",
-  "grants": [],
-  "positions": [
-   "tue-agrifood-system-dynamics"
-  ],
-  "metrics": null,
-  "sources": [
-   "Academic Positions"
-  ],
-  "signal_label": "Advertising a position now",
-  "total_active_funding_usd": 0,
-  "first_seen": "2026-09-28"
- },
- {
   "id": "chunzhuo-wang-ku-leuven",
   "name": "Chunzhuo Wang",
   "institution": "KU Leuven",
@@ -5215,40 +4923,6 @@
   "first_seen": "2026-09-28"
  },
  {
-  "id": "angela-wood-university-of-cambridge",
-  "name": "Angela Wood",
-  "institution": "University of Cambridge",
-  "city": "Cambridge",
-  "country": "United Kingdom",
-  "region": "Europe",
-  "subject_area": "Health Data Science & Digital Health",
-  "topics": [
-   "Genetic Associations and Epidemiology",
-   "Statistical Methods and Bayesian Inference",
-   "COVID-19 Clinical Research Studies",
-   "Lipoproteins and Cardiovascular Health",
-   "Diabetes, Cardiovascular Risks, and Lipoproteins"
-  ],
-  "signal": "open_position",
-  "grants": [],
-  "positions": [
-   "cambridge-fair-cancer-risk-prediction"
-  ],
-  "metrics": {
-   "citations": 42758,
-   "h_index": 74,
-   "openalex": "https://openalex.org/A5005247953",
-   "orcid": "https://orcid.org/0000-0002-7937-304X",
-   "works": 389
-  },
-  "sources": [
-   "jobs.ac.uk"
-  ],
-  "signal_label": "Advertising a position now",
-  "total_active_funding_usd": 0,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "jagadeesh-yeluripati-university-of-aberdeen",
   "name": "Jagadeesh Yeluripati",
   "institution": "University of Aberdeen",
@@ -5311,40 +4985,6 @@
   },
   "sources": [
    "jobs.ac.uk"
-  ],
-  "signal_label": "Advertising a position now",
-  "total_active_funding_usd": 0,
-  "first_seen": "2026-09-29"
- },
- {
-  "id": "jane-younger-university-of-tasmania",
-  "name": "Jane Younger",
-  "institution": "University of Tasmania",
-  "city": "Hobart",
-  "country": "Australia",
-  "region": "Oceania",
-  "subject_area": "Infectious Disease & One Health",
-  "topics": [
-   "Avian ecology and behavior",
-   "Genetic diversity and population structure",
-   "Marine animal studies overview",
-   "Marine and fisheries research",
-   "Species Distribution and Climate Change"
-  ],
-  "signal": "open_position",
-  "grants": [],
-  "positions": [
-   "utas-elephant-seals-pathogen-spread"
-  ],
-  "metrics": {
-   "citations": 600,
-   "h_index": 12,
-   "openalex": "https://openalex.org/A5060198550",
-   "orcid": "https://orcid.org/0000-0001-5974-7350",
-   "works": 91
-  },
-  "sources": [
-   "University website"
   ],
   "signal_label": "Advertising a position now",
   "total_active_funding_usd": 0,
@@ -28032,11 +27672,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 453,
    "citations": 15583,
    "h_index": 65,
+   "openalex": "https://openalex.org/A5014800788",
    "orcid": "https://orcid.org/0000-0001-5352-1721",
-   "openalex": "https://openalex.org/A5014800788"
+   "works": 453
   },
   "sources": [
    "NIH (USA)"
@@ -28077,11 +27717,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 473,
    "citations": 8752,
    "h_index": 52,
+   "openalex": "https://openalex.org/A5066321470",
    "orcid": "https://orcid.org/0000-0002-9723-0237",
-   "openalex": "https://openalex.org/A5066321470"
+   "works": 473
   },
   "sources": [
    "NIH (USA)"
@@ -28122,11 +27762,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 61,
    "citations": 2489,
    "h_index": 21,
+   "openalex": "https://openalex.org/A5026880362",
    "orcid": "https://orcid.org/0000-0003-3874-258X",
-   "openalex": "https://openalex.org/A5026880362"
+   "works": 61
   },
   "sources": [
    "NIH (USA)"
@@ -28167,11 +27807,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 419,
    "citations": 52277,
    "h_index": 108,
+   "openalex": "https://openalex.org/A5008186009",
    "orcid": "https://orcid.org/0000-0002-3725-1474",
-   "openalex": "https://openalex.org/A5008186009"
+   "works": 419
   },
   "sources": [
    "NIH (USA)"
@@ -28212,11 +27852,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 149,
    "citations": 5152,
    "h_index": 34,
+   "openalex": "https://openalex.org/A5051902418",
    "orcid": "https://orcid.org/0000-0002-3584-8314",
-   "openalex": "https://openalex.org/A5051902418"
+   "works": 149
   },
   "sources": [
    "NSF (USA)"
@@ -28257,11 +27897,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 133,
    "citations": 2223,
    "h_index": 26,
+   "openalex": "https://openalex.org/A5080081577",
    "orcid": "https://orcid.org/0000-0001-8495-0350",
-   "openalex": "https://openalex.org/A5080081577"
+   "works": 133
   },
   "sources": [
    "NIH (USA)"
@@ -28302,11 +27942,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 1012,
    "citations": 25900,
    "h_index": 78,
+   "openalex": "https://openalex.org/A5006687609",
    "orcid": "https://orcid.org/0000-0002-8553-2641",
-   "openalex": "https://openalex.org/A5006687609"
+   "works": 1012
   },
   "sources": [
    "UKRI Horizon Europe Guarantee (UK)"
@@ -28347,11 +27987,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 705,
    "citations": 14131,
    "h_index": 54,
+   "openalex": "https://openalex.org/A5086903918",
    "orcid": "https://orcid.org/0000-0001-8559-5645",
-   "openalex": "https://openalex.org/A5086903918"
+   "works": 705
   },
   "sources": [
    "NIH (USA)"
@@ -28404,11 +28044,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 888,
    "citations": 57407,
    "h_index": 80,
+   "openalex": "https://openalex.org/A5082266331",
    "orcid": "https://orcid.org/0000-0002-1572-1340",
-   "openalex": "https://openalex.org/A5082266331"
+   "works": 888
   },
   "sources": [
    "NIH (USA)"
@@ -28449,11 +28089,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 197,
    "citations": 7656,
    "h_index": 48,
+   "openalex": "https://openalex.org/A5040736302",
    "orcid": "https://orcid.org/0000-0003-3174-8583",
-   "openalex": "https://openalex.org/A5040736302"
+   "works": 197
   },
   "sources": [
    "NIH (USA)"
@@ -28494,11 +28134,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 153,
    "citations": 3794,
    "h_index": 34,
+   "openalex": "https://openalex.org/A5023043347",
    "orcid": "https://orcid.org/0000-0001-5404-7910",
-   "openalex": "https://openalex.org/A5023043347"
+   "works": 153
   },
   "sources": [
    "NIH (USA)"
@@ -28539,11 +28179,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 130,
    "citations": 4449,
    "h_index": 36,
+   "openalex": "https://openalex.org/A5035088386",
    "orcid": "https://orcid.org/0000-0002-5027-9623",
-   "openalex": "https://openalex.org/A5035088386"
+   "works": 130
   },
   "sources": [
    "NIH (USA)"
@@ -28617,11 +28257,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 20,
    "citations": 733,
    "h_index": 9,
+   "openalex": "https://openalex.org/A5021494749",
    "orcid": "https://orcid.org/0000-0002-7419-996X",
-   "openalex": "https://openalex.org/A5021494749"
+   "works": 20
   },
   "sources": [
    "NIH (USA)"
@@ -28695,11 +28335,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 103,
    "citations": 2133,
    "h_index": 25,
+   "openalex": "https://openalex.org/A5084403209",
    "orcid": "https://orcid.org/0000-0001-7787-306X",
-   "openalex": "https://openalex.org/A5084403209"
+   "works": 103
   },
   "sources": [
    "NIH (USA)"
@@ -28740,11 +28380,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 73,
    "citations": 4652,
    "h_index": 30,
+   "openalex": "https://openalex.org/A5017613114",
    "orcid": "https://orcid.org/0000-0001-6755-8904",
-   "openalex": "https://openalex.org/A5017613114"
+   "works": 73
   },
   "sources": [
    "NIH (USA)"
@@ -28785,11 +28425,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 105,
    "citations": 7201,
    "h_index": 33,
+   "openalex": "https://openalex.org/A5038332096",
    "orcid": "https://orcid.org/0000-0002-0949-4399",
-   "openalex": "https://openalex.org/A5038332096"
+   "works": 105
   },
   "sources": [
    "NIH (USA)"
@@ -28830,11 +28470,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 183,
    "citations": 5461,
    "h_index": 45,
+   "openalex": "https://openalex.org/A5072084599",
    "orcid": "https://orcid.org/0000-0002-6359-987X",
-   "openalex": "https://openalex.org/A5072084599"
+   "works": 183
   },
   "sources": [
    "NIH (USA)"
@@ -28875,11 +28515,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 283,
    "citations": 31376,
    "h_index": 63,
+   "openalex": "https://openalex.org/A5024666744",
    "orcid": "https://orcid.org/0000-0001-9809-0064",
-   "openalex": "https://openalex.org/A5024666744"
+   "works": 283
   },
   "sources": [
    "NIH (USA)"
@@ -28920,11 +28560,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 143,
    "citations": 11488,
    "h_index": 36,
+   "openalex": "https://openalex.org/A5075899571",
    "orcid": "https://orcid.org/0000-0002-2167-6849",
-   "openalex": "https://openalex.org/A5075899571"
+   "works": 143
   },
   "sources": [
    "NIH (USA)"
@@ -28965,11 +28605,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 30,
    "citations": 841,
    "h_index": 11,
+   "openalex": "https://openalex.org/A5012091316",
    "orcid": "https://orcid.org/0009-0008-6492-8090",
-   "openalex": "https://openalex.org/A5012091316"
+   "works": 30
   },
   "sources": [
    "NIH (USA)"
@@ -29010,11 +28650,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 69,
    "citations": 2738,
    "h_index": 30,
+   "openalex": "https://openalex.org/A5064494177",
    "orcid": "https://orcid.org/0000-0001-5112-4730",
-   "openalex": "https://openalex.org/A5064494177"
+   "works": 69
   },
   "sources": [
    "NIH (USA)"
@@ -29088,11 +28728,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 100,
    "citations": 1024,
    "h_index": 19,
+   "openalex": "https://openalex.org/A5067263531",
    "orcid": "https://orcid.org/0000-0002-8874-907X",
-   "openalex": "https://openalex.org/A5067263531"
+   "works": 100
   },
   "sources": [
    "NIH (USA)"
@@ -29166,11 +28806,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 693,
    "citations": 56030,
    "h_index": 103,
+   "openalex": "https://openalex.org/A5068971185",
    "orcid": "https://orcid.org/0000-0002-9481-7497",
-   "openalex": "https://openalex.org/A5068971185"
+   "works": 693
   },
   "sources": [
    "NIH (USA)"
@@ -29244,11 +28884,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 138,
    "citations": 4065,
    "h_index": 31,
+   "openalex": "https://openalex.org/A5073913407",
    "orcid": "https://orcid.org/0000-0002-8924-6597",
-   "openalex": "https://openalex.org/A5073913407"
+   "works": 138
   },
   "sources": [
    "NIH (USA)"
@@ -29289,11 +28929,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 20,
    "citations": 174,
    "h_index": 4,
+   "openalex": "https://openalex.org/A5020313510",
    "orcid": "",
-   "openalex": "https://openalex.org/A5020313510"
+   "works": 20
   },
   "sources": [
    "NIH (USA)"
@@ -29358,11 +28998,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 224,
    "citations": 7320,
    "h_index": 45,
+   "openalex": "https://openalex.org/A5046458049",
    "orcid": "https://orcid.org/0000-0001-5187-2149",
-   "openalex": "https://openalex.org/A5046458049"
+   "works": 224
   },
   "sources": [
    "NIH (USA)"
@@ -29403,11 +29043,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 228,
    "citations": 6316,
    "h_index": 42,
+   "openalex": "https://openalex.org/A5064924657",
    "orcid": "https://orcid.org/0000-0003-0484-3569",
-   "openalex": "https://openalex.org/A5064924657"
+   "works": 228
   },
   "sources": [
    "NIH (USA)"
@@ -29448,11 +29088,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 160,
    "citations": 3497,
    "h_index": 32,
+   "openalex": "https://openalex.org/A5055323083",
    "orcid": "https://orcid.org/0000-0003-2249-6628",
-   "openalex": "https://openalex.org/A5055323083"
+   "works": 160
   },
   "sources": [
    "NIH (USA)"
@@ -29493,11 +29133,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 169,
    "citations": 2876,
    "h_index": 33,
+   "openalex": "https://openalex.org/A5046544080",
    "orcid": "https://orcid.org/0000-0001-8476-4785",
-   "openalex": "https://openalex.org/A5046544080"
+   "works": 169
   },
   "sources": [
    "NIH (USA)"
@@ -29538,11 +29178,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 563,
    "citations": 42044,
    "h_index": 102,
+   "openalex": "https://openalex.org/A5009636499",
    "orcid": "https://orcid.org/0000-0002-9773-3256",
-   "openalex": "https://openalex.org/A5009636499"
+   "works": 563
   },
   "sources": [
    "NIH (USA)"
@@ -29583,11 +29223,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 3,
    "citations": 41,
    "h_index": 2,
+   "openalex": "https://openalex.org/A5073217312",
    "orcid": "",
-   "openalex": "https://openalex.org/A5073217312"
+   "works": 3
   },
   "sources": [
    "NIH (USA)"
@@ -29640,11 +29280,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 528,
    "citations": 17028,
    "h_index": 69,
+   "openalex": "https://openalex.org/A5037098623",
    "orcid": "https://orcid.org/0000-0003-3059-9993",
-   "openalex": "https://openalex.org/A5037098623"
+   "works": 528
   },
   "sources": [
    "NIH (USA)"
@@ -29685,11 +29325,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 174,
    "citations": 11179,
    "h_index": 47,
+   "openalex": "https://openalex.org/A5069968074",
    "orcid": "https://orcid.org/0000-0001-5465-9132",
-   "openalex": "https://openalex.org/A5069968074"
+   "works": 174
   },
   "sources": [
    "NIH (USA)"
@@ -29730,11 +29370,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 25,
    "citations": 1041,
    "h_index": 12,
+   "openalex": "https://openalex.org/A5029506679",
    "orcid": "https://orcid.org/0000-0001-7322-8821",
-   "openalex": "https://openalex.org/A5029506679"
+   "works": 25
   },
   "sources": [
    "NIH (USA)"
@@ -29775,11 +29415,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 196,
    "citations": 11227,
    "h_index": 48,
+   "openalex": "https://openalex.org/A5006953866",
    "orcid": "https://orcid.org/0000-0001-7033-3386",
-   "openalex": "https://openalex.org/A5006953866"
+   "works": 196
   },
   "sources": [
    "NIH (USA)"
@@ -29853,11 +29493,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 5,
    "citations": 26,
    "h_index": 3,
+   "openalex": "https://openalex.org/A5087886271",
    "orcid": "",
-   "openalex": "https://openalex.org/A5087886271"
+   "works": 5
   },
   "sources": [
    "NIH (USA)"
@@ -29898,11 +29538,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 110,
    "citations": 1119,
    "h_index": 17,
+   "openalex": "https://openalex.org/A5025876950",
    "orcid": "https://orcid.org/0000-0002-4067-1322",
-   "openalex": "https://openalex.org/A5025876950"
+   "works": 110
   },
   "sources": [
    "NIH (USA)"
@@ -30033,11 +29673,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 261,
    "citations": 6239,
    "h_index": 43,
+   "openalex": "https://openalex.org/A5018360070",
    "orcid": "https://orcid.org/0000-0002-6326-0163",
-   "openalex": "https://openalex.org/A5018360070"
+   "works": 261
   },
   "sources": [
    "NIH (USA)"
@@ -30078,11 +29718,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 60,
    "citations": 525,
    "h_index": 12,
+   "openalex": "https://openalex.org/A5084567198",
    "orcid": "https://orcid.org/0000-0002-8143-5393",
-   "openalex": "https://openalex.org/A5084567198"
+   "works": 60
   },
   "sources": [
    "NIH (USA)"
@@ -30168,11 +29808,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 221,
    "citations": 12447,
    "h_index": 58,
+   "openalex": "https://openalex.org/A5039244523",
    "orcid": "https://orcid.org/0000-0002-5784-9318",
-   "openalex": "https://openalex.org/A5039244523"
+   "works": 221
   },
   "sources": [
    "NIH (USA)"
@@ -30213,11 +29853,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 116,
    "citations": 2804,
    "h_index": 28,
+   "openalex": "https://openalex.org/A5058471860",
    "orcid": "https://orcid.org/0000-0001-8712-0336",
-   "openalex": "https://openalex.org/A5058471860"
+   "works": 116
   },
   "sources": [
    "NIH (USA)"
@@ -30258,11 +29898,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 160,
    "citations": 2112,
    "h_index": 25,
+   "openalex": "https://openalex.org/A5071981748",
    "orcid": "https://orcid.org/0000-0003-3856-8542",
-   "openalex": "https://openalex.org/A5071981748"
+   "works": 160
   },
   "sources": [
    "NIH (USA)"
@@ -30336,11 +29976,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 687,
    "citations": 24496,
    "h_index": 75,
+   "openalex": "https://openalex.org/A5052539701",
    "orcid": "https://orcid.org/0000-0002-9343-6203",
-   "openalex": "https://openalex.org/A5052539701"
+   "works": 687
   },
   "sources": [
    "NIH (USA)"
@@ -30381,11 +30021,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 191,
    "citations": 5999,
    "h_index": 44,
+   "openalex": "https://openalex.org/A5022412938",
    "orcid": "https://orcid.org/0000-0002-9774-318X",
-   "openalex": "https://openalex.org/A5022412938"
+   "works": 191
   },
   "sources": [
    "NIH (USA)"
@@ -30426,11 +30066,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 515,
    "citations": 18806,
    "h_index": 72,
+   "openalex": "https://openalex.org/A5013317411",
    "orcid": "https://orcid.org/0000-0002-2523-0959",
-   "openalex": "https://openalex.org/A5013317411"
+   "works": 515
   },
   "sources": [
    "NIH (USA)"
@@ -30516,11 +30156,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 160,
    "citations": 23231,
    "h_index": 68,
+   "openalex": "https://openalex.org/A5058303526",
    "orcid": "https://orcid.org/0000-0003-2136-6506",
-   "openalex": "https://openalex.org/A5058303526"
+   "works": 160
   },
   "sources": [
    "NIH (USA)"
@@ -30621,11 +30261,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 312,
    "citations": 17224,
    "h_index": 64,
+   "openalex": "https://openalex.org/A5043856323",
    "orcid": "https://orcid.org/0000-0003-2790-7393",
-   "openalex": "https://openalex.org/A5043856323"
+   "works": 312
   },
   "sources": [
    "NIH (USA)"
@@ -30666,11 +30306,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 107,
    "citations": 2096,
    "h_index": 28,
+   "openalex": "https://openalex.org/A5037427635",
    "orcid": "https://orcid.org/0000-0002-2005-9726",
-   "openalex": "https://openalex.org/A5037427635"
+   "works": 107
   },
   "sources": [
    "NIH (USA)"
@@ -30723,11 +30363,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 302,
    "citations": 18140,
    "h_index": 57,
+   "openalex": "https://openalex.org/A5010932294",
    "orcid": "https://orcid.org/0000-0002-7829-8076",
-   "openalex": "https://openalex.org/A5010932294"
+   "works": 302
   },
   "sources": [
    "NIH (USA)"
@@ -30780,11 +30420,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 401,
    "citations": 10666,
    "h_index": 50,
+   "openalex": "https://openalex.org/A5064975634",
    "orcid": "https://orcid.org/0000-0002-8854-0321",
-   "openalex": "https://openalex.org/A5064975634"
+   "works": 401
   },
   "sources": [
    "NIH (USA)"
@@ -30837,11 +30477,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 283,
    "citations": 8348,
    "h_index": 48,
+   "openalex": "https://openalex.org/A5037534950",
    "orcid": "https://orcid.org/0000-0003-1798-2285",
-   "openalex": "https://openalex.org/A5037534950"
+   "works": 283
   },
   "sources": [
    "NIH (USA)"
@@ -30948,11 +30588,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 93,
    "citations": 1294,
    "h_index": 20,
+   "openalex": "https://openalex.org/A5071631731",
    "orcid": "https://orcid.org/0000-0002-1162-7699",
-   "openalex": "https://openalex.org/A5071631731"
+   "works": 93
   },
   "sources": [
    "NIH (USA)"
@@ -31005,11 +30645,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 84,
    "citations": 1144,
    "h_index": 18,
+   "openalex": "https://openalex.org/A5072832833",
    "orcid": "https://orcid.org/0000-0003-1779-7290",
-   "openalex": "https://openalex.org/A5072832833"
+   "works": 84
   },
   "sources": [
    "NIH (USA)"
@@ -31050,11 +30690,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 103,
    "citations": 4095,
    "h_index": 30,
+   "openalex": "https://openalex.org/A5111058587",
    "orcid": "",
-   "openalex": "https://openalex.org/A5111058587"
+   "works": 103
   },
   "sources": [
    "NIH (USA)"
@@ -31095,11 +30735,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 176,
    "citations": 3788,
    "h_index": 31,
+   "openalex": "https://openalex.org/A5036646613",
    "orcid": "https://orcid.org/0000-0002-4991-3703",
-   "openalex": "https://openalex.org/A5036646613"
+   "works": 176
   },
   "sources": [
    "NIH (USA)"
@@ -31140,11 +30780,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 123,
    "citations": 4575,
    "h_index": 30,
+   "openalex": "https://openalex.org/A5089671301",
    "orcid": "https://orcid.org/0000-0002-1917-9288",
-   "openalex": "https://openalex.org/A5089671301"
+   "works": 123
   },
   "sources": [
    "NIH (USA)"
@@ -31263,11 +30903,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 51,
    "citations": 463,
    "h_index": 13,
+   "openalex": "https://openalex.org/A5015433082",
    "orcid": "https://orcid.org/0000-0003-4510-9758",
-   "openalex": "https://openalex.org/A5015433082"
+   "works": 51
   },
   "sources": [
    "NIH (USA)"
@@ -31332,11 +30972,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 603,
    "citations": 97019,
    "h_index": 121,
+   "openalex": "https://openalex.org/A5049993833",
    "orcid": "https://orcid.org/0000-0001-6721-153X",
-   "openalex": "https://openalex.org/A5049993833"
+   "works": 603
   },
   "sources": [
    "NIH (USA)"
@@ -31389,11 +31029,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 650,
    "citations": 41135,
    "h_index": 103,
+   "openalex": "https://openalex.org/A5051245888",
    "orcid": "https://orcid.org/0000-0002-5443-7596",
-   "openalex": "https://openalex.org/A5051245888"
+   "works": 650
   },
   "sources": [
    "NIH (USA)"
@@ -31467,11 +31107,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 110,
    "citations": 6403,
    "h_index": 40,
+   "openalex": "https://openalex.org/A5019098595",
    "orcid": "https://orcid.org/0000-0003-1803-3495",
-   "openalex": "https://openalex.org/A5019098595"
+   "works": 110
   },
   "sources": [
    "NIH (USA)"
@@ -31512,11 +31152,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 204,
    "citations": 27072,
    "h_index": 64,
+   "openalex": "https://openalex.org/A5055334509",
    "orcid": "https://orcid.org/0000-0003-0018-501X",
-   "openalex": "https://openalex.org/A5055334509"
+   "works": 204
   },
   "sources": [
    "NIH (USA)"
@@ -31557,11 +31197,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 5,
    "citations": 53,
    "h_index": 3,
+   "openalex": "https://openalex.org/A5034118125",
    "orcid": "https://orcid.org/0000-0002-9108-8655",
-   "openalex": "https://openalex.org/A5034118125"
+   "works": 5
   },
   "sources": [
    "NIH (USA)"
@@ -31602,11 +31242,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 144,
    "citations": 2233,
    "h_index": 28,
+   "openalex": "https://openalex.org/A5025198388",
    "orcid": "https://orcid.org/0000-0002-1637-829X",
-   "openalex": "https://openalex.org/A5025198388"
+   "works": 144
   },
   "sources": [
    "NIH (USA)"
@@ -31713,11 +31353,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 74,
    "citations": 1928,
    "h_index": 17,
+   "openalex": "https://openalex.org/A5047423698",
    "orcid": "https://orcid.org/0000-0001-7732-4829",
-   "openalex": "https://openalex.org/A5047423698"
+   "works": 74
   },
   "sources": [
    "NIH (USA)"
@@ -31758,11 +31398,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 230,
    "citations": 16278,
    "h_index": 52,
+   "openalex": "https://openalex.org/A5075419685",
    "orcid": "https://orcid.org/0000-0003-4534-1602",
-   "openalex": "https://openalex.org/A5075419685"
+   "works": 230
   },
   "sources": [
    "NIH (USA)"
@@ -31803,11 +31443,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 659,
    "citations": 31169,
    "h_index": 93,
+   "openalex": "https://openalex.org/A5088903979",
    "orcid": "https://orcid.org/0000-0002-5499-3912",
-   "openalex": "https://openalex.org/A5088903979"
+   "works": 659
   },
   "sources": [
    "NIH (USA)"
@@ -31860,11 +31500,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 168,
    "citations": 3796,
    "h_index": 36,
+   "openalex": "https://openalex.org/A5056887535",
    "orcid": "https://orcid.org/0000-0001-6745-6668",
-   "openalex": "https://openalex.org/A5056887535"
+   "works": 168
   },
   "sources": [
    "NIH (USA)"
@@ -31938,11 +31578,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 183,
    "citations": 7333,
    "h_index": 45,
+   "openalex": "https://openalex.org/A5063228181",
    "orcid": "https://orcid.org/0000-0001-9298-047X",
-   "openalex": "https://openalex.org/A5063228181"
+   "works": 183
   },
   "sources": [
    "NIH (USA)"
@@ -31983,11 +31623,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 173,
    "citations": 8060,
    "h_index": 37,
+   "openalex": "https://openalex.org/A5039177481",
    "orcid": "https://orcid.org/0000-0001-5009-8470",
-   "openalex": "https://openalex.org/A5039177481"
+   "works": 173
   },
   "sources": [
    "NIH (USA)"
@@ -32061,11 +31701,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 73,
    "citations": 5267,
    "h_index": 30,
+   "openalex": "https://openalex.org/A5087090379",
    "orcid": "https://orcid.org/0000-0002-1045-1337",
-   "openalex": "https://openalex.org/A5087090379"
+   "works": 73
   },
   "sources": [
    "NIH (USA)"
@@ -32106,11 +31746,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 8,
    "citations": 59,
    "h_index": 2,
+   "openalex": "https://openalex.org/A5050505994",
    "orcid": "",
-   "openalex": "https://openalex.org/A5050505994"
+   "works": 8
   },
   "sources": [
    "NIH (USA)"
@@ -32163,11 +31803,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 311,
    "citations": 7808,
    "h_index": 43,
+   "openalex": "https://openalex.org/A5075585167",
    "orcid": "https://orcid.org/0000-0001-6758-0941",
-   "openalex": "https://openalex.org/A5075585167"
+   "works": 311
   },
   "sources": [
    "NIH (USA)"
@@ -32289,11 +31929,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 429,
    "citations": 11370,
    "h_index": 56,
+   "openalex": "https://openalex.org/A5075204227",
    "orcid": "https://orcid.org/0000-0001-6579-3513",
-   "openalex": "https://openalex.org/A5075204227"
+   "works": 429
   },
   "sources": [
    "NIH (USA)"
@@ -32334,11 +31974,11 @@
   ],
   "positions": [],
   "metrics": {
-   "works": 311,
    "citations": 32369,
    "h_index": 77,
+   "openalex": "https://openalex.org/A5040963206",
    "orcid": "https://orcid.org/0000-0002-0274-9213",
-   "openalex": "https://openalex.org/A5040963206"
+   "works": 311
   },
   "sources": [
    "NIH (USA)"
@@ -32466,7 +32106,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "COVID-19 and healthcare impacts",
+   "Genetic Associations and Epidemiology",
+   "Effects and risks of endocrine disrupting chemicals",
+   "Cancer Immunotherapy and Biomarkers",
+   "COVID-19 Clinical Research Studies"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -32483,7 +32129,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 806,
+   "citations": 20838,
+   "h_index": 78,
+   "orcid": "https://orcid.org/0000-0003-0118-4561",
+   "openalex": "https://openalex.org/A5082251592"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -32532,7 +32184,13 @@
   "country": "Nigeria",
   "region": "Other",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Cervical Cancer and HPV Research",
+   "HIV/AIDS Research and Interventions",
+   "Global Cancer Incidence and Screening",
+   "Global Maternal and Child Health",
+   "Adolescent Sexual and Reproductive Health"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -32549,7 +32207,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 126,
+   "citations": 30313,
+   "h_index": 21,
+   "orcid": "https://orcid.org/0000-0002-7836-0976",
+   "openalex": "https://openalex.org/A5050530175"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -32565,7 +32229,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Public Health & Epidemiology",
-  "topics": [],
+  "topics": [
+   "HIV/AIDS Research and Interventions",
+   "Adolescent Sexual and Reproductive Health",
+   "Global Maternal and Child Health",
+   "HIV-related health complications and treatments",
+   "HIV/AIDS Impact and Responses"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -32594,7 +32264,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 213,
+   "citations": 2886,
+   "h_index": 29,
+   "orcid": "https://orcid.org/0000-0002-4891-6750",
+   "openalex": "https://openalex.org/A5076914687"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -32655,7 +32331,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Phonetics and Phonology Research",
+   "Neuroscience and Music Perception",
+   "Neurobiology of Language and Bilingualism",
+   "Language Development and Disorders",
+   "Multisensory perception and integration"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -32672,7 +32354,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 118,
+   "citations": 2481,
+   "h_index": 28,
+   "orcid": "https://orcid.org/0000-0002-9475-764X",
+   "openalex": "https://openalex.org/A5035107561"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -32733,7 +32421,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Digital Mental Health Interventions",
+   "Behavioral Health and Interventions",
+   "Mobile Health and mHealth Applications",
+   "Advanced Causal Inference Techniques",
+   "Mental Health Research Topics"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -32798,7 +32492,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 212,
+   "citations": 8859,
+   "h_index": 42,
+   "orcid": "https://orcid.org/0000-0001-6138-9089",
+   "openalex": "https://openalex.org/A5034549483"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -32814,7 +32514,13 @@
   "country": "Uganda",
   "region": "Other",
   "subject_area": "Infectious Disease & One Health",
-  "topics": [],
+  "topics": [
+   "HIV/AIDS Research and Interventions",
+   "HIV Research and Treatment",
+   "Global Health and Surgery",
+   "HIV-related health complications and treatments",
+   "HIV/AIDS drug development and treatment"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -32831,7 +32537,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 169,
+   "citations": 3291,
+   "h_index": 31,
+   "orcid": "https://orcid.org/0000-0002-0935-2112",
+   "openalex": "https://openalex.org/A5040003659"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -32847,7 +32559,13 @@
   "country": "Uganda",
   "region": "Other",
   "subject_area": "Public Health & Epidemiology",
-  "topics": [],
+  "topics": [
+   "Malaria Research and Control",
+   "Mosquito-borne diseases and control",
+   "Parasites and Host Interactions",
+   "Parasitic Diseases Research and Treatment",
+   "Global Maternal and Child Health"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -32864,7 +32582,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 228,
+   "citations": 5373,
+   "h_index": 41,
+   "orcid": "https://orcid.org/0000-0001-7818-3845",
+   "openalex": "https://openalex.org/A5048004017"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -32913,7 +32637,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Public Health & Epidemiology",
-  "topics": [],
+  "topics": [
+   "Cardiovascular and exercise physiology",
+   "Cardiovascular Function and Risk Factors",
+   "Cardiovascular Health and Risk Factors",
+   "Heart Failure Treatment and Management",
+   "Metabolomics and Mass Spectrometry Studies"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -32930,7 +32660,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 178,
+   "citations": 4286,
+   "h_index": 35,
+   "orcid": "https://orcid.org/0000-0002-6993-9396",
+   "openalex": "https://openalex.org/A5035109163"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33102,7 +32838,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Mosquito-borne diseases and control",
+   "Viral Infections and Vectors",
+   "T-cell and B-cell Immunology",
+   "Immune Cell Function and Interaction",
+   "Immunotherapy and Immune Responses"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33119,7 +32861,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 104,
+   "citations": 7490,
+   "h_index": 40,
+   "orcid": "https://orcid.org/0000-0001-8730-4768",
+   "openalex": "https://openalex.org/A5060952990"
+  },
   "sources": [
    "NSF (USA)"
   ],
@@ -33135,7 +32883,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Osteoarthritis Treatment and Mechanisms",
+   "Total Knee Arthroplasty Outcomes",
+   "Hip disorders and treatments",
+   "Rheumatoid Arthritis Research and Therapies",
+   "Musculoskeletal Disorders and Rehabilitation"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33164,7 +32918,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 489,
+   "citations": 16589,
+   "h_index": 41,
+   "orcid": "https://orcid.org/0000-0002-9344-7877",
+   "openalex": "https://openalex.org/A5088835363"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33225,7 +32985,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Evaluation and Performance Assessment",
+   "Service-Learning and Community Engagement",
+   "Public Health Policies and Education",
+   "Innovations in Medical Education",
+   "Health Policy Implementation Science"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33242,7 +33008,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 53,
+   "citations": 497,
+   "h_index": 13,
+   "orcid": "https://orcid.org/0000-0001-7254-7900",
+   "openalex": "https://openalex.org/A5004610785"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33257,8 +33029,14 @@
   "city": "BOZEMAN",
   "country": "United States",
   "region": "North America",
-  "subject_area": "Other",
-  "topics": [],
+  "subject_area": "Physical Sciences & Mathematics",
+  "topics": [
+   "Magnetic and transport properties of perovskites and related materials",
+   "Advanced Condensed Matter Physics",
+   "Multiferroics and related materials",
+   "Rare-earth and actinide compounds",
+   "Physics of Superconductivity and Magnetism"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33275,7 +33053,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 219,
+   "citations": 3586,
+   "h_index": 32,
+   "orcid": "https://orcid.org/0000-0002-4114-564X",
+   "openalex": "https://openalex.org/A5070112137"
+  },
   "sources": [
    "NSF (USA)"
   ],
@@ -33291,7 +33075,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Public Health & Epidemiology",
-  "topics": [],
+  "topics": [
+   "Rabies epidemiology and control",
+   "Trypanosoma species research and implications",
+   "Human-Animal Interaction Studies",
+   "Zoonotic diseases and public health",
+   "Virology and Viral Diseases"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33308,7 +33098,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 107,
+   "citations": 1524,
+   "h_index": 21,
+   "orcid": "https://orcid.org/0000-0001-6629-2139",
+   "openalex": "https://openalex.org/A5020816734"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33324,7 +33120,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Public Health & Epidemiology",
-  "topics": [],
+  "topics": [
+   "Obesity, Physical Activity, Diet",
+   "Dementia and Cognitive Impairment Research",
+   "Diabetes, Cardiovascular Risks, and Lipoproteins",
+   "Nutritional Studies and Diet",
+   "COVID-19 epidemiological studies"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33341,7 +33143,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 112,
+   "citations": 1398,
+   "h_index": 18,
+   "orcid": "https://orcid.org/0000-0001-5932-6169",
+   "openalex": "https://openalex.org/A5071744840"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33357,7 +33165,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "SARS-CoV-2 and COVID-19 Research",
+   "COVID-19 epidemiological studies",
+   "COVID-19 Clinical Research Studies",
+   "Cancer Immunotherapy and Biomarkers",
+   "COVID-19 and healthcare impacts"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33374,7 +33188,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 31,
+   "citations": 939,
+   "h_index": 11,
+   "orcid": "https://orcid.org/0000-0002-1761-0951",
+   "openalex": "https://openalex.org/A5048907794"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33447,7 +33267,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Neural dynamics and brain function",
+   "Neuroscience and Neuropharmacology Research",
+   "Retinal Development and Disorders",
+   "Neurobiology and Insect Physiology Research",
+   "Memory and Neural Mechanisms"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33464,7 +33290,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 95,
+   "citations": 7926,
+   "h_index": 32,
+   "orcid": "https://orcid.org/0000-0001-6283-3540",
+   "openalex": "https://openalex.org/A5084982251"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33480,7 +33312,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Ageing & Palliative Care",
-  "topics": [],
+  "topics": [
+   "Career Development and Diversity",
+   "Science Education and Pedagogy",
+   "Conferences and Exhibitions Management",
+   "Nerve injury and regeneration",
+   "Neuropeptides and Animal Physiology"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33509,7 +33347,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 17,
+   "citations": 176,
+   "h_index": 7,
+   "orcid": "https://orcid.org/0009-0004-3424-4844",
+   "openalex": "https://openalex.org/A5104358073"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33525,7 +33369,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Genetic Associations and Epidemiology",
+   "Schizophrenia research and treatment",
+   "Tryptophan and brain disorders",
+   "Bipolar Disorder and Treatment",
+   "Genetics and Neurodevelopmental Disorders"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33554,7 +33404,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 391,
+   "citations": 22905,
+   "h_index": 66,
+   "orcid": "https://orcid.org/0000-0001-8485-5927",
+   "openalex": "https://openalex.org/A5088260835"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33570,7 +33426,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Dementia and Cognitive Impairment Research",
+   "Alzheimer's disease research and treatments",
+   "Traumatic Brain Injury Research",
+   "Stroke Rehabilitation and Recovery",
+   "Functional Brain Connectivity Studies"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33587,7 +33449,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 230,
+   "citations": 7734,
+   "h_index": 43,
+   "orcid": "https://orcid.org/0000-0003-0648-6702",
+   "openalex": "https://openalex.org/A5002700915"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33603,7 +33471,13 @@
   "country": "Mozambique",
   "region": "Other",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Global Health and Surgery",
+   "Parasitic infections in humans and animals",
+   "Parasites and Host Interactions",
+   "Global Maternal and Child Health",
+   "Parasitic Infections and Diagnostics"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33620,7 +33494,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 90,
+   "citations": 1678,
+   "h_index": 22,
+   "orcid": "https://orcid.org/0000-0001-8874-1900",
+   "openalex": "https://openalex.org/A5011185266"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33636,7 +33516,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Memory and Neural Mechanisms",
+   "Neural dynamics and brain function",
+   "Memory Processes and Influences",
+   "Functional Brain Connectivity Studies",
+   "Neural and Behavioral Psychology Studies"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33653,7 +33539,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 334,
+   "citations": 22832,
+   "h_index": 70,
+   "orcid": "https://orcid.org/0000-0002-5887-9682",
+   "openalex": "https://openalex.org/A5070059815"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33669,7 +33561,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Ageing & Palliative Care",
-  "topics": [],
+  "topics": [
+   "Chronic Disease Management Strategies",
+   "Dementia and Cognitive Impairment Research",
+   "Geriatric Care and Nursing Homes",
+   "Health Promotion and Cardiovascular Prevention",
+   "Electronic Health Records Systems"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33686,7 +33584,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 52,
+   "citations": 629,
+   "h_index": 13,
+   "orcid": "https://orcid.org/0000-0003-3908-286X",
+   "openalex": "https://openalex.org/A5022300166"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33702,7 +33606,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Hearing Impairment and Communication",
+   "Hand Gesture Recognition Systems",
+   "Child and Animal Learning Development",
+   "Action Observation and Synchronization",
+   "Dementia and Cognitive Impairment Research"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33719,7 +33629,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 73,
+   "citations": 1620,
+   "h_index": 14,
+   "orcid": "https://orcid.org/0000-0003-0522-0371",
+   "openalex": "https://openalex.org/A5002838384"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33834,7 +33750,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Infectious Disease & One Health",
-  "topics": [],
+  "topics": [
+   "T-cell and B-cell Immunology",
+   "Immune Cell Function and Interaction",
+   "HIV Research and Treatment",
+   "Immunotherapy and Immune Responses",
+   "Monoclonal and Polyclonal Antibodies Research"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33863,7 +33785,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 640,
+   "citations": 122525,
+   "h_index": 185,
+   "orcid": "https://orcid.org/0000-0003-0592-8564",
+   "openalex": "https://openalex.org/A5003699560"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33879,7 +33807,13 @@
   "country": "Kenya",
   "region": "Other",
   "subject_area": "Public Health & Epidemiology",
-  "topics": [],
+  "topics": [
+   "HIV/AIDS Research and Interventions",
+   "Adolescent Sexual and Reproductive Health",
+   "HIV/AIDS drug development and treatment",
+   "Poverty, Education, and Child Welfare",
+   "HIV-related health complications and treatments"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33896,7 +33830,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 140,
+   "citations": 3632,
+   "h_index": 38,
+   "orcid": "https://orcid.org/0000-0002-7639-9287",
+   "openalex": "https://openalex.org/A5026588563"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -33912,7 +33852,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "MicroRNA in disease regulation",
+   "Circular RNAs in diseases",
+   "Immune cells in cancer",
+   "Immune Cell Function and Interaction",
+   "Extracellular vesicles in disease"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -33941,7 +33887,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 177,
+   "citations": 20278,
+   "h_index": 54,
+   "orcid": "https://orcid.org/0000-0003-0860-1401",
+   "openalex": "https://openalex.org/A5035059671"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34023,7 +33975,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Environmental & Earth Sciences",
-  "topics": [],
+  "topics": [
+   "Disaster Response and Management",
+   "Ethics in medical practice",
+   "Ethics in Clinical Research",
+   "Disaster Management and Resilience",
+   "Complementary and Alternative Medicine Studies"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34052,7 +34010,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 195,
+   "citations": 3112,
+   "h_index": 30,
+   "orcid": "https://orcid.org/0000-0001-5331-3340",
+   "openalex": "https://openalex.org/A5007752641"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34068,7 +34032,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Advanced Breast Cancer Therapies",
+   "Breast Cancer Treatment Studies",
+   "Cancer Treatment and Pharmacology",
+   "HER2/EGFR in Cancer Research",
+   "Estrogen and related hormone effects"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34085,7 +34055,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 269,
+   "citations": 16024,
+   "h_index": 55,
+   "orcid": "https://orcid.org/0000-0001-6984-3741",
+   "openalex": "https://openalex.org/A5079638534"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34101,7 +34077,13 @@
   "country": "Peru",
   "region": "Other",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Viral gastroenteritis research and epidemiology",
+   "Escherichia coli research studies",
+   "Pneumonia and Respiratory Infections",
+   "Infant Nutrition and Health",
+   "Antibiotic Resistance in Bacteria"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34118,7 +34100,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 280,
+   "citations": 27490,
+   "h_index": 47,
+   "orcid": "https://orcid.org/0000-0002-3227-3906",
+   "openalex": "https://openalex.org/A5022125217"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34212,7 +34200,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Palliative Care and End-of-Life Issues",
+   "Cancer survivorship and care",
+   "Childhood Cancer Survivors' Quality of Life",
+   "Family and Patient Care in Intensive Care Units",
+   "Family Support in Illness"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34265,7 +34259,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 340,
+   "citations": 8016,
+   "h_index": 42,
+   "orcid": "https://orcid.org/0000-0001-6764-0254",
+   "openalex": "https://openalex.org/A5052742977"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34281,7 +34281,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Public Health & Epidemiology",
-  "topics": [],
+  "topics": [
+   "Medical Imaging Techniques and Applications",
+   "Statistical Methods and Inference",
+   "Neurotransmitter Receptor Influence on Behavior",
+   "Treatment of Major Depression",
+   "Functional Brain Connectivity Studies"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34298,7 +34304,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 240,
+   "citations": 8635,
+   "h_index": 50,
+   "orcid": "https://orcid.org/0009-0008-0005-446X",
+   "openalex": "https://openalex.org/A5081965846"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34347,7 +34359,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "BRCA gene mutations in cancer",
+   "Genetic Associations and Epidemiology",
+   "Global Cancer Incidence and Screening",
+   "Ethics in Clinical Research",
+   "Cancer Genomics and Diagnostics"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34388,7 +34406,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 175,
+   "citations": 3959,
+   "h_index": 35,
+   "orcid": "https://orcid.org/0000-0001-6405-2131",
+   "openalex": "https://openalex.org/A5026799973"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34437,7 +34461,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Public Health & Epidemiology",
-  "topics": [],
+  "topics": [
+   "Smoking Behavior and Cessation",
+   "Substance Abuse Treatment and Outcomes",
+   "Homelessness and Social Issues",
+   "Nicotinic Acetylcholine Receptors Study",
+   "Global Cancer Incidence and Screening"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34454,7 +34484,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 177,
+   "citations": 6052,
+   "h_index": 47,
+   "orcid": "https://orcid.org/0000-0002-5342-7986",
+   "openalex": "https://openalex.org/A5044839643"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34470,7 +34506,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Engineering",
-  "topics": [],
+  "topics": [
+   "Advanced MEMS and NEMS Technologies",
+   "Advanced Sensor and Energy Harvesting Materials",
+   "Piezoelectric Actuators and Control",
+   "Mechanical and Optical Resonators",
+   "Adhesion, Friction, and Surface Interactions"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34487,7 +34529,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 167,
+   "citations": 1579,
+   "h_index": 22,
+   "orcid": "https://orcid.org/0000-0002-5962-3056",
+   "openalex": "https://openalex.org/A5032749727"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34560,7 +34608,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Pancreatic function and diabetes",
+   "Tissue Engineering and Regenerative Medicine",
+   "Diabetes Management and Research",
+   "3D Printing in Biomedical Research",
+   "Electrospun Nanofibers in Biomedical Applications"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34577,7 +34631,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 197,
+   "citations": 5542,
+   "h_index": 40,
+   "orcid": "https://orcid.org/0000-0002-3486-1453",
+   "openalex": "https://openalex.org/A5036015196"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34593,7 +34653,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Suicide and Self-Harm Studies",
+   "Treatment of Major Depression",
+   "Mental Health Treatment and Access",
+   "Tryptophan and brain disorders",
+   "Functional Brain Connectivity Studies"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34610,7 +34676,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 605,
+   "citations": 40549,
+   "h_index": 102,
+   "orcid": "https://orcid.org/0000-0002-7901-5082",
+   "openalex": "https://openalex.org/A5062214025"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34659,7 +34731,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Ageing & Palliative Care",
-  "topics": [],
+  "topics": [
+   "Hip and Femur Fractures",
+   "Bone health and osteoporosis research",
+   "Nutrition and Health in Aging",
+   "Frailty in Older Adults",
+   "Cardiac Health and Mental Health"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34676,7 +34754,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 184,
+   "citations": 9410,
+   "h_index": 40,
+   "orcid": "https://orcid.org/0000-0003-4095-5795",
+   "openalex": "https://openalex.org/A5034996737"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34692,7 +34776,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Engineering",
-  "topics": [],
+  "topics": [
+   "Solar Thermal and Photovoltaic Systems",
+   "Photovoltaic System Optimization Techniques",
+   "solar cell performance optimization",
+   "Solar-Powered Water Purification Methods",
+   "Nanofluid Flow and Heat Transfer"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34709,7 +34799,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 148,
+   "citations": 7389,
+   "h_index": 39,
+   "orcid": "https://orcid.org/0000-0002-4579-6183",
+   "openalex": "https://openalex.org/A5070727043"
+  },
   "sources": [
    "NSF (USA)"
   ],
@@ -34758,7 +34854,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Malaria Research and Control",
+   "Mosquito-borne diseases and control",
+   "Global Maternal and Child Health",
+   "Complement system in diseases",
+   "Child Nutrition and Water Access"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34787,7 +34889,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 207,
+   "citations": 3678,
+   "h_index": 36,
+   "orcid": "https://orcid.org/0000-0001-8205-8887",
+   "openalex": "https://openalex.org/A5022737094"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34803,7 +34911,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Environmental & Earth Sciences",
-  "topics": [],
+  "topics": [
+   "Animal Behavior and Reproduction",
+   "Avian ecology and behavior",
+   "Impact of Light on Environment and Health",
+   "Animal Vocal Communication and Behavior",
+   "Circadian rhythm and melatonin"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34820,7 +34934,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 77,
+   "citations": 2549,
+   "h_index": 26,
+   "orcid": "https://orcid.org/0000-0002-5111-5145",
+   "openalex": "https://openalex.org/A5012936247"
+  },
   "sources": [
    "NSF (USA)"
   ],
@@ -34836,7 +34956,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Acute Ischemic Stroke Management",
+   "Cerebrovascular and Carotid Artery Diseases",
+   "Stroke Rehabilitation and Recovery",
+   "Blood Pressure and Hypertension Studies",
+   "Intracerebral and Subarachnoid Hemorrhage Research"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34853,7 +34979,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 757,
+   "citations": 71464,
+   "h_index": 89,
+   "orcid": "https://orcid.org/0000-0002-9958-0644",
+   "openalex": "https://openalex.org/A5052180681"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34902,7 +35034,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Cervical Cancer and HPV Research",
+   "Lung Cancer Treatments and Mutations",
+   "Molecular Biology Techniques and Applications",
+   "Lung Cancer Research Studies",
+   "Head and Neck Cancer Studies"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34919,7 +35057,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 84,
+   "citations": 9274,
+   "h_index": 36,
+   "orcid": "https://orcid.org/0000-0001-8551-4606",
+   "openalex": "https://openalex.org/A5011407443"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34935,7 +35079,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Computer Science & AI",
-  "topics": [],
+  "topics": [
+   "Adolescent Sexual and Reproductive Health",
+   "Child and Adolescent Health",
+   "Adolescent and Pediatric Healthcare",
+   "Mobile Health and mHealth Applications",
+   "Digital Mental Health Interventions"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34952,7 +35102,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 107,
+   "citations": 6075,
+   "h_index": 31,
+   "orcid": "https://orcid.org/0000-0001-8680-4453",
+   "openalex": "https://openalex.org/A5005493702"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -34968,7 +35124,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Neural and Behavioral Psychology Studies",
+   "Neural dynamics and brain function",
+   "Visual perception and processing mechanisms",
+   "Decision-Making and Behavioral Economics",
+   "Motor Control and Adaptation"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -34997,7 +35159,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 75,
+   "citations": 7598,
+   "h_index": 32,
+   "orcid": "https://orcid.org/0000-0002-7519-8790",
+   "openalex": "https://openalex.org/A5056107268"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35013,7 +35181,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Traffic and Road Safety",
+   "Trauma and Emergency Care Studies",
+   "Injury Epidemiology and Prevention",
+   "Global Public Health Policies and Epidemiology",
+   "Urban Transport and Accessibility"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35066,7 +35240,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 78,
+   "citations": 712,
+   "h_index": 14,
+   "orcid": "https://orcid.org/0000-0002-8263-9881",
+   "openalex": "https://openalex.org/A5051259870"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35082,7 +35262,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Hearing Loss and Rehabilitation",
+   "Noise Effects and Management",
+   "Hearing, Cochlea, Tinnitus, Genetics",
+   "Hearing Impairment and Communication",
+   "Speech and Audio Processing"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35099,7 +35285,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 113,
+   "citations": 1477,
+   "h_index": 21,
+   "orcid": "https://orcid.org/0000-0001-7538-5054",
+   "openalex": "https://openalex.org/A5033711234"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35148,7 +35340,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Public Health & Epidemiology",
-  "topics": [],
+  "topics": [
+   "Genetic Associations and Epidemiology",
+   "Diabetes, Cardiovascular Risks, and Lipoproteins",
+   "Adipokines, Inflammation, and Metabolic Diseases",
+   "Epigenetics and DNA Methylation",
+   "Cardiovascular Health and Risk Factors"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35165,7 +35363,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 921,
+   "citations": 64083,
+   "h_index": 115,
+   "orcid": "https://orcid.org/0000-0001-7076-483X",
+   "openalex": "https://openalex.org/A5022683360"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35181,7 +35385,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Visual perception and processing mechanisms",
+   "Retinal Development and Disorders",
+   "Color Science and Applications",
+   "Color perception and design",
+   "Retinal Diseases and Treatments"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35198,7 +35408,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 42,
+   "citations": 647,
+   "h_index": 12,
+   "orcid": "https://orcid.org/0000-0002-5024-835X",
+   "openalex": "https://openalex.org/A5043106426"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35214,7 +35430,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Substance Abuse Treatment and Outcomes",
+   "Sleep and related disorders",
+   "Cannabis and Cannabinoid Research",
+   "Alcohol Consumption and Health Effects",
+   "Racial and Ethnic Identity Research"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35231,7 +35453,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 78,
+   "citations": 1717,
+   "h_index": 22,
+   "orcid": "https://orcid.org/0000-0002-7921-7143",
+   "openalex": "https://openalex.org/A5000294674"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35247,7 +35475,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Environmental & Earth Sciences",
-  "topics": [],
+  "topics": [
+   "Climate change and permafrost",
+   "Cryospheric studies and observations",
+   "Geophysical Methods and Applications",
+   "Landslides and related hazards",
+   "Arctic and Antarctic ice dynamics"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35264,7 +35498,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 222,
+   "citations": 2590,
+   "h_index": 29,
+   "orcid": "https://orcid.org/0000-0001-5072-9818",
+   "openalex": "https://openalex.org/A5049920825"
+  },
   "sources": [
    "NSF (USA)"
   ],
@@ -35280,7 +35520,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Musculoskeletal pain and rehabilitation",
+   "Nutrition and Health in Aging",
+   "Balance, Gait, and Falls Prevention",
+   "Physical Activity and Health",
+   "Frailty in Older Adults"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35297,7 +35543,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 204,
+   "citations": 15502,
+   "h_index": 62,
+   "orcid": "https://orcid.org/0000-0002-8443-2876",
+   "openalex": "https://openalex.org/A5021859258"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35313,7 +35565,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Genetic Neurodegenerative Diseases",
+   "Mitochondrial Function and Pathology",
+   "Ubiquitin and proteasome pathways",
+   "Dementia and Cognitive Impairment Research",
+   "Alzheimer's disease research and treatments"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35330,7 +35588,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 434,
+   "citations": 34942,
+   "h_index": 91,
+   "orcid": "https://orcid.org/0000-0002-0382-7535",
+   "openalex": "https://openalex.org/A5055180300"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35412,7 +35676,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Context-Aware Activity Recognition Systems",
+   "Obesity, Physical Activity, Diet",
+   "Mobile Health and mHealth Applications",
+   "Advanced Chemical Sensor Technologies",
+   "IoT and Edge/Fog Computing"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35429,7 +35699,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 28,
+   "citations": 229,
+   "h_index": 8,
+   "orcid": "https://orcid.org/0000-0001-5742-6529",
+   "openalex": "https://openalex.org/A5001759639"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35445,7 +35721,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Injury Epidemiology and Prevention",
+   "Traffic and Road Safety",
+   "Trauma and Emergency Care Studies",
+   "Agriculture and Farm Safety",
+   "Intimate Partner and Family Violence"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35510,7 +35792,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 362,
+   "citations": 9159,
+   "h_index": 49,
+   "orcid": "https://orcid.org/0000-0001-9472-2538",
+   "openalex": "https://openalex.org/A5084702175"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35526,7 +35814,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Long-Term Effects of COVID-19",
+   "Blood Pressure and Hypertension Studies",
+   "Cardiovascular Health and Risk Factors",
+   "Intensive Care Unit Cognitive Disorders",
+   "Dementia and Cognitive Impairment Research"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35543,7 +35837,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 38,
+   "citations": 1797,
+   "h_index": 17,
+   "orcid": "",
+   "openalex": "https://openalex.org/A5086500128"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35559,7 +35859,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Public Health & Epidemiology",
-  "topics": [],
+  "topics": [
+   "HIV/AIDS Research and Interventions",
+   "HIV, Drug Use, Sexual Risk",
+   "Adolescent Sexual and Reproductive Health",
+   "Mental Health Treatment and Access",
+   "HIV Research and Treatment"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35588,7 +35894,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 518,
+   "citations": 10118,
+   "h_index": 54,
+   "orcid": "https://orcid.org/0000-0001-7321-9538",
+   "openalex": "https://openalex.org/A5019657241"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35604,7 +35916,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Neuroscience and Neuropharmacology Research",
+   "Connexins and lens biology",
+   "Nicotinic Acetylcholine Receptors Study",
+   "Photoreceptor and optogenetics research",
+   "Ion channel regulation and function"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35621,7 +35939,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 57,
+   "citations": 2251,
+   "h_index": 18,
+   "orcid": "https://orcid.org/0000-0002-8283-8768",
+   "openalex": "https://openalex.org/A5102800103"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35637,7 +35961,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Ageing & Palliative Care",
-  "topics": [],
+  "topics": [
+   "Palliative Care and End-of-Life Issues",
+   "Geriatric Care and Nursing Homes",
+   "Grief, Bereavement, and Mental Health",
+   "Ethics in medical practice",
+   "Patient Dignity and Privacy"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35654,7 +35984,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 169,
+   "citations": 3017,
+   "h_index": 27,
+   "orcid": "https://orcid.org/0000-0001-5438-9902",
+   "openalex": "https://openalex.org/A5071704902"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35670,7 +36006,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Animal Vocal Communication and Behavior",
+   "Animal Behavior and Reproduction",
+   "Marine animal studies overview",
+   "Neuroscience and Neuropharmacology Research",
+   "Neural dynamics and brain function"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35687,7 +36029,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 118,
+   "citations": 10026,
+   "h_index": 46,
+   "orcid": "https://orcid.org/0000-0002-3142-9614",
+   "openalex": "https://openalex.org/A5078245140"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35703,7 +36051,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Malaria Research and Control",
+   "Complement system in diseases",
+   "COVID-19 Clinical Research Studies",
+   "Mosquito-borne diseases and control",
+   "Healthcare Systems and Reforms"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35732,7 +36086,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 214,
+   "citations": 5510,
+   "h_index": 41,
+   "orcid": "https://orcid.org/0000-0001-9390-6255",
+   "openalex": "https://openalex.org/A5042063773"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35748,7 +36108,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Environmental & Earth Sciences",
-  "topics": [],
+  "topics": [
+   "Asthma and respiratory diseases",
+   "Allergic Rhinitis and Sensitization",
+   "Air Quality and Health Impacts",
+   "Indoor Air Quality and Microbial Exposure",
+   "Noise Effects and Management"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35789,7 +36155,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 325,
+   "citations": 8963,
+   "h_index": 55,
+   "orcid": "https://orcid.org/0000-0003-1300-0985",
+   "openalex": "https://openalex.org/A5075233055"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35805,7 +36177,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Hematopoietic Stem Cell Transplantation",
+   "T-cell and B-cell Immunology",
+   "Immune Cell Function and Interaction",
+   "Renal Transplantation Outcomes and Treatments",
+   "Acute Lymphoblastic Leukemia research"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35822,7 +36200,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 359,
+   "citations": 21090,
+   "h_index": 74,
+   "orcid": "https://orcid.org/0000-0002-6454-3683",
+   "openalex": "https://openalex.org/A5060725545"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35838,7 +36222,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Research on Leishmaniasis Studies",
+   "Trypanosoma species research and implications",
+   "Vector-borne infectious diseases",
+   "Viral Infections and Vectors",
+   "Parasites and Host Interactions"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35855,7 +36245,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 156,
+   "citations": 4115,
+   "h_index": 36,
+   "orcid": "https://orcid.org/0000-0002-7285-4254",
+   "openalex": "https://openalex.org/A5034290033"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35871,7 +36267,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Mosquito-borne diseases and control",
+   "Viral Infections and Vectors",
+   "Virology and Viral Diseases",
+   "Design Education and Practice",
+   "Creativity in Education and Neuroscience"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35888,7 +36290,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 25,
+   "citations": 613,
+   "h_index": 11,
+   "orcid": "https://orcid.org/0000-0002-6657-0175",
+   "openalex": "https://openalex.org/A5076858337"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -35949,7 +36357,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Developmental Biology and Gene Regulation",
+   "Neurogenesis and neuroplasticity mechanisms",
+   "Zebrafish Biomedical Research Applications",
+   "Axon Guidance and Neuronal Signaling",
+   "RNA Research and Splicing"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -35966,7 +36380,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 162,
+   "citations": 20023,
+   "h_index": 70,
+   "orcid": "https://orcid.org/0000-0002-2142-166X",
+   "openalex": "https://openalex.org/A5052468955"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -36015,7 +36435,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Diabetes Management and Research",
+   "Diabetes Treatment and Management",
+   "Diabetes Management and Education",
+   "Hyperglycemia and glycemic control in critically ill and hospitalized patients",
+   "Diabetes, Cardiovascular Risks, and Lipoproteins"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -36032,7 +36458,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 274,
+   "citations": 9141,
+   "h_index": 43,
+   "orcid": "https://orcid.org/0000-0002-3986-9630",
+   "openalex": "https://openalex.org/A5085399860"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -36048,7 +36480,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "HIV/AIDS Research and Interventions",
+   "LGBTQ Health, Identity, and Policy",
+   "HIV, Drug Use, Sexual Risk",
+   "Adolescent Sexual and Reproductive Health",
+   "Sex work and related issues"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -36065,7 +36503,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 208,
+   "citations": 5503,
+   "h_index": 41,
+   "orcid": "https://orcid.org/0000-0001-8396-1170",
+   "openalex": "https://openalex.org/A5047167349"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -36081,7 +36525,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Neurotransmitter Receptor Influence on Behavior",
+   "Neuroscience and Neuropharmacology Research",
+   "Receptor Mechanisms and Signaling",
+   "Neural dynamics and brain function",
+   "Stress Responses and Cortisol"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -36098,7 +36548,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 146,
+   "citations": 16717,
+   "h_index": 65,
+   "orcid": "https://orcid.org/0000-0002-8749-7026",
+   "openalex": "https://openalex.org/A5085146649"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -36114,7 +36570,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Genetic Syndromes and Imprinting",
+   "Neuroscience and Neuropharmacology Research",
+   "Genetics and Neurodevelopmental Disorders",
+   "Neurogenesis and neuroplasticity mechanisms",
+   "Epigenetics and DNA Methylation"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -36131,7 +36593,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 209,
+   "citations": 12844,
+   "h_index": 57,
+   "orcid": "https://orcid.org/0000-0003-2746-9143",
+   "openalex": "https://openalex.org/A5051099055"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -36147,7 +36615,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Social Sciences & Economics",
-  "topics": [],
+  "topics": [
+   "Psychological Well-being and Life Satisfaction",
+   "Health disparities and outcomes",
+   "Aging and Gerontology Research",
+   "Stress Responses and Cortisol",
+   "Mental Health Research Topics"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -36164,7 +36638,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 56,
+   "citations": 2671,
+   "h_index": 22,
+   "orcid": "https://orcid.org/0000-0002-8840-8849",
+   "openalex": "https://openalex.org/A5008487439"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -36180,7 +36660,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Nicotinic Acetylcholine Receptors Study",
+   "Receptor Mechanisms and Signaling",
+   "Neurotransmitter Receptor Influence on Behavior",
+   "Neuroscience and Neuropharmacology Research",
+   "Memory and Neural Mechanisms"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -36197,7 +36683,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 439,
+   "citations": 28523,
+   "h_index": 87,
+   "orcid": "https://orcid.org/0000-0002-4404-1280",
+   "openalex": "https://openalex.org/A5020907559"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -36213,7 +36705,13 @@
   "country": "United States",
   "region": "North America",
   "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
+  "topics": [
+   "Personality Disorders and Psychopathology",
+   "Mental Health and Psychiatry",
+   "Schizophrenia research and treatment",
+   "Innovations in Medical Education",
+   "Mental Health Treatment and Access"
+  ],
   "signal": "training_grant",
   "grants": [
    {
@@ -36230,7 +36728,13 @@
    }
   ],
   "positions": [],
-  "metrics": null,
+  "metrics": {
+   "works": 8,
+   "citations": 375,
+   "h_index": 5,
+   "orcid": "",
+   "openalex": "https://openalex.org/A5109034808"
+  },
   "sources": [
    "NIH (USA)"
   ],
@@ -48845,6 +49349,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "elizabeth-allman-university-of-alaska-fairbanks-campus",
+  "name": "Elizabeth Allman",
+  "institution": "University of Alaska Fairbanks Campus",
+  "city": "FAIRBANKS",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2554614",
+    "title": "Collaborative Research: Fast and sound coalescent-based inference of semi-directed phylogenetic networks from genome-scale data",
+    "amount": 289888.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2029-08-31",
+    "program": "MATHEMATICAL BIOLOGY",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2554614"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 289888,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "heather-gwynn-allore-yale-university",
   "name": "Heather Gwynn Allore",
   "institution": "Yale University",
@@ -54464,39 +55001,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "aboulfazl-barati-troy-university",
-  "name": "Aboulfazl Barati",
-  "institution": "Troy University",
-  "city": "TROY",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Engineering",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2624429",
-    "title": "EPSCoR Research Fellows: NSF: Architecture-Driven Tolerant Soft Polymer Systems from Heterogeneous Waste Feedstocks",
-    "amount": 249242.0,
-    "currency": "USD",
-    "start": "2027-01-01",
-    "end": "2028-12-31",
-    "program": "EPSCoR RII: EPSCoR Research Fe",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2624429"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 249242,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "andrew-serghios-barbas-duke-university",
   "name": "Andrew Serghios Barbas",
   "institution": "Duke University",
@@ -57929,39 +58433,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "anna-bergstrom-boise-state-university",
-  "name": "Anna Bergstrom",
-  "institution": "Boise State University",
-  "city": "BOISE",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Environmental & Earth Sciences",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2539349",
-    "title": "CAREER: Tracing hydrologic and biogeochemical consequences of multiple disturbances in mountain watersheds",
-    "amount": 714878.0,
-    "currency": "USD",
-    "start": "2027-01-01",
-    "end": "2031-12-31",
-    "program": "WaLCZ-Water, Land, & Crit Zone",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2539349"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 714878,
-  "first_seen": "2026-10-01"
- },
- {
   "id": "lisa-f-berkman-harvard-university-d-b-a-harvard-school-of-public-health",
   "name": "Lisa F Berkman",
   "institution": "Harvard University D/B/A Harvard School Of Public Health",
@@ -59144,39 +59615,6 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 302314,
-  "first_seen": "2026-09-27"
- },
- {
-  "id": "abhinav-bhushan-illinois-institute-of-technology",
-  "name": "Abhinav Bhushan",
-  "institution": "Illinois Institute of Technology",
-  "city": "CHICAGO",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Engineering",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2545233",
-    "title": "A Generalizable Platform for Adaptive Control of Complex Biological Systems",
-    "amount": 400000.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2029-08-31",
-    "program": "Engineering of Biomed Systems",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2545233"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 400000,
   "first_seen": "2026-09-27"
  },
  {
@@ -65063,6 +65501,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "christo-buizert-oregon-state-university",
+  "name": "Christo Buizert",
+  "institution": "Oregon State University",
+  "city": "CORVALLIS",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Environmental & Earth Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2612481",
+    "title": "The Bipolar Ice Core Chronology: Enabling discovery through synchronized ice core timescales",
+    "amount": 446705.0,
+    "currency": "USD",
+    "start": "2026-11-01",
+    "end": "2029-10-31",
+    "program": "ANT Glaciology",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2612481"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 446705,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "yuri-bunimovich-university-of-pittsburgh-at-pittsburgh",
   "name": "Yuri Bunimovich",
   "institution": "University Of Pittsburgh At Pittsburgh",
@@ -66554,15 +67025,15 @@
    },
    {
     "agency": "NIH (USA)",
-    "number": "3U01AI069923-22S1",
+    "number": "3U01AI069923-22S7",
     "title": "Caribbean, Central, and South America network for HIV Epidemiology (CCASAnet)",
-    "amount": 117131.0,
+    "amount": 93006.0,
     "currency": "USD",
     "start": "2006-06-15",
     "end": "2028-05-31",
     "program": "U01 (NIAID)",
     "kind": "research",
-    "url": "https://reporter.nih.gov/project-details/11541262"
+    "url": "https://reporter.nih.gov/project-details/11541270"
    }
   ],
   "positions": [],
@@ -66571,7 +67042,7 @@
    "NIH (USA)"
   ],
   "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 2373679,
+  "total_active_funding_usd": 2349554,
   "first_seen": "2026-09-27"
  },
  {
@@ -67895,39 +68366,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "ignazio-carbone-north-carolina-state-university",
-  "name": "Ignazio Carbone",
-  "institution": "North Carolina State University",
-  "city": "RALEIGH",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Other",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2616151",
-    "title": "Collaborative Research: ARTS: A modern taxonomy for Cercospora (Mycosphaerales, Ascomycota) and a multiomics interactive data platform for hypothesis testing",
-    "amount": 600163.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2031-08-31",
-    "program": "Evo Patterns & Processes",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2616151"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 600163,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "michel-alexandre-cardin-imperial-college-london",
   "name": "Michel Alexandre Cardin",
   "institution": "IMPERIAL COLLEGE LONDON",
@@ -68861,15 +69299,15 @@
    },
    {
     "agency": "NIH (USA)",
-    "number": "3U01AI069923-22S1",
+    "number": "3U01AI069923-22S7",
     "title": "Caribbean, Central, and South America network for HIV Epidemiology (CCASAnet)",
-    "amount": 117131.0,
+    "amount": 93006.0,
     "currency": "USD",
     "start": "2006-06-15",
     "end": "2028-05-31",
     "program": "U01 (NIAID)",
     "kind": "research",
-    "url": "https://reporter.nih.gov/project-details/11541262"
+    "url": "https://reporter.nih.gov/project-details/11541270"
    }
   ],
   "positions": [],
@@ -68878,7 +69316,7 @@
    "NIH (USA)"
   ],
   "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 2373679,
+  "total_active_funding_usd": 2349554,
   "first_seen": "2026-09-27"
  },
  {
@@ -70766,6 +71204,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "alicia-yue-che-yale-university",
+  "name": "Alicia Yue Che",
+  "institution": "Yale University",
+  "city": "New Haven",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NIH (USA)",
+    "number": "2P50AA012870-26",
+    "title": "Cortico-striatal mechanisms of Alcohol on E/I balance",
+    "amount": 280375.0,
+    "currency": "USD",
+    "start": "2001-06-04",
+    "end": "2031-06-30",
+    "program": "P50 (NIAAA)",
+    "kind": "research",
+    "url": "https://reporter.nih.gov/project-details/11232637"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NIH (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 280375,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "devon-check-university-of-michigan-at-ann-arbor",
   "name": "Devon Check",
   "institution": "University Of Michigan At Ann Arbor",
@@ -70988,39 +71459,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "xinnian-chen-university-of-connecticut",
-  "name": "Xinnian Chen",
-  "institution": "University of Connecticut",
-  "city": "STORRS",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Other",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2539226",
-    "title": "Collaborative Research: Translating Research on How People Learn and Organizations Change to Accelerate Adoption of High Impact Practices Throughout a State University System",
-    "amount": 153932.0,
-    "currency": "USD",
-    "start": "2027-01-01",
-    "end": "2031-12-31",
-    "program": "IUSE",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2539226"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 153932,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "kaiwen-chen-university-of-alabama-tuscaloosa",
   "name": "Kaiwen Chen",
   "institution": "University of Alabama Tuscaloosa",
@@ -71153,27 +71591,27 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "yiran-chen-duke-university",
-  "name": "Yiran Chen",
-  "institution": "Duke University",
-  "city": "DURHAM",
+  "id": "xinnian-chen-university-of-connecticut",
+  "name": "Xinnian Chen",
+  "institution": "University of Connecticut",
+  "city": "STORRS",
   "country": "United States",
   "region": "North America",
-  "subject_area": "Computer Science & AI",
+  "subject_area": "Other",
   "topics": [],
   "signal": "research_grant",
   "grants": [
    {
     "agency": "NSF (USA)",
-    "number": "2625580",
-    "title": "NSF AI Institute for Edge Computing and Systems (Athena)",
-    "amount": 3000000.0,
+    "number": "2539226",
+    "title": "Collaborative Research: Translating Research on How People Learn and Organizations Change to Accelerate Adoption of High Impact Practices Throughout a State University System",
+    "amount": 153932.0,
     "currency": "USD",
-    "start": "2026-11-01",
-    "end": "2031-10-31",
-    "program": "AI Research Institutes",
+    "start": "2027-01-01",
+    "end": "2031-12-31",
+    "program": "IUSE",
     "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625580"
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2539226"
    }
   ],
   "positions": [],
@@ -71182,7 +71620,7 @@
    "NSF (USA)"
   ],
   "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 3000000,
+  "total_active_funding_usd": 153932,
   "first_seen": "2026-09-27"
  },
  {
@@ -74123,39 +74561,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "keith-choe-university-of-florida",
-  "name": "Keith Choe",
-  "institution": "University of Florida",
-  "city": "GAINESVILLE",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2534403",
-    "title": "Understanding the role of C. elegans histidine-rich protein condensates in metal homeostasis",
-    "amount": 800000.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2029-08-31",
-    "program": "Cell, Dev, & Physio",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2534403"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 800000,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "david-choi-carnegie-mellon-university",
   "name": "David Choi",
   "institution": "Carnegie Mellon University",
@@ -74286,39 +74691,6 @@
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 408504,
   "first_seen": "2026-09-27"
- },
- {
-  "id": "surinder-chopra-pennsylvania-state-univ-university-park",
-  "name": "Surinder Chopra",
-  "institution": "Pennsylvania State Univ University Park",
-  "city": "UNIVERSITY PARK",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Other",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2637103",
-    "title": "I-Corps: Translation potential of biofortified maize and sorghum lines engineered for optimized agronomic performance",
-    "amount": 50000.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2027-08-31",
-    "program": "I-Corps",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2637103"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 50000,
-  "first_seen": "2026-09-28"
  },
  {
   "id": "emma-j-chory-duke-university",
@@ -76964,39 +77336,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "andres-colubri-university-of-massachusetts-medical-school",
-  "name": "Andres Colubri",
-  "institution": "University of Massachusetts Medical School",
-  "city": "WORCESTER",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Health Data Science & Digital Health",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2637790",
-    "title": "I-Corps: Translation Potential of Edge-Artificial Intelligence (AI) Personalized Risk Prediction for International Travelers",
-    "amount": 50000.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2027-08-31",
-    "program": "I-Corps",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2637790"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 50000,
-  "first_seen": "2026-09-28"
- },
- {
   "id": "alejandro-pierre-comellas-university-of-iowa",
   "name": "Alejandro Pierre Comellas",
   "institution": "University Of Iowa",
@@ -77369,6 +77708,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 363660,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "patrice-connors-colorado-mesa-university",
+  "name": "Patrice Connors",
+  "institution": "Colorado Mesa University",
+  "city": "GRAND JUNCTION",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Other",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2539669",
+    "title": "Collaborative Research: Promoting Career-readiness through Course-based Undergraduate Research Experiences",
+    "amount": 341784.0,
+    "currency": "USD",
+    "start": "2027-01-01",
+    "end": "2029-12-31",
+    "program": "IUSE",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2539669"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 341784,
   "first_seen": "2026-09-27"
  },
  {
@@ -82475,39 +82847,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "alexandra-m-deaconescu-rutgers-the-state-univ-of-n-j",
-  "name": "Alexandra M. Deaconescu",
-  "institution": "Rutgers, The State Univ Of N.J.",
-  "city": "Piscataway",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NIH (USA)",
-    "number": "5R35GM144124-05",
-    "title": "MECHANISMS AND MACROMOLECULAR INTERACTIONS UNDERLYING CELLULAR RESPONSES TO STRESS SIGNALS",
-    "amount": 392500.0,
-    "currency": "USD",
-    "start": "2025-04-01",
-    "end": "2027-03-31",
-    "program": "R35 (NIGMS)",
-    "kind": "research",
-    "url": "https://reporter.nih.gov/project-details/11326346"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NIH (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 392500,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "peter-deak-drexel-university",
   "name": "Peter Deak",
   "institution": "Drexel University",
@@ -86147,6 +86486,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 549909,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "lin-dong-new-jersey-institute-of-technology",
+  "name": "Lin Dong",
+  "institution": "New Jersey Institute of Technology",
+  "city": "NEWARK",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Health Data Science & Digital Health",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2634219",
+    "title": "I-Corps: Translation Potential of Flexible Electronics for Next-Generation Wearable Cardiac Diagnostics",
+    "amount": 50000.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2027-08-31",
+    "program": "I-Corps",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2634219"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 50000,
   "first_seen": "2026-09-27"
  },
  {
@@ -90371,39 +90743,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "michael-elowitz-california-institute-of-technology",
-  "name": "Michael Elowitz",
-  "institution": "California Institute of Technology",
-  "city": "PASADENA",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2611606",
-    "title": "NSF-BSF: Predictive modeling of contextual, combinatorial signaling",
-    "amount": 1299997.0,
-    "currency": "USD",
-    "start": "2026-07-01",
-    "end": "2029-06-30",
-    "program": "Molecular Biosciences",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2611606"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 1299997,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "marina-emborg-university-of-wisconsin-madison",
   "name": "Marina Emborg",
   "institution": "University Of Wisconsin-Madison",
@@ -92435,39 +92774,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "lei-fan-michigan-state-university",
-  "name": "Lei Fan",
-  "institution": "Michigan State University",
-  "city": "EAST LANSING",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2616040",
-    "title": "Collaborative Research: An Integrated Experimental and Computational Twin Approach to Characterize Blood Vessel Mechanics",
-    "amount": 370721.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2029-08-31",
-    "program": "BMMB-Biomech & Mechanobiology",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2616040"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 370721,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "audrey-peiwen-fan-university-of-california-at-davis",
   "name": "Audrey Peiwen Fan",
   "institution": "University Of California At Davis",
@@ -93497,39 +93803,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "david-fee-university-of-alaska-fairbanks-campus",
-  "name": "David Fee",
-  "institution": "University of Alaska Fairbanks Campus",
-  "city": "FAIRBANKS",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Other",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2535946",
-    "title": "Determining Eruption Source Processes at Explosive Basaltic Stratovolcanoes",
-    "amount": 360443.0,
-    "currency": "USD",
-    "start": "2027-01-01",
-    "end": "2029-12-31",
-    "program": "CESEV-Chem Evo of Earth & Volc",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535946"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 360443,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "attila-feher-yale-university",
   "name": "Attila Feher",
   "institution": "Yale University",
@@ -93890,6 +94163,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 556471,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "andrew-felton-montana-state-university",
+  "name": "Andrew Felton",
+  "institution": "Montana State University",
+  "city": "BOZEMAN",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Other",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2624343",
+    "title": "EPSCoR Research Fellows: NSF: The role of vegetation phenology in grassland sensitivity to extreme drought",
+    "amount": 235639.0,
+    "currency": "USD",
+    "start": "2027-09-01",
+    "end": "2029-08-31",
+    "program": "EPSCoR RII: EPSCoR Research Fe",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2624343"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 235639,
   "first_seen": "2026-09-27"
  },
  {
@@ -101530,39 +101836,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "jacob-george-university-of-utah",
-  "name": "Jacob George",
-  "institution": "University of Utah",
-  "city": "SALT LAKE CITY",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Other",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2542192",
-    "title": "CAREER: A Wrist-Worn Neural Interface for Restoring a Sense of Touch to Partial Hand Amputees",
-    "amount": 659975.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2031-08-31",
-    "program": "M3X - Mind, Machine, and Motor",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2542192"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 659975,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "login-george-rutgers-biomedical-and-health-sciences",
   "name": "Login George",
   "institution": "Rutgers Biomedical And Health Sciences",
@@ -106924,6 +107197,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "qiang-guan-kent-state-university",
+  "name": "Qiang Guan",
+  "institution": "Kent State University",
+  "city": "KENT",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Physical Sciences & Mathematics",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2630667",
+    "title": "I-Corps: Translation Potential of a Hybrid Quantum-Classical Drug Discovery Platform",
+    "amount": 50000.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2027-08-31",
+    "program": "TIP-CHIPS KTA-3 Quantum",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2630667"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 50000,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "yue-guan-emory-university",
   "name": "Yue Guan",
   "institution": "Emory University",
@@ -108230,6 +108536,39 @@
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 2326873,
   "first_seen": "2026-09-27"
+ },
+ {
+  "id": "steven-haase-duke-university",
+  "name": "Steven Haase",
+  "institution": "Duke University",
+  "city": "DURHAM",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Physical Sciences & Mathematics",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2619626",
+    "title": "Collaborative Research: Models and Mechanisms of Population Synchrony and Entrainment",
+    "amount": 75000.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2029-08-31",
+    "program": "MATHEMATICAL BIOLOGY",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619626"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 75000,
+  "first_seen": "2026-10-02"
  },
  {
   "id": "stefan-friedrich-habelitz-university-of-california-san-francisco",
@@ -117856,6 +118195,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "qunying-huang-university-of-wisconsin-madison",
+  "name": "Qunying Huang",
+  "institution": "University of Wisconsin-Madison",
+  "city": "MADISON",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2616006",
+    "title": "CAIG: Advancing Wildfire Detection, Evolution, and Control Through Super-Resolution of Satellite Data and Physics-Guided Deep Learning",
+    "amount": 1054579.0,
+    "currency": "USD",
+    "start": "2027-01-01",
+    "end": "2029-12-31",
+    "program": "AI and Geosciences",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2616006"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 1054579,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "wenyu-huang-iowa-state-university",
   "name": "Wenyu Huang",
   "institution": "Iowa State University",
@@ -122320,39 +122692,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "rafael-jaramillo-massachusetts-institute-of-technology",
-  "name": "Rafael Jaramillo",
-  "institution": "Massachusetts Institute of Technology",
-  "city": "CAMBRIDGE",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Engineering",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2614673",
-    "title": "Center: MIT Materials Research Science and Engineering Center",
-    "amount": 3000000.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2032-08-31",
-    "program": "MATERIALS RSCH SCI & ENG CENT",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2614673"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 3000000,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "daniel-jarosz-stanford-university",
   "name": "Daniel Jarosz",
   "institution": "Stanford University",
@@ -122515,6 +122854,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 684935,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "ambalangodage-jayasuriya-university-of-toledo-health-science-campus",
+  "name": "Ambalangodage Jayasuriya",
+  "institution": "University of Toledo Health Science Campus",
+  "city": "TOLEDO",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Health Data Science & Digital Health",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2630770",
+    "title": "I-Corps: Translation Potential of an Artificial Intelligence (AI)-Based Platform for Early Osteoporosis Risk Prediction",
+    "amount": 50000.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2027-08-31",
+    "program": "I-Corps",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2630770"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 50000,
   "first_seen": "2026-09-27"
  },
  {
@@ -122926,39 +123298,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "ajay-jha-north-dakota-state-university-fargo",
-  "name": "Ajay Jha",
-  "institution": "North Dakota State University Fargo",
-  "city": "FARGO",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Computer Science & AI",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2544248",
-    "title": "CAREER: Improving Software Test Quality and Developer Skills through Developer-in-the-Loop Test Optimization",
-    "amount": 500000.0,
-    "currency": "USD",
-    "start": "2027-01-01",
-    "end": "2031-12-31",
-    "program": "Software & Hardware Foundation",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2544248"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 500000,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "kishlay-jha-university-of-iowa",
   "name": "Kishlay Jha",
   "institution": "University of Iowa",
@@ -122989,6 +123328,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 150000,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "ajay-jha-north-dakota-state-university-fargo",
+  "name": "Ajay Jha",
+  "institution": "North Dakota State University Fargo",
+  "city": "FARGO",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2544248",
+    "title": "CAREER: Improving Software Test Quality and Developer Skills through Developer-in-the-Loop Test Optimization",
+    "amount": 500000.0,
+    "currency": "USD",
+    "start": "2027-01-01",
+    "end": "2031-12-31",
+    "program": "Software & Hardware Foundation",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2544248"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 500000,
   "first_seen": "2026-09-27"
  },
  {
@@ -123670,7 +124042,7 @@
     "currency": "USD",
     "start": "2026-10-01",
     "end": "2029-09-30",
-    "program": "Robert Noyce Scholarship Pgm, IUSE",
+    "program": "IUSE, Robert Noyce Scholarship Pgm",
     "kind": "research",
     "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2613966"
    }
@@ -125473,6 +125845,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 714576,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "sohan-kale-virginia-polytechnic-institute-and-state-university",
+  "name": "Sohan Kale",
+  "institution": "Virginia Polytechnic Institute and State University",
+  "city": "BLACKSBURG",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Engineering",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2620709",
+    "title": "Multiscale Mechanics of Active Transient Fiber Networks: From Turnover-Driven Fluctuations to Stochastic Constitutive Theory",
+    "amount": 390296.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2029-08-31",
+    "program": "Mechanics of Materials and Str",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2620709"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 390296,
   "first_seen": "2026-09-27"
  },
  {
@@ -127972,6 +128377,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "christoph-keller-association-of-universities-for-research-in-astronomy-inc",
+  "name": "Christoph Keller",
+  "institution": "Association of Universities for Research in Astronomy, Inc.",
+  "city": "TUCSON",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2535601",
+    "title": "Research Infrastructure: Mid-scale RI-1 (M1:DA): Design of a Next generation Ground based solar Observing Network (ngGONG-Design)",
+    "amount": 19041216.0,
+    "currency": "USD",
+    "start": "2025-10-01",
+    "end": "2028-09-30",
+    "program": "Mid-scale RI - Track 1",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535601"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 19041216,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "nancy-p-keller-university-of-wisconsin-madison",
   "name": "Nancy P Keller",
   "institution": "University Of Wisconsin-Madison",
@@ -129328,7 +129766,7 @@
   "city": "MANHATTAN",
   "country": "United States",
   "region": "North America",
-  "subject_area": "Engineering",
+  "subject_area": "Physical Sciences & Mathematics",
   "topics": [],
   "signal": "research_grant",
   "grants": [
@@ -129343,6 +129781,18 @@
     "program": "CSR-Computer Systems Research",
     "kind": "research",
     "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2628818"
+   },
+   {
+    "agency": "NSF (USA)",
+    "number": "2630355",
+    "title": "I-Corps: Translation Potential of a Quantum Machine Learning Framework for Multimodal Neuroimaging and Neurophysiological Data Analysis",
+    "amount": 50000.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2027-08-31",
+    "program": "TIP-CHIPS KTA-3 Quantum",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2630355"
    }
   ],
   "positions": [],
@@ -129351,7 +129801,7 @@
    "NSF (USA)"
   ],
   "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 400000,
+  "total_active_funding_usd": 450000,
   "first_seen": "2026-09-27"
  },
  {
@@ -129529,6 +129979,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 800793,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "meenakshi-khosla-university-of-california-san-diego",
+  "name": "Meenakshi Khosla",
+  "institution": "University of California-San Diego",
+  "city": "LA JOLLA",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Other",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2605674",
+    "title": "Collaborative Research: CRCNS Research Proposal: Optimal Transport for Comparative Analysis of Neural Representations",
+    "amount": 517134.0,
+    "currency": "USD",
+    "start": "2026-08-15",
+    "end": "2031-07-31",
+    "program": "Cross-Directorate  Activities",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2605674"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 517134,
   "first_seen": "2026-09-27"
  },
  {
@@ -132421,6 +132904,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "abigail-koppes-northeastern-university",
+  "name": "Abigail Koppes",
+  "institution": "Northeastern University",
+  "city": "BOSTON",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2629043",
+    "title": "I-Corps: Translation Potential of an organ-on-chip (OoC) microfluidic platform for pharmaceutical and biotechnology preclinical testing",
+    "amount": 50000.0,
+    "currency": "USD",
+    "start": "2026-08-15",
+    "end": "2027-07-31",
+    "program": "I-Corps",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2629043"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 50000,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "joanna-aleksandra-korecka-roet-brigham-and-women-s-hospital",
   "name": "Joanna Aleksandra Korecka-Roet",
   "institution": "Brigham And Women'S Hospital",
@@ -133714,39 +134230,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "mahesh-krishnamurthy-southern-methodist-university",
-  "name": "Mahesh Krishnamurthy",
-  "institution": "Southern Methodist University",
-  "city": "DALLAS",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Health Data Science & Digital Health",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2538372",
-    "title": "EAGER: AI-Enabled Digital Twin Framework to Advance Safety of Lithium-Ion Batteries Under Extreme Conditions",
-    "amount": 289431.0,
-    "currency": "USD",
-    "start": "2025-10-01",
-    "end": "2027-09-30",
-    "program": "EPCL: Energy, Power, Control,",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2538372"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 289431,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "tamar-krishnamurti-carnegie-mellon-university",
   "name": "Tamar Krishnamurti",
   "institution": "Carnegie-Mellon University",
@@ -135037,6 +135520,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 688796,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "anthony-nanlin-kuo-duke-university",
+  "name": "Anthony Nanlin Kuo",
+  "institution": "Duke University",
+  "city": "Durham",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Ageing & Palliative Care",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NIH (USA)",
+    "number": "5R01EY035534-04",
+    "title": "Self-aligning, motion-stabilized ocular imaging for eye care in urgent and emergent care settings",
+    "amount": 367783.0,
+    "currency": "USD",
+    "start": "2023-09-30",
+    "end": "2027-08-31",
+    "program": "R01 (NEI)",
+    "kind": "research",
+    "url": "https://reporter.nih.gov/project-details/11418916"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NIH (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 367783,
   "first_seen": "2026-09-27"
  },
  {
@@ -137072,6 +137588,39 @@
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 460625,
   "first_seen": "2026-09-27"
+ },
+ {
+  "id": "blanca-lapizco-encinas-rochester-institute-of-tech",
+  "name": "Blanca Lapizco-Encinas",
+  "institution": "Rochester Institute of Tech",
+  "city": "ROCHESTER",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Other",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2621835",
+    "title": "Collaborative Research: Non-Antiperiodic Nonlinear Electrophoresis (NANEP): Towards Novel Separations of Anisotropic Particles Using Optimized Voltage Waveforms",
+    "amount": 369898.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2029-08-31",
+    "program": "PMP-Particul&MultiphaseProcess",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2621835"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 369898,
+  "first_seen": "2026-10-02"
  },
  {
   "id": "tuuli-lappalainen-new-york-genome-center",
@@ -141922,39 +142471,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "xinyi-li-clemson-university",
-  "name": "Xinyi Li",
-  "institution": "Clemson University",
-  "city": "CLEMSON",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Computer Science & AI",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2610668",
-    "title": "Collaborative Research: Integrating Multimodal Data in AI for Precision Medicine",
-    "amount": 198113.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2029-08-31",
-    "program": "STATISTICS, OFFICE OF MULTIDISCIPLINARY AC",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2610668"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 198113,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "dan-li-university-of-washington",
   "name": "Dan Li",
   "institution": "University of Washington",
@@ -142018,39 +142534,6 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 400000,
-  "first_seen": "2026-09-27"
- },
- {
-  "id": "tongtong-li-michigan-state-university",
-  "name": "Tongtong Li",
-  "institution": "Michigan State University",
-  "city": "EAST LANSING",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Engineering",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2535060",
-    "title": "Collaborative Research: CCSS: Brain Connectivity Analysis using Communication Theory: Towards Early Detection and Prediction of Cognitive Decline",
-    "amount": 413357.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2029-08-31",
-    "program": "CSCS: Circuits and Systems for",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535060"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 413357,
   "first_seen": "2026-09-27"
  },
  {
@@ -142183,6 +142666,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 538270,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "tongtong-li-michigan-state-university",
+  "name": "Tongtong Li",
+  "institution": "Michigan State University",
+  "city": "EAST LANSING",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Engineering",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2535060",
+    "title": "Collaborative Research: CCSS: Brain Connectivity Analysis using Communication Theory: Towards Early Detection and Prediction of Cognitive Decline",
+    "amount": 413357.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2029-08-31",
+    "program": "CSCS: Circuits and Systems for",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535060"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 413357,
   "first_seen": "2026-09-27"
  },
  {
@@ -143287,6 +143803,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "yunping-liang-university-of-nebraska-lincoln",
+  "name": "Yunping Liang",
+  "institution": "University of Nebraska-Lincoln",
+  "city": "LINCOLN",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Engineering",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2625589",
+    "title": "Collaborative Research: NLI: Design and Development: Supporting Professional Formation for Sustainable Construction Practice",
+    "amount": 85000.0,
+    "currency": "USD",
+    "start": "2027-01-01",
+    "end": "2029-12-31",
+    "program": "EngEd-Engineering Education",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625589"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 85000,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "bo-liang-university-of-north-dakota-main-campus",
   "name": "Bo Liang",
   "institution": "University of North Dakota Main Campus",
@@ -143350,39 +143899,6 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 980000,
-  "first_seen": "2026-09-27"
- },
- {
-  "id": "yunping-liang-university-of-nebraska-lincoln",
-  "name": "Yunping Liang",
-  "institution": "University of Nebraska-Lincoln",
-  "city": "LINCOLN",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Engineering",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2625589",
-    "title": "Collaborative Research: NLI: Design and Development: Supporting Professional Formation for Sustainable Construction Practice",
-    "amount": 85000.0,
-    "currency": "USD",
-    "start": "2027-01-01",
-    "end": "2029-12-31",
-    "program": "EngEd-Engineering Education",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625589"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 85000,
   "first_seen": "2026-09-27"
  },
  {
@@ -145399,39 +145915,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "kevin-t-liou-sloan-kettering-inst-can-research",
-  "name": "Kevin T Liou",
-  "institution": "Sloan-Kettering Inst Can Research",
-  "city": "New York",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Computer Science & AI",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NIH (USA)",
-    "number": "1R37CA296338-01A1",
-    "title": "Virtual AI-Assisted Music Therapy for Anxiety Symptoms in People with Advanced Cancer (VIRTUOSO)",
-    "amount": 743809.0,
-    "currency": "USD",
-    "start": "2026-06-12",
-    "end": "2031-05-31",
-    "program": "R37 (NCI)",
-    "kind": "research",
-    "url": "https://reporter.nih.gov/project-details/11296984"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NIH (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 743809,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "elizabeth-thomas-cox-lippard-university-of-texas-at-austin",
   "name": "Elizabeth Thomas Cox Lippard",
   "institution": "University Of Texas At Austin",
@@ -145936,6 +146419,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 502520,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "andrea-liu-university-of-pennsylvania",
+  "name": "Andrea Liu",
+  "institution": "University of Pennsylvania",
+  "city": "PHILADELPHIA",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Other",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2538686",
+    "title": "Theoretical Studies of Contrastive Local Learning Networks",
+    "amount": 419299.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2029-08-31",
+    "program": "CONDENSED MATTER & MAT THEORY",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2538686"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 419299,
   "first_seen": "2026-09-27"
  },
  {
@@ -148103,39 +148619,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "gregory-lowry-carnegie-mellon-university",
-  "name": "Gregory Lowry",
-  "institution": "Carnegie Mellon University",
-  "city": "PITTSBURGH",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Engineering",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2611007",
-    "title": "Collaborative Research: Decoding Biopolymer Nanocarrier-Plant Interactions by Machine Learning Models to Enable Precision Agrochemicals Delivery",
-    "amount": 292224.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2029-08-31",
-    "program": "Nanoscale Interactions Program",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2611007"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 292224,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "kathryn-paige-lowry-university-of-washington",
   "name": "Kathryn Paige Lowry",
   "institution": "University Of Washington",
@@ -148949,39 +149432,6 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 229500,
-  "first_seen": "2026-09-27"
- },
- {
-  "id": "long-luo-university-of-utah",
-  "name": "Long Luo",
-  "institution": "University of Utah",
-  "city": "SALT LAKE CITY",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2555020",
-    "title": "GOALI: Cooperative Homogeneous-Heterogeneous Catalysis for Hydrogen Isotope Labeling of Pharmaceuticals",
-    "amount": 562468.0,
-    "currency": "USD",
-    "start": "2026-12-01",
-    "end": "2029-11-30",
-    "program": "Chemical Catalysis",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2555020"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 562468,
   "first_seen": "2026-09-27"
  },
  {
@@ -152298,6 +152748,39 @@
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 585538,
   "first_seen": "2026-09-27"
+ },
+ {
+  "id": "marco-mangone-arizona-state-university",
+  "name": "Marco Mangone",
+  "institution": "Arizona State University",
+  "city": "SCOTTSDALE",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2612431",
+    "title": "The logic and evolution of miRNA strand selection in Caenorhabditis elegans",
+    "amount": 593493.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2029-08-31",
+    "program": "Molecular Biosciences",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2612431"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 593493,
+  "first_seen": "2026-10-02"
  },
  {
   "id": "michael-manhart-rutgers-biomedical-and-health-sciences",
@@ -161234,6 +161717,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "amir-miri-new-jersey-institute-of-technology",
+  "name": "Amir Miri",
+  "institution": "New Jersey Institute of Technology",
+  "city": "NEWARK",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Engineering",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2630245",
+    "title": "EAGER: Embedding Electrical Intelligence into Bioprinted Muscle for Autonomous Biomanufacturing",
+    "amount": 199998.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2028-08-31",
+    "program": "AM-Advanced Manufacturing",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2630245"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 199998,
+  "first_seen": "2026-09-28"
+ },
+ {
   "id": "chad-a-mirkin-northwestern-university",
   "name": "Chad A. Mirkin",
   "institution": "Northwestern University",
@@ -161297,6 +161813,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 730083,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "manoj-mishra-alabama-state-university",
+  "name": "Manoj Mishra",
+  "institution": "Alabama State University",
+  "city": "MONTGOMERY",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2602230",
+    "title": "TIP: Infusing Artificial Intelligence and Machine Learning into Biology Education and Research at Alabama State University",
+    "amount": 400000.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2029-08-31",
+    "program": "Hist Black Colleges and Univ",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2602230"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 400000,
   "first_seen": "2026-09-27"
  },
  {
@@ -165568,39 +166117,6 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 577395,
-  "first_seen": "2026-09-27"
- },
- {
-  "id": "casey-myers-university-of-denver",
-  "name": "Casey Myers",
-  "institution": "University of Denver",
-  "city": "DENVER",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Engineering",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2613454",
-    "title": "Collaborative Research: A unified computational model of human movement from neural activation to joint mechanics",
-    "amount": 344401.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2029-08-31",
-    "program": "Disability & Rehab Engineering",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2613454"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 344401,
   "first_seen": "2026-09-27"
  },
  {
@@ -174745,39 +175261,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "igor-paprotny-university-of-illinois-at-chicago",
-  "name": "Igor Paprotny",
-  "institution": "University of Illinois at Chicago",
-  "city": "CHICAGO",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Infectious Disease & One Health",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2630192",
-    "title": "I-Corps: Tranlsation Potential of Airborne Pathogen Sensors for Agricultural Disease Monitoring and Prevention",
-    "amount": 50000.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2027-08-31",
-    "program": "I-Corps",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2630192"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 50000,
-  "first_seen": "2026-09-28"
- },
- {
   "id": "jacqueline-parchem-university-of-texas-hlth-sci-ctr-houston",
   "name": "Jacqueline Parchem",
   "institution": "University Of Texas Hlth Sci Ctr Houston",
@@ -179582,6 +180065,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 752489,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "lenore-pipes-university-of-hawaii",
+  "name": "Lenore Pipes",
+  "institution": "University of Hawaii",
+  "city": "HONOLULU",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Other",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2624662",
+    "title": "EPSCoR Research Fellows: NSF: Using Ancient DNA From Ocean Sediments to Forecast Ecosystem Shifts",
+    "amount": 295906.0,
+    "currency": "USD",
+    "start": "2027-01-01",
+    "end": "2028-12-31",
+    "program": "EPSCoR RII: EPSCoR Research Fe",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2624662"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 295906,
   "first_seen": "2026-09-27"
  },
  {
@@ -185207,6 +185723,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "janani-ravi-university-of-colorado-at-denver",
+  "name": "Janani Ravi",
+  "institution": "University of Colorado at Denver",
+  "city": "AURORA",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Health Data Science & Digital Health",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2542522",
+    "title": "CAREER: Origins of microbial niche adaptation",
+    "amount": 1000001.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2031-08-31",
+    "program": "Innovation: Bioinformatics",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2542522"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 1000001,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "janani-ravi-henry-ford-health-michigan-state-university-health-sciences",
   "name": "Janani Ravi",
   "institution": "Henry Ford Health + Michigan State University Health Sciences",
@@ -188711,39 +189260,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "sebastien-roch-university-of-wisconsin-madison",
-  "name": "Sebastien Roch",
-  "institution": "University of Wisconsin-Madison",
-  "city": "MADISON",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Physical Sciences & Mathematics",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2601545",
-    "title": "Collaborative Research: A mathematical framework for scalable species tree estimation via site pattern scoring schemes",
-    "amount": 327547.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2029-08-31",
-    "program": "MATHEMATICAL BIOLOGY",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2601545"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 327547,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "gabrielle-rocque-university-of-alabama-at-birmingham",
   "name": "Gabrielle Rocque",
   "institution": "University Of Alabama At Birmingham",
@@ -189494,6 +190010,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 245289,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "jennifer-roloff-brown-university",
+  "name": "Jennifer Roloff",
+  "institution": "Brown University",
+  "city": "PROVIDENCE",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Other",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2624485",
+    "title": "EPSCoR Research Fellows: NSF: Pushing the frontiers of silicon detectors with low-gain avalanche diodes",
+    "amount": 298973.0,
+    "currency": "USD",
+    "start": "2027-01-01",
+    "end": "2028-12-31",
+    "program": "EPSCoR RII: EPSCoR Research Fe",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2624485"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 298973,
   "first_seen": "2026-09-27"
  },
  {
@@ -191624,39 +192173,6 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 263236,
-  "first_seen": "2026-09-27"
- },
- {
-  "id": "hwayeon-ryu-elon-university",
-  "name": "Hwayeon Ryu",
-  "institution": "Elon University",
-  "city": "ELON",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Infectious Disease & One Health",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2602053",
-    "title": "RUI: Mathematical modeling of innate antiviral and inflammatory responses for viral myocarditis",
-    "amount": 500138.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2029-08-31",
-    "program": "MATHEMATICAL BIOLOGY",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2602053"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 500138,
   "first_seen": "2026-09-27"
  },
  {
@@ -199783,6 +200299,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 324160,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "tao-shen-kent-state-university",
+  "name": "Tao Shen",
+  "institution": "Kent State University",
+  "city": "KENT",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Physical Sciences & Mathematics",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2630556",
+    "title": "I-Corps: Translation Potential of Quantum-based Biomedical Sensing Technology",
+    "amount": 50000.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2027-08-31",
+    "program": "TIP-CHIPS KTA-3 Quantum",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2630556"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 50000,
   "first_seen": "2026-09-27"
  },
  {
@@ -207968,6 +208517,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "douglas-storace-florida-state-university",
+  "name": "Douglas Storace",
+  "institution": "Florida State University",
+  "city": "TALLAHASSEE",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2543400",
+    "title": "CAREER: Defining the role of orexin input to the mouse olfactory bulb",
+    "amount": 1248346.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2031-08-31",
+    "program": "Cell, Dev, & Physio",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2543400"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 1248346,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "elizabeth-a-stormshak-university-of-oregon",
   "name": "Elizabeth A Stormshak",
   "institution": "University Of Oregon",
@@ -209795,6 +210377,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 1,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "yongjin-sung-university-of-wisconsin-milwaukee",
+  "name": "Yongjin Sung",
+  "institution": "University of Wisconsin-Milwaukee",
+  "city": "MILWAUKEE",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Ageing & Palliative Care",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2603298",
+    "title": "Instrument Development: Depth-Resolved Chemical Imaging for Highly Absorbing, Scattering, and Curved Specimens",
+    "amount": 518000.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2029-08-31",
+    "program": "Chemical Measurement & Imaging, OFFICE OF MULTIDISCIPLINARY AC",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2603298"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 518000,
   "first_seen": "2026-09-27"
  },
  {
@@ -213692,39 +214307,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "svetlana-tlupova-suny-college-of-technology-farmingdale",
-  "name": "Svetlana Tlupova",
-  "institution": "SUNY College of Technology Farmingdale",
-  "city": "FARMINGDALE",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Physical Sciences & Mathematics",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2608867",
-    "title": "RUI: Effective multi-method and domain decomposition approaches to solving multiphysics problems of fluid-porous flow with transport",
-    "amount": 166327.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2029-08-31",
-    "program": "COMPUTATIONAL MATHEMATICS",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2608867"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 166327,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "peter-k-todd-university-of-michigan-at-ann-arbor",
   "name": "Peter K Todd",
   "institution": "University Of Michigan At Ann Arbor",
@@ -214188,39 +214770,6 @@
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 154000,
   "first_seen": "2026-09-27"
- },
- {
-  "id": "alejandro-toriello-georgia-tech-research-corporation",
-  "name": "Alejandro Toriello",
-  "institution": "Georgia Tech Research Corporation",
-  "city": "ATLANTA",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Engineering",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2620206",
-    "title": "Collaborative Research: Designing Transit Systems with Public Approval through Cooperative Linear Production Games",
-    "amount": 84088.0,
-    "currency": "USD",
-    "start": "2027-01-01",
-    "end": "2029-12-31",
-    "program": "OE Operations Engineering",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2620206"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 84088,
-  "first_seen": "2026-09-29"
  },
  {
   "id": "adetunji-t-toriola-washington-university",
@@ -215063,6 +215612,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 693309,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "agnieszka-truszkowska-university-of-alabama-in-huntsville",
+  "name": "Agnieszka Truszkowska",
+  "institution": "University of Alabama in Huntsville",
+  "city": "HUNTSVILLE",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2543185",
+    "title": "CAREER: Uncovering the nature and impact of tumor cell clusters during metastatic migration through the circulatory system",
+    "amount": 538930.0,
+    "currency": "USD",
+    "start": "2026-08-01",
+    "end": "2031-07-31",
+    "program": "Engineering of Biomed Systems",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2543185"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 538930,
   "first_seen": "2026-09-27"
  },
  {
@@ -215969,6 +216551,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 310820,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "john-tyson-university-of-california-davis",
+  "name": "John Tyson",
+  "institution": "University of California-Davis",
+  "city": "DAVIS",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2628094",
+    "title": "EAGER: AI applied to mitigation of satellite interference with optical astronomy",
+    "amount": 387167.0,
+    "currency": "USD",
+    "start": "2026-11-01",
+    "end": "2028-10-31",
+    "program": "RADIO SPECTRUM MANAGEMENT, SII-Spectrum Innovation Initia",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2628094"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 387167,
   "first_seen": "2026-09-27"
  },
  {
@@ -217961,39 +218576,6 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 596535,
-  "first_seen": "2026-09-27"
- },
- {
-  "id": "ethell-vereen-morehouse-college",
-  "name": "Ethell Vereen",
-  "institution": "Morehouse College",
-  "city": "ATLANTA",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Social Sciences & Economics",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2606086",
-    "title": "Implementation Project: SURE-DID: Strengthening Undergraduate Research and Education via the Development in Discovery",
-    "amount": 1169675.0,
-    "currency": "USD",
-    "start": "2027-01-01",
-    "end": "2030-12-31",
-    "program": "Hist Black Colleges and Univ",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2606086"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 1169675,
   "first_seen": "2026-09-27"
  },
  {
@@ -220496,6 +221078,72 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "shengzhe-wang-university-of-colorado-at-denver",
+  "name": "Shengzhe Wang",
+  "institution": "University of Colorado at Denver",
+  "city": "AURORA",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Engineering",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2522408",
+    "title": "Collaborative Research: Coupled Hydro-structural Mechanics of Non-rigid Floating Bodies under Quasi-standing and Breaking Waves",
+    "amount": 329113.0,
+    "currency": "USD",
+    "start": "2027-01-01",
+    "end": "2029-12-31",
+    "program": "ECI-Engineering for Civil Infr",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2522408"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 329113,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "wei-wang-university-of-wisconsin-madison",
+  "name": "Wei Wang",
+  "institution": "University of Wisconsin-Madison",
+  "city": "MADISON",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2607754",
+    "title": "Collaborative Research: Decentralized Rules of Cohesive Swarms: From Fire Ant Rafts to Adaptive Robotic Materials",
+    "amount": 351723.0,
+    "currency": "USD",
+    "start": "2027-01-01",
+    "end": "2029-12-31",
+    "program": "Dynamics, Control and System D",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2607754"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 351723,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "kuei-chun-wang-arizona-state-university",
   "name": "Kuei-Chun Wang",
   "institution": "Arizona State University",
@@ -220694,39 +221342,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "jin-wang-university-of-tennessee-chattanooga",
-  "name": "Jin Wang",
-  "institution": "University of Tennessee Chattanooga",
-  "city": "CHATTANOOGA",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Infectious Disease & One Health",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2602110",
-    "title": "Collaborative Research: Multiscale modeling of viral infections: Dynamics and applications",
-    "amount": 173777.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2029-08-31",
-    "program": "MATHEMATICAL BIOLOGY",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2602110"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 173777,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "xiaomei-wang-university-of-louisville-research-foundation-inc",
   "name": "Xiaomei Wang",
   "institution": "University of Louisville Research Foundation Inc",
@@ -220757,72 +221372,6 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 295233,
-  "first_seen": "2026-09-27"
- },
- {
-  "id": "shengzhe-wang-university-of-colorado-at-denver",
-  "name": "Shengzhe Wang",
-  "institution": "University of Colorado at Denver",
-  "city": "AURORA",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Engineering",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2522408",
-    "title": "Collaborative Research: Coupled Hydro-structural Mechanics of Non-rigid Floating Bodies under Quasi-standing and Breaking Waves",
-    "amount": 329113.0,
-    "currency": "USD",
-    "start": "2027-01-01",
-    "end": "2029-12-31",
-    "program": "ECI-Engineering for Civil Infr",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2522408"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 329113,
-  "first_seen": "2026-09-27"
- },
- {
-  "id": "wei-wang-university-of-wisconsin-madison",
-  "name": "Wei Wang",
-  "institution": "University of Wisconsin-Madison",
-  "city": "MADISON",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Computer Science & AI",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2607754",
-    "title": "Collaborative Research: Decentralized Rules of Cohesive Swarms: From Fire Ant Rafts to Adaptive Robotic Materials",
-    "amount": 351723.0,
-    "currency": "USD",
-    "start": "2027-01-01",
-    "end": "2029-12-31",
-    "program": "Dynamics, Control and System D",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2607754"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 351723,
   "first_seen": "2026-09-27"
  },
  {
@@ -224004,39 +224553,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "joshua-weinstein-university-of-chicago",
-  "name": "Joshua Weinstein",
-  "institution": "University of Chicago",
-  "city": "CHICAGO",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Biomedical & Life Sciences",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2544197",
-    "title": "CAREER:  Discovering the Spatial Modes of Tissue Perturbation with Volumetric DNA Microscopy",
-    "amount": 688712.0,
-    "currency": "USD",
-    "start": "2026-09-01",
-    "end": "2031-08-31",
-    "program": "Innovation: Research Methods",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2544197"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 688712,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "scott-james-weir-children-s-mercy-hosp-kansas-city-mo",
   "name": "Scott James Weir",
   "institution": "Children'S Mercy Hosp (Kansas City, Mo)",
@@ -225921,6 +226437,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 649638,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "kristina-wicke-new-jersey-institute-of-technology",
+  "name": "Kristina Wicke",
+  "institution": "New Jersey Institute of Technology",
+  "city": "NEWARK",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2554615",
+    "title": "Collaborative Research: Fast and sound coalescent-based inference of semi-directed phylogenetic networks from genome-scale data",
+    "amount": 125552.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2029-08-31",
+    "program": "MATHEMATICAL BIOLOGY",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2554615"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 125552,
   "first_seen": "2026-09-27"
  },
  {
@@ -231525,6 +232074,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "hao-frank-yang-johns-hopkins-university",
+  "name": "Hao Frank Yang",
+  "institution": "Johns Hopkins University",
+  "city": "BALTIMORE",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2552612",
+    "title": "CDS&E: Collaborative Intelligence Adaptation of Multimodal Data Utility Theory and Foundation Models for Traffic Safety Interventions",
+    "amount": 545000.0,
+    "currency": "USD",
+    "start": "2027-01-01",
+    "end": "2029-12-31",
+    "program": "CDS&E",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2552612"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 545000,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "bing-yang-university-of-missouri-columbia",
   "name": "Bing Yang",
   "institution": "University of Missouri-Columbia",
@@ -231588,39 +232170,6 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 300000,
-  "first_seen": "2026-09-27"
- },
- {
-  "id": "hao-frank-yang-johns-hopkins-university",
-  "name": "Hao Frank Yang",
-  "institution": "Johns Hopkins University",
-  "city": "BALTIMORE",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Computer Science & AI",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2552612",
-    "title": "CDS&E: Collaborative Intelligence Adaptation of Multimodal Data Utility Theory and Foundation Models for Traffic Safety Interventions",
-    "amount": 545000.0,
-    "currency": "USD",
-    "start": "2027-01-01",
-    "end": "2029-12-31",
-    "program": "CDS&E",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2552612"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 545000,
   "first_seen": "2026-09-27"
  },
  {
@@ -232306,6 +232855,39 @@
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 1820000,
   "first_seen": "2026-09-27"
+ },
+ {
+  "id": "dong-hye-ye-georgia-state-university-research-foundation-inc",
+  "name": "Dong Hye Ye",
+  "institution": "Georgia State University Research Foundation, Inc.",
+  "city": "ATLANTA",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Health Data Science & Digital Health",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2542242",
+    "title": "CAREER: Attending & Bridging Context In Vision-Language Modeling For Medical Image Analysis",
+    "amount": 406481.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2031-08-31",
+    "program": "Info Integration & Informatics",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2542242"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 406481,
+  "first_seen": "2026-10-02"
  },
  {
   "id": "lichuan-ye-northeastern-university",
@@ -234915,52 +235497,6 @@
   "first_seen": "2026-09-27"
  },
  {
-  "id": "aidong-zhang-university-of-virginia-main-campus",
-  "name": "Aidong Zhang",
-  "institution": "University of Virginia Main Campus",
-  "city": "CHARLOTTESVILLE",
-  "country": "United States",
-  "region": "North America",
-  "subject_area": "Computer Science & AI",
-  "topics": [],
-  "signal": "research_grant",
-  "grants": [
-   {
-    "agency": "NSF (USA)",
-    "number": "2500341",
-    "title": "Collaborative Research: SCH: Personal Determinants of Health Enhanced Machine Learning Models for Early Prediction of Alzheimer's Disease and Related Dementias",
-    "amount": 375840.0,
-    "currency": "USD",
-    "start": "2025-10-01",
-    "end": "2029-09-30",
-    "program": "Smart and Connected Health",
-    "kind": "research",
-    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2500341"
-   },
-   {
-    "agency": "NIH (USA)",
-    "number": "5R01LM014012-04",
-    "title": "Continually Adaptive Machine Learning Platform for Personalized Biomedical Literature Curation and Exploration",
-    "amount": 333232.0,
-    "currency": "USD",
-    "start": "2023-08-01",
-    "end": "2027-04-30",
-    "program": "R01 (NLM)",
-    "kind": "research",
-    "url": "https://reporter.nih.gov/project-details/11324175"
-   }
-  ],
-  "positions": [],
-  "metrics": null,
-  "sources": [
-   "NIH (USA)",
-   "NSF (USA)"
-  ],
-  "signal_label": "Active research grant — may take students",
-  "total_active_funding_usd": 709072,
-  "first_seen": "2026-09-27"
- },
- {
   "id": "qiang-zhang-university-of-alabama-tuscaloosa",
   "name": "Qiang Zhang",
   "institution": "University of Alabama Tuscaloosa",
@@ -235024,6 +235560,64 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 247931,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "aidong-zhang-university-of-virginia-main-campus",
+  "name": "Aidong Zhang",
+  "institution": "University of Virginia Main Campus",
+  "city": "CHARLOTTESVILLE",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Computer Science & AI",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2616033",
+    "title": "III: Building Reliable Retrieval-Augmented Reasoning Agents for Health Applications",
+    "amount": 706245.0,
+    "currency": "USD",
+    "start": "2026-10-01",
+    "end": "2029-09-30",
+    "program": "Info Integration & Informatics",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2616033"
+   },
+   {
+    "agency": "NSF (USA)",
+    "number": "2500341",
+    "title": "Collaborative Research: SCH: Personal Determinants of Health Enhanced Machine Learning Models for Early Prediction of Alzheimer's Disease and Related Dementias",
+    "amount": 375840.0,
+    "currency": "USD",
+    "start": "2025-10-01",
+    "end": "2029-09-30",
+    "program": "Smart and Connected Health",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2500341"
+   },
+   {
+    "agency": "NIH (USA)",
+    "number": "5R01LM014012-04",
+    "title": "Continually Adaptive Machine Learning Platform for Personalized Biomedical Literature Curation and Exploration",
+    "amount": 333232.0,
+    "currency": "USD",
+    "start": "2023-08-01",
+    "end": "2027-04-30",
+    "program": "R01 (NLM)",
+    "kind": "research",
+    "url": "https://reporter.nih.gov/project-details/11324175"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NIH (USA)",
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 1415317,
   "first_seen": "2026-09-27"
  },
  {
@@ -236251,6 +236845,39 @@
   "first_seen": "2026-09-27"
  },
  {
+  "id": "renzun-zhao-north-carolina-agricultural-technical-state-university",
+  "name": "Renzun Zhao",
+  "institution": "North Carolina Agricultural & Technical State University",
+  "city": "GREENSBORO",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Biomedical & Life Sciences",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2602933",
+    "title": "Excellence in Research: Harnessing Data Science to Quantitatively Predict the Partitioning Behavior of Per and Polyfluoroalkyl Substances (PFAS)",
+    "amount": 674685.0,
+    "currency": "USD",
+    "start": "2026-09-01",
+    "end": "2029-08-31",
+    "program": "HBCU-EiR - HBCU-Excellence in",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2602933"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 674685,
+  "first_seen": "2026-09-27"
+ },
+ {
   "id": "xiaochen-zhao-louisiana-state-university",
   "name": "Xiaochen Zhao",
   "institution": "Louisiana State University",
@@ -236281,6 +236908,39 @@
   ],
   "signal_label": "Active research grant — may take students",
   "total_active_funding_usd": 1476876,
+  "first_seen": "2026-09-27"
+ },
+ {
+  "id": "kejie-zhao-purdue-university",
+  "name": "Kejie Zhao",
+  "institution": "Purdue University",
+  "city": "WEST LAFAYETTE",
+  "country": "United States",
+  "region": "North America",
+  "subject_area": "Physical Sciences & Mathematics",
+  "topics": [],
+  "signal": "research_grant",
+  "grants": [
+   {
+    "agency": "NSF (USA)",
+    "number": "2626076",
+    "title": "Opto-charge Microscopy (OCM): Resolving Particle Dynamics in Electrochemical Network Materials",
+    "amount": 367582.0,
+    "currency": "USD",
+    "start": "2027-01-01",
+    "end": "2029-12-31",
+    "program": "EchemS-Electrochemical Systems",
+    "kind": "research",
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2626076"
+   }
+  ],
+  "positions": [],
+  "metrics": null,
+  "sources": [
+   "NSF (USA)"
+  ],
+  "signal_label": "Active research grant — may take students",
+  "total_active_funding_usd": 367582,
   "first_seen": "2026-09-27"
  },
  {
