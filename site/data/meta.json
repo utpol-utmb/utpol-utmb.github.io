@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-10-02 11:32 UTC",
+ "generated_at": "2026-10-03 10:51 UTC",
  "counts": {
-  "positions": 134,
-  "mentors": 6590,
+  "positions": 133,
+  "mentors": 6571,
   "funding": 23,
-  "grants": 7824
+  "grants": 7806
  },
  "source_status": {
-  "nsf": "ok (960 grants)",
-  "nih": "ok (6706 grants)",
+  "nsf": "ok (944 grants)",
+  "nih": "ok (6704 grants)",
   "ukri": "ok (158 grants)",
   "curated_positions": "ok (153)",
   "rss: Nature Careers": "ok (2 of 20 entries mention PhD/Master's)",
