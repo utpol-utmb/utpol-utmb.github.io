@@ -11,19 +11,27 @@ jobs:
           exec > >(tee /tmp/probe.txt) 2>&1
           UA="PhDMentorFinder/1.0 (mailto:utpol.dnet@gmail.com)"
           probe() { code=$(curl -s -L -A "$UA" -o /tmp/b -w "%{http_code} %{content_type} %{size_download}" --max-time 40 "$1"); echo "== $1 -> $code"; head -c ${2:-300} /tmp/b | tr '\n' ' ' | sed 's/  */ /g'; echo; }
-          getp() { curl -s -L -A "$UA" --max-time 40 -o "/tmp/$2" -w "== $1 -> %{http_code} %{size_download}\n" "$1"; }
-          getp "https://www.jobs.ac.uk/" home.html
-          python3 -c "import re;t=open('/tmp/home.html',errors='ignore').read();print(sorted(set(re.findall(r'href=\"([^\"]*(?:term|legal|condition|copyright|privacy)[^\"]*)',t,re.I))))"
-          for u in /terms /about/terms /terms-of-use /about/terms-of-use /legal /copyright /about/legal; do getp "https://www.jobs.ac.uk$u" t.html; done
           python3 - <<'PY'
-          import re,html,glob,subprocess
+          import json,urllib.request
+          out=[]
+          for page in (1,2):
+              u=f"https://api.openalex.org/subfields?per-page=200&page={page}&select=id,display_name,field,domain,display_name_alternatives&mailto=utpol.dnet@gmail.com"
+              d=json.load(urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"PhDMentorFinder/1.0"})))
+              out+=d["results"]
+          json.dump(out,open("/tmp/subfields.json","w"))
+          print("subfields",len(out))
+          u="https://api.openalex.org/authors?search=Sean%20O%27Mahony&per-page=1&mailto=utpol.dnet@gmail.com"
+          a=json.load(urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"PhDMentorFinder/1.0"})))["results"][0]
+          print("AUTHOR KEYS",list(a.keys())); print(json.dumps(a.get("topics",[])[:2])[:800]); print(json.dumps(a.get("last_known_institutions"))[:600])
+          w="https://api.openalex.org/works?filter=author.id:"+a["id"].split("/")[-1]+"&sort=publication_date:desc&per-page=2&select=id,title,publication_year,doi,primary_location&mailto=utpol.dnet@gmail.com"
+          print(json.dumps(json.load(urllib.request.urlopen(w)))[:1200])
+          i="https://api.openalex.org/institutions/"+a["last_known_institutions"][0]["id"].split("/")[-1]+"?select=homepage_url,ror,display_name,country_code,geo"
+          print(json.dumps(json.load(urllib.request.urlopen(i))))
           PY
-          for u in $(curl -s -A "$UA" https://www.jobs.ac.uk/ | grep -oiE 'href="[^"]*(terms|legal|condition)[^"]*"' | sed 's/href="//;s/"$//' | sort -u | head -5); do case $u in http*) U=$u;; *) U="https://www.jobs.ac.uk$u";; esac; getp "$U" tt.html; python3 -c "import re,html;t=open('/tmp/tt.html',errors='ignore').read();t=html.unescape(re.sub(r'<script.*?</script>|<style.*?</style>','',t,flags=re.S));t=re.sub(r'<[^>]+>',' ',t);t=re.sub(r'\s+',' ',t);ms=list(re.finditer(r'(automat|scrap|robot|spider|crawl|data.mining|extract|systematic|reproduc|aggregat|copy)',t,re.I));print('MATCHES',len(ms));[print('>>',t[max(0,m.start()-250):m.end()+350]) for m in ms[:10]]"; done
-          getp "https://commission.europa.eu/legal-notice_en" ec.html
-          python3 -c "import re,html;t=open('/tmp/ec.html',errors='ignore').read();t=html.unescape(re.sub(r'<script.*?</script>|<style.*?</style>','',t,flags=re.S));t=re.sub(r'<[^>]+>',' ',t);t=re.sub(r'\s+',' ',t);i=t.find('Copyright notice');print('EC LEGAL:',t[i:i+1500])"
+          cp /tmp/subfields.json /tmp/probe_subfields.json
       - name: Save results to branch probe-results
         if: always()
         run: |
-          cd /tmp && mkdir pr && cd pr && git init -q && cp /tmp/probe.txt . && git add probe.txt
+          cd /tmp && mkdir pr && cd pr && git init -q && cp /tmp/probe.txt . && cp /tmp/probe_subfields.json subfields.json 2>/dev/null; git add .
           git -c user.name=bot -c user.email=actions@users.noreply.github.com commit -q -m "probe $(date -u +%FT%T)"
           git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:refs/heads/probe-results
