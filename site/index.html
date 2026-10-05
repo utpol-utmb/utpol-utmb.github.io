@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Find PhD and Master's supervisors who are recruiting, open funded positions, and scholarships — updated daily from official sources.">
+<meta name="description" content="Find PhD and Master's supervisors who are recruiting, open funded positions, and scholarships — updated daily from public sources across every field.">
 <meta name="theme-color" content="#2F6B4F">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
@@ -171,11 +171,50 @@ dialog.pf .row{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
 .src-table td{padding:5px 0;border-bottom:1px solid var(--line);vertical-align:top}
 .src-table td:last-child{text-align:right;color:var(--ink-3);padding-left:10px}
 @media (prefers-reduced-motion:no-preference){.drawer{animation:slide .22s ease-out}@keyframes slide{from{transform:translateX(24px);opacity:.6}}}
+
+/* ---- v3 additions ---- */
+[hidden]{display:none!important}
+.skip{position:absolute;left:-999px;top:8px;background:var(--surface);padding:8px 12px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+.health-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--hire);margin-right:6px;vertical-align:1px}
+.health-dot.warn{background:var(--soon)}
+.fieldbar{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:14px 0 2px;margin-bottom:-4px}
+.fieldbar::-webkit-scrollbar{display:none}
+.fchip{appearance:none;border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 13px;font-size:.86rem;font-weight:600;white-space:nowrap;cursor:pointer;color:var(--ink-2)}
+.fchip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.fchip .c{font-weight:500;opacity:.75;margin-left:4px;font-variant-numeric:tabular-nums}
+.card .foot-line{grid-column:1 / -1;font-size:.76rem;color:var(--ink-3);margin-top:4px}
+.card .topics{grid-column:1 / -1;color:var(--ink-2);font-size:.9rem;margin:0}
+.chip.field{background:transparent;border:1px solid var(--line);color:var(--ink-2);font-weight:600}
+.chip.intl{background:var(--train-soft);color:var(--train)}
+.chip.home{background:var(--grant-soft);color:var(--grant)}
+.results-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:16px}
+.panel h3{font:600 1.05rem var(--serif);margin:0 0 8px}
+.ss{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 0;border-top:1px solid var(--line);flex-wrap:wrap}
+.ss:first-of-type{border-top:0}
+.ss .name{font-weight:600}
+.ss .newn{font-size:.78rem;font-weight:700;background:var(--soon-soft);color:var(--soon);border-radius:999px;padding:2px 8px;margin-left:6px}
+.outlinks{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.86rem;color:var(--ink-2);margin:16px 0 4px}
+.paper{padding:8px 0;border-top:1px solid var(--line);font-size:.92rem}
+.paper:first-of-type{border-top:0}
+.paper .y{color:var(--ink-3);font-size:.82rem}
+details.guide{border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-top:10px}
+details.guide summary{cursor:pointer;font-weight:600}
+details.guide ol{margin:8px 0 4px;padding-left:20px;font-size:.92rem;color:var(--ink-2)}
+details.guide li{margin:4px 0}
+dialog.pf textarea{width:100%;min-height:220px;font:inherit;font-size:.9rem;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
+dialog.pf.wide{max-width:620px}
+.tab .n.new{background:var(--soon-soft);color:var(--soon)}
+.spinner{color:var(--ink-3);padding:20px 0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.fgroup select:disabled{opacity:.55}
 </style>
 <!--APP-HEAD-END-->
 </head>
 <body>
 <!--APP-BODY-START-->
+<a class="skip" href="#results">Skip to results</a>
 <header class="top">
   <div class="wrap top-row">
     <a class="brand" href="#" aria-label="PhD Mentor Finder home">
@@ -189,12 +228,11 @@ dialog.pf .row{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
 <main>
   <section class="wrap hero">
     <h1>Find a supervisor who is taking students, and the money to pay for it</h1>
-    <p>Supervisors with open positions or active grants, funded PhD and Master's places, and scholarships, collected from official university, job-board and funding-agency sources.</p>
+    <p>Supervisors with open positions or active grants, funded PhD and Master's places, and scholarships across every field, refreshed daily from public sources.</p>
     <form class="search" id="searchForm" role="search">
       <div class="field">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-        <label for="q" class="sr" hidden>Search</label>
-        <input id="q" type="search" aria-label="Search supervisors, positions and scholarships" placeholder="Topic, supervisor, university… e.g. dementia, machine learning, Karolinska" autocomplete="off">
+        <input id="q" type="search" aria-label="Search supervisors, positions and scholarships" placeholder="Topic, supervisor, university… e.g. dementia, robotics, Karolinska" autocomplete="off">
       </div>
       <button type="button" class="btn only-mobile" id="openFilters">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
@@ -204,50 +242,56 @@ dialog.pf .row{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
     <nav class="tabs" role="tablist" aria-label="What to browse">
       <button class="tab" role="tab" id="tab-mentors" data-tab="mentors" aria-selected="true">Supervisors <span class="n" id="n-mentors">–</span></button>
       <button class="tab" role="tab" id="tab-positions" data-tab="positions" aria-selected="false">Open positions <span class="n" id="n-positions">–</span></button>
-      <button class="tab" role="tab" id="tab-funding" data-tab="funding" aria-selected="false">Scholarships &amp; funding <span class="n" id="n-funding">–</span></button>
+      <button class="tab" role="tab" id="tab-funding" data-tab="funding" aria-selected="false">Scholarships <span class="n" id="n-funding">–</span></button>
       <button class="tab" role="tab" id="tab-saved" data-tab="saved" aria-selected="false">My list <span class="n" id="n-saved">0</span></button>
     </nav>
+    <div class="fieldbar" id="fieldbar" role="group" aria-label="Browse by field"></div>
     <div class="prefbar" id="prefbar"></div>
+    <button type="button" class="soon-strip" id="alertStrip" hidden></button>
     <button type="button" class="soon-strip" id="soonStrip" hidden></button>
   </section>
 
   <div class="wrap layout">
     <aside class="filters" id="filters" aria-label="Filters">
       <div class="filters-head"><h2>Filters</h2><button class="linkbtn" id="reset" type="button">Clear all</button></div>
+      <div class="fgroup" data-for="mentors positions saved"><label for="f-field">Field</label><select id="f-field"><option value="">All fields</option></select></div>
+      <div class="fgroup" data-for="mentors positions saved"><label for="f-sub">Subfield</label><select id="f-sub" disabled><option value="">Choose a field first</option></select></div>
       <div class="fgroup"><label for="f-region">Region</label><select id="f-region"><option value="">All regions</option></select></div>
       <div class="fgroup"><label for="f-country">Country</label><select id="f-country"><option value="">All countries</option></select></div>
-      <div class="fgroup"><label for="f-subject">Subject area</label><select id="f-subject"><option value="">All subjects</option></select></div>
       <div class="fgroup" data-for="positions funding"><label for="f-degree">Degree</label>
         <select id="f-degree"><option value="">PhD and Master's</option><option value="PhD">PhD</option><option value="Masters">Master's</option></select></div>
       <div class="fgroup" data-for="positions funding"><label for="f-year">Start year (intake)</label><select id="f-year"><option value="">Any year</option></select></div>
       <div class="fgroup" data-for="positions funding"><label for="f-deadline">Deadline</label>
         <select id="f-deadline"><option value="">Any deadline</option><option value="21">Within 3 weeks</option><option value="60">Within 2 months</option><option value="later">More than 3 weeks away</option></select></div>
+      <div class="fgroup" data-for="saved"><label for="f-status">Application status</label><select id="f-status"><option value="">Any status</option></select></div>
       <div class="fgroup" data-for="mentors"><span class="lbl">How we know they're recruiting</span>
         <label class="check"><input type="checkbox" id="s-open" checked> <span><b>Advertising a position now</b><br><span class="tag">Strongest signal</span></span></label>
         <label class="check"><input type="checkbox" id="s-train" checked> <span><b>Grant that funds grad students</b><br><span class="tag">Training grants, graduate fellowships</span></span></label>
         <label class="check"><input type="checkbox" id="s-grant" checked> <span><b>Active research grant</b><br><span class="tag">May take students — ask first</span></span></label>
       </div>
-      <div class="fgroup" data-for="saved"><label for="f-status">Application status</label><select id="f-status"><option value="">Any status</option></select></div>
       <div class="fgroup"><span class="lbl">Other</span>
-        <label class="check" data-for="funding"><input type="checkbox" id="f-open"> <span>Open to international applicants</span></label>
         <label class="check" data-for="positions"><input type="checkbox" id="f-funded"> <span>Funded places only</span></label>
+        <label class="check" data-for="positions funding"><input type="checkbox" id="f-open"> <span>Open to international applicants</span></label>
         <label class="check" data-for="funding"><input type="checkbox" id="f-verified"> <span>Details confirmed on official site</span></label>
-        <label class="check"><input type="checkbox" id="f-new"> <span>New in the last 7 days</span></label>
+        <label class="check" data-for="mentors"><input type="checkbox" id="f-papers"> <span>Has recent publications listed</span></label>
+        <label class="check" data-for="mentors positions"><input type="checkbox" id="f-new"> <span>New in the last 7 days</span></label>
       </div>
       <div class="mobile-apply"><button class="btn primary" type="button" id="closeFilters">Show results</button></div>
     </aside>
 
-    <section aria-live="polite">
+    <section id="results" aria-live="polite" tabindex="-1">
+      <div class="panel" id="searchesPanel" hidden></div>
       <div class="results-head">
         <p id="summary">Loading…</p>
-        <label>
-          <span class="tag">Sort by</span>
-          <select id="sort" aria-label="Sort results"></select>
-        </label>
+        <div class="results-actions">
+          <button class="btn small" type="button" id="saveSearch" hidden>Save this search</button>
+          <label><span class="sr">Sort by</span><select id="sort" aria-label="Sort results"></select></label>
+        </div>
       </div>
       <div class="legend" id="legend"></div>
       <div class="list" id="list"></div>
       <div class="more"><button class="btn" id="more" hidden>Show more</button></div>
+      <div class="outlinks" id="outlinks" hidden></div>
     </section>
   </div>
 
@@ -255,26 +299,26 @@ dialog.pf .row{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
     <div class="cols">
       <div>
         <h2>Where this comes from</h2>
-        <p>Every record links to its original source. Grants come from funding-agency databases (NSF, NIH RePORTER, UKRI). Positions come from university pages and academic job boards. Research profiles come from OpenAlex. We never copy personal email addresses; contact supervisors through their university page.</p>
-        <p>Scholarship amounts and deadlines change every year. Always confirm on the official page before you apply.</p>
+        <p>Every item shows its source and when it was last updated, and links to the original page. Grants come from public funding-agency databases. Positions come from university pages and academic job boards that allow it. Research profiles and recent papers come from OpenAlex. We never store personal email addresses; contact supervisors through their official university page.</p>
+        <p>Amounts and deadlines change. Always confirm on the official page before you apply.</p>
         <p><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of use</a></p>
       </div>
       <div id="disclaimer">
         <h3>Data sources and disclaimer</h3>
-        <p>PhD Mentor Finder is an independent app. It is not affiliated with, endorsed by, or acting on behalf of any government agency, including the National Institutes of Health (NIH), the National Science Foundation (NSF) or UK Research and Innovation (UKRI), or with any university, job board or scholarship programme listed in the app.</p>
-        <p>Grant information comes from these public government databases:</p>
-        <ul class="srclinks">
+        <p>PhD Mentor Finder is an independent app. It is not affiliated with, endorsed by, or acting on behalf of any government agency, including the National Institutes of Health (NIH), the National Science Foundation (NSF) or UK Research and Innovation (UKRI)<span id="govExtra"></span>, or with any university, job board or scholarship programme listed in the app.</p>
+        <p>Grant and position information comes from these public government databases:</p>
+        <ul class="srclinks" id="govList">
           <li>NIH RePORTER: <a href="https://reporter.nih.gov" target="_blank" rel="noopener">reporter.nih.gov</a></li>
           <li>NSF Award Search: <a href="https://www.nsf.gov/awardsearch/" target="_blank" rel="noopener">nsf.gov/awardsearch</a></li>
           <li>UKRI Gateway to Research: <a href="https://gtr.ukri.org" target="_blank" rel="noopener">gtr.ukri.org</a></li>
         </ul>
-        <p>Publication data comes from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a> (CC0). Always check details with the official source before relying on them.</p>
+        <p>Publication data comes from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a> (CC0). Subjects follow the OpenAlex field and subfield classification. Always check details with the official source before relying on them.</p>
       </div>
       <div>
         <h3>What the supervisor labels mean</h3>
-        <p><span class="chip hire"><span class="dot"></span>Hiring now</span> The supervisor is named on a currently open, advertised position.</p>
-        <p><span class="chip train"><span class="dot"></span>Funds students</span> They lead a grant whose purpose is paying graduate students or trainees.</p>
-        <p><span class="chip gr"><span class="dot"></span>Active grant</span> They hold a current research grant. Many such labs take students, but it is not guaranteed.</p>
+        <p><span class="chip hire"><span class="dot"></span>Hiring now</span> Named on a currently open, advertised position.</p>
+        <p><span class="chip train"><span class="dot"></span>Funds students</span> Leads a grant whose purpose is paying graduate students or trainees.</p>
+        <p><span class="chip gr"><span class="dot"></span>Active grant</span> Holds a current research grant. Many such labs take students, but it is not guaranteed.</p>
       </div>
       <div>
         <h3>Source status</h3>
@@ -286,10 +330,11 @@ dialog.pf .row{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
 </main>
 
 <dialog class="pf" id="prefs" aria-labelledby="pf-title">
-  <form method="dialog" id="pfForm">
+  <form method="dialog">
     <h2 id="pf-title">What are you looking for?</h2>
     <p class="tag">The app will open with these filters. Saved only on this device.</p>
-    <label for="pf-subject">Subject area</label><select id="pf-subject"><option value="">Any subject</option></select>
+    <label for="pf-field">Field</label><select id="pf-field"><option value="">Any field</option></select>
+    <label for="pf-sub">Subfield</label><select id="pf-sub"><option value="">Any subfield</option></select>
     <label for="pf-degree">Degree</label><select id="pf-degree"><option value="">PhD or Master's</option><option value="PhD">PhD</option><option value="Masters">Master's</option></select>
     <label for="pf-region">Where you want to study</label><select id="pf-region"><option value="">Anywhere</option></select>
     <label for="pf-country">Country (optional)</label><select id="pf-country"><option value="">Any country</option></select>
@@ -297,131 +342,206 @@ dialog.pf .row{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
     <div class="row"><button class="btn" value="cancel" type="submit">Cancel</button><button class="btn primary" value="save" type="submit">Save</button></div>
   </form>
 </dialog>
+
+<dialog class="pf wide" id="emailDlg" aria-labelledby="em-title">
+  <form method="dialog">
+    <h2 id="em-title">Draft an email to <span id="em-who"></span></h2>
+    <p class="tag">A starting point only. Rewrite it in your own words. Nothing you type here leaves your device.</p>
+    <label for="em-name">Your name</label><input id="em-name" autocomplete="name">
+    <label for="em-bg">Your background (one line)</label><input id="em-bg" placeholder="e.g. MPH in Epidemiology, two years as a research coordinator">
+    <label for="em-int">What you want to research (one line)</label><input id="em-int" placeholder="e.g. medication safety in older adults">
+    <label for="em-paper">A paper of theirs you read</label><select id="em-paper"></select>
+    <label for="em-start">When you want to start</label><input id="em-start" placeholder="e.g. Fall 2027">
+    <label for="em-text">Your draft</label><textarea id="em-text" aria-describedby="em-hint"></textarea>
+    <p class="tag" id="em-hint">Find their email address on the official university page, attach a one-page CV, and send it from your own email.</p>
+    <div class="row"><button class="btn" value="close" type="submit">Close</button><button class="btn" type="button" id="em-copy">Copy text</button><a class="btn primary" id="em-page" target="_blank" rel="noopener">Find their official page ↗</a></div>
+  </form>
+</dialog>
+
 <div class="scrim" id="scrim" hidden></div>
 <div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="d-title" hidden></div>
 
 <script>
 (() => {
+  "use strict";
   const $ = s => document.querySelector(s);
-  const state = { tab: "mentors", data: { mentors: [], positions: [], funding: [] }, meta: {}, shown: 25, saved: loadSaved(), track: loadJSON("pmf-track", {}), profile: loadJSON("pmf-profile", null) };
+  const $$ = s => [...document.querySelectorAll(s)];
+  const PAGE = 25;
   const CONTACT = "utpol.dnet@gmail.com";
   const STATUSES = [["interested", "Interested"], ["contacted", "Contacted supervisor"], ["applied", "Applied"], ["interview", "Interview"], ["offer", "Offer"], ["closed", "Not going ahead"]];
   const STATUS_LABEL = Object.fromEntries(STATUSES);
+  const SIG = { o: ["hire", "Hiring now", "open_position"], t: ["train", "Funds students", "training_grant"], g: ["gr", "Active grant", "research_grant"] };
+  const RANK = { o: 3, t: 2, g: 1 };
+  const GOV = {
+    "Australian Research Council": ["Australian Research Council (ARC)", "https://dataportal.arc.gov.au", "dataportal.arc.gov.au"],
+    "EURAXESS": ["EURAXESS (European Commission)", "https://euraxess.ec.europa.eu", "euraxess.ec.europa.eu"]
+  };
+
   function loadJSON(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); return v ?? d; } catch { return d; } }
   function saveJSON(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
-  function toast(msg) { document.querySelectorAll(".toast").forEach(x => x.remove()); const t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status"); t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 2600); }
-  const OPEN_INTL = /any nationality|any country|worldwide|international|outside the|non-[A-Z]|from about \d+ countries|from \d+ countries/;
-  const PAGE = 25;
+  const state = {
+    tab: "mentors", shown: PAGE, data: { mentors: [], positions: [], funding: [] }, meta: {},
+    saved: new Set(loadJSON("pmf-saved", [])), track: loadJSON("pmf-track", {}), profile: loadJSON("pmf-profile", null),
+    searches: loadJSON("pmf-searches", []), shards: {}, fields: {}, subs: {}
+  };
+
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const fmtUSD = n => n ? "$" + Math.round(n).toLocaleString("en-US") : "";
-  const fmtMoney = (n, c) => n ? new Intl.NumberFormat("en", { style: "currency", currency: c || "USD", maximumFractionDigits: 0 }).format(n) : "";
-  const fmtDate = d => { if (!d || !/^\d{4}-\d{2}-\d{2}/.test(d)) return d || ""; const x = new Date(d + "T00:00:00"); return x.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); };
+  const fmtMoney = (n, c) => { try { return n ? new Intl.NumberFormat("en", { style: "currency", currency: c || "USD", maximumFractionDigits: 0 }).format(n) : ""; } catch { return n ? `${c} ${Math.round(n).toLocaleString()}` : ""; } };
+  const fmtDate = d => { if (!d || !/^\d{4}-\d{2}-\d{2}/.test(d)) return d || ""; return new Date(d.slice(0, 10) + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); };
   const daysSince = d => d ? Math.floor((Date.now() - new Date(d + "T00:00:00")) / 864e5) : 999;
+  const today = () => new Date().toISOString().slice(0, 10);
+  function toast(msg) { $$(".toast").forEach(x => x.remove()); const t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status"); t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 2600); }
+  function persistSaved() { saveJSON("pmf-saved", [...state.saved]); $("#n-saved").textContent = state.saved.size; }
+  const subName = id => state.subs[id]?.name || "";
+  const fieldName = id => state.fields[id]?.name || "";
+  const subLabel = id => { const s = state.subs[id]; if (!s) return ""; return s.name === "General" ? fieldName(s.field) : s.name; };
 
-  function loadSaved() { try { return new Set(JSON.parse(localStorage.getItem("pmf-saved") || "[]")); } catch { return new Set(); } }
-  function persistSaved() { try { localStorage.setItem("pmf-saved", JSON.stringify([...state.saved])); } catch {} $("#n-saved").textContent = state.saved.size; }
-
-  const SORTS = {
-    mentors: [["signal", "Strongest recruiting signal"], ["funding", "Most active funding"], ["name", "Name A–Z"]],
-    positions: [["deadline", "Deadline (soonest first)"], ["stipend", "Highest stipend (approx.)"], ["new", "Newest first"]],
-    funding: [["deadline", "Deadline (soonest first)"], ["name", "Name A–Z"]],
-    saved: [["deadline", "Deadline (soonest first)"], ["name", "Name A–Z"]]
-  };
-  const RANK = { open_position: 3, training_grant: 2, research_grant: 1 };
-
+  // ------------------------------------------------------------------ loading
   async function load() {
+    const get = f => fetch("data/" + f, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(f); return r.json(); });
     try {
-      const get = f => fetch("data/" + f + ".json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(f); return r.json(); });
-      const [m, p, f, meta] = await Promise.all([get("mentors"), get("positions"), get("funding"), get("meta")]);
-      state.data = { mentors: m, positions: p, funding: f }; state.meta = meta;
+      const [meta, idx, p, f] = await Promise.all([get("meta.json"), get("mentors-index.json"), get("positions.json"), get("funding.json")]);
+      state.meta = meta;
+      (meta.subjects || []).forEach(fl => { state.fields[fl.id] = fl; fl.subfields.forEach(s => state.subs[s.id] = { ...s, field: fl.id }); });
+      state.data.mentors = idx.map(m => ({ id: m.i, name: m.n, institution: m.u, country: m.c, region: m.r, field: m.f, subfields: m.s, sig: m.g,
+        funding: m.m, npos: m.p, first_seen: m.d, topics: m.t || [], papers: m.k, shard: m.h,
+        _hay: [m.n, m.u, m.c, m.w || "", ...(m.t || []), ...(m.s || []).map(subName), fieldName(m.f)].join(" ").toLowerCase() }));
+      state.data.positions = p.map(x => ({ ...x, _hay: [x.title, x.supervisor, x.university, x.department, x.city, x.country, fieldName(x.field), ...(x.subfields || []).map(subName)].join(" ").toLowerCase() }));
+      state.data.funding = f.map(x => ({ ...x, _hay: [x.name, x.provider, x.host_country, x.subjects, x.eligible].join(" ").toLowerCase() }));
     } catch (e) {
-      $("#summary").textContent = "The data could not be loaded. Refresh the page to try again.";
+      $("#summary").textContent = "The data could not be loaded. Check your connection and refresh to try again.";
       return;
     }
-    fillFacets(); fillPrefs(); if (state.profile) applyProfile(); readHash(); render(); openFromHash();
+    fillFacets(); fillPrefs();
+    if (!readHash() && state.profile) applyProfile();
+    render(); openFromHash();
   }
 
   function fillFacets() {
     const { mentors, positions, funding } = state.data;
-    const all = [...mentors, ...positions];
     const opts = (sel, vals) => { const el = $(sel); vals.forEach(v => el.add(new Option(v, v))); };
-    opts("#f-region", [...new Set([...all.map(r => r.region), ...funding.map(r => r.region)].filter(Boolean))].sort());
-    opts("#f-country", [...new Set([...all.map(r => r.country), ...funding.map(r => r.host_country)].filter(Boolean))].sort());
-    opts("#f-subject", [...new Set(all.map(r => r.subject_area).filter(s => s && s !== "Other"))].sort());
-    opts("#f-year", [...new Set([...positions.map(r => r.intake_year), ...funding.map(r => r.intake_year)].filter(Boolean))].sort());
-    $("#n-mentors").textContent = mentors.length;
-    $("#n-positions").textContent = positions.length;
+    opts("#f-region", [...new Set([...mentors, ...positions].map(r => r.region).concat(funding.map(r => r.region)).filter(r => r && r !== "Other" && r !== "Multiple"))].sort().concat(["Other"]));
+    opts("#f-country", (state.meta.countries || []).filter(Boolean));
+    opts("#f-year", (state.meta.intake_years || []).map(String));
+    const fsel = $("#f-field");
+    (state.meta.subjects || []).filter(f => f.n).forEach(f => fsel.add(new Option(`${f.name} (${f.n.toLocaleString()})`, f.id)));
+    STATUSES.forEach(([v, l]) => $("#f-status").add(new Option(l, v)));
+    $("#fieldbar").innerHTML = `<button class="fchip" type="button" data-field="" aria-pressed="true">All fields</button>` +
+      (state.meta.subjects || []).filter(f => f.n && f.id !== "other").map(f => `<button class="fchip" type="button" data-field="${esc(f.id)}" aria-pressed="false">${esc(f.name)}<span class="c">${f.n.toLocaleString()}</span></button>`).join("");
+    $("#n-mentors").textContent = mentors.length.toLocaleString();
+    $("#n-positions").textContent = positions.length.toLocaleString();
     $("#n-funding").textContent = funding.length;
     $("#n-saved").textContent = state.saved.size;
-    const meta = state.meta;
-    $("#updated").innerHTML = `Updated <strong>${esc(meta.generated_at || "")}</strong>` + (meta.offline ? " · sample snapshot" : "");
-    const src = meta.source_status || {};
-    $("#sources").innerHTML = Object.entries(src).map(([k, v]) => `<tr><td>${esc(k.replace(/_/g, " "))}</td><td>${esc(v)}</td></tr>`).join("");
+    const m = state.meta, warn = m.health && m.health !== "ok";
+    $("#updated").innerHTML = `<span class="health-dot${warn ? " warn" : ""}" aria-hidden="true"></span>Updated <strong>${esc(fmtDate(m.data_date) || m.generated_at || "")}</strong>` + (warn ? ` · <a href="#about">some sources delayed</a>` : "") + (m.offline ? " · sample snapshot" : "");
+    const src = m.source_status || {};
+    $("#sources").innerHTML = Object.entries(src).map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("");
+    const extra = Object.keys(GOV).filter(k => src[k] && !/^off/.test(src[k]));
+    if (extra.length) {
+      $("#govList").insertAdjacentHTML("beforeend", extra.map(k => `<li>${esc(GOV[k][0])}: <a href="${GOV[k][1]}" target="_blank" rel="noopener">${GOV[k][2]}</a></li>`).join(""));
+      $("#govExtra").textContent = ", " + extra.map(k => GOV[k][0]).join(", ");
+    }
   }
 
+  function fillSubSelect(sel, fieldId, anyLabel) {
+    const el = $(sel); el.innerHTML = "";
+    if (!fieldId) { el.add(new Option(anyLabel || "Choose a field first", "")); el.disabled = sel === "#f-sub"; return; }
+    el.disabled = false; el.add(new Option("All subfields", ""));
+    (state.fields[fieldId]?.subfields || []).filter(s => s.n).forEach(s => el.add(new Option(`${s.name} (${s.n})`, s.id)));
+  }
+
+  // ------------------------------------------------------------------ filters
   const val = id => $(id).value;
   const on = id => $(id).checked;
-
-  function matchesQuery(text) {
-    const q = val("#q").trim().toLowerCase();
-    if (!q) return true;
-    return q.split(/\s+/).every(w => text.includes(w));
+  const CHECKS = ["#f-funded", "#f-open", "#f-verified", "#f-papers", "#f-new"];
+  const SELECTS = ["#f-field", "#f-sub", "#f-region", "#f-country", "#f-degree", "#f-year", "#f-deadline", "#f-status"];
+  function getFilters() {
+    const f = { q: val("#q").trim() };
+    SELECTS.forEach(s => { if (val(s)) f[s.slice(1)] = val(s); });
+    CHECKS.forEach(s => { if (on(s)) f[s.slice(1)] = 1; });
+    ["#s-open", "#s-train", "#s-grant"].forEach(s => { if (!on(s)) f[s.slice(1)] = 0; });
+    return f;
   }
-
-  function deadlineOk(r) {
-    const d = val("#f-deadline"); if (!d) return true;
-    const days = r.days_left;
-    if (d === "later") return days == null || days > 21;
-    return days != null && days <= +d;
+  function setFilters(f) {
+    $("#q").value = f.q || "";
+    $("#f-field").value = f["f-field"] || ""; fillSubSelect("#f-sub", $("#f-field").value);
+    SELECTS.filter(s => s !== "#f-field").forEach(s => { const v = f[s.slice(1)] || ""; if ([...$(s).options].some(o => o.value === v)) $(s).value = v; });
+    CHECKS.forEach(s => $(s).checked = !!f[s.slice(1)]);
+    ["#s-open", "#s-train", "#s-grant"].forEach(s => $(s).checked = f[s.slice(1)] !== 0);
+    syncFieldbar();
   }
+  function syncFieldbar() { const v = val("#f-field"); $$(".fchip").forEach(b => b.setAttribute("aria-pressed", b.dataset.field === v)); }
 
-  function filtered() {
-    const tab = state.tab, region = val("#f-region"), country = val("#f-country"), subject = val("#f-subject"),
-      degree = val("#f-degree"), year = val("#f-year"), fresh = on("#f-new");
+  function words(q) { return q.toLowerCase().split(/\s+/).filter(Boolean); }
+  function deadlineOk(r, d) { if (!d) return true; const days = r.days_left; if (d === "later") return days == null || days > 21; return days != null && days <= +d; }
+
+  function matches(tab, r, f) {
+    const ws = words(f.q || "");
+    if (ws.length && !ws.every(w => r._hay.includes(w))) return false;
+    if (f["f-region"] && r.region !== f["f-region"] && !(tab === "funding" && r.region === "Multiple")) return false;
+    if (f["f-new"] && daysSince(r.first_seen) > 7) return false;
     if (tab === "mentors") {
-      const sig = { open_position: on("#s-open"), training_grant: on("#s-train"), research_grant: on("#s-grant") };
-      return state.data.mentors.filter(m => sig[m.signal]
-        && (!region || m.region === region) && (!country || m.country === country) && (!subject || m.subject_area === subject)
-        && (!fresh || daysSince(m.first_seen) <= 7)
-        && matchesQuery([m.name, m.institution, m.country, m.subject_area, ...(m.topics || []), ...m.grants.map(g => g.title)].join(" ").toLowerCase()));
+      if (f["s-open"] === 0 && r.sig === "o" || f["s-train"] === 0 && r.sig === "t" || f["s-grant"] === 0 && r.sig === "g") return false;
+      if (f["f-country"] && r.country !== f["f-country"]) return false;
+      if (f["f-field"] && r.field !== f["f-field"] && !(r.subfields || []).some(s => state.subs[s]?.field === f["f-field"])) return false;
+      if (f["f-sub"] && !(r.subfields || []).includes(f["f-sub"])) return false;
+      if (f["f-papers"] && !r.papers) return false;
+      return true;
     }
     if (tab === "positions") {
-      return state.data.positions.filter(p => (!region || p.region === region) && (!country || p.country === country)
-        && (!subject || p.subject_area === subject) && (!degree || (p.degree || "").includes(degree))
-        && (!year || String(p.intake_year) === year) && (!on("#f-funded") || p.funded) && deadlineOk(p)
-        && (!fresh || daysSince(p.first_seen) <= 7)
-        && matchesQuery([p.title, p.supervisor, p.university, p.city, p.country, p.subject_area].join(" ").toLowerCase()));
+      if (f["f-country"] && r.country !== f["f-country"]) return false;
+      if (f["f-field"] && r.field !== f["f-field"] && !(r.subfields || []).some(s => state.subs[s]?.field === f["f-field"])) return false;
+      if (f["f-sub"] && !(r.subfields || []).includes(f["f-sub"])) return false;
+      if (f["f-degree"] && !(r.degree || "").includes(f["f-degree"])) return false;
+      if (f["f-year"] && String(r.intake_year) !== f["f-year"]) return false;
+      if (f["f-funded"] && !r.funded) return false;
+      if (f["f-open"] && r.intl === "home") return false;
+      return deadlineOk(r, f["f-deadline"]);
     }
     if (tab === "funding") {
-      return state.data.funding.filter(f => (!region || f.region === region || f.region === "Multiple")
-        && (!country || f.host_country === country || f.host_country.startsWith("Multiple"))
-        && (!degree || f.degree_levels.includes(degree)) && (!year || String(f.intake_year) === year)
-        && (!on("#f-verified") || f.verified) && deadlineOk(f)
-        && (!on("#f-open") || OPEN_INTL.test(f.eligible || ""))
-        && matchesQuery([f.name, f.provider, f.host_country, f.subjects, f.eligible].join(" ").toLowerCase()));
+      if (f["f-country"] && r.host_country !== f["f-country"] && !String(r.host_country).startsWith("Multiple")) return false;
+      if (f["f-degree"] && !(r.degree_levels || []).includes(f["f-degree"])) return false;
+      if (f["f-year"] && String(r.intake_year) !== f["f-year"]) return false;
+      if (f["f-verified"] && !r.verified) return false;
+      if (f["f-open"] && r.intl !== "international") return false;
+      return deadlineOk(r, f["f-deadline"]);
     }
+    return true;
+  }
+
+  function filtered(f = getFilters()) {
+    const tab = state.tab;
+    if (tab !== "saved") return state.data[tab].filter(r => matches(tab, r, f));
     const all = [...state.data.mentors.map(x => ({ ...x, _t: "mentors" })), ...state.data.positions.map(x => ({ ...x, _t: "positions" })), ...state.data.funding.map(x => ({ ...x, _t: "funding" }))];
-    const st = val("#f-status");
-    return all.filter(x => { const k = x._t + ":" + x.id; return state.saved.has(k) && (!st || (state.track[k] || {}).status === st); });
+    return all.filter(x => { const k = x._t + ":" + x.id; return state.saved.has(k) && (!f["f-status"] || (state.track[k] || {}).status === f["f-status"])
+      && (!f.q || words(f.q).every(w => x._hay.includes(w))) && (!f["f-field"] || x.field === f["f-field"]); });
   }
 
+  const SORTS = {
+    mentors: [["signal", "Strongest recruiting signal"], ["funding", "Most active funding"], ["new", "Newest first"], ["name", "Name A–Z"]],
+    positions: [["deadline", "Deadline (soonest first)"], ["stipend", "Highest stipend (approx.)"], ["new", "Newest first"]],
+    funding: [["deadline", "Deadline (soonest first)"], ["name", "Name A–Z"]],
+    saved: [["deadline", "Deadline (soonest first)"], ["name", "Name A–Z"]]
+  };
   function sorted(rows) {
-    const s = val("#sort"), tab = state.tab;
-    const by = f => rows.sort(f);
-    if (s === "name") return by((a, b) => (a.name || a.title).localeCompare(b.name || b.title));
+    const s = val("#sort"), tab = state.tab, nm = r => r.name || r.title || "";
+    if (s === "name") return rows.sort((a, b) => nm(a).localeCompare(nm(b)));
+    if (s === "new") return rows.sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || ""));
     if (tab === "mentors") {
-      if (s === "funding") return by((a, b) => (b.total_active_funding_usd || 0) - (a.total_active_funding_usd || 0));
-      return by((a, b) => RANK[b.signal] - RANK[a.signal] || (b.total_active_funding_usd || 0) - (a.total_active_funding_usd || 0));
+      if (s === "funding") return rows.sort((a, b) => (b.funding || 0) - (a.funding || 0));
+      return rows.sort((a, b) => RANK[b.sig] - RANK[a.sig] || (b.funding || 0) - (a.funding || 0));
     }
-    if (s === "stipend") return by((a, b) => (b.annual_usd_approx || 0) - (a.annual_usd_approx || 0));
-    if (s === "new") return by((a, b) => (b.first_seen || "").localeCompare(a.first_seen || ""));
-    return by((a, b) => (a.days_left ?? 9999) - (b.days_left ?? 9999));
+    if (s === "stipend") return rows.sort((a, b) => (b.annual_usd_approx || 0) - (a.annual_usd_approx || 0));
+    return rows.sort((a, b) => (a.days_left ?? 9999) - (b.days_left ?? 9999));
   }
 
+  // ------------------------------------------------------------------ cards
   const STAR = `<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8L3.5 9.7l5.9-.8z"/></svg>`;
-  const starBtn = (key, label) => `<button class="star" data-save="${esc(key)}" aria-pressed="${state.saved.has(key)}" aria-label="Save ${esc(label)}" title="Save">${STAR}</button>`;
-  const SIG = { open_position: ["hire", "Hiring now"], training_grant: ["train", "Funds students"], research_grant: ["gr", "Active grant"] };
-
+  const starBtn = (key, label) => `<button class="star" data-save="${esc(key)}" aria-pressed="${state.saved.has(key)}" aria-label="Save ${esc(label)}" title="Save to My list">${STAR}</button>`;
+  const trackChip = k => { const t = state.track[k]; return t && t.status ? `<span class="chip st">${esc(STATUS_LABEL[t.status] || t.status)}</span>` : ""; };
+  const subChips = (r, n = 2) => (r.subfields || []).slice(0, n).map(s => `<span class="chip field">${esc(subLabel(s))}</span>`).join("");
+  const intlChip = r => r.intl === "international" ? `<span class="chip intl">Open to international</span>` : r.intl === "home" ? `<span class="chip home">Home applicants only</span>` : "";
   function deadlineChip(r) {
     if (r.deadline_status === "soon") return `<span class="chip soon"><span class="dot"></span>Closes ${esc(fmtDate(r.deadline))} · ${r.days_left === 0 ? "today" : r.days_left === 1 ? "tomorrow" : r.days_left + " days"}</span>`;
     if (r.deadline && /^\d{4}/.test(r.deadline)) return `<span class="chip">Deadline ${esc(fmtDate(r.deadline))}</span>`;
@@ -429,137 +549,250 @@ dialog.pf .row{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
     return r.deadline_text ? `<span class="chip">${esc(r.deadline_text)}</span>` : "";
   }
 
-  const trackChip = k => { const t = state.track[k]; return t && t.status ? `<span class="chip st">${esc(STATUS_LABEL[t.status] || t.status)}</span>` : ""; };
   function mentorCard(m) {
-    const [cls, lab] = SIG[m.signal];
-    const top = m.grants.slice().sort((a, b) => b.amount - a.amount)[0];
-    const loc = [m.institution, m.city, m.country].filter(Boolean).join(", ");
-    const metr = m.metrics ? `<span class="tag">${m.metrics.works ?? "–"} papers · h-index ${m.metrics.h_index ?? "–"}</span>` : "";
+    const [cls, lab] = SIG[m.sig], key = "mentors:" + m.id;
     return `<article class="card">
-      <h3><button data-open="mentors:${esc(m.id)}">${esc(m.name)}</button></h3>
-      <div class="sub">${esc(loc)}</div>
-      <div class="side">${starBtn("mentors:" + m.id, m.name)}${m.total_active_funding_usd ? `<span class="money">${fmtUSD(m.total_active_funding_usd)}</span>` : ""}</div>
-      ${top ? `<p class="desc">${esc(top.title)}</p>` : m.positions.length ? `<p class="desc">${esc(posTitle(m.positions[0]))}</p>` : ""}
-      <div class="meta">${trackChip("mentors:" + m.id)}<span class="chip ${cls}"><span class="dot"></span>${lab}</span><span class="chip">${esc(m.subject_area)}</span>${m.positions.length > 1 ? `<span class="tag">${m.positions.length} open positions</span>` : ""}${metr}</div>
+      <h3><button data-open="${esc(key)}">${esc(m.name)}</button></h3>
+      <div class="sub">${esc([m.institution, m.country].filter(Boolean).join(", "))}</div>
+      <div class="side">${starBtn(key, m.name)}${m.funding ? `<span class="money" title="Active funding in US dollars">${fmtUSD(m.funding)}</span>` : ""}</div>
+      ${m.topics.length ? `<p class="topics">${esc(m.topics.slice(0, 3).join(" · "))}</p>` : ""}
+      <div class="meta">${trackChip(key)}<span class="chip ${cls}"><span class="dot"></span>${lab}</span>${subChips(m)}${m.npos > 1 ? `<span class="tag">${m.npos} open positions</span>` : ""}</div>
+      <div class="foot-line">Updated ${esc(fmtDate(state.meta.data_date))} from public grant records${m.papers ? " and OpenAlex" : ""}</div>
     </article>`;
   }
-  const posTitle = id => (state.data.positions.find(p => p.id === id) || {}).title || "";
-
   function positionCard(p) {
-    const loc = [p.university, p.city, p.country].filter(Boolean).join(", ");
+    const key = "positions:" + p.id, loc = [p.university, p.city, p.country].filter(Boolean).join(", ");
     return `<article class="card">
-      <h3><button data-open="positions:${esc(p.id)}">${esc(p.title)}</button></h3>
+      <h3><button data-open="${esc(key)}">${esc(p.title)}</button></h3>
       <div class="sub">${esc(loc)}${p.supervisor ? ` · Supervisor: ${esc(p.supervisor.replace(/\s*\(.*?\)/g, ""))}` : ""}</div>
-      <div class="side">${starBtn("positions:" + p.id, p.title)}${p.annual_usd_approx ? `<span class="money" title="Approximate, converted to US dollars">≈ ${fmtUSD(p.annual_usd_approx)}/yr</span>` : ""}</div>
-      <div class="meta">${trackChip("positions:" + p.id)}${deadlineChip(p)}<span class="chip">${esc(p.degree)}</span>${p.funded ? `<span class="chip ok">Funded</span>` : ""}<span class="chip">${esc(p.subject_area)}</span>${p.intake_year ? `<span class="tag">Starts ${p.intake_year}</span>` : ""}<span class="tag">via ${esc(p.source_name)}</span></div>
+      <div class="side">${starBtn(key, p.title)}${p.annual_usd_approx ? `<span class="money" title="Approximate, converted to US dollars">≈ ${fmtUSD(p.annual_usd_approx)}/yr</span>` : ""}</div>
+      <div class="meta">${trackChip(key)}${deadlineChip(p)}<span class="chip">${esc(p.degree)}</span>${p.funded ? `<span class="chip ok">Funded</span>` : ""}${intlChip(p)}${subChips(p, 1)}${p.intake_year ? `<span class="tag">Starts ${p.intake_year}</span>` : ""}</div>
+      <div class="foot-line">Source: ${esc(p.source_name)} · checked ${esc(fmtDate(p.checked) || "—")}</div>
     </article>`;
   }
-
   function fundingCard(f) {
+    const key = "funding:" + f.id;
     return `<article class="card">
-      <h3><button data-open="funding:${esc(f.id)}">${esc(f.name)}</button></h3>
+      <h3><button data-open="${esc(key)}">${esc(f.name)}</button></h3>
       <div class="sub">${esc(f.host_country)} · ${esc(f.provider)}</div>
-      <div class="side">${starBtn("funding:" + f.id, f.name)}</div>
+      <div class="side">${starBtn(key, f.name)}</div>
       <p class="desc">${esc(f.stipend_text || f.covers)}</p>
-      <div class="meta">${trackChip("funding:" + f.id)}${deadlineChip(f)}${f.degree_levels.map(d => `<span class="chip">${d === "Masters" ? "Master's" : d}</span>`).join("")}${f.verified ? `<span class="chip ok">Confirmed on official site</span>` : `<span class="tag">Check details on official site</span>`}</div>
+      <div class="meta">${trackChip(key)}${deadlineChip(f)}${(f.degree_levels || []).map(d => `<span class="chip">${d === "Masters" ? "Master's" : esc(d)}</span>`).join("")}${f.verified ? `<span class="chip ok">Confirmed on official site</span>` : `<span class="tag">Check details on official site</span>`}</div>
+      <div class="foot-line">Source: official programme page${f.checked ? " · checked " + esc(fmtDate(f.checked)) : ""}</div>
     </article>`;
   }
+  const card = (r, tab) => (r._t || tab) === "mentors" ? mentorCard(r) : (r._t || tab) === "positions" ? positionCard(r) : fundingCard(r);
 
+  // ------------------------------------------------------------------ render
+  const NOUN = { mentors: ["supervisor", "supervisors"], positions: ["open position", "open positions"], funding: ["scholarship", "scholarships"], saved: ["item in My list", "items in My list"] };
   function render() {
-    const tab = state.tab;
-    document.querySelectorAll("[data-for]").forEach(el => el.hidden = !el.dataset.for.split(" ").includes(tab));
+    const tab = state.tab, f = getFilters();
+    $$("[data-for]").forEach(el => el.hidden = !el.dataset.for.split(" ").includes(tab));
+    $("#fieldbar").hidden = tab === "funding";
     const sortSel = $("#sort"), cur = sortSel.value;
     sortSel.innerHTML = SORTS[tab].map(([v, l]) => `<option value="${v}">${l}</option>`).join("");
     if (SORTS[tab].some(([v]) => v === cur)) sortSel.value = cur;
-    const rows = sorted(filtered());
-    const shown = rows.slice(0, state.shown);
-    const noun = { mentors: "supervisors", positions: "open positions", funding: "scholarships", saved: "items in My list" }[tab];
-    $("#summary").innerHTML = `<b>${rows.length}</b> ${rows.length === 1 ? noun.replace(/^(\w+?)s\b/, "$1").replace("items", "item") : noun}` + (rows.length > shown.length ? ` · showing ${shown.length}` : "");
+    const rows = sorted(filtered(f)), shown = rows.slice(0, state.shown);
+    $("#summary").innerHTML = `<b>${rows.length.toLocaleString()}</b> ${NOUN[tab][rows.length === 1 ? 0 : 1]}` + (rows.length > shown.length ? ` · showing ${shown.length}` : "")
+      + (tab === "saved" && state.saved.size ? ` · <button class="linkbtn" id="exportBtn" type="button">Download my list (CSV)</button>` : "");
     $("#legend").innerHTML = tab === "mentors" ? `<span><span class="chip hire"><span class="dot"></span>Hiring now</span> open advert</span><span><span class="chip train"><span class="dot"></span>Funds students</span> training grant</span><span><span class="chip gr"><span class="dot"></span>Active grant</span> ask first</span>` : "";
-    const card = r => (r._t || tab) === "mentors" ? mentorCard(r) : (r._t || tab) === "positions" ? positionCard(r) : fundingCard(r);
-    $("#list").innerHTML = shown.length ? shown.map(card).join("") : `<div class="empty">${tab === "saved" ? "Nothing here yet. Tap the star on any supervisor, position or scholarship, or set an application status, to keep it here." : "No matches. Try a broader search or clear some filters."}</div>`;
+    $("#list").innerHTML = shown.length ? shown.map(r => card(r, tab)).join("") : emptyState(tab, f);
     $("#more").hidden = rows.length <= shown.length;
-    const n = activeFilterCount(); $("#fcount").textContent = n ? `(${n})` : "";
-    if (tab === "saved" && state.saved.size) $("#summary").innerHTML += ` · <button class="linkbtn" id="exportBtn" type="button">Download my list (CSV)</button>`;
-    renderPrefbar(); renderSoon();
+    $("#saveSearch").hidden = tab === "saved";
+    const n = activeFilterCount(f); $("#fcount").textContent = n ? `(${n})` : "";
+    renderOutlinks(f); renderSearches(); renderPrefbar(); renderSoon(); renderAlerts(); syncFieldbar();
   }
 
-  function activeFilterCount() {
-    return ["#f-region", "#f-country", "#f-subject", "#f-degree", "#f-year", "#f-deadline", "#f-status"].filter(s => val(s)).length
-      + ["#f-funded", "#f-verified", "#f-new", "#f-open"].filter(on).length + ["#s-open", "#s-train", "#s-grant"].filter(s => !on(s)).length;
+  function emptyState(tab, f) {
+    if (tab === "saved") return `<div class="empty"><b>Nothing here yet.</b><br>Tap the star on any supervisor, position or scholarship, or set an application status, to keep it here.</div>`;
+    const any = activeFilterCount(f) || f.q;
+    return `<div class="empty"><b>No matches.</b><br>${any ? `Try fewer words or <button class="linkbtn" type="button" data-act="reset">clear the filters</button>.` : "Nothing to show yet."}${tab === "positions" ? "<br>You can also search the job boards linked below." : ""}</div>`;
   }
 
-  function openDetail(key) {
+  function activeFilterCount(f) { return Object.keys(f).filter(k => k !== "q").length; }
+
+  function renderOutlinks(f) {
+    const el = $("#outlinks");
+    if (state.tab !== "positions") { el.hidden = true; return; }
+    const q = encodeURIComponent([f.q, f["f-sub"] ? subName(f["f-sub"]) === "General" ? fieldName(f["f-field"]) : subName(f["f-sub"]) : f["f-field"] ? fieldName(f["f-field"]) : ""].filter(Boolean).join(" ").trim());
+    el.innerHTML = `<span>Search more on:</span>
+      <a class="btn small" target="_blank" rel="noopener" href="https://www.findaphd.com/phds/?Keywords=${q}">FindAPhD ↗</a>
+      <a class="btn small" target="_blank" rel="noopener" href="https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A447">EURAXESS (PhD level) ↗</a>
+      <a class="btn small" target="_blank" rel="noopener" href="https://www.jobs.ac.uk/search/?keywords=${q}&jobTypeFacet%5B0%5D=phds">jobs.ac.uk ↗</a>
+      <a class="btn small" target="_blank" rel="noopener" href="https://www.nature.com/naturecareers/jobs/search?keywords=${q || "PhD"}">Nature Careers ↗</a>
+      <span class="tag">Opens their own site; we don't copy their listings.</span>`;
+    el.hidden = false;
+  }
+
+  // ------------------------------------------------------------------ saved searches
+  function searchName(tab, f) {
+    const bits = [f.q && `"${f.q}"`, f["f-sub"] ? subLabel(f["f-sub"]) : f["f-field"] && fieldName(f["f-field"]), f["f-country"] || f["f-region"], f["f-degree"] === "Masters" ? "Master's" : f["f-degree"], f["f-funded"] && "funded", f["f-open"] && "international OK"].filter(Boolean);
+    return `${{ mentors: "Supervisors", positions: "Positions", funding: "Scholarships" }[tab]}: ${bits.join(" · ") || "everything"}`;
+  }
+  function newFor(s) {
+    if (s.tab === "funding") return 0;
+    return state.data[s.tab].filter(r => (r.first_seen || "") > s.seen && matches(s.tab, r, s.f)).length;
+  }
+  function renderSearches() {
+    const el = $("#searchesPanel");
+    if (state.tab !== "saved") { el.hidden = true; return; }
+    if (!state.searches.length) { el.innerHTML = `<h3>Saved searches</h3><p class="tag">Set up a search on any tab and tap “Save this search”. Each time you open the app, it shows how many new matches have appeared since you last looked.</p>`; el.hidden = false; return; }
+    el.innerHTML = `<h3>Saved searches</h3>` + state.searches.map(s => { const n = newFor(s); return `<div class="ss"><span><span class="name">${esc(s.name)}</span>${n ? `<span class="newn">${n} new</span>` : ""}</span>
+      <span class="links"><button class="btn small" type="button" data-run="${esc(s.id)}">Open</button><button class="btn small" type="button" data-del="${esc(s.id)}" aria-label="Delete saved search ${esc(s.name)}">Delete</button></span></div>`; }).join("");
+    el.hidden = false;
+  }
+  function renderAlerts() {
+    const total = state.searches.reduce((a, s) => a + newFor(s), 0), el = $("#alertStrip");
+    $("#n-saved").classList.toggle("new", total > 0);
+    if (!total || state.tab === "saved") { el.hidden = true; return; }
+    el.innerHTML = `<span class="dot" aria-hidden="true"></span><span><b>${total} new match${total === 1 ? "" : "es"}</b> for your saved searches. Tap to see them.</span>`;
+    el.hidden = false;
+  }
+
+  // ------------------------------------------------------------------ deadlines strip, preferences
+  const titleOf = (t, r) => t === "positions" ? r.title : r.name;
+  function itemFor(k) { const [t, id] = k.split(/:(.+)/); const r = (state.data[t] || []).find(x => x.id === id); return r ? { t, r } : null; }
+  function renderSoon() {
+    const el = $("#soonStrip");
+    const rows = [...state.saved].map(itemFor).filter(x => x && x.r.days_left != null && x.r.days_left >= 0 && x.r.days_left <= 30 && (state.track[x.t + ":" + x.r.id] || {}).status !== "closed").sort((a, b) => a.r.days_left - b.r.days_left);
+    if (!rows.length || state.tab === "saved") { el.hidden = true; return; }
+    const f = rows[0];
+    el.innerHTML = `<span class="dot" aria-hidden="true"></span><span><b>${rows.length} deadline${rows.length > 1 ? "s" : ""}</b> in your list in the next 30 days. Next: ${esc(titleOf(f.t, f.r))} (${f.r.days_left === 0 ? "closes today" : f.r.days_left + " day" + (f.r.days_left === 1 ? "" : "s") + " left"})</span>`;
+    el.hidden = false;
+  }
+  function fillPrefs() {
+    (state.meta.subjects || []).filter(f => f.n).forEach(f => $("#pf-field").add(new Option(f.name, f.id)));
+    [...$("#f-region").options].slice(1).forEach(o => $("#pf-region").add(new Option(o.text, o.value)));
+    [...$("#f-country").options].slice(1).forEach(o => $("#pf-country").add(new Option(o.text, o.value)));
+    $("#pf-cits").innerHTML = [...$("#f-country").options].slice(1).map(o => `<option value="${esc(o.value)}">`).join("");
+  }
+  $("#pf-field").addEventListener("change", () => fillSubSelect("#pf-sub", val("#pf-field"), "Any subfield"));
+  function applyProfile() {
+    const p = state.profile || {};
+    setFilters({ q: val("#q"), "f-field": p.field, "f-sub": p.sub, "f-degree": p.degree, "f-region": p.region, "f-country": p.country });
+  }
+  function renderPrefbar() {
+    const p = state.profile, el = $("#prefbar");
+    if (!p) { el.innerHTML = `<span>New here?</span><button class="linkbtn" type="button" data-pref="edit">Tell us what you're looking for</button><span class="tag">and the app will open on it next time.</span>`; return; }
+    const bits = [p.sub ? subLabel(p.sub) : p.field && fieldName(p.field), p.degree === "Masters" ? "Master's" : p.degree, p.country || p.region].filter(Boolean);
+    el.innerHTML = `<span>My preferences: <b>${esc(bits.join(" · ") || "anything")}</b></span><button class="linkbtn" type="button" data-pref="apply">Apply</button><button class="linkbtn" type="button" data-pref="edit">Edit</button>`;
+  }
+  function openPrefs() {
+    const p = state.profile || {};
+    $("#pf-field").value = p.field || ""; fillSubSelect("#pf-sub", p.field, "Any subfield"); $("#pf-sub").value = p.sub || "";
+    $("#pf-degree").value = p.degree || ""; $("#pf-region").value = p.region || ""; $("#pf-country").value = p.country || ""; $("#pf-cit").value = p.citizenship || "";
+    $("#prefs").showModal();
+  }
+  $("#prefs").addEventListener("close", () => {
+    if ($("#prefs").returnValue !== "save") return;
+    const p = { field: val("#pf-field"), sub: val("#pf-sub"), degree: val("#pf-degree"), region: val("#pf-region"), country: val("#pf-country"), citizenship: $("#pf-cit").value.trim().slice(0, 60) };
+    state.profile = Object.values(p).some(Boolean) ? p : null;
+    if (state.profile) saveJSON("pmf-profile", p); else { try { localStorage.removeItem("pmf-profile"); } catch {} }
+    applyProfile(); state.shown = PAGE; render(); toast("Preferences saved on this device");
+  });
+
+  // ------------------------------------------------------------------ detail drawer
+  const isoDeadline = r => r.deadline && /^\d{4}-\d{2}-\d{2}/.test(r.deadline) ? r.deadline.slice(0, 10) : "";
+  const shareUrl = key => location.origin + location.pathname + "#item=" + encodeURIComponent(key);
+  let lastFocus = null;
+
+  async function mentorDetail(id) {
+    const row = state.data.mentors.find(x => x.id === id); if (!row) return null;
+    const h = String(row.shard).padStart(2, "0");
+    if (!state.shards[h]) state.shards[h] = await fetch(`data/mentors/${h}.json`, { cache: "no-cache" }).then(r => r.json());
+    return { row, full: state.shards[h][id] };
+  }
+  function profileSearch(m) {
+    const site = m.inst_site?.homepage ? new URL(m.inst_site.homepage).hostname.replace(/^www\./, "") : "";
+    return site ? `https://www.google.com/search?q=${encodeURIComponent(`site:${site} "${m.name}"`)}` : `https://www.google.com/search?q=${encodeURIComponent(`"${m.name}" ${m.institution} faculty profile`)}`;
+  }
+
+  async function openDetail(key) {
     const [t, id] = key.split(/:(.+)/);
-    const r = state.data[t].find(x => x.id === id); if (!r) return;
-    let html = `<button class="btn small close" id="d-close" type="button">Close</button>`;
+    lastFocus = document.activeElement;
+    const d = $("#drawer"); d.innerHTML = `<p class="spinner">Loading…</p>`; d.hidden = false; $("#scrim").hidden = false;
+    let html = `<button class="btn small close" id="d-close" type="button">Close</button>`, r;
     if (t === "mentors") {
-      const [cls, lab] = SIG[r.signal];
-      const q = encodeURIComponent(`${r.name} ${r.institution}`);
-      html += `<span class="chip ${cls}"><span class="dot"></span>${lab}</span>
-        <h2 id="d-title">${esc(r.name)}</h2><div class="sub">${esc([r.institution, r.city, r.country].filter(Boolean).join(", "))}</div>
-        <p class="tag">${esc(r.signal_label)}</p>`;
+      let got; try { got = await mentorDetail(id); } catch { got = null; }
+      if (!got || !got.full) { d.innerHTML = html + `<p>Details could not be loaded. Check your connection and try again.</p>`; $("#d-close").onclick = closeDetail; return; }
+      r = got.full; const sig = SIG[got.row.sig];
+      html += `<span class="chip ${sig[0]}"><span class="dot"></span>${sig[1]}</span>
+        <h2 id="d-title">${esc(r.name)}</h2><div class="sub">${esc([r.department, r.institution, r.city, r.country].filter(Boolean).join(", "))}</div>
+        <p class="tag">${esc(r.signal_label)}</p>
+        <div class="links">${(r.subfields || []).map(s => `<span class="chip field">${esc(fieldName(state.subs[s]?.field))} › ${esc(subName(s))}</span>`).join("")}</div>
+        <p class="tag">Subjects from ${esc(r.tagged_by || "keywords")}.</p>`;
       if (r.topics?.length) html += `<h4>Research topics</h4><div class="links">${r.topics.map(x => `<span class="chip">${esc(x)}</span>`).join("")}</div>`;
+      if (r.papers?.length) html += `<h4>Recent papers</h4>` + r.papers.map(p => `<div class="paper"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a> <span class="y">${esc(p.year || "")}</span></div>`).join("");
       if (r.metrics) html += `<h4>Research profile</h4><dl class="kv"><dt>Publications</dt><dd>${r.metrics.works ?? "–"}</dd><dt>Citations</dt><dd>${(r.metrics.citations ?? 0).toLocaleString()}</dd><dt>h-index</dt><dd>${r.metrics.h_index ?? "–"}</dd></dl>`;
-      if (r.positions.length) html += `<h4>Open positions</h4>` + r.positions.map(pid => { const p = state.data.positions.find(x => x.id === pid); return p ? `<div class="grant"><b>${esc(p.title)}</b><div class="row"><span>${esc(p.funding_text || "Funding details on listing")}</span><span>${p.deadline ? "Deadline " + esc(fmtDate(p.deadline)) : ""}</span></div><div class="row"><a href="${esc(p.url)}" target="_blank" rel="noopener">Open the advert ↗</a></div></div>` : ""; }).join("");
-      if (r.grants.length) html += `<h4>Active grants</h4>` + r.grants.map(g => `<div class="grant"><b>${esc(g.title)}</b><div class="row"><span>${esc(g.agency)} · ${esc(g.program)}</span><span class="money">${fmtMoney(g.amount, g.currency)}</span></div><div class="row"><span>${esc(fmtDate(g.start))} → ${esc(fmtDate(g.end))}</span><a href="${esc(g.url)}" target="_blank" rel="noopener">Grant record ↗</a></div></div>`).join("");
-      html += `<h4>Find and contact</h4><div class="links">
-        <a class="btn small" href="https://www.google.com/search?q=${q}+faculty+profile" target="_blank" rel="noopener">University profile ↗</a>
+      if (r.positions?.length) html += `<h4>Open positions</h4>` + r.positions.map(pid => { const p = state.data.positions.find(x => x.id === pid); return p ? `<div class="grant"><b>${esc(p.title)}</b><div class="row"><span>${esc(p.funding_text || "Funding details on the advert")}</span><span>${p.deadline ? "Deadline " + esc(fmtDate(p.deadline)) : ""}</span></div><div class="row"><span class="tag">Source: ${esc(p.source_name)}</span><a href="${esc(p.url)}" target="_blank" rel="noopener">Open the advert ↗</a></div></div>` : ""; }).join("");
+      if (r.grants?.length) html += `<h4>Active funding</h4>` + r.grants.map(g => `<div class="grant"><b>${esc(g.title)}</b><div class="row"><span>${esc(g.agency)} · ${esc(g.program)}</span><span class="money">${fmtMoney(g.amount, g.currency)}</span></div><div class="row"><span>${esc(fmtDate(g.start))} → ${esc(fmtDate(g.end)) || "ongoing"}</span><a href="${esc(g.url)}" target="_blank" rel="noopener">Official grant record ↗</a></div></div>`).join("");
+      html += `<h4>Official pages</h4><div class="links">
+        <a class="btn small primary" href="${esc(profileSearch(r))}" target="_blank" rel="noopener">Find their official profile ↗</a>
+        ${r.inst_site?.homepage ? `<a class="btn small" href="${esc(r.inst_site.homepage)}" target="_blank" rel="noopener">University website ↗</a>` : ""}
         <a class="btn small" href="https://scholar.google.com/scholar?q=author:%22${encodeURIComponent(r.name)}%22" target="_blank" rel="noopener">Google Scholar ↗</a>
         ${r.metrics?.orcid ? `<a class="btn small" href="${esc(r.metrics.orcid)}" target="_blank" rel="noopener">ORCID ↗</a>` : ""}
         ${r.metrics?.openalex ? `<a class="btn small" href="${esc(r.metrics.openalex.replace("https://openalex.org/", "https://openalex.org/authors/"))}" target="_blank" rel="noopener">OpenAlex ↗</a>` : ""}</div>
-        <p class="note" style="margin-top:14px">Before emailing, read two or three of their recent papers and mention one specifically. Ask whether they expect to take a student for your intake, and attach a one-page CV.</p>`;
-    } else if (t === "positions") {
-      html += `${deadlineChip(r)}<h2 id="d-title">${esc(r.title)}</h2><div class="sub">${esc([r.university, r.city, r.country].filter(Boolean).join(", "))}</div>
-        <dl class="kv" style="margin-top:16px">
-          <dt>Supervisor</dt><dd>${esc(r.supervisor || "Not named in the advert")}</dd>
-          <dt>Degree</dt><dd>${esc(r.degree)}</dd><dt>Subject</dt><dd>${esc(r.subject_area)}</dd>
-          <dt>Funding</dt><dd>${esc(r.funding_text || (r.funded ? "Funded — see advert" : "Not stated"))}${r.annual_usd_approx ? `<br><span class="tag">≈ ${fmtUSD(r.annual_usd_approx)} a year in US dollars</span>` : ""}</dd>
-          <dt>Duration</dt><dd>${r.duration_years ? esc(r.duration_years) + " years" : "Not stated"}</dd>
-          <dt>Starts</dt><dd>${esc(r.start_text || "Not stated")}</dd>
-          <dt>Deadline</dt><dd>${esc(fmtDate(r.deadline) || "Not stated")}</dd>
-          <dt>Source</dt><dd>${esc(r.source_name)}${r.verified ? " · details confirmed" : ""}</dd></dl>
-        <div class="links" style="margin-top:18px"><a class="btn primary" href="${esc(r.url)}" target="_blank" rel="noopener">Open the advert and apply ↗</a></div>
-        <p class="note" style="margin-top:14px">Eligibility (for example Home-fee-only places in the UK) is set by the advert. Check it before you apply.</p>`;
+        <div class="actions"><button class="btn small" type="button" id="d-email">Draft an email</button></div>
+        <details class="guide"><summary>How to contact a potential supervisor</summary><ol>
+          <li>Open their official university profile and lab page. Check they are still at that university and read what the lab works on now.</li>
+          <li>Read two or three of their recent papers (listed above) and note one specific idea you would like to build on.</li>
+          <li>Check the department's PhD admissions page: some programmes want you to apply first and contact supervisors later.</li>
+          <li>Write a short email (under 200 words): who you are, why their work, one concrete research idea, when you want to start, and ask whether they expect to take a student for that intake.</li>
+          <li>Attach a one-page CV. Use your own email address and a clear subject such as “Prospective PhD student — [topic], Fall 2027”.</li>
+          <li>If there is no reply after two weeks, send one polite follow-up, then move on.</li></ol></details>`;
     } else {
-      html += `${deadlineChip(r)}<h2 id="d-title">${esc(r.name)}</h2><div class="sub">${esc(r.provider)}</div>
-        <dl class="kv" style="margin-top:16px">
-          <dt>Study in</dt><dd>${esc(r.host_country)}</dd><dt>Levels</dt><dd>${esc(r.degree_levels.join(", "))}</dd>
-          <dt>Subjects</dt><dd>${esc(r.subjects)}</dd><dt>Who can apply</dt><dd>${esc(r.eligible)}</dd>
-          <dt>What it covers</dt><dd>${esc(r.covers)}</dd><dt>Amount</dt><dd>${esc(r.stipend_text || "See official site")}</dd>
-          <dt>Duration</dt><dd>${esc(r.duration_years)}${typeof r.duration_years === "number" ? " years" : ""}</dd>
-          <dt>Deadline</dt><dd>${esc(r.deadline_text)}</dd><dt>Intake</dt><dd>${esc(r.intake)}</dd></dl>
-        <div class="links" style="margin-top:18px"><a class="btn primary" href="${esc(r.url)}" target="_blank" rel="noopener">Official page ↗</a></div>
-        <p class="note" style="margin-top:14px">${r.verified ? "Amounts and deadline were confirmed on the official page." : "Some details could not be confirmed on the official page. Check them there."}</p>`;
+      r = (state.data[t] || []).find(x => x.id === id);
+      if (!r) { d.innerHTML = html + `<p>This item is no longer listed. It may have closed.</p>`; $("#d-close").onclick = closeDetail; return; }
+      if (t === "positions") {
+        html += `${deadlineChip(r)}<h2 id="d-title">${esc(r.title)}</h2><div class="sub">${esc([r.department, r.university, r.city, r.country].filter(Boolean).join(", "))}</div>
+          <div class="links" style="margin-top:8px">${(r.subfields || []).map(s => `<span class="chip field">${esc(fieldName(state.subs[s]?.field))} › ${esc(subName(s))}</span>`).join("")}${intlChip(r)}</div>
+          <dl class="kv" style="margin-top:16px">
+            <dt>Supervisor</dt><dd>${esc(r.supervisor || "Not named in the advert")}</dd>
+            <dt>Degree</dt><dd>${esc(r.degree)}</dd>
+            <dt>Funding</dt><dd>${esc(r.funding_text || (r.funded ? "Funded — see advert" : "Not stated"))}${r.annual_usd_approx ? `<br><span class="tag">≈ ${fmtUSD(r.annual_usd_approx)} a year in US dollars</span>` : ""}</dd>
+            <dt>Duration</dt><dd>${r.duration_years ? esc(r.duration_years) + " years" : "Not stated"}</dd>
+            <dt>Starts</dt><dd>${esc(r.start_text || "Not stated")}</dd>
+            <dt>Deadline</dt><dd>${esc(fmtDate(r.deadline) || "Not stated")}</dd>
+            <dt>Eligibility</dt><dd>${r.intl === "international" ? "The advert says international applicants can apply" : r.intl === "home" ? "The advert limits it to home/domestic applicants" : "Not stated here — check the advert"}</dd>
+            <dt>Source</dt><dd>${esc(r.source_name)}${r.verified ? " · details confirmed" : ""} · checked ${esc(fmtDate(r.checked) || "—")}</dd></dl>
+          ${r.description ? `<p class="note" style="margin-top:14px">${esc(r.description)}…</p>` : ""}
+          <div class="links" style="margin-top:18px"><a class="btn primary" href="${esc(r.url)}" target="_blank" rel="noopener">Open the advert and apply ↗</a></div>`;
+      } else {
+        html += `${deadlineChip(r)}<h2 id="d-title">${esc(r.name)}</h2><div class="sub">${esc(r.provider)}</div>
+          <dl class="kv" style="margin-top:16px">
+            <dt>Study in</dt><dd>${esc(r.host_country)}</dd><dt>Levels</dt><dd>${esc((r.degree_levels || []).join(", "))}</dd>
+            <dt>Subjects</dt><dd>${esc(r.subjects)}</dd><dt>Who can apply</dt><dd>${esc(r.eligible)}</dd>
+            <dt>What it covers</dt><dd>${esc(r.covers)}</dd><dt>Amount</dt><dd>${esc(r.stipend_text || "See official site")}</dd>
+            <dt>Duration</dt><dd>${esc(r.duration_years)}${typeof r.duration_years === "number" ? " years" : ""}</dd>
+            <dt>Deadline</dt><dd>${esc(r.deadline_text)}</dd><dt>Intake</dt><dd>${esc(r.intake)}</dd>
+            <dt>Source</dt><dd>Official programme page${r.checked ? " · checked " + esc(fmtDate(r.checked)) : ""}</dd></dl>
+          <div class="links" style="margin-top:18px"><a class="btn primary" href="${esc(r.url)}" target="_blank" rel="noopener">Official page ↗</a></div>
+          <p class="note" style="margin-top:14px">${r.verified ? "Amounts and deadline were confirmed on the official page." : "Some details could not be confirmed on the official page. Check them there."}</p>`;
+        if (state.profile?.citizenship) html += `<p class="note">Check on the official page whether citizens of <b>${esc(state.profile.citizenship)}</b> can apply.</p>`;
+      }
     }
     html += drawerTools(key, t, r);
-    const d = $("#drawer"); d.innerHTML = html; d.hidden = false; $("#scrim").hidden = false;
+    d.innerHTML = html;
     $("#d-close").focus(); $("#d-close").onclick = closeDetail;
     wireDrawer(key, t, r);
   }
+  function closeDetail() { $("#drawer").hidden = true; $("#scrim").hidden = true; if (lastFocus && document.body.contains(lastFocus)) lastFocus.focus(); }
 
-  // ---- tracker, reminders, share, report ----
-  const titleOf = (t, r) => t === "mentors" ? r.name : t === "positions" ? r.title : r.name;
-  const isoDeadline = r => r.deadline && /^\d{4}-\d{2}-\d{2}/.test(r.deadline) ? r.deadline.slice(0, 10) : "";
-  const shareUrl = key => location.origin + location.pathname + "#item=" + encodeURIComponent(key);
   function drawerTools(key, t, r) {
     const tr = state.track[key] || {}, dl = isoDeadline(r), title = titleOf(t, r);
     let h = `<h4>My application</h4><div class="track">
       <select id="d-status" aria-label="Application status"><option value="">Not tracking</option>${STATUSES.map(([v, l]) => `<option value="${v}"${tr.status === v ? " selected" : ""}>${l}</option>`).join("")}</select>
       <textarea id="d-note" placeholder="Private note, e.g. emailed on 3 Oct, follow up in 2 weeks" aria-label="Private note">${esc(tr.note || "")}</textarea>
-      <span class="tag">Stays on this device only.</span></div>`;
-    h += `<div class="actions">`;
+      <span class="tag">Stays on this device only.</span></div><div class="actions">`;
     if (dl) {
       const d0 = dl.replace(/-/g, ""), nx = new Date(dl + "T00:00:00Z"); nx.setUTCDate(nx.getUTCDate() + 1);
-      const d1 = nx.toISOString().slice(0, 10).replace(/-/g, "");
-      const g = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent("Deadline: " + title)}&dates=${d0}/${d1}&details=${encodeURIComponent(r.url || shareUrl(key))}`;
+      const g = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent("Deadline: " + title)}&dates=${d0}/${nx.toISOString().slice(0, 10).replace(/-/g, "")}&details=${encodeURIComponent(r.url || shareUrl(key))}`;
       h += `<button class="btn small" type="button" id="d-ics">Add deadline to calendar</button><a class="btn small" href="${esc(g)}" target="_blank" rel="noopener">Google Calendar ↗</a>`;
     }
     h += `<button class="btn small" type="button" id="d-share">Share</button></div>`;
     const subj = encodeURIComponent(`PhD Mentor Finder: correction or removal – ${title}`);
     const body = encodeURIComponent(`Item: ${title}\nRecord: ${key}\nLink: ${shareUrl(key)}\n\nWhat should change (or "please remove"):\n`);
     h += `<p class="note" style="margin-top:16px">${t === "mentors" ? "Is this you, or is something wrong? " : "Something wrong or out of date? "}<a href="mailto:${CONTACT}?subject=${subj}&body=${body}">Report an error or request removal</a>. We act within 14 days.</p>`;
-    if (t === "funding" && state.profile?.citizenship) h += `<p class="note">Check on the official page whether citizens of <b>${esc(state.profile.citizenship)}</b> can apply.</p>`;
     return h;
   }
   function setTrack(key, patch) {
@@ -573,10 +806,10 @@ dialog.pf .row{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
     let nt; $("#d-note").oninput = e => { clearTimeout(nt); nt = setTimeout(() => setTrack(key, { note: e.target.value.slice(0, 2000) }), 400); };
     const ics = $("#d-ics");
     if (ics) ics.onclick = () => {
-      const dl = isoDeadline(r).replace(/-/g, ""), title = ("Deadline: " + titleOf(t, r)).replace(/[,;\\]/g, " ");
-      const nx = new Date(isoDeadline(r) + "T00:00:00Z"); nx.setUTCDate(nx.getUTCDate() + 1);
+      const dl = isoDeadline(r), title = ("Deadline: " + titleOf(t, r)).replace(/[,;\\]/g, " ");
+      const nx = new Date(dl + "T00:00:00Z"); nx.setUTCDate(nx.getUTCDate() + 1);
       const ev = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//PhD Mentor Finder//EN", "BEGIN:VEVENT", "UID:" + key.replace(/[^\w-]/g, "") + "@phdmentorfinder",
-        "DTSTAMP:" + new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z", "DTSTART;VALUE=DATE:" + dl, "DTEND;VALUE=DATE:" + nx.toISOString().slice(0, 10).replace(/-/g, ""),
+        "DTSTAMP:" + new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z", "DTSTART;VALUE=DATE:" + dl.replace(/-/g, ""), "DTEND;VALUE=DATE:" + nx.toISOString().slice(0, 10).replace(/-/g, ""),
         "SUMMARY:" + title, "DESCRIPTION:" + (r.url || shareUrl(key)) + " (check the official page)", "BEGIN:VALARM", "TRIGGER:-P7D", "ACTION:DISPLAY", "DESCRIPTION:" + title, "END:VALARM",
         "BEGIN:VALARM", "TRIGGER:-P1D", "ACTION:DISPLAY", "DESCRIPTION:" + title, "END:VALARM", "END:VEVENT", "END:VCALENDAR"].join("\r\n");
       const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([ev], { type: "text/calendar" })); a.download = "deadline.ics"; a.click();
@@ -587,99 +820,111 @@ dialog.pf .row{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
       try { if (navigator.share) { await navigator.share({ title: titleOf(t, r), text, url }); return; } } catch { return; }
       try { await navigator.clipboard.writeText(url); toast("Link copied"); } catch { prompt("Copy this link:", url); }
     };
+    const em = $("#d-email"); if (em) em.onclick = () => openEmail(r);
   }
+
+  // ------------------------------------------------------------------ email draft (all on device)
+  let emailFor = null;
+  function openEmail(m) {
+    emailFor = m; const me = loadJSON("pmf-me", {});
+    $("#em-who").textContent = m.name;
+    $("#em-name").value = me.name || ""; $("#em-bg").value = me.bg || ""; $("#em-int").value = me.int || ""; $("#em-start").value = me.start || "";
+    $("#em-paper").innerHTML = (m.papers || []).map((p, i) => `<option value="${i}">${esc(p.title.slice(0, 90))}</option>`).join("") + `<option value="">(none — I'll mention one myself)</option>`;
+    $("#em-page").href = profileSearch(m);
+    draftEmail(); $("#emailDlg").showModal();
+  }
+  function draftEmail() {
+    const m = emailFor; if (!m) return;
+    const name = val("#em-name") || "[Your name]", bg = val("#em-bg") || "[your degree and experience]", int = val("#em-int") || "[your research interest]";
+    const start = val("#em-start") || "[intended start]", pi = val("#em-paper"), paper = pi !== "" && m.papers?.[+pi] ? m.papers[+pi] : null;
+    const last = m.name.split(" ").slice(-1)[0];
+    $("#em-text").value = `Subject: Prospective PhD student — ${int}, ${start}
+
+Dear Dr ${last},
+
+My name is ${name}. I have ${bg}, and I am applying for PhD programmes to start in ${start}.
+
+${paper ? `I read your paper "${paper.title}"${paper.year ? ` (${paper.year})` : ""}, and [one sentence on what you found interesting and a question or idea it raised for you].` : "I have been reading your recent work on [topic], and [one sentence on what you found interesting]."} I would like to work on ${int}, which connects to this work through [one sentence].
+
+Do you expect to take on a PhD student for ${start}? If so, I would be grateful for any advice on whether my background would be a good fit and how best to apply. I have attached my CV.
+
+Thank you for your time.
+
+Best regards,
+${name}`;
+    saveJSON("pmf-me", { name: val("#em-name"), bg: val("#em-bg"), int: val("#em-int"), start: val("#em-start") });
+  }
+  ["#em-name", "#em-bg", "#em-int", "#em-start", "#em-paper"].forEach(s => $(s).addEventListener("input", draftEmail));
+  $("#em-copy").addEventListener("click", async () => { try { await navigator.clipboard.writeText($("#em-text").value); toast("Draft copied"); } catch { $("#em-text").select(); } });
+
+  // ------------------------------------------------------------------ tabs, hash, events
+  function setTab(t) {
+    state.tab = t; state.shown = PAGE;
+    $$(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === t));
+    try { history.replaceState(null, "", "#" + t); } catch {}
+    render();
+    const tl = $(".tabs"), act = $('.tab[aria-selected="true"]'); if (tl && act) tl.scrollLeft = act.offsetLeft - 16;
+  }
+  function readHash() { const h = location.hash.slice(1); if (SORTS[h]) { state.tab = h; $$(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === h)); return true; } return false; }
   function openFromHash() { const h = decodeURIComponent(location.hash.slice(1)); if (h.startsWith("item=")) openDetail(h.slice(5)); }
 
-  // ---- deadlines coming up in My list ----
-  function renderSoon() {
-    const el = $("#soonStrip");
-    const rows = [...state.saved].map(k => { const [t, id] = k.split(/:(.+)/); const r = (state.data[t] || []).find(x => x.id === id); return r && r.days_left != null && r.days_left >= 0 && r.days_left <= 30 && (state.track[k] || {}).status !== "closed" ? { t, r } : null; }).filter(Boolean).sort((a, b) => a.r.days_left - b.r.days_left);
-    if (!rows.length || state.tab === "saved") { el.hidden = true; return; }
-    const f = rows[0];
-    el.innerHTML = `<span class="dot"></span><span><b>${rows.length} deadline${rows.length > 1 ? "s" : ""}</b> in your list in the next 30 days. Next: ${esc(titleOf(f.t, f.r))} (${f.r.days_left === 0 ? "closes today" : f.r.days_left + " day" + (f.r.days_left === 1 ? "" : "s") + " left"})</span>`;
-    el.hidden = false;
+  function exportCSV() {
+    const q = v => `"${String(v ?? "").replace(/"/g, '""')}"`;
+    const rows = [["Type", "Name", "Where", "Deadline", "Status", "Note", "Link"]];
+    [...state.saved].forEach(k => { const it = itemFor(k); if (!it) return; const { t, r } = it, tr = state.track[k] || {};
+      rows.push([{ mentors: "Supervisor", positions: "Position", funding: "Scholarship" }[t], titleOf(t, r), t === "mentors" ? r.institution : t === "positions" ? r.university : r.host_country, r.deadline || r.deadline_text || "", STATUS_LABEL[tr.status] || "", tr.note || "", r.url || shareUrl(k)]); });
+    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob(["﻿" + rows.map(r => r.map(q).join(",")).join("\r\n")], { type: "text/csv" })); a.download = "my-phd-list.csv"; a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
   }
 
-  // ---- preferences ----
-  function fillPrefs() {
-    const copy = (from, to) => [...$(from).options].slice(1).forEach(o => $(to).add(new Option(o.text, o.value)));
-    copy("#f-subject", "#pf-subject"); copy("#f-region", "#pf-region"); copy("#f-country", "#pf-country");
-    $("#pf-cits").innerHTML = [...$("#f-country").options].slice(1).map(o => `<option value="${esc(o.value)}">`).join("");
-    const st = $("#f-status"); STATUSES.forEach(([v, l]) => st.add(new Option(l, v)));
-  }
-  function applyProfile() {
-    const p = state.profile || {};
-    const set = (sel, v) => { if (v && [...$(sel).options].some(o => o.value === v)) $(sel).value = v; };
-    set("#f-subject", p.subject); set("#f-degree", p.degree); set("#f-region", p.region); set("#f-country", p.country);
-  }
-  function renderPrefbar() {
-    const p = state.profile, el = $("#prefbar");
-    if (!p) { el.innerHTML = `<span>New here?</span><button class="linkbtn" type="button" data-pref="edit">Tell us what you're looking for</button><span class="tag">and the app will open on it next time.</span>`; return; }
-    const bits = [p.subject, p.degree === "Masters" ? "Master's" : p.degree, p.country || p.region].filter(Boolean);
-    el.innerHTML = `<span>My preferences: <b>${esc(bits.join(" · ") || "anything")}</b></span><button class="linkbtn" type="button" data-pref="apply">Apply</button><button class="linkbtn" type="button" data-pref="edit">Edit</button>`;
-  }
-  function openPrefs() {
-    const p = state.profile || {};
-    $("#pf-subject").value = p.subject || ""; $("#pf-degree").value = p.degree || ""; $("#pf-region").value = p.region || ""; $("#pf-country").value = p.country || ""; $("#pf-cit").value = p.citizenship || "";
-    $("#prefs").showModal();
-  }
-  $("#prefs").addEventListener("close", () => {
-    if ($("#prefs").returnValue !== "save") return;
-    const p = { subject: val("#pf-subject"), degree: val("#pf-degree"), region: val("#pf-region"), country: val("#pf-country"), citizenship: $("#pf-cit").value.trim().slice(0, 60) };
-    state.profile = Object.values(p).some(Boolean) ? p : null;
-    state.profile ? saveJSON("pmf-profile", p) : (() => { try { localStorage.removeItem("pmf-profile"); } catch {} })();
-    applyProfile(); state.shown = PAGE; render(); toast("Preferences saved on this device");
+  $$(".tab").forEach(b => b.addEventListener("click", () => setTab(b.dataset.tab)));
+  $("#searchForm").addEventListener("submit", e => e.preventDefault());
+  let tmr; $("#q").addEventListener("input", () => { clearTimeout(tmr); tmr = setTimeout(() => { state.shown = PAGE; render(); }, 160); });
+  $("#f-field").addEventListener("change", () => { fillSubSelect("#f-sub", val("#f-field")); });
+  $$("aside select, aside input, #sort").forEach(el => el.addEventListener("change", () => { state.shown = PAGE; render(); }));
+  function resetFilters() { setFilters({}); state.shown = PAGE; render(); }
+  $("#reset").addEventListener("click", resetFilters);
+  $("#fieldbar").addEventListener("click", e => { const b = e.target.closest("[data-field]"); if (!b) return; $("#f-field").value = b.dataset.field; fillSubSelect("#f-sub", b.dataset.field); state.shown = PAGE; render(); });
+  $("#more").addEventListener("click", () => { state.shown += PAGE; render(); });
+  $("#saveSearch").addEventListener("click", () => {
+    const f = getFilters(), s = { id: Date.now().toString(36), tab: state.tab, f, name: searchName(state.tab, f), seen: today() };
+    if (state.searches.some(x => x.name === s.name)) { toast("You already saved this search"); return; }
+    state.searches.unshift(s); state.searches = state.searches.slice(0, 20); saveJSON("pmf-searches", state.searches); render();
+    toast("Saved. New matches will show under My list.");
+  });
+  $("#searchesPanel").addEventListener("click", e => {
+    const run = e.target.closest("[data-run]"), del = e.target.closest("[data-del]");
+    if (run) { const s = state.searches.find(x => x.id === run.dataset.run); if (!s) return; s.seen = today(); saveJSON("pmf-searches", state.searches); setTab(s.tab); setFilters(s.f); if (s.tab !== "funding") $("#sort").value = "new"; render(); }
+    if (del) { state.searches = state.searches.filter(x => x.id !== del.dataset.del); saveJSON("pmf-searches", state.searches); render(); }
+  });
+  $("#list").addEventListener("click", e => {
+    const s = e.target.closest("[data-save]");
+    if (s) { const k = s.dataset.save; state.saved.has(k) ? state.saved.delete(k) : state.saved.add(k); persistSaved(); if (state.tab === "saved") render(); else { s.setAttribute("aria-pressed", state.saved.has(k)); renderSoon(); } return; }
+    const o = e.target.closest("[data-open]"); if (o) { openDetail(o.dataset.open); return; }
+    if (e.target.closest('[data-act="reset"]')) resetFilters();
   });
   document.addEventListener("click", e => {
     const b = e.target.closest("[data-pref]"); if (b) { b.dataset.pref === "edit" ? openPrefs() : (applyProfile(), state.shown = PAGE, render()); return; }
     if (e.target.closest("#exportBtn")) exportCSV();
   });
-  $("#soonStrip").addEventListener("click", () => { $("#sort").value = "deadline"; setTab("saved"); $("#sort").value = "deadline"; render(); });
-  function exportCSV() {
-    const q = v => `"${String(v ?? "").replace(/"/g, '""')}"`;
-    const rows = [["Type", "Name", "Where", "Deadline", "Status", "Note", "Link"]];
-    [...state.saved].forEach(k => { const [t, id] = k.split(/:(.+)/); const r = (state.data[t] || []).find(x => x.id === id); if (!r) return; const tr = state.track[k] || {};
-      rows.push([{ mentors: "Supervisor", positions: "Position", funding: "Scholarship" }[t], titleOf(t, r), t === "mentors" ? r.institution : t === "positions" ? r.university : r.host_country, r.deadline || r.deadline_text || "", STATUS_LABEL[tr.status] || "", tr.note || "", r.url || shareUrl(k)]); });
-    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob(["\ufeff" + rows.map(r => r.map(q).join(",")).join("\r\n")], { type: "text/csv" })); a.download = "my-phd-list.csv"; a.click();
-    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
-  }
-  function closeDetail() { $("#drawer").hidden = true; $("#scrim").hidden = true; }
-
-  function setTab(t) {
-    state.tab = t; state.shown = PAGE;
-    document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === t));
-    try { history.replaceState(null, "", "#" + t); } catch {}
-    render();
-    const tabsEl = document.querySelector(".tabs"), act = document.querySelector('.tab[aria-selected="true"]');
-    if (tabsEl && act) tabsEl.scrollLeft = act.offsetLeft - 16;
-  }
-  function readHash() { const h = location.hash.slice(1); if (SORTS[h]) { state.tab = h; document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === h)); const tl = document.querySelector(".tabs"), ac = document.querySelector('.tab[aria-selected="true"]'); if (tl && ac) tl.scrollLeft = ac.offsetLeft - 16; } }
-
-  document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => setTab(b.dataset.tab)));
-  $("#searchForm").addEventListener("submit", e => e.preventDefault());
-  let tmr; $("#q").addEventListener("input", () => { clearTimeout(tmr); tmr = setTimeout(() => { state.shown = PAGE; render(); }, 150); });
-  document.querySelectorAll("aside select, aside input, #sort").forEach(el => el.addEventListener("change", () => { state.shown = PAGE; render(); }));
-  $("#reset").addEventListener("click", () => {
-    document.querySelectorAll("aside select").forEach(s => s.value = "");
-    ["#f-funded", "#f-verified", "#f-new", "#f-open"].forEach(s => $(s).checked = false);
-    ["#s-open", "#s-train", "#s-grant"].forEach(s => $(s).checked = true);
-    render();
-  });
-  $("#more").addEventListener("click", () => { state.shown += PAGE; render(); });
-  $("#list").addEventListener("click", e => {
-    const s = e.target.closest("[data-save]");
-    if (s) { const k = s.dataset.save; state.saved.has(k) ? state.saved.delete(k) : state.saved.add(k); persistSaved(); if (state.tab === "saved") render(); else s.setAttribute("aria-pressed", state.saved.has(k)); return; }
-    const o = e.target.closest("[data-open]"); if (o) openDetail(o.dataset.open);
-  });
+  $("#soonStrip").addEventListener("click", () => { setTab("saved"); $("#sort").value = "deadline"; render(); });
+  $("#alertStrip").addEventListener("click", () => setTab("saved"));
   $("#scrim").addEventListener("click", closeDetail);
   window.addEventListener("hashchange", () => { const h = location.hash.slice(1); if (h.startsWith("item=")) { openFromHash(); return; } if (SORTS[h] && h !== state.tab) { closeDetail(); setTab(h); } });
-  document.addEventListener("keydown", e => { if (e.key === "Escape") { closeDetail(); $("#filters").classList.remove("open"); } });
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && !$("#drawer").hidden) { closeDetail(); return; }
+    if (e.key === "Escape") $("#filters").classList.remove("open");
+    if (e.key === "Tab" && !$("#drawer").hidden) {
+      const f = [...$("#drawer").querySelectorAll("a[href],button,select,textarea,input")].filter(x => !x.disabled);
+      if (!f.length) return;
+      if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length - 1].focus(); }
+      else if (!e.shiftKey && document.activeElement === f[f.length - 1]) { e.preventDefault(); f[0].focus(); }
+    }
+  });
   $("#openFilters").addEventListener("click", () => $("#filters").classList.add("open"));
-  $("#closeFilters").addEventListener("click", () => $("#filters").classList.remove("open"));
+  $("#closeFilters").addEventListener("click", () => { $("#filters").classList.remove("open"); $("#results").focus({ preventScroll: true }); });
   load();
-  if ("serviceWorker" in navigator && location.protocol === "https:") {
-    navigator.serviceWorker.register("sw.js").catch(() => {});
-  }
+  if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
 })();
 </script>
 <!--APP-BODY-END-->

@@ -1,0 +1,203 @@
+# PhD Mentor Finder — subject tree (Field > Subfield)
+#
+# HOW TO EDIT
+#   * Add a subfield: copy a block under a field and change id, name, keywords and search.
+#   * Add a field: copy a whole field block. Ids must be unique, lower-case, with dashes.
+#   * Every field automatically gets a "General" bucket for items that fit the field
+#     but no subfield, so nothing is ever dropped. Items that fit no field go to
+#     "Other > General".
+#
+# WHAT THE KEYS DO
+#   openalex  OpenAlex subfield codes (https://api.openalex.org/subfields). A researcher
+#             matched in OpenAlex is tagged from the topics of their own papers using these
+#             codes. This is the most reliable route, so prefer adding codes over keywords.
+#   keywords  Word stems used to tag grant titles and job adverts (lower case, matched
+#             anywhere in the text; put a space before a short stem to match word starts).
+#   search    Terms the daily robot sends to the grant databases (NIH, NSF, UKRI, ARC).
+#             Keep 1-2 per subfield; more terms = longer daily run.
+#   openalex_fields  OpenAlex field codes (11-36) whose unmapped subfields fall into this
+#             field's General bucket.
+#   keywords (on a field)  Broad words that place an item in the field's General bucket
+#             when no subfield keyword matches.
+#   nih       false = do not send this field's search terms to NIH (not health-related).
+#
+# Based on the OpenAlex topic classification (domains > fields > subfields), which
+# itself follows Scopus ASJC codes, so tags line up with how journals classify research.
+
+fields:
+  - id: public-health
+    openalex_fields: []
+    name: Public Health
+    keywords: [public health, population health, community health, health outcomes, health research]
+    subfields:
+      - {id: epidemiology, name: Epidemiology, openalex: [2713], keywords: [epidemiolog, cohort study, population-based, case-control, incidence, prevalence, risk factor], search: [epidemiology]}
+      - {id: infectious-disease-epi, name: Infectious Disease Epidemiology, openalex: [], keywords: [transmission, outbreak, epidemic, surveillance, infectious disease model, pandemic, tuberculosis, malaria, hiv prevention], search: [infectious disease epidemiology]}
+      - {id: aging-gerontology, name: Aging & Gerontology, openalex: [2717, 1302, 3319], keywords: [aging, ageing, older adult, gerontolog, geriatric, frailty, dementia care, healthy ageing, life course, alzheimer], search: [aging, dementia]}
+      - {id: health-policy, name: Health Systems & Policy, openalex: [3306], keywords: [health services, health system, health policy, health care delivery, access to care, health equity, disparit, implementation science, quality improvement, health insurance, medicare, medicaid], search: [health services research, health policy]}
+      - {id: biostatistics, name: Biostatistics, openalex: [], keywords: [biostatist, causal inference, clinical trial design, survival analysis, statistical method, bayesian, mixed model, missing data], search: [biostatistics]}
+      - {id: global-environmental-health, name: Global & Environmental Health, openalex: [2739, 2307], keywords: [global health, environmental health, air pollution, occupational, low- and middle-income, lmic, wash, sanitation, refugee, humanitarian, climate and health, heat exposure], search: [global health, environmental health]}
+      - {id: digital-health, name: Digital Health & Health Informatics, openalex: [2718, 3605], keywords: [digital health, health informatics, electronic health record, ehr, mhealth, telehealth, telemedicine, wearable, clinical decision support, health data science], search: [digital health, health informatics]}
+      - {id: maternal-child-health, name: Maternal & Child Health, openalex: [2735], keywords: [maternal, child health, pediatric, paediatric, neonat, perinatal, adolescent health, infant], search: [maternal and child health]}
+      - {id: health-behaviour, name: Health Behaviour & Promotion, openalex: [], keywords: [health promotion, behavior change, behaviour change, physical activity, smoking, tobacco, alcohol, obesity prevention, community health, substance use, opioid], search: [health promotion, substance use]}
+
+  - id: biological-sciences
+    openalex_fields: [13, 24, 28, 30]
+    name: Biological Sciences
+    keywords: [biolog, life science, bioscience, microbe, organism]
+    subfields:
+      - {id: molecular-biology, name: Molecular Biology, openalex: [1312, 1313], keywords: [molecular biolog, rna, dna repair, transcription, gene regulation, chromatin, epigenet, crispr], search: [molecular biology]}
+      - {id: cell-biology, name: Cell Biology, openalex: [1307, 1309], keywords: [cell biolog, cell signal, organelle, mitochond, stem cell, cell cycle, autophagy, developmental biolog], search: [cell biology]}
+      - {id: microbiology, name: Microbiology, openalex: [2404, 2402, 2726], keywords: [microbio, bacteri, microbiome, antimicrobial, fungal, pathogen, biofilm], search: [microbiology, antimicrobial resistance]}
+      - {id: virology-parasitology, name: Virology & Parasitology, openalex: [2406, 2405], keywords: [virus, viral, virolog, parasit, malaria parasite, vector-borne], search: [virology]}
+      - {id: biochemistry, name: Biochemistry & Structural Biology, openalex: [1303, 1308, 1315, 2704], keywords: [biochem, enzyme, protein structure, structural biolog, metabolism, proteomic, cryo-em], search: [biochemistry, structural biology]}
+      - {id: pharmacology, name: Pharmacology & Pharmaceutical Sciences, openalex: [3004, 3003, 3002, 3005, 2736, 3611], keywords: [pharmacolog, pharmaceut, drug discovery, drug delivery, pharmacokinetic, toxicolog, medicinal chemistry, pharmacoepidemiolog, drug safety], search: [pharmacology, drug discovery]}
+      - {id: genetics, name: Genetics & Genomics, openalex: [1311, 2716], keywords: [genetic, genomic, genome, sequencing, gwas, heredit, bioinformatic, single-cell], search: [genomics, genetics]}
+      - {id: neuroscience, name: Neuroscience, openalex: [2805, 2804, 2807, 2809, 2806, 2802, 2803], keywords: [neuroscien, neuron, synap, brain, neural circuit, cognition, neurodegenerat, neurodevelop], search: [neuroscience]}
+      - {id: immunology, name: Immunology, openalex: [2403, 2723], keywords: [immun, t cell, t-cell, b cell, antibod, inflammat, vaccine, cytokine, autoimmun], search: [immunology]}
+      - {id: ecology-evolution, name: Ecology & Evolution, openalex: [1105, 2303, 2302], keywords: [ecolog, evolution, biodivers, population dynamics, species, phylogen, behavioural ecology], search: [ecology, evolutionary biology]}
+      - {id: physiology, name: Physiology & Biophysics, openalex: [1314, 2737, 1304, 1305], keywords: [physiolog, biophysic, biotechnolog, muscle, metabolic physiology], search: [physiology, biotechnology]}
+
+  - id: medicine
+    openalex_fields: [27]
+    name: Medicine & Clinical Research
+    keywords: [clinical, medicine, medical, patient, disease, hospital, therapy, therapeutic]
+    subfields:
+      - {id: oncology, name: Cancer & Oncology, openalex: [2730, 1306], keywords: [cancer, oncolog, tumor, tumour, carcinoma, leukemia, leukaemia, lymphoma, metasta], search: [cancer]}
+      - {id: cardiovascular, name: Cardiovascular Medicine, openalex: [2705], keywords: [cardiovascular, cardiac, heart, hypertension, stroke, atrial, myocard, cardiolog], search: [cardiovascular]}
+      - {id: neurology, name: Neurology, openalex: [2728, 2808], keywords: [neurolog, epilep, parkinson, multiple sclerosis, alzheimer, dementia, traumatic brain injury], search: [neurology]}
+      - {id: psychiatry, name: Psychiatry & Mental Health, openalex: [2738], keywords: [mental health, psychiatr, depression, anxiety, schizophren, bipolar, suicide prevention, ptsd, addiction], search: [mental health]}
+      - {id: infectious-diseases, name: Infectious Diseases (Clinical), openalex: [2725], keywords: [infectious disease, infection, sepsis, hiv, tuberculosis, covid, antiretroviral, hepatitis], search: [infectious diseases]}
+      - {id: palliative-care, name: Palliative & End-of-Life Care, openalex: [], keywords: [palliative, hospice, end-of-life, end of life, advance care planning, serious illness, bereavement], search: [palliative care]}
+      - {id: endocrinology, name: Diabetes, Endocrinology & Metabolism, openalex: [2712, 1310], keywords: [diabet, endocrin, obesity, insulin, thyroid, metabolic syndrome], search: [diabetes]}
+      - {id: surgery-acute, name: Surgery, Anaesthesia & Critical Care, openalex: [2746, 2703, 2747, 2711, 2706, 2748, 2732], keywords: [surg, anesthes, anaesthes, intensive care, critical care, emergency medicine, trauma care, transplant, orthopaed, orthoped], search: [surgery, critical care]}
+      - {id: imaging, name: Medical Imaging & Radiology, openalex: [2741, 3614], keywords: [imaging, radiolog, mri, ct scan, ultrasound, pet imaging, radiotherapy], search: [medical imaging]}
+      - {id: respiratory-renal, name: Respiratory, Renal & Internal Medicine, openalex: [2740, 2727, 2724, 2715, 2721, 2720, 2745], keywords: [pulmonary, respiratory, asthma, copd, kidney, renal, liver, gastro, hematolog, haematolog, rheumat], search: [respiratory disease, kidney disease]}
+      - {id: womens-health, name: Women's & Reproductive Health, openalex: [2729, 2743], keywords: [pregnan, obstetric, gynaecolog, gynecolog, reproductive, fertility, women's health], search: [reproductive health]}
+
+  - id: nursing-allied
+    openalex_fields: [29, 35, 36]
+    name: Nursing & Allied Health
+    keywords: [allied health, health professions, care home]
+    subfields:
+      - {id: nursing, name: Nursing, openalex: [2910, 2911, 2922], keywords: [nursing, nurse, midwi, caregiver, carer], search: [nursing]}
+      - {id: nutrition, name: Nutrition & Dietetics, openalex: [2916], keywords: [nutrition, diet, dietetic, food intake, malnutrition], search: [nutrition]}
+      - {id: rehabilitation, name: Rehabilitation & Therapy, openalex: [2742, 3612, 3609, 3616, 3603], keywords: [rehabilitat, physiotherap, physical therap, occupational therap, speech, hearing, exercise therap], search: [rehabilitation]}
+      - {id: dentistry, name: Dentistry & Oral Health, openalex: [3504, 3506, 3505, 3500], keywords: [dental, dentist, oral health, periodont, orthodont], search: [oral health]}
+
+  - id: psychology
+    openalex_fields: [32]
+    name: Psychology
+    keywords: [psycholog, behaviour, behavior, wellbeing, well-being]
+    subfields:
+      - {id: clinical-psychology, name: Clinical Psychology, openalex: [3203], keywords: [clinical psycholog, psychotherap, cognitive behavio, wellbeing intervention], search: [clinical psychology]}
+      - {id: cognitive-psychology, name: Cognitive & Experimental Psychology, openalex: [3205, 3206], keywords: [cognitive psycholog, perception, memory, attention, decision making, language processing], search: [cognitive psychology]}
+      - {id: developmental-psychology, name: Developmental & Educational Psychology, openalex: [3204], keywords: [child development, developmental psycholog, educational psycholog, adolescen], search: [developmental psychology]}
+      - {id: social-psychology, name: Social & Applied Psychology, openalex: [3207, 3202, 3200], keywords: [social psycholog, organisational psycholog, organizational psycholog, prejudice, attitudes], search: [social psychology]}
+
+  - id: engineering
+    openalex_fields: [15, 21, 22, 25]
+    name: Engineering
+    keywords: [engineering, engineer, device, design and fabrication]
+    nih: false
+    subfields:
+      - {id: biomedical-engineering, name: Biomedical Engineering, openalex: [2204, 1502, 2502], keywords: [biomedical engineer, medical device, biomaterial, tissue engineer, prosthe, implant, bioengineer], search: [biomedical engineering]}
+      - {id: electrical-engineering, name: Electrical & Electronic Engineering, openalex: [2208, 1711, 2214], keywords: [electrical, electronic, semiconductor, circuit, power electronic, signal processing, photonic, antenna, wireless], search: [electrical engineering, semiconductor]}
+      - {id: mechanical-engineering, name: Mechanical & Aerospace Engineering, openalex: [2210, 2202, 2211, 2206, 2203, 2212], keywords: [mechanical engineer, aerospace, fluid dynamic, turbulen, combustion, vehicle, thermal, mechanics of], search: [mechanical engineering, aerospace]}
+      - {id: civil-engineering, name: Civil & Structural Engineering, openalex: [2205, 2215, 2216], keywords: [civil engineer, structural, infrastructure, construction, bridge, geotechn, transport infrastructure, cementitious, concrete], search: [civil engineering]}
+      - {id: chemical-engineering, name: Chemical Engineering, openalex: [1507, 1503, 1508, 1504, 1506], keywords: [chemical engineer, catalys, reactor, separation process, process engineer], search: [chemical engineering]}
+      - {id: materials, name: Materials Science, openalex: [2505, 2504, 2507, 2508, 2500, 2503, 2506], keywords: [materials science, alloy, polymer, ceramic, composite, nanomaterial, thin film, metamaterial], search: [materials science]}
+      - {id: energy, name: Energy & Sustainability Engineering, openalex: [2105, 2102, 2100, 2103, 2104], keywords: [energy, battery, solar, photovoltaic, hydrogen, fuel cell, wind power, renewable, carbon capture, nuclear], search: [renewable energy, battery]}
+      - {id: environmental-engineering, name: Environmental & Water Engineering, openalex: [2305, 2311, 2312], keywords: [environmental engineer, water treatment, wastewater, waste management, desalination, hydrolog], search: [water engineering]}
+      - {id: robotics-control, name: Robotics, Control & Systems, openalex: [2207, 2209, 2213], keywords: [robot, control system, autonomous system, manufactur, systems engineer, reliability], search: [robotics]}
+
+  - id: computer-data-science
+    openalex_fields: [17, 18]
+    name: Computer & Data Science
+    keywords: [computer science, computing, computational, data, digital, algorithm]
+    nih: false
+    subfields:
+      - {id: ai-ml, name: Artificial Intelligence & Machine Learning, openalex: [1702], keywords: [machine learning, artificial intelligence, deep learning, neural network, reinforcement learning, large language model, generative ai, " ai ", foundation model], search: [machine learning, artificial intelligence]}
+      - {id: computer-vision, name: Computer Vision & Graphics, openalex: [1707, 1704], keywords: [computer vision, image analysis, image processing, graphics, visualization, visualisation], search: [computer vision]}
+      - {id: data-science, name: Data Science & Statistics, openalex: [1804, 2613, 1800], keywords: [data science, statistic, big data, data-driven, data analytics, probabilistic], search: [data science, statistics]}
+      - {id: software-systems, name: Software, Systems & Networks, openalex: [1712, 1708, 1705, 1706], keywords: [software, distributed system, cloud computing, network, cybersecurity, cyber security, privacy-preserving, hardware, compiler, quantum computing], search: [cybersecurity, software engineering]}
+      - {id: hci, name: Human-Computer Interaction, openalex: [1709, 3307], keywords: [human-computer interaction, hci, user experience, usability, interaction design, human factors], search: [human-computer interaction]}
+      - {id: theory-computing, name: Theoretical Computer Science, openalex: [1703, 2614, 1710, 1802], keywords: [algorithm, complexity theory, cryptograph, formal verification, information system, coding theory], search: [algorithms]}
+
+  - id: physical-sciences
+    openalex_fields: [16, 19, 26, 31]
+    name: Physical Sciences & Mathematics
+    keywords: [physical science, mathematical, chemical]
+    nih: false
+    subfields:
+      - {id: physics, name: Physics, openalex: [3106, 3107, 3104, 3109, 3108, 3105, 3102], keywords: [physics, quantum, condensed matter, optics, laser, particle, plasma, superconduct], search: [physics, quantum]}
+      - {id: astronomy, name: Astronomy & Space Science, openalex: [3103, 1912], keywords: [astronom, astrophys, galax, planetary, cosmolog, space science, exoplanet], search: [astrophysics]}
+      - {id: chemistry, name: Chemistry, openalex: [1605, 1607, 1604, 1606, 1602, 1603], keywords: [chemistry, chemical synthesis, organic synthesis, spectroscop, electrochem, catalyst, molecule], search: [chemistry]}
+      - {id: mathematics, name: Mathematics, openalex: [2604, 2608, 2610, 2611, 2602, 2612, 2607, 2605], keywords: [mathemat, algebra, geometry, topology, differential equation, numerical analysis, combinator, modelling and simulation, modeling and simulation], search: [mathematics]}
+      - {id: earth-sciences, name: Earth Sciences & Geology, openalex: [1908, 1910, 1911, 1907, 1904, 1906], keywords: [geolog, geophys, seismic, oceanograph, volcan, sediment, earth science, glacio], search: [geology, oceanography]}
+      - {id: climate, name: Climate & Atmospheric Science, openalex: [1902, 2306], keywords: [climate, atmospher, weather, carbon cycle, global change, ice sheet], search: [climate change]}
+
+  - id: agriculture-one-health
+    openalex_fields: [11, 23, 34]
+    name: Agriculture, Environment & One Health
+    keywords: [agri, farm, environment, sustainab, rural]
+    subfields:
+      - {id: one-health, name: One Health & Zoonoses, openalex: [], keywords: [one health, zoonot, zoonos, wildlife disease, spillover, antimicrobial resistance, vector-borne, animal-human], search: [one health, zoonotic]}
+      - {id: agriculture, name: Agriculture & Plant Science, openalex: [1102, 1110, 1108, 1111, 1100], keywords: [agricultur, crop, plant science, plant biolog, soil, agronom, horticult, food security], search: [agriculture, plant science]}
+      - {id: animal-veterinary, name: Animal & Veterinary Science, openalex: [1103, 3404, 3402, 1109], keywords: [veterinar, livestock, animal health, animal science, poultry, cattle, insect], search: [veterinary, animal science]}
+      - {id: food-science, name: Food Science, openalex: [1106], keywords: [food science, food safety, food processing, fermentation], search: [food science]}
+      - {id: environment-conservation, name: Environmental Science & Conservation, openalex: [2308, 2309, 2310, 2304, 1107, 1104], keywords: [conservation, environmental science, pollution, forest, marine, freshwater, wildlife, ecosystem, land use, coastal, saltmarsh, wetland, river], search: [conservation, environmental science]}
+
+  - id: social-sciences
+    openalex_fields: [33]
+    name: Social Sciences
+    keywords: [social science, society, social, policy, community]
+    nih: false
+    subfields:
+      - {id: sociology-politics, name: Sociology & Political Science, openalex: [3312, 3320, 3318], keywords: [sociolog, political, politics, democracy, inequalit, migration, gender studies, social policy], search: [sociology, political science]}
+      - {id: anthropology, name: Anthropology, openalex: [3314, 3316], keywords: [anthropolog, ethnograph, cultural studies, indigenous], search: [anthropology]}
+      - {id: geography-development, name: Geography, Planning & Development, openalex: [3305, 3303, 3322, 3313], keywords: [geograph, urban, planning, development studies, transport, spatial], search: [geography, urban planning]}
+      - {id: demography, name: Demography & Population Studies, openalex: [3317], keywords: [demograph, population studies, fertility rate, mortality trend, census], search: [demography]}
+      - {id: law, name: Law & Criminology, openalex: [3308, 3311], keywords: [" law ", legal, criminolog, criminal justice, human rights, regulation], search: [law]}
+      - {id: communication, name: Communication, Media & Information, openalex: [3315, 3309], keywords: [communication studies, science communication, media studies, " media ", social media, journalism, misinformation, library science], search: [communication]}
+      - {id: public-administration, name: Public Administration, openalex: [3321], keywords: [public administration, public management, governance, public sector], search: [public administration]}
+
+  - id: economics
+    openalex_fields: [20]
+    name: Economics
+    keywords: [economics, economy, market]
+    nih: false
+    subfields:
+      - {id: economics-econometrics, name: Economics & Econometrics, openalex: [2002, 2000], keywords: [economic, econometric, macroeconom, microeconom, labor market, labour market, trade], search: [economics]}
+      - {id: finance, name: Finance, openalex: [2003], keywords: [finance, financial, banking, asset pricing, fintech], search: [finance]}
+      - {id: health-economics, name: Health Economics, openalex: [], keywords: [health economic, cost-effective, cost effective, economic evaluation, health care cost, qaly], search: [health economics]}
+      - {id: development-economics, name: Development Economics, openalex: [], keywords: [development economic, poverty, microfinance, low-income countr], search: [development economics]}
+
+  - id: education
+    openalex_fields: []
+    name: Education
+    keywords: [education, student learning, teacher]
+    nih: false
+    subfields:
+      - {id: education-research, name: Education Research, openalex: [3304], keywords: [education research, teaching, learning outcome, curriculum, schools, school-based, higher education, stem education, pedagog, teacher], search: [education research]}
+      - {id: educational-technology, name: Educational Technology, openalex: [], keywords: [educational technology, e-learning, online learning, learning analytics], search: [educational technology]}
+
+  - id: business
+    openalex_fields: [14]
+    name: Business & Management
+    keywords: [business, firm, industry, enterprise]
+    nih: false
+    subfields:
+      - {id: management, name: Management & Strategy, openalex: [1408, 1407, 1403, 1405, 1410], keywords: [management, strategy, organisation, organization, entrepreneur, innovation management, leadership], search: [management]}
+      - {id: marketing-operations, name: Marketing & Operations, openalex: [1406, 1803, 1409, 1402, 1404], keywords: [marketing, consumer, supply chain, operations research, logistics, accounting, tourism], search: [supply chain]}
+
+  - id: humanities
+    openalex_fields: [12]
+    name: Humanities & Arts
+    keywords: [humanities, " culture ", " arts "]
+    nih: false
+    subfields:
+      - {id: history, name: History, openalex: [1202, 1207], keywords: [" history ", historical, archival, medieval, colonial, historian], search: [history]}
+      - {id: philosophy-religion, name: Philosophy & Religion, openalex: [1211, 1212], keywords: [philosoph, ethics, religio, theolog], search: [philosophy]}
+      - {id: languages-literature, name: Languages, Linguistics & Literature, openalex: [1208, 1203, 3310], keywords: [linguist, language acquisition, second language, sign language, literature review of, literary, translation studies, philolog, " literature "], search: [linguistics]}
+      - {id: arts-music, name: Arts, Music & Design, openalex: [1213, 1210, 1209, 1206], keywords: [art history, " arts ", fine art, music, theatre, film studies, museum, cultural heritage, creative practice], search: [music, art history]}
+      - {id: archaeology-classics, name: Archaeology & Classics, openalex: [1204, 1205, 3302], keywords: [archaeolog, archeolog, classics, ancient], search: [archaeology]}
