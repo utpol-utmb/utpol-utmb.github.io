@@ -1,0 +1,38 @@
+PhD Mentor Finder helps students find a PhD or Master's supervisor who is actually taking students, and the funding to pay for it. Search by topic, supervisor or university, then filter by country, region, subject area, degree, start year and deadline.
+
+What you can find:
+• Supervisors with open, advertised positions
+• Supervisors who hold grants that pay graduate students
+• Funded PhD and Master's positions with stipend, duration, start date and deadline
+• Scholarships such as Chevening, Commonwealth, DAAD, Erasmus Mundus, Fulbright, MEXT and more, with amounts, eligibility and deadlines
+
+Every supervisor carries a clear label:
+• Hiring now: named on a currently open advert
+• Funds students: leads a training grant or graduate fellowship
+• Active grant: holds a current research grant, so ask first
+
+How it works:
+• Grant records come from public databases published by funding agencies (NIH, NSF and UKRI); positions come from university pages and academic job boards
+• Every record links to its original source
+• Updated automatically every day; closed deadlines disappear
+• Scholarships show whether details were confirmed on the official site
+
+Save supervisors, positions and scholarships to your shortlist with one tap. No sign-up, no ads, no tracking.
+
+DATA SOURCES AND DISCLAIMER
+PhD Mentor Finder is an independent app. It is not affiliated with, endorsed by, or acting on behalf of any government agency, including the National Institutes of Health (NIH), the National Science Foundation (NSF) or UK Research and Innovation (UKRI), or with any scholarship programme listed in the app.
+
+Funding and grant information shown in the app comes from public government databases:
+• NIH RePORTER: https://reporter.nih.gov
+• NSF Award Search: https://www.nsf.gov/awardsearch/
+• UKRI Gateway to Research: https://gtr.ukri.org
+
+Scholarship details are taken from each programme's official website, for example:
+• Chevening: https://www.chevening.org
+• Commonwealth Scholarships: https://cscuk.fcdo.gov.uk
+• DAAD: https://www.daad.de
+• Erasmus Mundus: https://erasmus-plus.ec.europa.eu
+• Fulbright: https://foreign.fulbrightonline.org
+• MEXT (Japan): https://www.studyinjapan.go.jp
+
+Always check details with the official source before relying on them.
