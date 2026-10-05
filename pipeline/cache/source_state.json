@@ -7,17 +7,17 @@
  "NIH RePORTER": {
   "fail_streak": 0,
   "last_ok": "2026-10-05",
-  "last_ok_count": 18705
+  "last_ok_count": 18704
  },
  "NSF Award Search": {
   "fail_streak": 0,
   "last_ok": "2026-10-05",
-  "last_ok_count": 3369
+  "last_ok_count": 3366
  },
  "OpenAlex": {
   "fail_streak": 0,
   "last_ok": "2026-10-05",
-  "last_ok_count": 671
+  "last_ok_count": 699
  },
  "UKRI Gateway to Research": {
   "fail_streak": 0,

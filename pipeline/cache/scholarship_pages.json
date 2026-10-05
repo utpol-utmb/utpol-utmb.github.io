@@ -5,7 +5,7 @@
 "hash": "8f7db88a5b430f70"
 },
 "australia-rtp": {
-"fails": 1
+"fails": 2
 },
 "canada-cgrs-doctoral": {
 "checked": "2026-10-05",
@@ -18,10 +18,10 @@
 "hash": "72a860179b58c17d"
 },
 "chinese-government-scholarship": {
-"fails": 1
+"fails": 2
 },
 "clarendon": {
-"fails": 1
+"fails": 2
 },
 "commonwealth-masters": {
 "checked": "2026-10-05",
@@ -34,12 +34,14 @@
 "hash": "015c43991447d084"
 },
 "daad-doctoral": {
-"fails": 1
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "e28ed35797387e7d"
 },
 "eiffel-excellence": {
 "checked": "2026-10-05",
 "fails": 0,
-"hash": "ea58e69e5ce567ad"
+"hash": "2dac81e984a74e08"
 },
 "erasmus-mundus-emjm": {
 "checked": "2026-10-05",
@@ -105,5 +107,205 @@
 "checked": "2026-10-05",
 "fails": 0,
 "hash": "258dad2289109cff"
+},
+"usp-berkeley-chem": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "f4bc488d9252aef5"
+},
+"usp-berkeley-econ": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "879aaa889afbccf5"
+},
+"usp-berkeley-eecs": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "ba161265f3846f1a"
+},
+"usp-berkeley-soc": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "ff5c3ea86c3151c9"
+},
+"usp-caltech-chem": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "eec3fbfddaff2748"
+},
+"usp-cmu-csd": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "e0f83baf9b7e0419"
+},
+"usp-cmu-ml": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "d03bc20e54e65cfb"
+},
+"usp-duke-nursing": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "5798f5ccbfa7c54f"
+},
+"usp-gatech-ece": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "2fa3489a10a4fbdd"
+},
+"usp-harvard-bbs": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "7db59ff6f08d997f"
+},
+"usp-harvard-biostat": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "b91b639773698c71"
+},
+"usp-harvard-bsph": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "82ff02b9c23e376d"
+},
+"usp-harvard-econ": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "7f9a1a3f3e0a5d12"
+},
+"usp-harvard-edu": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "f5c9ce1fcacfc92b"
+},
+"usp-harvard-health-policy": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "a66ee2d5bc3bea88"
+},
+"usp-harvard-phs": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "c00f8a76df0f1a42"
+},
+"usp-harvard-physics": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "399066512797ea95"
+},
+"usp-harvard-psych": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "c873a1de320aa874"
+},
+"usp-harvard-soc": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "200039aab595540c"
+},
+"usp-mit-biology": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "bd471985a232e029"
+},
+"usp-mit-econ": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "f560696b2812116b"
+},
+"usp-mit-eecs": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "0199ca5293255379"
+},
+"usp-mit-meche": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "ed70d43e631cddfc"
+},
+"usp-mit-physics": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "15b1e85ed80204b0"
+},
+"usp-stanford-biosciences": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "6668d9d75e99dd91"
+},
+"usp-stanford-chem": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "c1328c950809aa02"
+},
+"usp-stanford-cs": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "093940d2a966e36d"
+},
+"usp-stanford-econ": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "e2efcd4c56c4e37c"
+},
+"usp-stanford-gse": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "697e31f326733132"
+},
+"usp-stanford-me": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "c85b33f50b8cbe4f"
+},
+"usp-stanford-psych": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "cff7443d78557d99"
+},
+"usp-ucla-psych": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "6b271e0df4411cc5"
+},
+"usp-ucsf-bms": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "352e2e3f0e47e321"
+},
+"usp-ucsf-nursing": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "e5a25af4cd475a2c"
+},
+"usp-ucsf-tetrad": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "f9515d42c1b43821"
+},
+"usp-umich-psych": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "067eb4d532717c4c"
+},
+"usp-uw-biostat": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "7579ff132ebd5748"
+},
+"usp-uw-cse": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "46418ad1522c3844"
+},
+"usp-wharton-phd": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "120682f772e918de"
+},
+"usp-wisc-ads": {
+"checked": "2026-10-05",
+"fails": 0,
+"hash": "0d3763f0f5803983"
 }
 }

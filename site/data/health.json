@@ -1,24 +1,29 @@
 {
- "generated_at": "2026-10-05 03:20 UTC",
- "overall": "ok",
+ "generated_at": "2026-10-05 12:35 UTC",
+ "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 151,
+  "mentors": 18281,
+  "funding": 23,
+  "grants": 22823
+ },
+ "previous_counts": {
   "positions": 151,
   "mentors": 18288,
   "funding": 23,
   "grants": 22827
  },
- "previous_counts": {},
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3369,
+   "count": 3366,
    "last_ok": "2026-10-05",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
-   "count": 18705,
+   "count": 18704,
    "last_ok": "2026-10-05",
    "note": "62 search terms"
   },
@@ -39,11 +44,6 @@
    "last_ok": "2026-10-05",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
-  "Curated: jobs.ac.uk": {
-   "status": "held",
-   "count": 40,
-   "note": "withheld until the site gives permission to show its adverts (see config.yaml hold_sources)"
-  },
   "EURAXESS": {
    "status": "off",
    "count": 0,
@@ -51,11 +51,18 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 671,
+   "count": 699,
    "last_ok": "2026-10-05",
-   "note": "92 new lookups today (71 matched); 671 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "note": "92 new lookups today (75 matched); 699 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [],
- "scholarships_to_review": []
+ "scholarships_to_review": [
+  {
+   "id": "eiffel-excellence",
+   "name": "France Excellence Eiffel Scholarship",
+   "url": "https://www.campusfrance.org/fr/le-programme-de-bourses-france-excellence-eiffel",
+   "reason": "official page changed (dates or amounts may have changed)"
+  }
+ ]
 }
