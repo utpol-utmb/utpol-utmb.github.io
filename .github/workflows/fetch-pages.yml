@@ -1,0 +1,27 @@
+name: Fetch official pages (manual)
+# Saves the visible text of official pages (robots.txt respected) to a branch, so curated
+# guides such as the US program guide can be checked against the source. Publishes nothing.
+on:
+  workflow_dispatch:
+    inputs:
+      list:
+        description: "JSON list of URLs in the repo"
+        required: true
+        default: "data/curated/us_programs_urls.json"
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r pipeline/requirements.txt
+      - run: python pipeline/fetch_pages.py "${{ inputs.list }}" /tmp/pages
+      - name: Save to branch page-texts
+        run: |
+          cd /tmp/pages && git init -q && git add . && git -c user.name=bot -c user.email=actions@users.noreply.github.com commit -q -m "pages $(date -u +%FT%T)"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:refs/heads/page-texts
