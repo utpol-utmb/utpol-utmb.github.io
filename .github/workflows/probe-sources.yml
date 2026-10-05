@@ -35,6 +35,6 @@ jobs:
       - name: Save results to branch probe-results
         if: always()
         run: |
-          cd /tmp && mkdir pr && cd pr && git init -q && cp /tmp/probe.txt . && cp /tmp/probe_subfields.json subfields.json 2>/dev/null; git add .
+          cd /tmp && mkdir pr && cd pr && git init -q && cp /tmp/probe.txt . && (cp /tmp/probe_subfields.json subfields.json 2>/dev/null || true); git add .
           git -c user.name=bot -c user.email=actions@users.noreply.github.com commit -q -m "probe $(date -u +%FT%T)"
           git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:refs/heads/probe-results
