@@ -124,3 +124,15 @@ def test_offline_build_writes_index_and_health(tmp_path):
     pos = json.loads((tmp_path / "positions.json").read_text())
     assert all(p["field"] and p["subfields"] for p in pos)
     assert not any(p.get("source_name") == "jobs.ac.uk" for p in pos)
+
+
+def test_official_emails_only_and_removals():
+    raw = [{"id": "1", "title": "Ecology study", "piFirstName": "Ann", "piLastName": "Lee", "piEmail": "ALee@Uni.EDU",
+            "awardeeName": "Uni", "awardeeStateCode": "TX", "fundsObligatedAmt": "1", "startDate": "01/01/2024", "expDate": "01/01/2099"},
+           {"id": "2", "title": "Chemistry study", "piFirstName": "Bo", "piLastName": "Kim", "piEmail": "n/a",
+            "awardeeName": "Uni", "awardeeStateCode": "TX", "fundsObligatedAmt": "1", "startDate": "01/01/2024", "expDate": "01/01/2099"}]
+    recs = grants.nsf_normalize(raw)
+    assert recs[0]["pi_email"] == "alee@uni.edu" and recs[1]["pi_email"] == ""
+    ms = build.build_mentors(recs, [], {})
+    assert [c["email"] for m in ms for c in m["contacts"]] == ["alee@uni.edu"]
+    assert all(c["source"].endswith("award record") and c["url"] for m in ms for c in m["contacts"])

@@ -49,7 +49,12 @@ def parse_detail(job_id: str, page: str) -> dict:
     i = full.rfind("Offer Description")
     j = min([k for k in (full.find("Where to apply", i + 1), full.find("Requirements", i + 1)) if k > i] or [i + 1600])
     desc = full[i + len("Offer Description"):j].strip()[:1500] if i >= 0 else ""
+    k = full.find("Where to apply")
+    k2 = full.find("Where to apply", k + 1)
+    apply_txt = full[(k2 if k2 > 0 else k):(k2 if k2 > 0 else k) + 600] if k >= 0 else ""
+    em = re.search(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}", apply_txt)
     return {
+        "contact_email": em.group(0).lower() if em else "",
         "eid": job_id, "title": title,
         "organisation": fields.get("Organisation/Company", ""), "department": fields.get("Department", ""),
         "field": fields.get("Research Field", ""), "profile": fields.get("Researcher Profile", ""),
@@ -116,5 +121,6 @@ def to_positions(rows: list[dict]) -> list[dict]:
             "source_name": "EURAXESS", "url": f"{BASE}/jobs/{r['eid']}", "verified": False,
             "classify_text": f"{r['title']} {r['title']} {r.get('field', '')} {r['description'][:600]}",
             "description": r["description"][:400], "source_checked": r.get("checked", ""),
+            "contact_email": r.get("contact_email", ""), "department": r.get("department", ""),
         })
     return out

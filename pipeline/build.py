@@ -270,7 +270,7 @@ def build_mentors(grants: list[dict], positions: list[dict], first_seen: dict) -
             people[k] = {"id": slug(name, inst), "name": name, "institution": inst, "city": city,
                          "country": country_name(country), "region": region_for(country), "department": "",
                          "topics": [], "signal": "research_grant", "grants": [], "positions": [],
-                         "metrics": None, "papers": [], "sources": set(), "_text": ""}
+                         "metrics": None, "papers": [], "sources": set(), "_text": "", "contacts": []}
         return people[k]
 
     for p in positions:
@@ -278,12 +278,21 @@ def build_mentors(grants: list[dict], positions: list[dict], first_seen: dict) -
             m = get(name, other_inst or p.get("university", ""), p.get("country", ""), "" if other_inst else p.get("city", ""))
             m["positions"].append(p["id"])
             m["signal"] = "open_position"
-            m["department"] = m["department"] or p.get("department", "")
+            if p.get("department") and not m["department"]:
+                m["department"], m["department_source"] = p["department"], p.get("source_name", "")
+            if p.get("contact_email") and not any(c["email"] == p["contact_email"] for c in m["contacts"]):
+                m["contacts"].append({"email": p["contact_email"], "source": p.get("source_name", "") + " advert", "url": p.get("url", "")})
             m["sources"].add(p.get("source_name", ""))
             m["_text"] += " " + p.get("title", "")
     for g in grants:
         m = get(g["pi_name"], g["institution"], g["country"], g.get("city", ""))
         m["grants"].append({k: g[k] for k in ("agency", "number", "title", "amount", "currency", "start", "end", "program", "kind", "url")})
+        if g.get("department") and not m["department"]:
+            m["department"] = g["department"]
+            m["department_source"] = SOURCE_LINK.get(g["agency"], g["agency"])
+        if g.get("pi_email") and not any(c["email"] == g["pi_email"] for c in m["contacts"]):
+            # Only emails that an official public record itself publishes; never guessed or built.
+            m["contacts"].append({"email": g["pi_email"], "source": SOURCE_LINK.get(g["agency"], g["agency"]) + " award record", "url": g["url"]})
         m["_text"] = (m["_text"] + " " + g["title"] + " " + g.get("terms", ""))[:3000]
         sig = "training_grant" if g["kind"] == "training" else "research_grant"
         if SIGNAL_RANK[sig] > SIGNAL_RANK[m["signal"]]:
@@ -302,6 +311,21 @@ def build_mentors(grants: list[dict], positions: list[dict], first_seen: dict) -
         out.append(m)
     out.sort(key=lambda m: (-SIGNAL_RANK[m["signal"]], m["name"].split()[-1] if m["name"].split() else ""))
     return out
+
+
+def apply_removals(mentors: list[dict], positions: list[dict]) -> int:
+    """data/curated/removals.json: {"hide_emails": [...], "hide_people": ["<mentor id>", ...]} honoured on every run."""
+    rm = load_json(CURATED / "removals.json", {})
+    hide_e = {e.lower() for e in rm.get("hide_emails", [])}
+    hide_p = set(rm.get("hide_people", []))
+    for m in mentors:
+        m["contacts"] = [c for c in m.get("contacts", []) if c["email"].lower() not in hide_e]
+    for p in positions:
+        if (p.get("contact_email") or "").lower() in hide_e:
+            p["contact_email"] = ""
+    before = len(mentors)
+    mentors[:] = [m for m in mentors if m["id"] not in hide_p]
+    return before - len(mentors)
 
 
 def tag_mentors(mentors: list[dict]) -> None:
@@ -396,6 +420,7 @@ def main() -> int:
     grants = collect_grants(cfg, http, args.offline, health)
     positions = collect_positions(cfg, http, args.offline, health, rates, first_seen)
     mentors = build_mentors(grants, positions, first_seen)
+    apply_removals(mentors, positions)
 
     if cfg["sources"].get("openalex") and not args.offline:
         http.budget(cfg.get("openalex_minutes", 40))

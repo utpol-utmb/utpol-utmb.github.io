@@ -13,7 +13,7 @@ from common import TODAY, US_STATES, Http, parse_date
 
 # ---------- NSF ----------------------------------------------------------------
 NSF_URL = "https://api.nsf.gov/services/v1/awards.json"
-NSF_FIELDS = ("id,title,piFirstName,piLastName,awardeeName,awardeeCity,awardeeStateCode,awardeeCountryCode,"
+NSF_FIELDS = ("id,title,piFirstName,piLastName,piEmail,awardeeName,awardeeCity,awardeeStateCode,awardeeCountryCode,"
               "fundsObligatedAmt,startDate,expDate,fundProgramName,agency")
 NSF_SKIP = ("REU Site", "Conference:", "Workshop:", "Travel:", "S-STEM", "Planning:")
 NSF_TRAINING = ("Graduate Fellowship", "NRT:", "Research Traineeship", "EGFP", "GRFP")
@@ -62,6 +62,8 @@ def nsf_normalize(awards: list[dict]) -> list[dict]:
             "program": a.get("fundProgramName", ""),
             "kind": "training" if is_training else "research",
             "url": f"https://www.nsf.gov/awardsearch/showAward?AWD_ID={a['id']}",
+            "pi_email": (a.get("piEmail") or "").strip().lower() if "@" in (a.get("piEmail") or "") else "",
+            "department": "",
         })
     return recs
 
@@ -125,6 +127,8 @@ def nih_normalize(rows: list[dict]) -> list[dict]:
                 "start": (r.get("project_start_date") or "")[:10], "end": (r.get("project_end_date") or "")[:10],
                 "program": f"{code} ({(r.get('agency_ic_admin') or {}).get('abbreviation', '')})",
                 "terms": (r.get("pref_terms") or "")[:600],
+                "department": (org.get("dept_type") or "").title() if org.get("dept_type") not in (None, "", "NONE", "OTHER") else "",
+                "pi_email": "",
                 "kind": "training" if code in NIH_TRAINING else "research",
                 "url": r.get("project_detail_url") or f"https://reporter.nih.gov/project-details/{r.get('appl_id')}",
             })
