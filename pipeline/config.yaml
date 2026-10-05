@@ -32,9 +32,9 @@ sources:
   euraxess: false    # EURAXESS (European Commission) PhD-level adverts
   sheet: false       # Your Google Sheet of extra positions (see sheet_csv_url)
 
-# Curated adverts from these sites are kept in the file but NOT shown until the site
-# allows it. jobs.ac.uk terms forbid reproducing its material without permission
-# (permission requested Oct 2026). Remove a name here once permission is granted.
+# Never show adverts copied from these sites. jobs.ac.uk REFUSED permission on
+# 5 Oct 2026 (their client agreements only allow adverts on jobs.ac.uk itself).
+# We may only link to their search page. Do not remove this entry.
 hold_sources:
   - jobs.ac.uk
 

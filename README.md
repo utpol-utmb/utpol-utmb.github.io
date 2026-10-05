@@ -69,7 +69,7 @@ Everything above is stored on the user's device only (localStorage keys `pmf-sav
 - Every government data source must be named with its official link in the Play description and in the app. **If you add a new source** (e.g. ERC, ARC, NSERC), add it to: `site/index.html` (#disclaimer), `site/privacy.html`, `site/terms.html` and `full-description.txt`, then paste the new description into Play Console.
 - To switch on ARC or EURAXESS: set it to `true` in `pipeline/config.yaml` only after the Play description lists it (the in-app disclaimer adds it automatically when the source is on).
 - Never use agency logos or names in the app title, icon or screenshots.
-- Sources removed for legal reasons (do not re-add): Nature Careers job feed (robots.txt), FindAPhD, Academic Positions, ScholarshipDB (block bots), ORCID API (robots.txt), CORDIS downloads (robots.txt). jobs.ac.uk adverts are held (`hold_sources`) until jobs.ac.uk gives permission. The app links to these sites' own search pages instead.
+- Sources removed for legal reasons (do not re-add): Nature Careers job feed (robots.txt), FindAPhD, Academic Positions, ScholarshipDB (block bots), ORCID API (robots.txt), CORDIS downloads (robots.txt). jobs.ac.uk refused permission on 5 Oct 2026 to republish its adverts (we may only link to its search page); its name stays in `hold_sources` as a block. The app links to these sites' own search pages instead.
 - Show short factual summaries and link out; do not copy full adverts.
 - Removal requests: act within 14 days.
 

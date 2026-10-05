@@ -170,7 +170,7 @@ def collect_positions(cfg, http, offline, health, rates, first_seen) -> list[dic
     health.ok("Curated positions file", len(rows), "hand-checked adverts in data/curated/positions.json")
     if held:
         health.held("Curated: " + ", ".join(sorted({r['source_name'] for r in held})), len(held),
-                    "withheld until the site gives permission to show its adverts (see config.yaml hold_sources)")
+                    "never shown: the site refused permission to republish its adverts (config.yaml hold_sources)")
 
     if cfg["sources"].get("euraxess") and not offline:
         import euraxess as EU
