@@ -1,13 +1,14 @@
 name: Probe candidate sources (manual)
 on: workflow_dispatch
 permissions:
-  contents: read
+  contents: write
 jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
       - name: Probe
         run: |
+          exec > >(tee /tmp/probe.txt) 2>&1
           UA="PhDMentorFinder/1.0 (mailto:utpol.dnet@gmail.com)"
           probe() { code=$(curl -s -L -A "$UA" -o /tmp/b -w "%{http_code} %{content_type} %{size_download}" --max-time 40 "$1"); echo "== $1 -> $code"; head -c ${2:-300} /tmp/b | tr '\n' ' ' | sed 's/  */ /g'; echo; }
           for d in www.jobs.ac.uk www.findaphd.com academicpositions.com euraxess.ec.europa.eu www.nature.com cordis.europa.eu api.openalex.org pub.orcid.org www.timeshighereducation.com scholarshipdb.net www.academictransfer.com jobs.ethz.ch www.daad.de dataportal.arc.gov.au; do
@@ -43,3 +44,9 @@ jobs:
             dn=[x for x in r if 'DN' in x.get('fundingScheme','')]; print('DN',len(dn)); print(dn[0] if dn else '')
           except Exception as e: print('err',e)
           PY
+      - name: Save results to branch probe-results
+        if: always()
+        run: |
+          cd /tmp && mkdir pr && cd pr && git init -q && cp /tmp/probe.txt . && git add probe.txt
+          git -c user.name=bot -c user.email=actions@users.noreply.github.com commit -q -m "probe $(date -u +%FT%T)"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:refs/heads/probe-results
