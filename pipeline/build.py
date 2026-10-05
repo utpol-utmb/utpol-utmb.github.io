@@ -396,6 +396,17 @@ def subject_counts(mentors, positions) -> list[dict]:
     return tree
 
 
+def build_us_programs() -> list[dict]:
+    """Hand-checked US PhD program facts (data/curated/us_programs.json), with days left to the deadline."""
+    rows = load_json(CURATED / "us_programs.json", {}).get("programs", [])
+    for r in rows:
+        try:
+            r["days_left"] = (dt.date.fromisoformat(r["deadline"]) - TODAY).days if r.get("deadline") else None
+        except ValueError:
+            r["days_left"] = None
+    return rows
+
+
 def main() -> int:
     global OUT
     ap = argparse.ArgumentParser()
@@ -452,6 +463,15 @@ def main() -> int:
         finally:
             http.budget(None)
 
+    programs = build_us_programs()
+    if not args.offline and cfg.get("check_scholarship_pages", True):
+        http.budget(4)
+        try:
+            health.check_scholarships(http, [{"id": "usp-" + p["id"], "name": "US program guide: " + p["university"] + " – " + p["program"],
+                                              "url": p["url"], "days_left": p.get("days_left")} for p in programs if p.get("monitor")])
+        finally:
+            http.budget(None)
+
     counts = {"positions": len(positions), "mentors": len(mentors), "funding": len(funding), "grants": len(grants)}
 
     # Safety: never publish a collapsed dataset.
@@ -477,6 +497,7 @@ def main() -> int:
 
     save_json(OUT / "positions.json", positions, compact=True)
     save_json(OUT / "funding.json", funding)
+    save_json(OUT / "us_programs.json", {**load_json(CURATED / "us_programs.json", {}), "programs": programs})
     write_mentors(OUT, mentors)
     save_json(OUT / "meta.json", meta)
     if not args.offline:

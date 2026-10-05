@@ -43,6 +43,7 @@ no subfield lands in the field's "General" bucket, and anything that fits no fie
 |---|---|
 | Add a scholarship | Edit `data/curated/scholarships.json`, copy an existing block, change the values |
 | Add a position | Edit `data/curated/positions.json` the same way, or turn on the Google Sheet option in `config.yaml` |
+| Update the US PhD program guide | Edit `data/curated/us_programs.json` (one block per program; copy facts only from official .edu pages, set `checked` to today, write "Not stated…" rather than guess). The daily run flags programs whose official page changed or whose deadline passed in `health.json`. To re-read pages, list URLs in a JSON file and run **Actions → Fetch official pages** (texts land on branch `page-texts`). |
 | Add a subject | Edit `pipeline/taxonomy.yaml` (copy a subfield block) |
 | Search extra topics | Add words under `extra_search_keywords` in `pipeline/config.yaml` |
 | Turn a source off | Set it to `false` under `sources` in `pipeline/config.yaml` |

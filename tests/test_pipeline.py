@@ -136,3 +136,17 @@ def test_official_emails_only_and_removals():
     ms = build.build_mentors(recs, [], {})
     assert [c["email"] for m in ms for c in m["contacts"]] == ["alee@uni.edu"]
     assert all(c["source"].endswith("award record") and c["url"] for m in ms for c in m["contacts"])
+
+
+def test_us_program_guide_entries_are_sourced():
+    import json, pathlib, re
+    d = json.loads((pathlib.Path(__file__).resolve().parent.parent / "data" / "curated" / "us_programs.json").read_text())
+    ids = set()
+    for p in d["programs"]:
+        assert p["id"] not in ids; ids.add(p["id"])
+        assert p["url"].startswith("https://") and p["sources"] and all(u.startswith("https://") for u in p["sources"])
+        assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", p["checked"])
+        assert p["funding_status"] in {"guaranteed", "partial", "not-guaranteed", "not-stated"}
+        assert not p["deadline"] or re.fullmatch(r"\d{4}-\d{2}-\d{2}", p["deadline"])
+        for host in [re.sub(r"^https://(www\.)?", "", u).split("/")[0] for u in p["sources"]]:
+            assert host.endswith(".edu"), host  # official university pages only
