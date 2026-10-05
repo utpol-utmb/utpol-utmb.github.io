@@ -186,3 +186,59 @@ def ukri_normalize(comps: list[dict]) -> list[dict]:
                 "url": f"https://gtr.ukri.org/projects?ref={proj.get('grantReference', '')}",
             })
     return recs
+
+
+# ---------- Australian Research Council (NCGP data portal) -------------------------
+ARC_URL = "https://dataportal.arc.gov.au/NCGP/API/grants"
+ARC_TRAINING = ("Training Centre", "Industrial Transformation Training")
+
+
+def arc_fetch(http: Http, keywords: list[str], lookback_years: int, page_size: int = 100, max_pages: int = 120) -> list[dict]:
+    """Grants are listed newest scheme round first; stop once rounds are older than the lookback."""
+    oldest = TODAY.year - lookback_years
+    out: list[dict] = []
+    for page in range(1, max_pages + 1):
+        if http.deadline and __import__('time').time() > http.deadline:
+            break
+        data = http.get_json(ARC_URL, params={"page[size]": page_size, "page[number]": page})
+        rows = data.get("data", [])
+        if not rows:
+            break
+        out += rows
+        years = [(r.get("attributes") or {}).get("funding-commencement-year") or 0 for r in rows]
+        if years and max(years) < oldest:
+            break
+    return out
+
+
+def arc_normalize(rows: list[dict]) -> list[dict]:
+    recs = []
+    oldest = TODAY.year - 4
+    for r in rows:
+        a = r.get("attributes") or {}
+        year = a.get("funding-commencement-year") or 0
+        if year < oldest:
+            continue
+        end = parse_date(a.get("anticipated-end-date") or "")
+        if end and end < TODAY:
+            continue
+        status = (a.get("grant-status") or "").lower()
+        if status and any(s in status for s in ("closed", "completed", "terminated", "withdrawn")):
+            continue
+        name = (a.get("lead-investigator") or "").strip()
+        if not name:
+            continue
+        scheme = a.get("scheme-name") or ""
+        summary = a.get("grant-summary") or ""
+        recs.append({
+            "agency": "ARC (Australia)", "number": a.get("code") or r.get("id", ""),
+            "title": summary.split(" . ")[0][:200] if " . " in summary[:220] else summary[:160],
+            "pi_name": name, "institution": a.get("current-admin-organisation") or a.get("announcement-admin-organisation") or "",
+            "city": "", "state": "", "country": "Australia",
+            "amount": float(a.get("current-funding-amount") or a.get("announced-funding-amount") or 0), "currency": "AUD",
+            "start": f"{year}-01-01" if year else "", "end": str(end or ""), "program": scheme,
+            "terms": f"{a.get('primary-field-of-research', '')} {summary[:500]}",
+            "kind": "training" if any(t in scheme for t in ARC_TRAINING) else "research",
+            "url": f"https://dataportal.arc.gov.au/NCGP/Web/Grant/Grant/{a.get('code') or r.get('id', '')}",
+        })
+    return recs

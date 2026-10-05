@@ -6,6 +6,9 @@ import re
 import time
 import unicodedata
 
+import urllib.parse
+import urllib.robotparser
+
 import requests
 
 TODAY = dt.date.today()
@@ -72,20 +75,47 @@ def classify(text: str) -> str:
 US_STATES = set("AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY "
                 "NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC PR GU VI".split())
 
-REGIONS = {
-    "United Kingdom": "Europe", "Ireland": "Europe", "Germany": "Europe", "France": "Europe", "Netherlands": "Europe",
-    "Belgium": "Europe", "Switzerland": "Europe", "Sweden": "Europe", "Norway": "Europe", "Denmark": "Europe",
-    "Finland": "Europe", "Spain": "Europe", "Italy": "Europe", "Austria": "Europe", "Portugal": "Europe",
-    "Hungary": "Europe", "Poland": "Europe", "Czechia": "Europe",
-    "United States": "North America", "Canada": "North America",
-    "Australia": "Oceania", "New Zealand": "Oceania",
-    "Japan": "Asia", "South Korea": "Asia", "China": "Asia", "Singapore": "Asia", "India": "Asia",
-    "Türkiye": "Middle East",
+# ISO code -> (country name, region). Used to normalise countries from every source.
+COUNTRIES = {
+    "GB": ("United Kingdom", "Europe"), "UK": ("United Kingdom", "Europe"), "IE": ("Ireland", "Europe"), "DE": ("Germany", "Europe"),
+    "FR": ("France", "Europe"), "NL": ("Netherlands", "Europe"), "BE": ("Belgium", "Europe"), "LU": ("Luxembourg", "Europe"),
+    "CH": ("Switzerland", "Europe"), "AT": ("Austria", "Europe"), "SE": ("Sweden", "Europe"), "NO": ("Norway", "Europe"),
+    "DK": ("Denmark", "Europe"), "FI": ("Finland", "Europe"), "IS": ("Iceland", "Europe"), "ES": ("Spain", "Europe"),
+    "PT": ("Portugal", "Europe"), "IT": ("Italy", "Europe"), "GR": ("Greece", "Europe"), "EL": ("Greece", "Europe"),
+    "CY": ("Cyprus", "Europe"), "MT": ("Malta", "Europe"), "PL": ("Poland", "Europe"), "CZ": ("Czechia", "Europe"),
+    "SK": ("Slovakia", "Europe"), "HU": ("Hungary", "Europe"), "SI": ("Slovenia", "Europe"), "HR": ("Croatia", "Europe"),
+    "RO": ("Romania", "Europe"), "BG": ("Bulgaria", "Europe"), "EE": ("Estonia", "Europe"), "LV": ("Latvia", "Europe"),
+    "LT": ("Lithuania", "Europe"), "RS": ("Serbia", "Europe"), "UA": ("Ukraine", "Europe"), "TR": ("Türkiye", "Middle East"),
+    "US": ("United States", "North America"), "CA": ("Canada", "North America"), "MX": ("Mexico", "Latin America"),
+    "BR": ("Brazil", "Latin America"), "AR": ("Argentina", "Latin America"), "CL": ("Chile", "Latin America"),
+    "CO": ("Colombia", "Latin America"), "PE": ("Peru", "Latin America"), "AU": ("Australia", "Oceania"),
+    "NZ": ("New Zealand", "Oceania"), "JP": ("Japan", "Asia"), "KR": ("South Korea", "Asia"), "CN": ("China", "Asia"),
+    "HK": ("Hong Kong", "Asia"), "TW": ("Taiwan", "Asia"), "SG": ("Singapore", "Asia"), "MY": ("Malaysia", "Asia"),
+    "TH": ("Thailand", "Asia"), "VN": ("Vietnam", "Asia"), "ID": ("Indonesia", "Asia"), "PH": ("Philippines", "Asia"),
+    "IN": ("India", "Asia"), "BD": ("Bangladesh", "Asia"), "PK": ("Pakistan", "Asia"), "LK": ("Sri Lanka", "Asia"),
+    "NP": ("Nepal", "Asia"), "IL": ("Israel", "Middle East"), "SA": ("Saudi Arabia", "Middle East"),
+    "AE": ("United Arab Emirates", "Middle East"), "QA": ("Qatar", "Middle East"), "IR": ("Iran", "Middle East"),
+    "EG": ("Egypt", "Africa"), "ZA": ("South Africa", "Africa"), "NG": ("Nigeria", "Africa"), "KE": ("Kenya", "Africa"),
+    "GH": ("Ghana", "Africa"), "ET": ("Ethiopia", "Africa"), "UG": ("Uganda", "Africa"), "TZ": ("Tanzania", "Africa"),
+    "RW": ("Rwanda", "Africa"), "MA": ("Morocco", "Africa"), "TN": ("Tunisia", "Africa"),
 }
+REGIONS = {name: region for name, region in COUNTRIES.values()}
+_NAME_FIX = {"czech republic": "Czechia", "turkey": "Türkiye", "korea": "South Korea", "republic of korea": "South Korea",
+             "usa": "United States", "united states of america": "United States", "uk": "United Kingdom",
+             "the netherlands": "Netherlands", "great britain": "United Kingdom", "england": "United Kingdom",
+             "scotland": "United Kingdom", "wales": "United Kingdom", "northern ireland": "United Kingdom"}
+
+
+def country_name(value: str) -> str:
+    """'GB', 'gb', 'England', 'United Kingdom' -> 'United Kingdom'. Unknown values pass through."""
+    v = (value or "").strip()
+    if len(v) == 2 and v.upper() in COUNTRIES:
+        return COUNTRIES[v.upper()][0]
+    return _NAME_FIX.get(v.lower(), v)
 
 
 def region_for(country: str) -> str:
-    return REGIONS.get(country, "Other")
+    return REGIONS.get(country_name(country), "Other")
 
 
 def slug(*parts: str) -> str:
@@ -129,18 +159,51 @@ def intake_year(*texts: str) -> int | None:
     return None
 
 
+class RobotsDisallowed(RuntimeError):
+    pass
+
+
 class Http:
-    """requests.Session with retries and polite rate limiting."""
+    """requests.Session with retries, polite rate limiting and a robots.txt guard.
+
+    Every request is checked against the site's robots.txt for our user agent first.
+    A disallowed URL raises RobotsDisallowed and is never fetched.
+    """
+
+    AGENT = "PhDMentorFinder"
 
     def __init__(self, contact: str, pause: float = 0.25):
         self.s = requests.Session()
-        self.s.headers["User-Agent"] = f"PhDMentorFinder/1.0 (mailto:{contact})"
+        self.s.headers["User-Agent"] = f"{self.AGENT}/1.0 (+https://utpol-utmb.github.io; mailto:{contact})"
         self.pause = pause
         self.deadline = None
+        self._robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
+
+    def allowed(self, url: str) -> bool:
+        parts = urllib.parse.urlsplit(url)
+        host = f"{parts.scheme}://{parts.netloc}"
+        if host not in self._robots:
+            rp = urllib.robotparser.RobotFileParser()
+            try:
+                r = self.s.get(host + "/robots.txt", timeout=20)
+                if r.status_code >= 400:  # no robots.txt (or none we can read) = no restrictions
+                    rp = None
+                else:
+                    rp.parse(r.text.splitlines())
+            except requests.RequestException:
+                rp = None
+            self._robots[host] = rp
+        rp = self._robots[host]
+        return True if rp is None else rp.can_fetch(self.AGENT, url)
 
     def _do(self, method: str, url: str, **kw):
         if self.deadline and time.time() > self.deadline:
             raise RuntimeError("time budget for this source used up")
+        full = url
+        if kw.get("params"):
+            full = url + ("&" if "?" in url else "?") + urllib.parse.urlencode(kw["params"], doseq=True)
+        if not self.allowed(full):
+            raise RobotsDisallowed(f"robots.txt does not allow {full[:120]}")
         last = None
         for attempt in range(3):
             try:
