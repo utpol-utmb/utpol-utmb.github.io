@@ -1,7 +1,13 @@
 name: Probe candidate sources (manual)
 # Manual test bench: runs the full live data build into a scratch folder (nothing is
 # published or committed to main) and saves the reports to the "probe-results" branch.
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      force_sources:
+        description: "Comma list of sources to switch on for this scratch build (e.g. arc,euraxess)"
+        required: false
+        default: ""
 permissions:
   contents: write
 jobs:
@@ -15,6 +21,8 @@ jobs:
           python-version: "3.11"
       - run: pip install -r pipeline/requirements.txt
       - name: Live build into scratch folder
+        env:
+          PMF_FORCE_SOURCES: ${{ inputs.force_sources }}
         run: |
           set -o pipefail
           python pipeline/build.py --out /tmp/out 2>&1 | tail -80 | tee /tmp/probe.txt

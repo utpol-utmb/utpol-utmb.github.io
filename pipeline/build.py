@@ -380,6 +380,11 @@ def main() -> int:
     OUT = pathlib.Path(args.out)
 
     cfg = yaml.safe_load((ROOT / "pipeline" / "config.yaml").read_text())
+    # Test bench only: PMF_FORCE_SOURCES=arc,euraxess switches sources on for a scratch build
+    # (used by the manual "Probe" workflow, which never publishes).
+    import os
+    for name in filter(None, os.environ.get("PMF_FORCE_SOURCES", "").split(",")):
+        cfg["sources"][name.strip()] = True
     http = Http(cfg.get("contact_email", "anonymous@example.com"))
     rates = cfg.get("usd_rates", {})
     health = Health(persist=not args.offline)
