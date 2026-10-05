@@ -157,8 +157,8 @@ fields:
       - {id: anthropology, name: Anthropology, openalex: [3314, 3316], keywords: [anthropolog, ethnograph, cultural studies, indigenous], search: [anthropology]}
       - {id: geography-development, name: Geography, Planning & Development, openalex: [3305, 3303, 3322, 3313], keywords: [geograph, urban, planning, development studies, transport, spatial], search: [geography, urban planning]}
       - {id: demography, name: Demography & Population Studies, openalex: [3317], keywords: [demograph, population studies, fertility rate, mortality trend, census], search: [demography]}
-      - {id: law, name: Law & Criminology, openalex: [3308, 3311], keywords: [law, legal, criminolog, justice, human rights, regulation], search: [law]}
-      - {id: communication, name: Communication, Media & Information, openalex: [3315, 3309], keywords: [communication, media, journalism, misinformation, library science], search: [communication]}
+      - {id: law, name: Law & Criminology, openalex: [3308, 3311], keywords: [" law ", legal, criminolog, criminal justice, human rights, regulation], search: [law]}
+      - {id: communication, name: Communication, Media & Information, openalex: [3315, 3309], keywords: [communication studies, science communication, media studies, " media ", social media, journalism, misinformation, library science], search: [communication]}
       - {id: public-administration, name: Public Administration, openalex: [3321], keywords: [public administration, public management, governance, public sector], search: [public administration]}
 
   - id: economics
@@ -178,7 +178,7 @@ fields:
     keywords: [education, student learning, teacher]
     nih: false
     subfields:
-      - {id: education-research, name: Education Research, openalex: [3304], keywords: [education, teaching, learning outcome, curriculum, school, higher education, stem education, pedagog], search: [education research]}
+      - {id: education-research, name: Education Research, openalex: [3304], keywords: [education research, teaching, learning outcome, curriculum, schools, school-based, higher education, stem education, pedagog, teacher], search: [education research]}
       - {id: educational-technology, name: Educational Technology, openalex: [], keywords: [educational technology, e-learning, online learning, learning analytics], search: [educational technology]}
 
   - id: business
@@ -193,11 +193,11 @@ fields:
   - id: humanities
     openalex_fields: [12]
     name: Humanities & Arts
-    keywords: [humanities, culture, cultural, arts]
+    keywords: [humanities, " culture ", " arts "]
     nih: false
     subfields:
-      - {id: history, name: History, openalex: [1202, 1207], keywords: [history, historical, archive, medieval, colonial], search: [history]}
+      - {id: history, name: History, openalex: [1202, 1207], keywords: [" history ", historical, archival, medieval, colonial, historian], search: [history]}
       - {id: philosophy-religion, name: Philosophy & Religion, openalex: [1211, 1212], keywords: [philosoph, ethics, religio, theolog], search: [philosophy]}
-      - {id: languages-literature, name: Languages, Linguistics & Literature, openalex: [1208, 1203, 3310], keywords: [linguist, language, literature, literary, translation, philolog], search: [linguistics]}
-      - {id: arts-music, name: Arts, Music & Design, openalex: [1213, 1210, 1209, 1206], keywords: [art, music, design, theatre, film, museum, heritage], search: [music, art history]}
+      - {id: languages-literature, name: Languages, Linguistics & Literature, openalex: [1208, 1203, 3310], keywords: [linguist, language acquisition, second language, sign language, literature review of, literary, translation studies, philolog, " literature "], search: [linguistics]}
+      - {id: arts-music, name: Arts, Music & Design, openalex: [1213, 1210, 1209, 1206], keywords: [art history, " arts ", fine art, music, theatre, film studies, museum, cultural heritage, creative practice], search: [music, art history]}
       - {id: archaeology-classics, name: Archaeology & Classics, openalex: [1204, 1205, 3302], keywords: [archaeolog, archeolog, classics, ancient], search: [archaeology]}
