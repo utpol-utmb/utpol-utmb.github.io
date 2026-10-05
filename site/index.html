@@ -148,6 +148,9 @@ aside.filters{position:sticky;top:12px;display:flex;flex-direction:column;gap:18
 .about h2{font:600 1.2rem var(--serif);color:var(--ink);margin:0 0 10px}
 .about .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
 .about h3{font-size:.95rem;color:var(--ink);margin:0 0 6px}
+.srclinks{margin:6px 0 10px;padding-left:18px}.srclinks li{margin:2px 0}
+.foot{border-top:1px solid var(--line);padding-block:16px 28px;color:var(--ink-3);font-size:.82rem}
+.foot a{color:inherit}
 .src-table{width:100%;border-collapse:collapse;font-size:.85rem}
 .src-table td{padding:5px 0;border-bottom:1px solid var(--line);vertical-align:top}
 .src-table td:last-child{text-align:right;color:var(--ink-3);padding-left:10px}
@@ -234,7 +237,18 @@ aside.filters{position:sticky;top:12px;display:flex;flex-direction:column;gap:18
         <h2>Where this comes from</h2>
         <p>Every record links to its original source. Grants come from funding-agency databases (NSF, NIH RePORTER, UKRI). Positions come from university pages and academic job boards. Research profiles come from OpenAlex. We never copy personal email addresses; contact supervisors through their university page.</p>
         <p>Scholarship amounts and deadlines change every year. Always confirm on the official page before you apply.</p>
-        <p><a href="privacy.html">Privacy policy</a></p>
+        <p><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of use</a></p>
+      </div>
+      <div id="disclaimer">
+        <h3>Data sources and disclaimer</h3>
+        <p>PhD Mentor Finder is an independent app. It is not affiliated with, endorsed by, or acting on behalf of any government agency, including the National Institutes of Health (NIH), the National Science Foundation (NSF) or UK Research and Innovation (UKRI), or with any university, job board or scholarship programme listed in the app.</p>
+        <p>Grant information comes from these public government databases:</p>
+        <ul class="srclinks">
+          <li>NIH RePORTER: <a href="https://reporter.nih.gov" target="_blank" rel="noopener">reporter.nih.gov</a></li>
+          <li>NSF Award Search: <a href="https://www.nsf.gov/awardsearch/" target="_blank" rel="noopener">nsf.gov/awardsearch</a></li>
+          <li>UKRI Gateway to Research: <a href="https://gtr.ukri.org" target="_blank" rel="noopener">gtr.ukri.org</a></li>
+        </ul>
+        <p>Publication data comes from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a> (CC0). Always check details with the official source before relying on them.</p>
       </div>
       <div>
         <h3>What the supervisor labels mean</h3>
@@ -248,6 +262,7 @@ aside.filters{position:sticky;top:12px;display:flex;flex-direction:column;gap:18
       </div>
     </div>
   </section>
+  <footer class="wrap foot">Independent app. Not affiliated with NIH, NSF, UKRI or any government agency. <a href="#disclaimer">Data sources</a> · <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></footer>
 </main>
 
 <div class="scrim" id="scrim" hidden></div>
