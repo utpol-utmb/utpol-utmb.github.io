@@ -38,6 +38,24 @@ If any one source fails, the last good copy of that source is reused. If the tot
 | See if updates worked | **Actions** tab: green tick = fine, red cross = open it and ask Claude to read the log |
 | Build a new Android version | **Actions → Build Android app → Run workflow**, then download from **Releases** |
 
+## What students can do in the app
+
+- Search and filter supervisors, funded positions and scholarships.
+- **My preferences**: set subject, degree, where to study and citizenship once; the app opens on them.
+- **My list**: star items, give each a status (Interested → Contacted → Applied → Interview → Offer) and a private note; download the list as CSV.
+- **Deadline reminders**: add any deadline to the phone calendar (.ics with reminders 7 days and 1 day before) or Google Calendar; a strip shows deadlines in My list for the next 30 days.
+- **Share** any item as a link (`#item=positions:<id>`), and **report an error / request removal** by email.
+
+Everything above is stored on the user's device only (localStorage keys `pmf-saved`, `pmf-track`, `pmf-profile`). There is no server, account or tracking, so the Play data-safety answers stay "no data collected".
+
+## Legal and Play Store checklist (keep when changing anything)
+
+- The app is independent: the footer, About section, privacy page, terms page and the Play Full description (`site/play-assets/full-description.txt`) all say it is not affiliated with NIH, NSF, UKRI or any government, university or scholarship programme.
+- Every government data source must be named with its official link in the Play description and in the app. **If you add a new source** (e.g. ERC, ARC, NSERC), add it to: `site/index.html` (#disclaimer), `site/privacy.html`, `site/terms.html` and `full-description.txt`, then paste the new description into Play Console.
+- Never use agency logos or names in the app title, icon or screenshots.
+- Show short factual summaries and link out; do not copy full adverts.
+- Removal requests: act within 14 days.
+
 ## Rules this project follows
 
 - Only official or public sources, each record links to its source.

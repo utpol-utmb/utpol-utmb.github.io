@@ -1,6 +1,6 @@
 // Offline support: the app shell is cached; data is fetched fresh when online
 // and falls back to the last saved copy when offline.
-const VERSION = "pmf-v2";
+const VERSION = "pmf-v3";
 const SHELL = ["./", "index.html", "privacy.html", "terms.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
