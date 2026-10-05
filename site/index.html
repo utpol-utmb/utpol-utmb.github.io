@@ -406,7 +406,7 @@ dialog.pf.wide{max-width:620px}
       (meta.subjects || []).forEach(fl => { state.fields[fl.id] = fl; fl.subfields.forEach(s => state.subs[s.id] = { ...s, field: fl.id }); });
       state.data.mentors = idx.map(m => ({ id: m.i, name: m.n, institution: m.u, country: m.c, region: m.r, field: m.f, subfields: m.s, sig: m.g,
         funding: m.m, npos: m.p, first_seen: m.d, topics: m.t || [], papers: m.k, shard: m.h,
-        _hay: [m.n, m.u, m.c, ...(m.t || []), ...(m.s || []).map(subName), fieldName(m.f)].join(" ").toLowerCase() }));
+        _hay: [m.n, m.u, m.c, m.w || "", ...(m.t || []), ...(m.s || []).map(subName), fieldName(m.f)].join(" ").toLowerCase() }));
       state.data.positions = p.map(x => ({ ...x, _hay: [x.title, x.supervisor, x.university, x.department, x.city, x.country, fieldName(x.field), ...(x.subfields || []).map(subName)].join(" ").toLowerCase() }));
       state.data.funding = f.map(x => ({ ...x, _hay: [x.name, x.provider, x.host_country, x.subjects, x.eligible].join(" ").toLowerCase() }));
     } catch (e) {

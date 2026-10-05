@@ -342,7 +342,8 @@ def write_mentors(out: pathlib.Path, mentors: list[dict]) -> None:
         index.append({"i": m["id"], "n": m["name"], "u": m["institution"], "c": m["country"], "r": m["region"],
                       "f": m["field"], "s": m["subfields"], "g": SIG_CODE[m["signal"]],
                       "m": m["total_active_funding_usd"], "p": len(m["positions"]), "d": m["first_seen"],
-                      "t": (m.get("topics") or [])[:3], "k": 1 if m.get("papers") else 0, "h": h})
+                      "t": (m.get("topics") or [])[:3], "k": 1 if m.get("papers") else 0, "h": h,
+                      "w": " / ".join(g["title"] for g in m["grants"][:2])[:160]})
         shards[h][m["id"]] = m
     folder = out / "mentors"
     if folder.exists():

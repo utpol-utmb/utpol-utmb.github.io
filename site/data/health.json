@@ -1,0 +1,61 @@
+{
+ "generated_at": "2026-10-05 03:20 UTC",
+ "overall": "ok",
+ "aborted": "",
+ "counts": {
+  "positions": 151,
+  "mentors": 18288,
+  "funding": 23,
+  "grants": 22827
+ },
+ "previous_counts": {},
+ "sources": {
+  "NSF Award Search": {
+   "status": "ok",
+   "count": 3369,
+   "last_ok": "2026-10-05",
+   "note": "114 search terms"
+  },
+  "NIH RePORTER": {
+   "status": "ok",
+   "count": 18705,
+   "last_ok": "2026-10-05",
+   "note": "62 search terms"
+  },
+  "UKRI Gateway to Research": {
+   "status": "ok",
+   "count": 753,
+   "last_ok": "2026-10-05",
+   "note": "114 search terms"
+  },
+  "Australian Research Council": {
+   "status": "off",
+   "count": 0,
+   "note": "switched off in config.yaml"
+  },
+  "Curated positions file": {
+   "status": "ok",
+   "count": 151,
+   "last_ok": "2026-10-05",
+   "note": "hand-checked adverts in data/curated/positions.json"
+  },
+  "Curated: jobs.ac.uk": {
+   "status": "held",
+   "count": 40,
+   "note": "withheld until the site gives permission to show its adverts (see config.yaml hold_sources)"
+  },
+  "EURAXESS": {
+   "status": "off",
+   "count": 0,
+   "note": "switched off in config.yaml"
+  },
+  "OpenAlex": {
+   "status": "ok",
+   "count": 671,
+   "last_ok": "2026-10-05",
+   "note": "92 new lookups today (71 matched); 671 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+  }
+ },
+ "warnings": [],
+ "scholarships_to_review": []
+}
