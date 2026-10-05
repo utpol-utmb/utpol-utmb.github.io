@@ -106,7 +106,8 @@ def collect_grants(cfg, http, offline, status) -> list[dict]:
             got = norm(raw)
             if not got:
                 raise RuntimeError("returned 0 records")
-            save_json(last_good, got)
+            if not offline:  # sample data must never replace the last good live copy
+                save_json(last_good, got)
             status[name] = f"ok ({len(got)} grants)"
         except Exception as ex:  # noqa: BLE001
             got = load_json(last_good, [])
@@ -299,7 +300,8 @@ def main() -> int:
     save_json(OUT / "mentors.json", mentors)
     save_json(OUT / "funding.json", funding)
     save_json(OUT / "meta.json", meta)
-    save_json(CACHE / "first_seen.json", first_seen)
+    if not args.offline:  # test/offline runs leave the saved first-seen dates alone
+        save_json(CACHE / "first_seen.json", first_seen)
     print(json.dumps(meta["counts"]), json.dumps(status, indent=1))
     return 0
 
