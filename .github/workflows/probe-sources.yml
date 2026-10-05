@@ -12,21 +12,15 @@ jobs:
           UA="PhDMentorFinder/1.0 (mailto:utpol.dnet@gmail.com)"
           probe() { code=$(curl -s -L -A "$UA" -o /tmp/b -w "%{http_code} %{content_type} %{size_download}" --max-time 40 "$1"); echo "== $1 -> $code"; head -c ${2:-300} /tmp/b | tr '\n' ' ' | sed 's/  */ /g'; echo; }
           getp() { curl -s -L -A "$UA" --max-time 40 -o "/tmp/$2" -w "== $1 -> %{http_code} %{size_download}\n" "$1"; }
-          getp "https://www.jobs.ac.uk/terms-and-conditions" jt.html
-          getp "https://www.jobs.ac.uk/about/terms-and-conditions" jt2.html
-          python3 -c "import re,html;t=open('/tmp/jt.html',errors='ignore').read()+open('/tmp/jt2.html',errors='ignore').read();t=html.unescape(re.sub(r'<[^>]+>',' ',t));t=re.sub(r'\s+',' ',t);[print('JOBSACUK TERMS:',t[max(0,m.start()-300):m.end()+400]) for m in re.finditer(r'(automat|scrap|robot|spider|crawl|data mining|extract)',t,re.I)][:8]"
-          getp "https://www.jobs.ac.uk/search/?keywords=&jobTypeFacet%5B0%5D=phds&pageSize=100&startIndex=1" js.html
-          python3 -c "import re;t=open('/tmp/js.html',errors='ignore').read();print('job links',len(set(re.findall(r'href=\"(/job/[A-Z0-9]+/[^\"]+)',t))));print(sorted(set(re.findall(r'href=\"(/job/[A-Z0-9]+/[^\"]+)',t)))[:5]);i=t.find('/job/');print(re.sub(r'\s+',' ',t[i-1500:i+2500]))"
-          getp "https://euraxess.ec.europa.eu/legal-notice" el.html
-          python3 -c "import re,html;t=open('/tmp/el.html',errors='ignore').read();t=html.unescape(re.sub(r'<[^>]+>',' ',t));t=re.sub(r'\s+',' ',t);i=t.lower().find('reuse');print('EURAXESS LEGAL:',t[i-200:i+1500]);[print('EUR TERMS:',t[max(0,m.start()-300):m.end()+300]) for m in re.finditer(r'(automat|scrap|robot|crawl|third.part)',t,re.I)][:6]"
-          getp "https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A446" es.html
-          python3 -c "import re;t=open('/tmp/es.html',errors='ignore').read();l=sorted(set(re.findall(r'href=\"(/jobs/\d+)',t)));print('euraxess job links',len(l),l[:5]);i=t.find(l[0]) if l else 0;print(re.sub(r'\s+',' ',t[i-1200:i+3000]))"
-          for u in "https://euraxess.ec.europa.eu/jobs/feed" "https://euraxess.ec.europa.eu/rss.xml" "https://euraxess.ec.europa.eu/jobs/search/rss"; do getp "$u" f.x; head -c 300 /tmp/f.x; echo; done
-          getp "https://www.daad.de/en/studying-in-germany/phd-studies-and-research/phdgermany-database/" dd.html
-          python3 -c "import re;t=open('/tmp/dd.html',errors='ignore').read();print(re.sub(r'\s+',' ',re.sub(r'<script.*?</script>','',t,flags=re.S))[:2500])"
-          getp "https://jobs.ethz.ch/?lang=en" eth.html
-          python3 -c "import re;t=open('/tmp/eth.html',errors='ignore').read();print(len(t));print(re.findall(r'href=\"([^\"]*job[^\"]*)',t)[:15])"
-          getp "https://www.jobs.ac.uk/robots.txt" r.txt; cat /tmp/r.txt
+          getp "https://www.jobs.ac.uk/" home.html
+          python3 -c "import re;t=open('/tmp/home.html',errors='ignore').read();print(sorted(set(re.findall(r'href=\"([^\"]*(?:term|legal|condition|copyright|privacy)[^\"]*)',t,re.I))))"
+          for u in /terms /about/terms /terms-of-use /about/terms-of-use /legal /copyright /about/legal; do getp "https://www.jobs.ac.uk$u" t.html; done
+          python3 - <<'PY'
+          import re,html,glob,subprocess
+          PY
+          for u in $(curl -s -A "$UA" https://www.jobs.ac.uk/ | grep -oiE 'href="[^"]*(terms|legal|condition)[^"]*"' | sed 's/href="//;s/"$//' | sort -u | head -5); do case $u in http*) U=$u;; *) U="https://www.jobs.ac.uk$u";; esac; getp "$U" tt.html; python3 -c "import re,html;t=open('/tmp/tt.html',errors='ignore').read();t=html.unescape(re.sub(r'<script.*?</script>|<style.*?</style>','',t,flags=re.S));t=re.sub(r'<[^>]+>',' ',t);t=re.sub(r'\s+',' ',t);ms=list(re.finditer(r'(automat|scrap|robot|spider|crawl|data.mining|extract|systematic|reproduc|aggregat|copy)',t,re.I));print('MATCHES',len(ms));[print('>>',t[max(0,m.start()-250):m.end()+350]) for m in ms[:10]]"; done
+          getp "https://commission.europa.eu/legal-notice_en" ec.html
+          python3 -c "import re,html;t=open('/tmp/ec.html',errors='ignore').read();t=html.unescape(re.sub(r'<script.*?</script>|<style.*?</style>','',t,flags=re.S));t=re.sub(r'<[^>]+>',' ',t);t=re.sub(r'\s+',' ',t);i=t.find('Copyright notice');print('EC LEGAL:',t[i:i+1500])"
       - name: Save results to branch probe-results
         if: always()
         run: |
