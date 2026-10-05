@@ -45,8 +45,10 @@ def parse_detail(job_id: str, page: str) -> dict:
         fields[key] = m.group(1) if m else _text(val)
     tm = re.search(r'<h1[^>]*>(.*?)</h1>', page, flags=re.S)
     title = _text(tm.group(1)) if tm else ""
-    desc_m = re.search(r'id="offer-description"(.*?)(?:id="where-to-apply"|id="requirements")', page, flags=re.S)
-    desc = _text(desc_m.group(1))[:1500] if desc_m else ""
+    full = _text(page)
+    i = full.rfind("Offer Description")
+    j = min([k for k in (full.find("Where to apply", i + 1), full.find("Requirements", i + 1)) if k > i] or [i + 1600])
+    desc = full[i + len("Offer Description"):j].strip()[:1500] if i >= 0 else ""
     return {
         "eid": job_id, "title": title,
         "organisation": fields.get("Organisation/Company", ""), "department": fields.get("Department", ""),
@@ -58,7 +60,7 @@ def parse_detail(job_id: str, page: str) -> dict:
     }
 
 
-def fetch(http: Http, max_pages: int = 25, max_details: int = 260, pause: float = 1.5) -> tuple[list[dict], dict]:
+def fetch(http: Http, max_pages: int = 6, max_details: int = 120, pause: float = 3.0) -> tuple[list[dict], dict]:
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
     seen_ids: list[str] = []
     for page in range(max_pages):
@@ -112,7 +114,7 @@ def to_positions(rows: list[dict]) -> list[dict]:
             "funding_text": funded_hint or "Employment contract (EURAXESS researcher post); see advert for salary",
             "duration_years": "", "deadline": r["deadline"], "start_text": r.get("start", ""),
             "source_name": "EURAXESS", "url": f"{BASE}/jobs/{r['eid']}", "verified": False,
-            "classify_text": f"{r['title']} {r.get('field', '')} {r['description'][:600]}",
+            "classify_text": f"{r['title']} {r['title']} {r.get('field', '')} {r['description'][:600]}",
             "description": r["description"][:400], "source_checked": r.get("checked", ""),
         })
     return out

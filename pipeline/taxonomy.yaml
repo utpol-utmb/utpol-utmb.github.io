@@ -60,12 +60,12 @@ fields:
   - id: medicine
     openalex_fields: [27]
     name: Medicine & Clinical Research
-    keywords: [clinical, medicine, medical, patient, disease, hospital, therapy, therapeutic]
+    keywords: [clinical, medicine, medical, patient, disease, hospital, therapy, therapies, therapeutic, ophthalm, retina, inherited disease, rare disease]
     subfields:
       - {id: oncology, name: Cancer & Oncology, openalex: [2730, 1306], keywords: [cancer, oncolog, tumor, tumour, carcinoma, leukemia, leukaemia, lymphoma, metasta], search: [cancer]}
       - {id: cardiovascular, name: Cardiovascular Medicine, openalex: [2705], keywords: [cardiovascular, cardiac, heart, hypertension, stroke, atrial, myocard, cardiolog], search: [cardiovascular]}
       - {id: neurology, name: Neurology, openalex: [2728, 2808], keywords: [neurolog, epilep, parkinson, multiple sclerosis, alzheimer, dementia, traumatic brain injury], search: [neurology]}
-      - {id: psychiatry, name: Psychiatry & Mental Health, openalex: [2738], keywords: [mental health, psychiatr, depression, anxiety, schizophren, bipolar, suicide prevention, ptsd, addiction], search: [mental health]}
+      - {id: psychiatry, name: Psychiatry & Mental Health, openalex: [2738], keywords: [mental health, psychiatr, depression, anxiety, schizophren, bipolar, suicide prevention, ptsd, addiction, adhd, autism], search: [mental health]}
       - {id: infectious-diseases, name: Infectious Diseases (Clinical), openalex: [2725], keywords: [infectious disease, infection, sepsis, hiv, tuberculosis, covid, antiretroviral, hepatitis], search: [infectious diseases]}
       - {id: palliative-care, name: Palliative & End-of-Life Care, openalex: [], keywords: [palliative, hospice, end-of-life, end of life, advance care planning, serious illness, bereavement], search: [palliative care]}
       - {id: endocrinology, name: Diabetes, Endocrinology & Metabolism, openalex: [2712, 1310], keywords: [diabet, endocrin, obesity, insulin, thyroid, metabolic syndrome], search: [diabetes]}
@@ -119,7 +119,7 @@ fields:
       - {id: ai-ml, name: Artificial Intelligence & Machine Learning, openalex: [1702], keywords: [machine learning, artificial intelligence, deep learning, neural network, reinforcement learning, large language model, generative ai, " ai ", foundation model], search: [machine learning, artificial intelligence]}
       - {id: computer-vision, name: Computer Vision & Graphics, openalex: [1707, 1704], keywords: [computer vision, image analysis, image processing, graphics, visualization, visualisation], search: [computer vision]}
       - {id: data-science, name: Data Science & Statistics, openalex: [1804, 2613, 1800], keywords: [data science, statistic, big data, data-driven, data analytics, probabilistic], search: [data science, statistics]}
-      - {id: software-systems, name: Software, Systems & Networks, openalex: [1712, 1708, 1705, 1706], keywords: [software, distributed system, cloud computing, network, cybersecurity, cyber security, privacy-preserving, hardware, compiler, quantum computing], search: [cybersecurity, software engineering]}
+      - {id: software-systems, name: Software, Systems & Networks, openalex: [1712, 1708, 1705, 1706], keywords: [software, distributed system, cloud computing, computer network, network security, wireless network, cybersecurity, cyber security, privacy-preserving, hardware, compiler, quantum computing], search: [cybersecurity, software engineering]}
       - {id: hci, name: Human-Computer Interaction, openalex: [1709, 3307], keywords: [human-computer interaction, hci, user experience, usability, interaction design, human factors], search: [human-computer interaction]}
       - {id: theory-computing, name: Theoretical Computer Science, openalex: [1703, 2614, 1710, 1802], keywords: [algorithm, complexity theory, cryptograph, formal verification, information system, coding theory], search: [algorithms]}
 
