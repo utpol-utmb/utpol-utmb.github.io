@@ -12,23 +12,26 @@ jobs:
           UA="PhDMentorFinder/1.0 (mailto:utpol.dnet@gmail.com)"
           probe() { code=$(curl -s -L -A "$UA" -o /tmp/b -w "%{http_code} %{content_type} %{size_download}" --max-time 40 "$1"); echo "== $1 -> $code"; head -c ${2:-300} /tmp/b | tr '\n' ' ' | sed 's/  */ /g'; echo; }
           python3 - <<'PY'
-          import json,urllib.request
-          out=[]
-          for page in (1,2):
-              u=f"https://api.openalex.org/subfields?per-page=200&page={page}&select=id,display_name,field,domain,display_name_alternatives&mailto=utpol.dnet@gmail.com"
-              d=json.load(urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"PhDMentorFinder/1.0"})))
-              out+=d["results"]
-          json.dump(out,open("/tmp/subfields.json","w"))
-          print("subfields",len(out))
-          u="https://api.openalex.org/authors?search=Sean%20O%27Mahony&per-page=1&mailto=utpol.dnet@gmail.com"
-          a=json.load(urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"PhDMentorFinder/1.0"})))["results"][0]
-          print("AUTHOR KEYS",list(a.keys())); print(json.dumps(a.get("topics",[])[:2])[:800]); print(json.dumps(a.get("last_known_institutions"))[:600])
-          w="https://api.openalex.org/works?filter=author.id:"+a["id"].split("/")[-1]+"&sort=publication_date:desc&per-page=2&select=id,title,publication_year,doi,primary_location&mailto=utpol.dnet@gmail.com"
-          print(json.dumps(json.load(urllib.request.urlopen(w)))[:1200])
-          i="https://api.openalex.org/institutions/"+a["last_known_institutions"][0]["id"].split("/")[-1]+"?select=homepage_url,ror,display_name,country_code,geo"
-          print(json.dumps(json.load(urllib.request.urlopen(i))))
+          import json,urllib.request,re,html,time
+          UA={"User-Agent":"PhDMentorFinder/1.0 (+https://utpol-utmb.github.io; mailto:utpol.dnet@gmail.com)"}
+          def get(u): return urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=60).read().decode("utf-8","ignore")
+          d=json.loads(get("https://dataportal.arc.gov.au/NCGP/API/grants?page%5Bsize%5D=2&filter=status%3Dactive"))
+          print("ARC", json.dumps(d)[:3500])
+          print("ARC ROBOTS:", get("https://dataportal.arc.gov.au/robots.txt")[:300] if True else "")
+          t=get("https://euraxess.ec.europa.eu/jobs/search")
+          facets=re.findall(r'href="(/jobs/search\?f%5B0%5D=job_research_profile%3A\d+)"[^>]*aria-label="Filter by ([^"]+)"',t)
+          print("EUR FACETS",facets[:10])
+          fields=re.findall(r'aria-label="Filter by ([^"]+)"',t); print("EUR LABELS",sorted(set(fields))[:80])
+          time.sleep(2)
+          pg=get("https://euraxess.ec.europa.eu/jobs/search?keywords=PhD")
+          ids=sorted(set(re.findall(r'href="/jobs/(\d+)"',pg))); print("EUR kw=PhD ids",len(ids),ids[:5])
+          print("PAGER", re.findall(r'href="(\?[^"]*page=\d+[^"]*)"',pg)[:5])
+          time.sleep(2)
+          dp=get("https://euraxess.ec.europa.eu/jobs/"+ids[0])
+          txt=html.unescape(re.sub(r"<[^>]+>","\n",re.sub(r"<script.*?</script>|<style.*?</style>","",dp,flags=re.S)))
+          txt=re.sub(r"\n\s*\n+","\n",txt)
+          i=txt.find("Research Field"); print("EUR DETAIL", txt[max(0,i-1500):i+4000])
           PY
-          cp /tmp/subfields.json /tmp/probe_subfields.json
       - name: Save results to branch probe-results
         if: always()
         run: |
