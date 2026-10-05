@@ -399,9 +399,13 @@ def main() -> int:
     if cfg["sources"].get("openalex") and not args.offline:
         http.budget(cfg.get("openalex_minutes", 40))
         try:
-            st = OA.enrich(http, mentors, cfg.get("contact_email", ""), max_lookups=cfg.get("openalex_max_lookups", 2500))
-            health.ok("OpenAlex", st["matched"] or 1, f"{st['lookups']} lookups, {st['matched']} matched"
-                      + (" (daily limit reached; the rest continue tomorrow)" if st["stopped_early"] else ""))
+            import os
+            key = os.environ.get("OPENALEX_API_KEY", "")
+            st = OA.enrich(http, mentors, cfg.get("contact_email", ""), max_lookups=cfg.get("openalex_max_lookups", 2500), api_key=key)
+            have = sum(1 for m in mentors if m.get("metrics"))
+            health.ok("OpenAlex", have or 1, f"{st['lookups']} new lookups today ({st['matched']} matched); {have} supervisors have profiles"
+                      + ("; daily allowance used up, the rest continue tomorrow" if st["stopped_early"] else "")
+                      + ("" if key else "; no API key (add secret OPENALEX_API_KEY for a higher allowance)"))
         except Exception as ex:  # noqa: BLE001
             health.failed("OpenAlex", str(ex), 0)
         finally:

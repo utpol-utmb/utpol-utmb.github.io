@@ -56,12 +56,12 @@ def apply_cached(m: dict, hit: dict) -> None:
         m["inst_site"] = hit["inst"]
 
 
-def _institution(http: Http, inst_id: str, cache: dict, contact: str) -> dict:
+def _institution(call, inst_id: str, cache: dict) -> dict:
     key = inst_id.rsplit("/", 1)[-1]
     if key in cache:
         return cache[key]
     try:
-        d = http.get_json(f"{API}/institutions/{key}", params={"select": "homepage_url,ror,display_name,country_code", "mailto": contact})
+        d = call(f"institutions/{key}", {"select": "homepage_url,ror,display_name,country_code"})
         cache[key] = {"homepage": d.get("homepage_url") or "", "ror": d.get("ror") or "", "name": d.get("display_name") or "",
                       "country_code": d.get("country_code") or ""}
     except RuntimeError:
@@ -69,25 +69,46 @@ def _institution(http: Http, inst_id: str, cache: dict, contact: str) -> dict:
     return cache[key]
 
 
-def enrich(http: Http, mentors: list[dict], contact: str, max_lookups: int = 2500, refresh_days: int = 45) -> dict:
+class _Limit(Exception):
+    pass
+
+
+def enrich(http: Http, mentors: list[dict], contact: str, max_lookups: int = 2500, refresh_days: int = 45, api_key: str = "") -> dict:
+    """api_key: optional free OpenAlex key (GitHub secret OPENALEX_API_KEY) for a higher daily allowance."""
     cache, icache = _load(CACHE), _load(INST_CACHE)
+    auth = {"api_key": api_key} if api_key else {"mailto": contact}
+
+    def call(path: str, params: dict) -> dict:
+        try:
+            return http.get_json(f"{API}/{path}", params={**params, **auth})
+        except RuntimeError as ex:
+            if "429" in str(ex) or "402" in str(ex) or "403" in str(ex):
+                raise _Limit(str(ex)) from ex
+            raise
     cutoff = (TODAY - dt.timedelta(days=refresh_days)).isoformat()
     stats = {"lookups": 0, "matched": 0, "stopped_early": False}
     # people who are recruiting now get looked up first
     order = sorted(mentors, key=lambda m: ({"open_position": 0, "training_grant": 1}.get(m["signal"], 2), m["id"]))
+    limited = False
     for m in order:
         hit = cache.get(m["id"])
         if hit and hit.get("checked", "") >= cutoff and hit.get("v") == VERSION:
             apply_cached(m, hit)
             continue
-        if stats["lookups"] >= max_lookups or (http.deadline and time.time() > http.deadline):
+        if limited or stats["lookups"] >= max_lookups or (http.deadline and time.time() > http.deadline):
             stats["stopped_early"] = True
             if hit:
                 apply_cached(m, hit)  # older data is better than none
             continue
         name = re.sub(r"\b(Dr|Prof|Professor|Assoc|Asst)\.?\s*", "", m["name"]).strip()
         try:
-            data = http.get_json(f"{API}/authors", params={"search": name, "per-page": 10, "select": AUTHOR_FIELDS, "mailto": contact})
+            data = call("authors", {"search": name, "per-page": 10, "select": AUTHOR_FIELDS})
+        except _Limit as ex:
+            limited, stats["limit"] = True, str(ex)[:120]
+            stats["stopped_early"] = True
+            if hit:
+                apply_cached(m, hit)
+            continue
         except RuntimeError:
             continue
         stats["lookups"] += 1
@@ -112,16 +133,19 @@ def enrich(http: Http, mentors: list[dict], contact: str, max_lookups: int = 250
                 if sid.isdigit():
                     entry["oa_subfields"].append({"subfield": int(sid), "count": t.get("count") or 1})
             try:
-                w = http.get_json(f"{API}/works", params={
+                w = call("works", {
                     "filter": f"author.id:{match['id'].rsplit('/', 1)[-1]},type:article|review|preprint",
-                    "sort": "publication_date:desc", "per-page": 3, "select": "id,title,publication_year,doi", "mailto": contact})
+                    "sort": "publication_date:desc", "per-page": 3, "select": "id,title,publication_year,doi"})
                 entry["papers"] = [{"title": (x.get("title") or "")[:220], "year": x.get("publication_year"),
                                     "url": x.get("doi") or x.get("id")} for x in w.get("results", []) if x.get("title")]
-            except RuntimeError:
+            except (RuntimeError, _Limit):
                 entry["papers"] = []
             lki = (match.get("last_known_institutions") or [{}])[0]
             if lki.get("id"):
-                inst = _institution(http, lki["id"], icache, contact)
+                try:
+                    inst = _institution(call, lki["id"], icache)
+                except _Limit:
+                    inst = {}
                 if inst.get("homepage"):
                     entry["inst"] = {"homepage": inst["homepage"], "ror": inst.get("ror", "")}
         cache[m["id"]] = entry

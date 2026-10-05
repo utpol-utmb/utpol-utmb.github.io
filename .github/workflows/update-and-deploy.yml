@@ -41,6 +41,8 @@ jobs:
       - name: Collect fresh data
         id: build
         if: github.event_name != 'push'
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python pipeline/build.py
       - name: Report data health (opens or closes the data-health issue)
         if: always() && github.event_name != 'push'

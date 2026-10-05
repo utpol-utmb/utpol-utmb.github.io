@@ -8,6 +8,14 @@ on:
         description: "Comma list of sources to switch on for this scratch build (e.g. arc,euraxess)"
         required: false
         default: ""
+      results_branch:
+        description: "Branch to save results to"
+        required: false
+        default: "probe-results"
+      save_full:
+        description: "Also save the complete data folder and caches (yes/no)"
+        required: false
+        default: "no"
 permissions:
   contents: write
 jobs:
@@ -23,6 +31,7 @@ jobs:
       - name: Live build into scratch folder
         env:
           PMF_FORCE_SOURCES: ${{ inputs.force_sources }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: |
           set -o pipefail
           python pipeline/build.py --out /tmp/out 2>&1 | tail -80 | tee /tmp/probe.txt
@@ -34,5 +43,6 @@ jobs:
           for f in health.json meta.json positions.json funding.json mentors-index.json; do cp /tmp/out/$f . 2>/dev/null || true; done
           mkdir -p shard && cp /tmp/out/mentors/00.json shard/ 2>/dev/null || true
           cp $GITHUB_WORKSPACE/pipeline/cache/source_state.json . 2>/dev/null || true
+          if [ "${{ inputs.save_full }}" = "yes" ]; then mkdir -p full/data full/cache && cp -r /tmp/out/. full/data/ && cp -r $GITHUB_WORKSPACE/pipeline/cache/. full/cache/; fi
           git add . && git -c user.name=bot -c user.email=actions@users.noreply.github.com commit -q -m "probe $(date -u +%FT%T)"
-          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:refs/heads/probe-results
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:refs/heads/${{ inputs.results_branch || 'probe-results' }}
