@@ -11,39 +11,22 @@ jobs:
           exec > >(tee /tmp/probe.txt) 2>&1
           UA="PhDMentorFinder/1.0 (mailto:utpol.dnet@gmail.com)"
           probe() { code=$(curl -s -L -A "$UA" -o /tmp/b -w "%{http_code} %{content_type} %{size_download}" --max-time 40 "$1"); echo "== $1 -> $code"; head -c ${2:-300} /tmp/b | tr '\n' ' ' | sed 's/  */ /g'; echo; }
-          for d in www.jobs.ac.uk www.findaphd.com academicpositions.com euraxess.ec.europa.eu www.nature.com cordis.europa.eu api.openalex.org pub.orcid.org www.timeshighereducation.com scholarshipdb.net www.academictransfer.com jobs.ethz.ch www.daad.de dataportal.arc.gov.au; do
-            echo "##### robots $d"; curl -s -A "$UA" --max-time 30 "https://$d/robots.txt" | grep -iE "^(user-agent|disallow|allow)" | head -40; done
-          probe "https://www.jobs.ac.uk/jobs/phds/?format=rss" 600
-          probe "https://www.jobs.ac.uk/feeds/subject-areas/biological-sciences" 600
-          probe "https://www.jobs.ac.uk/feeds/phds" 600
-          probe "https://www.jobs.ac.uk/feeds" 1500
-          probe "https://www.findaphd.com/phds/?rss" 600
-          probe "https://www.findaphd.com/rss/" 600
-          probe "https://academicpositions.com/rss" 600
-          probe "https://academicpositions.com/jobs/rss" 600
-          probe "https://www.nature.com/naturecareers/jobsrss/?Qualification=46&keywords=biology" 800
-          probe "https://www.nature.com/naturecareers/jobsrss/?keywords=PhD" 800
-          probe "https://euraxess.ec.europa.eu/jobs/search" 300
-          probe "https://www.academictransfer.com/en/rss/" 600
-          probe "https://www.academictransfer.com/en/jobs/rss/" 600
-          probe "https://jobs.ethz.ch/feed/" 600
-          probe "https://www.timeshighereducation.com/unijobs/rss/" 600
-          probe "https://scholarshipdb.net/rss" 600
-          probe "https://dataportal.arc.gov.au/NCGP/API/grants?page%5Bsize%5D=1" 800
-          probe "https://pub.orcid.org/v3.0/0000-0002-1825-0097/researcher-urls" 600
-          probe "https://api.openalex.org/subfields?per-page=2" 600
-          echo "##### CORDIS HE projects zip"; curl -s -L -I -A "$UA" --max-time 40 "https://cordis.europa.eu/data/cordis-HORIZONprojects-csv.zip" | grep -iE "^(HTTP|content-length|content-type|last-modified)"
-          curl -s -L -A "$UA" --max-time 200 -o /tmp/he.zip "https://cordis.europa.eu/data/cordis-HORIZONprojects-csv.zip" && cd /tmp && unzip -o -q he.zip -d he && ls -la he && head -c 1500 he/project.csv; echo; head -c 800 he/organization.csv; echo
-          python3 - <<'PY'
-          import csv,collections,sys
-          csv.field_size_limit(10**9)
-          try:
-            r=list(csv.DictReader(open('/tmp/he/project.csv',encoding='utf-8'),delimiter=';'))
-            print('projects',len(r), list(r[0].keys()))
-            c=collections.Counter(x.get('fundingScheme','') for x in r); print(c.most_common(25))
-            dn=[x for x in r if 'DN' in x.get('fundingScheme','')]; print('DN',len(dn)); print(dn[0] if dn else '')
-          except Exception as e: print('err',e)
-          PY
+          getp() { curl -s -L -A "$UA" --max-time 40 -o "/tmp/$2" -w "== $1 -> %{http_code} %{size_download}\n" "$1"; }
+          getp "https://www.jobs.ac.uk/terms-and-conditions" jt.html
+          getp "https://www.jobs.ac.uk/about/terms-and-conditions" jt2.html
+          python3 -c "import re,html;t=open('/tmp/jt.html',errors='ignore').read()+open('/tmp/jt2.html',errors='ignore').read();t=html.unescape(re.sub(r'<[^>]+>',' ',t));t=re.sub(r'\s+',' ',t);[print('JOBSACUK TERMS:',t[max(0,m.start()-300):m.end()+400]) for m in re.finditer(r'(automat|scrap|robot|spider|crawl|data mining|extract)',t,re.I)][:8]"
+          getp "https://www.jobs.ac.uk/search/?keywords=&jobTypeFacet%5B0%5D=phds&pageSize=100&startIndex=1" js.html
+          python3 -c "import re;t=open('/tmp/js.html',errors='ignore').read();print('job links',len(set(re.findall(r'href=\"(/job/[A-Z0-9]+/[^\"]+)',t))));print(sorted(set(re.findall(r'href=\"(/job/[A-Z0-9]+/[^\"]+)',t)))[:5]);i=t.find('/job/');print(re.sub(r'\s+',' ',t[i-1500:i+2500]))"
+          getp "https://euraxess.ec.europa.eu/legal-notice" el.html
+          python3 -c "import re,html;t=open('/tmp/el.html',errors='ignore').read();t=html.unescape(re.sub(r'<[^>]+>',' ',t));t=re.sub(r'\s+',' ',t);i=t.lower().find('reuse');print('EURAXESS LEGAL:',t[i-200:i+1500]);[print('EUR TERMS:',t[max(0,m.start()-300):m.end()+300]) for m in re.finditer(r'(automat|scrap|robot|crawl|third.part)',t,re.I)][:6]"
+          getp "https://euraxess.ec.europa.eu/jobs/search?f%5B0%5D=job_research_profile%3A446" es.html
+          python3 -c "import re;t=open('/tmp/es.html',errors='ignore').read();l=sorted(set(re.findall(r'href=\"(/jobs/\d+)',t)));print('euraxess job links',len(l),l[:5]);i=t.find(l[0]) if l else 0;print(re.sub(r'\s+',' ',t[i-1200:i+3000]))"
+          for u in "https://euraxess.ec.europa.eu/jobs/feed" "https://euraxess.ec.europa.eu/rss.xml" "https://euraxess.ec.europa.eu/jobs/search/rss"; do getp "$u" f.x; head -c 300 /tmp/f.x; echo; done
+          getp "https://www.daad.de/en/studying-in-germany/phd-studies-and-research/phdgermany-database/" dd.html
+          python3 -c "import re;t=open('/tmp/dd.html',errors='ignore').read();print(re.sub(r'\s+',' ',re.sub(r'<script.*?</script>','',t,flags=re.S))[:2500])"
+          getp "https://jobs.ethz.ch/?lang=en" eth.html
+          python3 -c "import re;t=open('/tmp/eth.html',errors='ignore').read();print(len(t));print(re.findall(r'href=\"([^\"]*job[^\"]*)',t)[:15])"
+          getp "https://www.jobs.ac.uk/robots.txt" r.txt; cat /tmp/r.txt
       - name: Save results to branch probe-results
         if: always()
         run: |
