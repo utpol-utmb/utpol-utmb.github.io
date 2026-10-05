@@ -1,0 +1,45 @@
+name: Probe candidate sources (manual)
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe
+        run: |
+          UA="PhDMentorFinder/1.0 (mailto:utpol.dnet@gmail.com)"
+          probe() { code=$(curl -s -L -A "$UA" -o /tmp/b -w "%{http_code} %{content_type} %{size_download}" --max-time 40 "$1"); echo "== $1 -> $code"; head -c ${2:-300} /tmp/b | tr '\n' ' ' | sed 's/  */ /g'; echo; }
+          for d in www.jobs.ac.uk www.findaphd.com academicpositions.com euraxess.ec.europa.eu www.nature.com cordis.europa.eu api.openalex.org pub.orcid.org www.timeshighereducation.com scholarshipdb.net www.academictransfer.com jobs.ethz.ch www.daad.de dataportal.arc.gov.au; do
+            echo "##### robots $d"; curl -s -A "$UA" --max-time 30 "https://$d/robots.txt" | grep -iE "^(user-agent|disallow|allow)" | head -40; done
+          probe "https://www.jobs.ac.uk/jobs/phds/?format=rss" 600
+          probe "https://www.jobs.ac.uk/feeds/subject-areas/biological-sciences" 600
+          probe "https://www.jobs.ac.uk/feeds/phds" 600
+          probe "https://www.jobs.ac.uk/feeds" 1500
+          probe "https://www.findaphd.com/phds/?rss" 600
+          probe "https://www.findaphd.com/rss/" 600
+          probe "https://academicpositions.com/rss" 600
+          probe "https://academicpositions.com/jobs/rss" 600
+          probe "https://www.nature.com/naturecareers/jobsrss/?Qualification=46&keywords=biology" 800
+          probe "https://www.nature.com/naturecareers/jobsrss/?keywords=PhD" 800
+          probe "https://euraxess.ec.europa.eu/jobs/search" 300
+          probe "https://www.academictransfer.com/en/rss/" 600
+          probe "https://www.academictransfer.com/en/jobs/rss/" 600
+          probe "https://jobs.ethz.ch/feed/" 600
+          probe "https://www.timeshighereducation.com/unijobs/rss/" 600
+          probe "https://scholarshipdb.net/rss" 600
+          probe "https://dataportal.arc.gov.au/NCGP/API/grants?page%5Bsize%5D=1" 800
+          probe "https://pub.orcid.org/v3.0/0000-0002-1825-0097/researcher-urls" 600
+          probe "https://api.openalex.org/subfields?per-page=2" 600
+          echo "##### CORDIS HE projects zip"; curl -s -L -I -A "$UA" --max-time 40 "https://cordis.europa.eu/data/cordis-HORIZONprojects-csv.zip" | grep -iE "^(HTTP|content-length|content-type|last-modified)"
+          curl -s -L -A "$UA" --max-time 200 -o /tmp/he.zip "https://cordis.europa.eu/data/cordis-HORIZONprojects-csv.zip" && cd /tmp && unzip -o -q he.zip -d he && ls -la he && head -c 1500 he/project.csv; echo; head -c 800 he/organization.csv; echo
+          python3 - <<'PY'
+          import csv,collections,sys
+          csv.field_size_limit(10**9)
+          try:
+            r=list(csv.DictReader(open('/tmp/he/project.csv',encoding='utf-8'),delimiter=';'))
+            print('projects',len(r), list(r[0].keys()))
+            c=collections.Counter(x.get('fundingScheme','') for x in r); print(c.most_common(25))
+            dn=[x for x in r if 'DN' in x.get('fundingScheme','')]; print('DN',len(dn)); print(dn[0] if dn else '')
+          except Exception as e: print('err',e)
+          PY
