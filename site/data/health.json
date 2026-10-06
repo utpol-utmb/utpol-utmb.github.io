@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-05 12:35 UTC",
+ "generated_at": "2026-10-06 12:18 UTC",
  "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 149,
+  "mentors": 18276,
+  "funding": 23,
+  "grants": 22822
+ },
+ "previous_counts": {
   "positions": 151,
   "mentors": 18281,
   "funding": 23,
   "grants": 22823
  },
- "previous_counts": {
-  "positions": 151,
-  "mentors": 18288,
-  "funding": 23,
-  "grants": 22827
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3366,
-   "last_ok": "2026-10-05",
+   "count": 3363,
+   "last_ok": "2026-10-06",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
-   "count": 18704,
-   "last_ok": "2026-10-05",
+   "count": 18706,
+   "last_ok": "2026-10-06",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
    "status": "ok",
    "count": 753,
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "note": "114 search terms"
   },
   "Australian Research Council": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-10-05",
+   "last_ok": "2026-10-06",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,17 +51,101 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 699,
-   "last_ok": "2026-10-05",
-   "note": "92 new lookups today (75 matched); 699 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 738,
+   "last_ok": "2026-10-06",
+   "note": "93 new lookups today (70 matched); 738 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [],
  "scholarships_to_review": [
   {
+   "id": "chevening",
+   "name": "Chevening Scholarships",
+   "url": "https://www.chevening.org/scholarships/application-timeline/",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "clarendon",
+   "name": "Clarendon Scholarships",
+   "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
+   "reason": "official page unreachable 3+ days: GET https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/"
+  },
+  {
    "id": "eiffel-excellence",
    "name": "France Excellence Eiffel Scholarship",
    "url": "https://www.campusfrance.org/fr/le-programme-de-bourses-france-excellence-eiffel",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "chinese-government-scholarship",
+   "name": "Chinese Government Scholarship (CSC)",
+   "url": "https://www.campuschina.org/",
+   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ failed: HTTPSConnectionPool(host='www.campuschi"
+  },
+  {
+   "id": "australia-rtp",
+   "name": "Research Training Program (RTP) Scholarships",
+   "url": "https://www.education.gov.au/research-block-grants/research-training-program",
+   "reason": "official page unreachable 3+ days: GET https://www.education.gov.au/research-block-grants/research-training-program"
+  },
+  {
+   "id": "usp-harvard-phs",
+   "name": "US program guide: Harvard University – PhD in Population Health Sciences",
+   "url": "https://gsas.harvard.edu/program/population-health-sciences",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "usp-harvard-biostat",
+   "name": "US program guide: Harvard University – PhD in Biostatistics",
+   "url": "https://gsas.harvard.edu/programs-of-study/all/biostatistics",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "usp-harvard-health-policy",
+   "name": "US program guide: Harvard University – PhD in Health Policy",
+   "url": "https://gsas.harvard.edu/program/health-policy",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "usp-harvard-bsph",
+   "name": "US program guide: Harvard University – PhD in Biological Sciences in Public Health",
+   "url": "https://gsas.harvard.edu/programs-of-study/all/biological-sciences-public-health",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "usp-harvard-bbs",
+   "name": "US program guide: Harvard University – PhD in Biological and Biomedical Sciences (BBS)",
+   "url": "https://gsas.harvard.edu/program/biological-and-biomedical-sciences",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "usp-harvard-psych",
+   "name": "US program guide: Harvard University – PhD in Psychology",
+   "url": "https://gsas.harvard.edu/program/psychology",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "usp-cmu-csd",
+   "name": "US program guide: Carnegie Mellon University – PhD in Computer Science",
+   "url": "https://csd.cmu.edu/academics/doctoral/admissions",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "usp-harvard-physics",
+   "name": "US program guide: Harvard University – PhD in Physics",
+   "url": "https://gsas.harvard.edu/program/physics",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "usp-harvard-soc",
+   "name": "US program guide: Harvard University – PhD in Sociology",
+   "url": "https://gsas.harvard.edu/program/sociology",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "usp-harvard-econ",
+   "name": "US program guide: Harvard University – PhD in Economics",
+   "url": "https://gsas.harvard.edu/program/economics",
    "reason": "official page changed (dates or amounts may have changed)"
   }
  ]
