@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-07 12:03 UTC",
+ "generated_at": "2026-10-08 12:18 UTC",
  "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 149,
+  "mentors": 18270,
+  "funding": 23,
+  "grants": 22813
+ },
+ "previous_counts": {
   "positions": 149,
   "mentors": 18266,
   "funding": 23,
   "grants": 22808
  },
- "previous_counts": {
-  "positions": 149,
-  "mentors": 18276,
-  "funding": 23,
-  "grants": 22822
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3350,
-   "last_ok": "2026-10-07",
+   "count": 3355,
+   "last_ok": "2026-10-08",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
    "count": 18705,
-   "last_ok": "2026-10-07",
+   "last_ok": "2026-10-08",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
    "status": "ok",
    "count": 753,
-   "last_ok": "2026-10-07",
+   "last_ok": "2026-10-08",
    "note": "114 search terms"
   },
   "Australian Research Council": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-10-07",
+   "last_ok": "2026-10-08",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,9 +51,9 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 779,
-   "last_ok": "2026-10-07",
-   "note": "93 new lookups today (65 matched); 779 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 834,
+   "last_ok": "2026-10-08",
+   "note": "92 new lookups today (74 matched); 834 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [],
@@ -63,6 +63,12 @@
    "name": "Chevening Scholarships",
    "url": "https://www.chevening.org/scholarships/application-timeline/",
    "reason": "deadline has passed: roll over to the next round"
+  },
+  {
+   "id": "rhodes",
+   "name": "Rhodes Scholarship",
+   "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/",
+   "reason": "official page changed (dates or amounts may have changed)"
   },
   {
    "id": "clarendon",
@@ -87,6 +93,12 @@
    "name": "Research Training Program (RTP) Scholarships",
    "url": "https://www.education.gov.au/research-block-grants/research-training-program",
    "reason": "official page unreachable 3+ days: GET https://www.education.gov.au/research-block-grants/research-training-program"
+  },
+  {
+   "id": "usp-berkeley-eecs",
+   "name": "US program guide: UC Berkeley – PhD in Electrical Engineering and Computer Sciences",
+   "url": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/",
+   "reason": "official page changed (dates or amounts may have changed)"
   }
  ]
 }
