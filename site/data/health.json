@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-09 12:15 UTC",
+ "generated_at": "2026-10-10 11:30 UTC",
  "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 141,
+  "mentors": 18260,
+  "funding": 23,
+  "grants": 22810
+ },
+ "previous_counts": {
   "positions": 144,
   "mentors": 18287,
   "funding": 23,
   "grants": 22840
  },
- "previous_counts": {
-  "positions": 149,
-  "mentors": 18270,
-  "funding": 23,
-  "grants": 22813
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3384,
-   "last_ok": "2026-10-09",
+   "count": 3353,
+   "last_ok": "2026-10-10",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
-   "count": 18703,
-   "last_ok": "2026-10-09",
+   "count": 18704,
+   "last_ok": "2026-10-10",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
    "status": "ok",
    "count": 753,
-   "last_ok": "2026-10-09",
+   "last_ok": "2026-10-10",
    "note": "114 search terms"
   },
   "Australian Research Council": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-10-09",
+   "last_ok": "2026-10-10",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,9 +51,9 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 871,
-   "last_ok": "2026-10-09",
-   "note": "93 new lookups today (68 matched); 871 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 915,
+   "last_ok": "2026-10-10",
+   "note": "93 new lookups today (71 matched); 915 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [],
@@ -89,27 +89,15 @@
    "reason": "official page unreachable 3+ days: GET https://www.education.gov.au/research-block-grants/research-training-program"
   },
   {
-   "id": "si-global-professionals",
-   "name": "Swedish Institute Scholarships for Global Professionals",
-   "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
+   "id": "usp-ucsf-bms",
+   "name": "US program guide: UC San Francisco – PhD in Biomedical Sciences (BMS)",
+   "url": "https://bms.ucsf.edu/applying-bms",
    "reason": "official page changed (dates or amounts may have changed)"
   },
   {
    "id": "usp-ucsf-tetrad",
    "name": "US program guide: UC San Francisco – Tetrad Graduate Program (cell biology, biochemistry, genetics)",
    "url": "https://tetrad.ucsf.edu/admissions",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-mit-meche",
-   "name": "US program guide: MIT – PhD in Mechanical Engineering",
-   "url": "https://oge.mit.edu/programs/mechanical-engineering",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-berkeley-eecs",
-   "name": "US program guide: UC Berkeley – PhD in Electrical Engineering and Computer Sciences",
-   "url": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/",
    "reason": "official page changed (dates or amounts may have changed)"
   }
  ]
