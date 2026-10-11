@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-10 11:30 UTC",
+ "generated_at": "2026-10-11 11:44 UTC",
  "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 139,
+  "mentors": 18280,
+  "funding": 23,
+  "grants": 22843
+ },
+ "previous_counts": {
   "positions": 141,
   "mentors": 18260,
   "funding": 23,
   "grants": 22810
  },
- "previous_counts": {
-  "positions": 144,
-  "mentors": 18287,
-  "funding": 23,
-  "grants": 22840
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3353,
-   "last_ok": "2026-10-10",
+   "count": 3385,
+   "last_ok": "2026-10-11",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
-   "count": 18704,
-   "last_ok": "2026-10-10",
+   "count": 18705,
+   "last_ok": "2026-10-11",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
    "status": "ok",
    "count": 753,
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-11",
    "note": "114 search terms"
   },
   "Australian Research Council": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-10-10",
+   "last_ok": "2026-10-11",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,9 +51,9 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 915,
-   "last_ok": "2026-10-10",
-   "note": "93 new lookups today (71 matched); 915 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 955,
+   "last_ok": "2026-10-11",
+   "note": "93 new lookups today (69 matched); 955 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [],
@@ -69,6 +69,12 @@
    "name": "Clarendon Scholarships",
    "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
    "reason": "official page unreachable 3+ days: GET https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/"
+  },
+  {
+   "id": "daad-doctoral",
+   "name": "DAAD Research Grants – Doctoral Programmes in Germany",
+   "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135739",
+   "reason": "official page unreachable 3+ days: GET https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-d"
   },
   {
    "id": "eiffel-excellence",
@@ -87,18 +93,6 @@
    "name": "Research Training Program (RTP) Scholarships",
    "url": "https://www.education.gov.au/research-block-grants/research-training-program",
    "reason": "official page unreachable 3+ days: GET https://www.education.gov.au/research-block-grants/research-training-program"
-  },
-  {
-   "id": "usp-ucsf-bms",
-   "name": "US program guide: UC San Francisco – PhD in Biomedical Sciences (BMS)",
-   "url": "https://bms.ucsf.edu/applying-bms",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-ucsf-tetrad",
-   "name": "US program guide: UC San Francisco – Tetrad Graduate Program (cell biology, biochemistry, genetics)",
-   "url": "https://tetrad.ucsf.edu/admissions",
-   "reason": "official page changed (dates or amounts may have changed)"
   }
  ]
 }
