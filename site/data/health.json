@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-12 13:34 UTC",
+ "generated_at": "2026-10-13 12:59 UTC",
  "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 136,
+  "mentors": 18269,
+  "funding": 23,
+  "grants": 22832
+ },
+ "previous_counts": {
   "positions": 138,
   "mentors": 18270,
   "funding": 23,
   "grants": 22823
  },
- "previous_counts": {
-  "positions": 139,
-  "mentors": 18280,
-  "funding": 23,
-  "grants": 22843
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3365,
-   "last_ok": "2026-10-12",
+   "count": 3376,
+   "last_ok": "2026-10-13",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
    "count": 18705,
-   "last_ok": "2026-10-12",
+   "last_ok": "2026-10-13",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
    "status": "ok",
-   "count": 753,
-   "last_ok": "2026-10-12",
+   "count": 751,
+   "last_ok": "2026-10-13",
    "note": "114 search terms"
   },
   "Australian Research Council": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-10-12",
+   "last_ok": "2026-10-13",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,9 +51,9 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 999,
-   "last_ok": "2026-10-12",
-   "note": "92 new lookups today (75 matched); 999 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 1051,
+   "last_ok": "2026-10-13",
+   "note": "93 new lookups today (68 matched); 1051 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [],
@@ -80,7 +80,7 @@
    "id": "chinese-government-scholarship",
    "name": "Chinese Government Scholarship (CSC)",
    "url": "https://www.campuschina.org/",
-   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ -> HTTP 412"
+   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ failed: HTTPSConnectionPool(host='www.campuschi"
   },
   {
    "id": "australia-rtp",
