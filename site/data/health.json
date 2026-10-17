@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-16 10:08 UTC",
+ "generated_at": "2026-10-17 09:37 UTC",
  "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 114,
+  "mentors": 18249,
+  "funding": 23,
+  "grants": 22843
+ },
+ "previous_counts": {
   "positions": 121,
   "mentors": 18253,
   "funding": 23,
   "grants": 22827
  },
- "previous_counts": {
-  "positions": 130,
-  "mentors": 18256,
-  "funding": 23,
-  "grants": 22819
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3372,
-   "last_ok": "2026-10-16",
+   "count": 3388,
+   "last_ok": "2026-10-17",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
    "count": 18705,
-   "last_ok": "2026-10-16",
+   "last_ok": "2026-10-17",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
    "status": "ok",
    "count": 750,
-   "last_ok": "2026-10-16",
+   "last_ok": "2026-10-17",
    "note": "114 search terms"
   },
   "Australian Research Council": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-10-16",
+   "last_ok": "2026-10-17",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,9 +51,9 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 1180,
-   "last_ok": "2026-10-16",
-   "note": "93 new lookups today (71 matched); 1180 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 1219,
+   "last_ok": "2026-10-17",
+   "note": "91 new lookups today (67 matched); 1219 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [],
@@ -87,66 +87,6 @@
    "name": "Research Training Program (RTP) Scholarships",
    "url": "https://www.education.gov.au/research-block-grants/research-training-program",
    "reason": "official page unreachable 3+ days: GET https://www.education.gov.au/research-block-grants/research-training-program"
-  },
-  {
-   "id": "usp-harvard-phs",
-   "name": "US program guide: Harvard University – PhD in Population Health Sciences",
-   "url": "https://gsas.harvard.edu/program/population-health-sciences",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-harvard-biostat",
-   "name": "US program guide: Harvard University – PhD in Biostatistics",
-   "url": "https://gsas.harvard.edu/programs-of-study/all/biostatistics",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-harvard-health-policy",
-   "name": "US program guide: Harvard University – PhD in Health Policy",
-   "url": "https://gsas.harvard.edu/program/health-policy",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-harvard-bsph",
-   "name": "US program guide: Harvard University – PhD in Biological Sciences in Public Health",
-   "url": "https://gsas.harvard.edu/programs-of-study/all/biological-sciences-public-health",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-harvard-bbs",
-   "name": "US program guide: Harvard University – PhD in Biological and Biomedical Sciences (BBS)",
-   "url": "https://gsas.harvard.edu/program/biological-and-biomedical-sciences",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-harvard-psych",
-   "name": "US program guide: Harvard University – PhD in Psychology",
-   "url": "https://gsas.harvard.edu/program/psychology",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-harvard-physics",
-   "name": "US program guide: Harvard University – PhD in Physics",
-   "url": "https://gsas.harvard.edu/program/physics",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-harvard-soc",
-   "name": "US program guide: Harvard University – PhD in Sociology",
-   "url": "https://gsas.harvard.edu/program/sociology",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-harvard-econ",
-   "name": "US program guide: Harvard University – PhD in Economics",
-   "url": "https://gsas.harvard.edu/program/economics",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-harvard-edu",
-   "name": "US program guide: Harvard University – PhD in Education",
-   "url": "https://gsas.harvard.edu/program/education",
-   "reason": "official page changed (dates or amounts may have changed)"
   }
  ]
 }
