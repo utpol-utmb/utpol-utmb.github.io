@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-17 09:37 UTC",
+ "generated_at": "2026-10-18 09:54 UTC",
  "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 114,
+  "mentors": 18232,
+  "funding": 23,
+  "grants": 22821
+ },
+ "previous_counts": {
   "positions": 114,
   "mentors": 18249,
   "funding": 23,
   "grants": 22843
  },
- "previous_counts": {
-  "positions": 121,
-  "mentors": 18253,
-  "funding": 23,
-  "grants": 22827
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3388,
-   "last_ok": "2026-10-17",
+   "count": 3366,
+   "last_ok": "2026-10-18",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
    "count": 18705,
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
    "status": "ok",
    "count": 750,
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "note": "114 search terms"
   },
   "Australian Research Council": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-10-17",
+   "last_ok": "2026-10-18",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,9 +51,9 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 1219,
-   "last_ok": "2026-10-17",
-   "note": "91 new lookups today (67 matched); 1219 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 1251,
+   "last_ok": "2026-10-18",
+   "note": "71 new lookups today (53 matched); 1251 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [],
@@ -71,6 +71,12 @@
    "reason": "official page unreachable 3+ days: GET https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/"
   },
   {
+   "id": "daad-doctoral",
+   "name": "DAAD Research Grants – Doctoral Programmes in Germany",
+   "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135739",
+   "reason": "official page unreachable 3+ days: GET https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-d"
+  },
+  {
    "id": "eiffel-excellence",
    "name": "France Excellence Eiffel Scholarship",
    "url": "https://www.campusfrance.org/fr/le-programme-de-bourses-france-excellence-eiffel",
@@ -80,7 +86,7 @@
    "id": "chinese-government-scholarship",
    "name": "Chinese Government Scholarship (CSC)",
    "url": "https://www.campuschina.org/",
-   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ failed: HTTPSConnectionPool(host='www.campuschi"
+   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ -> HTTP 412"
   },
   {
    "id": "australia-rtp",
