@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-18 09:54 UTC",
+ "generated_at": "2026-10-19 11:02 UTC",
  "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 108,
+  "mentors": 18234,
+  "funding": 23,
+  "grants": 22831
+ },
+ "previous_counts": {
   "positions": 114,
   "mentors": 18232,
   "funding": 23,
   "grants": 22821
  },
- "previous_counts": {
-  "positions": 114,
-  "mentors": 18249,
-  "funding": 23,
-  "grants": 22843
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3366,
-   "last_ok": "2026-10-18",
+   "count": 3382,
+   "last_ok": "2026-10-19",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
-   "count": 18705,
-   "last_ok": "2026-10-18",
+   "count": 18699,
+   "last_ok": "2026-10-19",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
    "status": "ok",
    "count": 750,
-   "last_ok": "2026-10-18",
+   "last_ok": "2026-10-19",
    "note": "114 search terms"
   },
   "Australian Research Council": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-10-18",
+   "last_ok": "2026-10-19",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,9 +51,9 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 1251,
-   "last_ok": "2026-10-18",
-   "note": "71 new lookups today (53 matched); 1251 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 1295,
+   "last_ok": "2026-10-19",
+   "note": "93 new lookups today (65 matched); 1295 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [],
@@ -93,6 +93,12 @@
    "name": "Research Training Program (RTP) Scholarships",
    "url": "https://www.education.gov.au/research-block-grants/research-training-program",
    "reason": "official page unreachable 3+ days: GET https://www.education.gov.au/research-block-grants/research-training-program"
+  },
+  {
+   "id": "si-global-professionals",
+   "name": "Swedish Institute Scholarships for Global Professionals",
+   "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
+   "reason": "official page changed (dates or amounts may have changed)"
   }
  ]
 }
