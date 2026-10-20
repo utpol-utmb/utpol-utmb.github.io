@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-19 11:02 UTC",
+ "generated_at": "2026-10-20 10:20 UTC",
  "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 107,
+  "mentors": 18202,
+  "funding": 23,
+  "grants": 22796
+ },
+ "previous_counts": {
   "positions": 108,
   "mentors": 18234,
   "funding": 23,
   "grants": 22831
  },
- "previous_counts": {
-  "positions": 114,
-  "mentors": 18232,
-  "funding": 23,
-  "grants": 22821
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3382,
-   "last_ok": "2026-10-19",
+   "count": 3345,
+   "last_ok": "2026-10-20",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
-   "count": 18699,
-   "last_ok": "2026-10-19",
+   "count": 18701,
+   "last_ok": "2026-10-20",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
    "status": "ok",
    "count": 750,
-   "last_ok": "2026-10-19",
+   "last_ok": "2026-10-20",
    "note": "114 search terms"
   },
   "Australian Research Council": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-10-19",
+   "last_ok": "2026-10-20",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,9 +51,9 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 1295,
-   "last_ok": "2026-10-19",
-   "note": "93 new lookups today (65 matched); 1295 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 1328,
+   "last_ok": "2026-10-20",
+   "note": "65 new lookups today (54 matched); 1328 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [],
@@ -71,12 +71,6 @@
    "reason": "official page unreachable 3+ days: GET https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/"
   },
   {
-   "id": "daad-doctoral",
-   "name": "DAAD Research Grants – Doctoral Programmes in Germany",
-   "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=57135739",
-   "reason": "official page unreachable 3+ days: GET https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-d"
-  },
-  {
    "id": "eiffel-excellence",
    "name": "France Excellence Eiffel Scholarship",
    "url": "https://www.campusfrance.org/fr/le-programme-de-bourses-france-excellence-eiffel",
@@ -86,13 +80,19 @@
    "id": "chinese-government-scholarship",
    "name": "Chinese Government Scholarship (CSC)",
    "url": "https://www.campuschina.org/",
-   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ -> HTTP 412"
+   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ failed: HTTPSConnectionPool(host='www.campuschi"
   },
   {
    "id": "australia-rtp",
    "name": "Research Training Program (RTP) Scholarships",
    "url": "https://www.education.gov.au/research-block-grants/research-training-program",
    "reason": "official page unreachable 3+ days: GET https://www.education.gov.au/research-block-grants/research-training-program"
+  },
+  {
+   "id": "canada-cgrs-doctoral",
+   "name": "Canada Graduate Research Scholarship – Doctoral (CGRS-D)",
+   "url": "https://sshrc-crsh.canada.ca/en/funding/opportunities/canada-graduate-research-scholarships/doctoral-program.aspx",
+   "reason": "deadline has passed: roll over to the next round"
   },
   {
    "id": "si-global-professionals",
