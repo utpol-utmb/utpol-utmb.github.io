@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-22 10:26 UTC",
+ "generated_at": "2026-10-23 10:19 UTC",
  "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 87,
+  "mentors": 18197,
+  "funding": 23,
+  "grants": 22833
+ },
+ "previous_counts": {
   "positions": 87,
   "mentors": 18148,
   "funding": 23,
   "grants": 22778
  },
- "previous_counts": {
-  "positions": 103,
-  "mentors": 18194,
-  "funding": 23,
-  "grants": 22806
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3327,
-   "last_ok": "2026-10-22",
+   "count": 3382,
+   "last_ok": "2026-10-23",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
    "count": 18701,
-   "last_ok": "2026-10-22",
+   "last_ok": "2026-10-23",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
    "status": "ok",
    "count": 750,
-   "last_ok": "2026-10-22",
+   "last_ok": "2026-10-23",
    "note": "114 search terms"
   },
   "Australian Research Council": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-10-22",
+   "last_ok": "2026-10-23",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,9 +51,9 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 1387,
-   "last_ok": "2026-10-22",
-   "note": "93 new lookups today (66 matched); 1387 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 1434,
+   "last_ok": "2026-10-23",
+   "note": "93 new lookups today (66 matched); 1434 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [],
@@ -71,22 +71,10 @@
    "reason": "deadline has passed: roll over to the next round"
   },
   {
-   "id": "commonwealth-masters",
-   "name": "Commonwealth Master's Scholarships",
-   "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
    "id": "commonwealth-phd",
    "name": "Commonwealth PhD Scholarships (Least Developed Countries and Vulnerable States)",
    "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-phd-scholarships-for-least-developed-countries-and-vulnerable-states/",
    "reason": "deadline has passed: roll over to the next round"
-  },
-  {
-   "id": "commonwealth-phd",
-   "name": "Commonwealth PhD Scholarships (Least Developed Countries and Vulnerable States)",
-   "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-phd-scholarships-for-least-developed-countries-and-vulnerable-states/",
-   "reason": "official page changed (dates or amounts may have changed)"
   },
   {
    "id": "clarendon",
@@ -104,7 +92,7 @@
    "id": "chinese-government-scholarship",
    "name": "Chinese Government Scholarship (CSC)",
    "url": "https://www.campuschina.org/",
-   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ failed: HTTPSConnectionPool(host='www.campuschi"
+   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ -> HTTP 412"
   },
   {
    "id": "australia-rtp",
@@ -119,15 +107,9 @@
    "reason": "deadline has passed: roll over to the next round"
   },
   {
-   "id": "stipendium-hungaricum",
-   "name": "Stipendium Hungaricum",
-   "url": "https://stipendiumhungaricum.hu/apply/",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
-   "id": "usp-ucsf-bms",
-   "name": "US program guide: UC San Francisco – PhD in Biomedical Sciences (BMS)",
-   "url": "https://bms.ucsf.edu/applying-bms",
+   "id": "canada-cgrs-doctoral",
+   "name": "Canada Graduate Research Scholarship – Doctoral (CGRS-D)",
+   "url": "https://sshrc-crsh.canada.ca/en/funding/opportunities/canada-graduate-research-scholarships/doctoral-program.aspx",
    "reason": "official page changed (dates or amounts may have changed)"
   }
  ]
