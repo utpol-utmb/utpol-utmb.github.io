@@ -1,37 +1,37 @@
 {
- "generated_at": "2026-10-27 11:08 UTC",
+ "generated_at": "2026-10-28 11:54 UTC",
  "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 70,
+  "mentors": 18188,
+  "funding": 23,
+  "grants": 22848
+ },
+ "previous_counts": {
   "positions": 72,
   "mentors": 17932,
   "funding": 23,
   "grants": 22566
  },
- "previous_counts": {
-  "positions": 76,
-  "mentors": 18179,
-  "funding": 23,
-  "grants": 22836
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3117,
-   "last_ok": "2026-10-27",
+   "count": 3398,
+   "last_ok": "2026-10-28",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
-   "count": 18700,
-   "last_ok": "2026-10-27",
+   "count": 18701,
+   "last_ok": "2026-10-28",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
-   "status": "ok",
+   "status": "failed",
    "count": 749,
    "last_ok": "2026-10-27",
-   "note": "114 search terms"
+   "note": "kept last good copy; returned 0 records"
   },
   "Australian Research Council": {
    "status": "off",
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-10-27",
+   "last_ok": "2026-10-28",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,12 +51,14 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 1601,
-   "last_ok": "2026-10-27",
-   "note": "93 new lookups today (68 matched); 1601 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 1644,
+   "last_ok": "2026-10-28",
+   "note": "93 new lookups today (71 matched); 1644 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
- "warnings": [],
+ "warnings": [
+  "UKRI Gateway to Research: failed (1 day(s) in a row), showing last good copy from 2026-10-27 — returned 0 records"
+ ],
  "scholarships_to_review": [
   {
    "id": "chevening",
@@ -92,7 +94,7 @@
    "id": "chinese-government-scholarship",
    "name": "Chinese Government Scholarship (CSC)",
    "url": "https://www.campuschina.org/",
-   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ failed: HTTPSConnectionPool(host='www.campuschi"
+   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ -> HTTP 412"
   },
   {
    "id": "australia-rtp",
