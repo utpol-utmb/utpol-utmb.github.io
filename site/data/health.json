@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-10-30 11:43 UTC",
+ "generated_at": "2026-10-31 11:12 UTC",
  "overall": "warning",
  "aborted": "",
  "counts": {
+  "positions": 62,
+  "mentors": 18167,
+  "funding": 23,
+  "grants": 22836
+ },
+ "previous_counts": {
   "positions": 68,
   "mentors": 18158,
   "funding": 23,
   "grants": 22817
  },
- "previous_counts": {
-  "positions": 68,
-  "mentors": 18177,
-  "funding": 23,
-  "grants": 22840
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3368,
-   "last_ok": "2026-10-30",
+   "count": 3383,
+   "last_ok": "2026-10-31",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
-   "count": 18700,
-   "last_ok": "2026-10-30",
+   "count": 18704,
+   "last_ok": "2026-10-31",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
    "status": "ok",
    "count": 749,
-   "last_ok": "2026-10-30",
+   "last_ok": "2026-10-31",
    "note": "114 search terms"
   },
   "Australian Research Council": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-10-30",
+   "last_ok": "2026-10-31",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,9 +51,9 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 1759,
-   "last_ok": "2026-10-30",
-   "note": "93 new lookups today (68 matched); 1759 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 1820,
+   "last_ok": "2026-10-31",
+   "note": "93 new lookups today (67 matched); 1820 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [],
@@ -105,12 +105,6 @@
    "name": "Canada Graduate Research Scholarship – Doctoral (CGRS-D)",
    "url": "https://sshrc-crsh.canada.ca/en/funding/opportunities/canada-graduate-research-scholarships/doctoral-program.aspx",
    "reason": "deadline has passed: roll over to the next round"
-  },
-  {
-   "id": "usp-stanford-cs",
-   "name": "US program guide: Stanford University – PhD in Computer Science",
-   "url": "https://www.cs.stanford.edu/admissions-graduate-application-deadlines",
-   "reason": "official page changed (dates or amounts may have changed)"
   }
  ]
 }
