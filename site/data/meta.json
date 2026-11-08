@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-07 11:57 UTC",
- "data_date": "2026-11-07",
+ "generated_at": "2026-11-08 12:09 UTC",
+ "data_date": "2026-11-08",
  "counts": {
   "positions": 42,
-  "mentors": 18081,
+  "mentors": 18085,
   "funding": 23,
-  "grants": 22773
+  "grants": 22771
  },
  "subjects": [
   {
@@ -25,22 +25,22 @@
     {
      "id": "aging-gerontology",
      "name": "Aging & Gerontology",
-     "n": 351
+     "n": 352
     },
     {
      "id": "health-policy",
      "name": "Health Systems & Policy",
-     "n": 1047
+     "n": 1043
     },
     {
      "id": "biostatistics",
      "name": "Biostatistics",
-     "n": 103
+     "n": 105
     },
     {
      "id": "global-environmental-health",
      "name": "Global & Environmental Health",
-     "n": 548
+     "n": 555
     },
     {
      "id": "digital-health",
@@ -55,7 +55,7 @@
     {
      "id": "health-behaviour",
      "name": "Health Behaviour & Promotion",
-     "n": 819
+     "n": 816
     },
     {
      "id": "public-health-general",
@@ -72,37 +72,37 @@
     {
      "id": "molecular-biology",
      "name": "Molecular Biology",
-     "n": 1879
+     "n": 1888
     },
     {
      "id": "cell-biology",
      "name": "Cell Biology",
-     "n": 622
+     "n": 620
     },
     {
      "id": "microbiology",
      "name": "Microbiology",
-     "n": 1110
+     "n": 1109
     },
     {
      "id": "virology-parasitology",
      "name": "Virology & Parasitology",
-     "n": 532
+     "n": 528
     },
     {
      "id": "biochemistry",
      "name": "Biochemistry & Structural Biology",
-     "n": 1087
+     "n": 1088
     },
     {
      "id": "pharmacology",
      "name": "Pharmacology & Pharmaceutical Sciences",
-     "n": 630
+     "n": 628
     },
     {
      "id": "genetics",
      "name": "Genetics & Genomics",
-     "n": 2851
+     "n": 2843
     },
     {
      "id": "neuroscience",
@@ -112,17 +112,17 @@
     {
      "id": "immunology",
      "name": "Immunology",
-     "n": 2100
+     "n": 2093
     },
     {
      "id": "ecology-evolution",
      "name": "Ecology & Evolution",
-     "n": 599
+     "n": 601
     },
     {
      "id": "physiology",
      "name": "Physiology & Biophysics",
-     "n": 1453
+     "n": 1456
     },
     {
      "id": "biological-sciences-general",
@@ -130,7 +130,7 @@
      "n": 32
     }
    ],
-   "n": 5939
+   "n": 5935
   },
   {
    "id": "medicine",
@@ -139,27 +139,27 @@
     {
      "id": "oncology",
      "name": "Cancer & Oncology",
-     "n": 1209
+     "n": 1208
     },
     {
      "id": "cardiovascular",
      "name": "Cardiovascular Medicine",
-     "n": 1364
+     "n": 1360
     },
     {
      "id": "neurology",
      "name": "Neurology",
-     "n": 910
+     "n": 915
     },
     {
      "id": "psychiatry",
      "name": "Psychiatry & Mental Health",
-     "n": 1102
+     "n": 1105
     },
     {
      "id": "infectious-diseases",
      "name": "Infectious Diseases (Clinical)",
-     "n": 1205
+     "n": 1206
     },
     {
      "id": "palliative-care",
@@ -174,30 +174,30 @@
     {
      "id": "surgery-acute",
      "name": "Surgery",
-     "n": 1067
+     "n": 1070
     },
     {
      "id": "imaging",
      "name": "Medical Imaging & Radiology",
-     "n": 887
+     "n": 888
     },
     {
      "id": "respiratory-renal",
      "name": "Respiratory",
-     "n": 1240
+     "n": 1235
     },
     {
      "id": "womens-health",
      "name": "Women's & Reproductive Health",
-     "n": 326
+     "n": 330
     },
     {
      "id": "medicine-general",
      "name": "General",
-     "n": 108
+     "n": 109
     }
    ],
-   "n": 5542
+   "n": 5541
   },
   {
    "id": "nursing-allied",
@@ -206,12 +206,12 @@
     {
      "id": "nursing",
      "name": "Nursing",
-     "n": 60
+     "n": 61
     },
     {
      "id": "nutrition",
      "name": "Nutrition & Dietetics",
-     "n": 132
+     "n": 133
     },
     {
      "id": "rehabilitation",
@@ -238,12 +238,12 @@
     {
      "id": "clinical-psychology",
      "name": "Clinical Psychology",
-     "n": 71
+     "n": 77
     },
     {
      "id": "cognitive-psychology",
      "name": "Cognitive & Experimental Psychology",
-     "n": 267
+     "n": 271
     },
     {
      "id": "developmental-psychology",
@@ -253,7 +253,7 @@
     {
      "id": "social-psychology",
      "name": "Social & Applied Psychology",
-     "n": 39
+     "n": 42
     },
     {
      "id": "psychology-general",
@@ -261,7 +261,7 @@
      "n": 16
     }
    ],
-   "n": 375
+   "n": 382
   },
   {
    "id": "engineering",
@@ -270,55 +270,55 @@
     {
      "id": "biomedical-engineering",
      "name": "Biomedical Engineering",
-     "n": 137
+     "n": 140
     },
     {
      "id": "electrical-engineering",
      "name": "Electrical & Electronic Engineering",
-     "n": 121
+     "n": 118
     },
     {
      "id": "mechanical-engineering",
      "name": "Mechanical & Aerospace Engineering",
-     "n": 87
+     "n": 86
     },
     {
      "id": "civil-engineering",
      "name": "Civil & Structural Engineering",
-     "n": 159
+     "n": 160
     },
     {
      "id": "chemical-engineering",
      "name": "Chemical Engineering",
-     "n": 29
+     "n": 28
     },
     {
      "id": "materials",
      "name": "Materials Science",
-     "n": 114
+     "n": 117
     },
     {
      "id": "energy",
      "name": "Energy & Sustainability Engineering",
-     "n": 116
+     "n": 125
     },
     {
      "id": "environmental-engineering",
      "name": "Environmental & Water Engineering",
-     "n": 25
+     "n": 24
     },
     {
      "id": "robotics-control",
      "name": "Robotics",
-     "n": 146
+     "n": 149
     },
     {
      "id": "engineering-general",
      "name": "General",
-     "n": 72
+     "n": 71
     }
    ],
-   "n": 683
+   "n": 690
   },
   {
    "id": "computer-data-science",
@@ -327,7 +327,7 @@
     {
      "id": "ai-ml",
      "name": "Artificial Intelligence & Machine Learning",
-     "n": 749
+     "n": 755
     },
     {
      "id": "computer-vision",
@@ -337,12 +337,12 @@
     {
      "id": "data-science",
      "name": "Data Science & Statistics",
-     "n": 323
+     "n": 321
     },
     {
      "id": "software-systems",
      "name": "Software",
-     "n": 193
+     "n": 192
     },
     {
      "id": "hci",
@@ -352,15 +352,15 @@
     {
      "id": "theory-computing",
      "name": "Theoretical Computer Science",
-     "n": 235
+     "n": 238
     },
     {
      "id": "computer-data-science-general",
      "name": "General",
-     "n": 120
+     "n": 126
     }
    ],
-   "n": 1099
+   "n": 1108
   },
   {
    "id": "physical-sciences",
@@ -369,7 +369,7 @@
     {
      "id": "physics",
      "name": "Physics",
-     "n": 205
+     "n": 207
     },
     {
      "id": "astronomy",
@@ -379,17 +379,17 @@
     {
      "id": "chemistry",
      "name": "Chemistry",
-     "n": 160
+     "n": 157
     },
     {
      "id": "mathematics",
      "name": "Mathematics",
-     "n": 91
+     "n": 93
     },
     {
      "id": "earth-sciences",
      "name": "Earth Sciences & Geology",
-     "n": 72
+     "n": 74
     },
     {
      "id": "climate",
@@ -402,7 +402,7 @@
      "n": 11
     }
    ],
-   "n": 412
+   "n": 411
   },
   {
    "id": "agriculture-one-health",
@@ -416,12 +416,12 @@
     {
      "id": "agriculture",
      "name": "Agriculture & Plant Science",
-     "n": 116
+     "n": 117
     },
     {
      "id": "animal-veterinary",
      "name": "Animal & Veterinary Science",
-     "n": 50
+     "n": 52
     },
     {
      "id": "food-science",
@@ -431,15 +431,15 @@
     {
      "id": "environment-conservation",
      "name": "Environmental Science & Conservation",
-     "n": 189
+     "n": 190
     },
     {
      "id": "agriculture-one-health-general",
      "name": "General",
-     "n": 61
+     "n": 60
     }
    ],
-   "n": 293
+   "n": 292
   },
   {
    "id": "social-sciences",
@@ -448,7 +448,7 @@
     {
      "id": "sociology-politics",
      "name": "Sociology & Political Science",
-     "n": 77
+     "n": 76
     },
     {
      "id": "anthropology",
@@ -458,22 +458,22 @@
     {
      "id": "geography-development",
      "name": "Geography",
-     "n": 138
+     "n": 142
     },
     {
      "id": "demography",
      "name": "Demography & Population Studies",
-     "n": 37
+     "n": 38
     },
     {
      "id": "law",
      "name": "Law & Criminology",
-     "n": 56
+     "n": 54
     },
     {
      "id": "communication",
      "name": "Communication",
-     "n": 11
+     "n": 12
     },
     {
      "id": "public-administration",
@@ -483,10 +483,10 @@
     {
      "id": "social-sciences-general",
      "name": "General",
-     "n": 47
+     "n": 45
     }
    ],
-   "n": 229
+   "n": 227
   },
   {
    "id": "economics",
@@ -500,7 +500,7 @@
     {
      "id": "finance",
      "name": "Finance",
-     "n": 17
+     "n": 19
     },
     {
      "id": "health-economics",
@@ -518,7 +518,7 @@
      "n": 2
     }
    ],
-   "n": 40
+   "n": 42
   },
   {
    "id": "education",
@@ -527,7 +527,7 @@
     {
      "id": "education-research",
      "name": "Education Research",
-     "n": 106
+     "n": 109
     },
     {
      "id": "educational-technology",
@@ -540,7 +540,7 @@
      "n": 22
     }
    ],
-   "n": 90
+   "n": 91
   },
   {
    "id": "business",
@@ -549,7 +549,7 @@
     {
      "id": "management",
      "name": "Management & Strategy",
-     "n": 101
+     "n": 98
     },
     {
      "id": "marketing-operations",
@@ -562,7 +562,7 @@
      "n": 5
     }
    ],
-   "n": 68
+   "n": 66
   },
   {
    "id": "humanities",
@@ -581,12 +581,12 @@
     {
      "id": "languages-literature",
      "name": "Languages",
-     "n": 18
+     "n": 19
     },
     {
      "id": "arts-music",
      "name": "Arts",
-     "n": 14
+     "n": 13
     },
     {
      "id": "archaeology-classics",
@@ -608,10 +608,10 @@
     {
      "id": "other-general",
      "name": "General",
-     "n": 862
+     "n": 851
     }
    ],
-   "n": 862
+   "n": 851
   }
  ],
  "countries": [
@@ -670,13 +670,13 @@
  ],
  "offline": false,
  "source_status": {
-  "NSF Award Search": "ok (3357)",
-  "NIH RePORTER": "ok (18689)",
+  "NSF Award Search": "ok (3359)",
+  "NIH RePORTER": "ok (18685)",
   "UKRI Gateway to Research": "failed (727)",
   "Australian Research Council": "off (0)",
   "Curated positions file": "ok (151)",
   "EURAXESS": "off (0)",
-  "OpenAlex": "ok (2244)"
+  "OpenAlex": "ok (2312)"
  },
  "health": "error"
 }

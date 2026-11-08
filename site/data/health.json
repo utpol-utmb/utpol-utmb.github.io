@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-11-07 11:57 UTC",
+ "generated_at": "2026-11-08 12:09 UTC",
  "overall": "error",
  "aborted": "",
  "counts": {
+  "positions": 42,
+  "mentors": 18085,
+  "funding": 23,
+  "grants": 22771
+ },
+ "previous_counts": {
   "positions": 42,
   "mentors": 18081,
   "funding": 23,
   "grants": 22773
  },
- "previous_counts": {
-  "positions": 43,
-  "mentors": 18071,
-  "funding": 23,
-  "grants": 22756
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3357,
-   "last_ok": "2026-11-07",
+   "count": 3359,
+   "last_ok": "2026-11-08",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
-   "count": 18689,
-   "last_ok": "2026-11-07",
+   "count": 18685,
+   "last_ok": "2026-11-08",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-11-07",
+   "last_ok": "2026-11-08",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,13 +51,13 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 2244,
-   "last_ok": "2026-11-07",
-   "note": "92 new lookups today (65 matched); 2244 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 2312,
+   "last_ok": "2026-11-08",
+   "note": "93 new lookups today (69 matched); 2312 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [
-  "UKRI Gateway to Research: failed (4 day(s) in a row), showing last good copy from 2026-11-03 — returned 0 records"
+  "UKRI Gateway to Research: failed (5 day(s) in a row), showing last good copy from 2026-11-03 — returned 0 records"
  ],
  "scholarships_to_review": [
   {
@@ -94,7 +94,7 @@
    "id": "chinese-government-scholarship",
    "name": "Chinese Government Scholarship (CSC)",
    "url": "https://www.campuschina.org/",
-   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ -> HTTP 412"
+   "reason": "official page unreachable 3+ days: GET https://www.campuschina.org/ failed: HTTPSConnectionPool(host='www.campuschi"
   },
   {
    "id": "australia-awards",
@@ -113,12 +113,6 @@
    "name": "Canada Graduate Research Scholarship – Doctoral (CGRS-D)",
    "url": "https://sshrc-crsh.canada.ca/en/funding/opportunities/canada-graduate-research-scholarships/doctoral-program.aspx",
    "reason": "deadline has passed: roll over to the next round"
-  },
-  {
-   "id": "usp-uw-cse",
-   "name": "US program guide: University of Washington – PhD in Computer Science & Engineering (Allen School)",
-   "url": "https://www.cs.washington.edu/academics/phd/admissions/faq",
-   "reason": "official page changed (dates or amounts may have changed)"
   }
  ]
 }
