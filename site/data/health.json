@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-11-16 13:54 UTC",
+ "generated_at": "2026-11-17 14:35 UTC",
  "overall": "error",
  "aborted": "",
  "counts": {
+  "positions": 33,
+  "mentors": 18077,
+  "funding": 23,
+  "grants": 22802
+ },
+ "previous_counts": {
   "positions": 34,
   "mentors": 18085,
   "funding": 23,
   "grants": 22805
  },
- "previous_counts": {
-  "positions": 39,
-  "mentors": 18108,
-  "funding": 23,
-  "grants": 22820
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3373,
-   "last_ok": "2026-11-16",
+   "count": 3367,
+   "last_ok": "2026-11-17",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
-   "count": 18705,
-   "last_ok": "2026-11-16",
+   "count": 18708,
+   "last_ok": "2026-11-17",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-11-16",
+   "last_ok": "2026-11-17",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,13 +51,13 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 2820,
-   "last_ok": "2026-11-16",
-   "note": "89 new lookups today (62 matched); 2820 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 2871,
+   "last_ok": "2026-11-17",
+   "note": "68 new lookups today (49 matched); 2871 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [
-  "UKRI Gateway to Research: failed (13 day(s) in a row), showing last good copy from 2026-11-03 — returned 0 records"
+  "UKRI Gateway to Research: failed (14 day(s) in a row), showing last good copy from 2026-11-03 — returned 0 records"
  ],
  "scholarships_to_review": [
   {
@@ -115,9 +115,27 @@
    "reason": "deadline has passed: roll over to the next round"
   },
   {
+   "id": "si-global-professionals",
+   "name": "Swedish Institute Scholarships for Global Professionals",
+   "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "usp-ucsf-bms",
+   "name": "US program guide: UC San Francisco – PhD in Biomedical Sciences (BMS)",
+   "url": "https://bms.ucsf.edu/applying-bms",
+   "reason": "deadline has passed: roll over to the next round"
+  },
+  {
    "id": "usp-umich-psych",
    "name": "US program guide: University of Michigan – PhD in Psychology",
    "url": "https://prod.lsa.umich.edu/psych/prospective-students/graduate/application-procedures.html",
+   "reason": "deadline has passed: roll over to the next round"
+  },
+  {
+   "id": "usp-stanford-gse",
+   "name": "US program guide: Stanford University – PhD in Education (Graduate School of Education)",
+   "url": "https://ed.stanford.edu/admissions/application-reqs/programs",
    "reason": "deadline has passed: roll over to the next round"
   }
  ]
