@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-11-17 14:35 UTC",
+ "generated_at": "2026-11-18 14:13 UTC",
  "overall": "error",
  "aborted": "",
  "counts": {
+  "positions": 32,
+  "mentors": 18050,
+  "funding": 23,
+  "grants": 22782
+ },
+ "previous_counts": {
   "positions": 33,
   "mentors": 18077,
   "funding": 23,
   "grants": 22802
  },
- "previous_counts": {
-  "positions": 34,
-  "mentors": 18085,
-  "funding": 23,
-  "grants": 22805
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3367,
-   "last_ok": "2026-11-17",
+   "count": 3347,
+   "last_ok": "2026-11-18",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
    "count": 18708,
-   "last_ok": "2026-11-17",
+   "last_ok": "2026-11-18",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-11-17",
+   "last_ok": "2026-11-18",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,13 +51,13 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 2871,
-   "last_ok": "2026-11-17",
-   "note": "68 new lookups today (49 matched); 2871 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 2926,
+   "last_ok": "2026-11-18",
+   "note": "93 new lookups today (64 matched); 2926 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [
-  "UKRI Gateway to Research: failed (14 day(s) in a row), showing last good copy from 2026-11-03 — returned 0 records"
+  "UKRI Gateway to Research: failed (15 day(s) in a row), showing last good copy from 2026-11-03 — returned 0 records"
  ],
  "scholarships_to_review": [
   {
@@ -83,6 +83,12 @@
    "name": "Clarendon Scholarships",
    "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
    "reason": "official page unreachable 3+ days: GET https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/"
+  },
+  {
+   "id": "erasmus-mundus-emjm",
+   "name": "Erasmus Mundus Joint Masters Scholarships",
+   "url": "https://erasmus-plus.ec.europa.eu/programme-guide/part-b/key-action-2/erasmus-mundus-action",
+   "reason": "official page changed (dates or amounts may have changed)"
   },
   {
    "id": "eiffel-excellence",
@@ -115,12 +121,6 @@
    "reason": "deadline has passed: roll over to the next round"
   },
   {
-   "id": "si-global-professionals",
-   "name": "Swedish Institute Scholarships for Global Professionals",
-   "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
-   "reason": "official page changed (dates or amounts may have changed)"
-  },
-  {
    "id": "usp-ucsf-bms",
    "name": "US program guide: UC San Francisco – PhD in Biomedical Sciences (BMS)",
    "url": "https://bms.ucsf.edu/applying-bms",
@@ -133,10 +133,22 @@
    "reason": "deadline has passed: roll over to the next round"
   },
   {
-   "id": "usp-stanford-gse",
-   "name": "US program guide: Stanford University – PhD in Education (Graduate School of Education)",
-   "url": "https://ed.stanford.edu/admissions/application-reqs/programs",
-   "reason": "deadline has passed: roll over to the next round"
+   "id": "usp-umich-psych",
+   "name": "US program guide: University of Michigan – PhD in Psychology",
+   "url": "https://prod.lsa.umich.edu/psych/prospective-students/graduate/application-procedures.html",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "usp-caltech-chem",
+   "name": "US program guide: Caltech – PhD in Chemistry",
+   "url": "https://cce.caltech.edu/graduate/graduate-admissions",
+   "reason": "official page changed (dates or amounts may have changed)"
+  },
+  {
+   "id": "usp-berkeley-econ",
+   "name": "US program guide: UC Berkeley – PhD in Economics",
+   "url": "https://econ.berkeley.edu/grad/admissions",
+   "reason": "official page changed (dates or amounts may have changed)"
   }
  ]
 }
