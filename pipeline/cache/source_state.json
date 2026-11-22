@@ -1,26 +1,26 @@
 {
  "Curated positions file": {
   "fail_streak": 0,
-  "last_ok": "2026-11-21",
+  "last_ok": "2026-11-22",
   "last_ok_count": 151
  },
  "NIH RePORTER": {
   "fail_streak": 0,
-  "last_ok": "2026-11-21",
+  "last_ok": "2026-11-22",
   "last_ok_count": 18706
  },
  "NSF Award Search": {
   "fail_streak": 0,
-  "last_ok": "2026-11-21",
-  "last_ok_count": 3381
+  "last_ok": "2026-11-22",
+  "last_ok_count": 3363
  },
  "OpenAlex": {
   "fail_streak": 0,
-  "last_ok": "2026-11-21",
-  "last_ok_count": 3038
+  "last_ok": "2026-11-22",
+  "last_ok_count": 3036
  },
  "UKRI Gateway to Research": {
-  "fail_streak": 18,
+  "fail_streak": 19,
   "last_ok": "2026-11-03",
   "last_ok_count": 727
  }

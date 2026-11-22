@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-11-21 13:41 UTC",
+ "generated_at": "2026-11-22 13:36 UTC",
  "overall": "error",
  "aborted": "",
  "counts": {
+  "positions": 32,
+  "mentors": 18075,
+  "funding": 23,
+  "grants": 22796
+ },
+ "previous_counts": {
   "positions": 32,
   "mentors": 18087,
   "funding": 23,
   "grants": 22814
  },
- "previous_counts": {
-  "positions": 32,
-  "mentors": 18061,
-  "funding": 23,
-  "grants": 22786
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3381,
-   "last_ok": "2026-11-21",
+   "count": 3363,
+   "last_ok": "2026-11-22",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
    "count": 18706,
-   "last_ok": "2026-11-21",
+   "last_ok": "2026-11-22",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-11-21",
+   "last_ok": "2026-11-22",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,13 +51,13 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 3038,
-   "last_ok": "2026-11-21",
-   "note": "92 new lookups today (71 matched); 3038 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 3036,
+   "last_ok": "2026-11-22",
+   "note": "93 new lookups today (68 matched); 3036 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [
-  "UKRI Gateway to Research: failed (18 day(s) in a row), showing last good copy from 2026-11-03 — returned 0 records"
+  "UKRI Gateway to Research: failed (19 day(s) in a row), showing last good copy from 2026-11-03 — returned 0 records"
  ],
  "scholarships_to_review": [
   {
