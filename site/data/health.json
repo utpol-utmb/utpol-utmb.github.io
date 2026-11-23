@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-11-22 13:36 UTC",
+ "generated_at": "2026-11-23 16:09 UTC",
  "overall": "error",
  "aborted": "",
  "counts": {
+  "positions": 32,
+  "mentors": 18047,
+  "funding": 23,
+  "grants": 22774
+ },
+ "previous_counts": {
   "positions": 32,
   "mentors": 18075,
   "funding": 23,
   "grants": 22796
  },
- "previous_counts": {
-  "positions": 32,
-  "mentors": 18087,
-  "funding": 23,
-  "grants": 22814
- },
  "sources": {
   "NSF Award Search": {
    "status": "ok",
-   "count": 3363,
-   "last_ok": "2026-11-22",
+   "count": 3340,
+   "last_ok": "2026-11-23",
    "note": "114 search terms"
   },
   "NIH RePORTER": {
    "status": "ok",
-   "count": 18706,
-   "last_ok": "2026-11-22",
+   "count": 18707,
+   "last_ok": "2026-11-23",
    "note": "62 search terms"
   },
   "UKRI Gateway to Research": {
@@ -41,7 +41,7 @@
   "Curated positions file": {
    "status": "ok",
    "count": 151,
-   "last_ok": "2026-11-22",
+   "last_ok": "2026-11-23",
    "note": "hand-checked adverts in data/curated/positions.json"
   },
   "EURAXESS": {
@@ -51,13 +51,13 @@
   },
   "OpenAlex": {
    "status": "ok",
-   "count": 3036,
-   "last_ok": "2026-11-22",
-   "note": "93 new lookups today (68 matched); 3036 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
+   "count": 3032,
+   "last_ok": "2026-11-23",
+   "note": "17 new lookups today (12 matched); 3032 supervisors have profiles; daily allowance used up, the rest continue tomorrow; no API key (add secret OPENALEX_API_KEY for a higher allowance)"
   }
  },
  "warnings": [
-  "UKRI Gateway to Research: failed (19 day(s) in a row), showing last good copy from 2026-11-03 — returned 0 records"
+  "UKRI Gateway to Research: failed (20 day(s) in a row), showing last good copy from 2026-11-03 — returned 0 records"
  ],
  "scholarships_to_review": [
   {
@@ -115,6 +115,24 @@
    "reason": "deadline has passed: roll over to the next round"
   },
   {
+   "id": "usp-harvard-phs",
+   "name": "US program guide: Harvard University – PhD in Population Health Sciences",
+   "url": "https://gsas.harvard.edu/program/population-health-sciences",
+   "reason": "official page unreachable 3+ days: GET https://gsas.harvard.edu/program/population-health-sciences -> HTTP 403"
+  },
+  {
+   "id": "usp-harvard-biostat",
+   "name": "US program guide: Harvard University – PhD in Biostatistics",
+   "url": "https://gsas.harvard.edu/programs-of-study/all/biostatistics",
+   "reason": "official page unreachable 3+ days: GET https://gsas.harvard.edu/programs-of-study/all/biostatistics -> HTTP 403"
+  },
+  {
+   "id": "usp-harvard-health-policy",
+   "name": "US program guide: Harvard University – PhD in Health Policy",
+   "url": "https://gsas.harvard.edu/program/health-policy",
+   "reason": "official page unreachable 3+ days: GET https://gsas.harvard.edu/program/health-policy -> HTTP 403"
+  },
+  {
    "id": "usp-duke-nursing",
    "name": "US program guide: Duke University – PhD in Nursing",
    "url": "https://nursing.duke.edu/academic-programs/phd-program-nursing/phd-admissions",
@@ -127,22 +145,10 @@
    "reason": "deadline has passed: roll over to the next round"
   },
   {
-   "id": "usp-stanford-psych",
-   "name": "US program guide: Stanford University – PhD in Psychology",
-   "url": "https://psychology.stanford.edu/admissions/phd-admissions",
-   "reason": "deadline has passed: roll over to the next round"
-  },
-  {
-   "id": "usp-umich-psych",
-   "name": "US program guide: University of Michigan – PhD in Psychology",
-   "url": "https://prod.lsa.umich.edu/psych/prospective-students/graduate/application-procedures.html",
-   "reason": "deadline has passed: roll over to the next round"
-  },
-  {
-   "id": "usp-stanford-gse",
-   "name": "US program guide: Stanford University – PhD in Education (Graduate School of Education)",
-   "url": "https://ed.stanford.edu/admissions/application-reqs/programs",
-   "reason": "deadline has passed: roll over to the next round"
+   "id": "usp-harvard-bsph",
+   "name": "US program guide: Harvard University – PhD in Biological Sciences in Public Health",
+   "url": "https://gsas.harvard.edu/programs-of-study/all/biological-sciences-public-health",
+   "reason": "official page unreachable 3+ days: GET https://gsas.harvard.edu/programs-of-study/all/biological-sciences-public-he"
   }
  ]
 }
